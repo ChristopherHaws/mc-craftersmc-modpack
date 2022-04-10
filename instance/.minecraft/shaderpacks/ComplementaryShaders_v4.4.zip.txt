@@ -1,0 +1,11 @@
+#Fri Apr 01 22:53:43 PDT 2022
+COLORED_SHADOWS=true
+shadowDistance=96.0
+ROUND_SUN_MOON=false
+sunPathRotation=0.0
+shadowMapResolution=1024
+CLOUDS=false
+WATER_TYPE=2
+VANILLA_SKYBOX=true
+GENERATED_NORMALS=true
+SHOW_LIGHT_LEVELS=3
