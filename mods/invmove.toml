@@ -1,0 +1,13 @@
+name = "InvMove"
+filename = "InvMove-1.18-0.6.2-Fabric.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/REfW2AEX/versions/1.18-0.6.2-fabric/InvMove-1.18-0.6.2-Fabric.jar"
+hash-format = "sha1"
+hash = "9d4985eb9486ac84d14054b9f627d091c015e51a"
+
+[update]
+[update.modrinth]
+mod-id = "REfW2AEX"
+version = "FxtmKzFE"

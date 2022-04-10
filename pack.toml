@@ -1,0 +1,13 @@
+name = "Chaws Modpack"
+author = "chaws"
+version = "1.0.0"
+pack-format = "packwiz:1.0.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "b24a3fd64e85d85d7c4ce7b90f2581438a4afcca51f8e1e0ea8d2e1d0086e9c7"
+
+[versions]
+fabric = "0.13.3"
+minecraft = "1.18.2"

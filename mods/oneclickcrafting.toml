@@ -1,0 +1,13 @@
+name = "One Click Crafting"
+filename = "one-click-crafting-1.4.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/iswuGKgg/versions/1.4/one-click-crafting-1.4.jar"
+hash-format = "sha1"
+hash = "bb61952bf0220ea8564d337c04b7a55e89dcbfec"
+
+[update]
+[update.modrinth]
+mod-id = "iswuGKgg"
+version = "ccb2J7Bf"

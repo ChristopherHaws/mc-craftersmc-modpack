@@ -1,0 +1,13 @@
+name = "Sheep Consistency"
+filename = "sheepconsistency-1.0.4.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3692/536/sheepconsistency-1.0.4.jar"
+hash-format = "sha1"
+hash = "fdae4ddb1ac256eb35c4162dcc0a6c46b1633fe4"
+
+[update]
+[update.curseforge]
+file-id = 3692536
+project-id = 386175

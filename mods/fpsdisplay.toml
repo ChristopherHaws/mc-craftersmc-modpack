@@ -1,0 +1,13 @@
+name = "FPS - Display"
+filename = "fpsdisplay-1.5.0+1.18.2.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/DIlqwRFH/versions/1.5.0+1.18.2/fpsdisplay-1.5.0%2B1.18.2.jar"
+hash-format = "sha1"
+hash = "68ba964b7d41b24c5756491f27bb8464a561a2b0"
+
+[update]
+[update.modrinth]
+mod-id = "DIlqwRFH"
+version = "EYxkL0Ds"

@@ -1,0 +1,276 @@
+hash-format = "sha256"
+
+[[files]]
+file = "mods/accurate-block-placement.toml"
+hash = "a1f8631ecc0e71786e58aa97fca93347221e654564b8481ef5942cdecdafd1ac"
+metafile = true
+
+[[files]]
+file = "mods/alternate-current.toml"
+hash = "612feac558453e4952d9404909a3e07dd7d5d623716b1bce784d17bc804a60de"
+metafile = true
+
+[[files]]
+file = "mods/appleskin.toml"
+hash = "0940f87fc8d934433725019169945f77b7c27bd4a23828286ffb68aac4810a6c"
+metafile = true
+
+[[files]]
+file = "mods/architectury-fabric.toml"
+hash = "f7b6fff3b0f2260f4bb3c6971a3c15e48ec2fcd449658a3c44b8a011580e230c"
+metafile = true
+
+[[files]]
+file = "mods/autoreconnect.toml"
+hash = "f4a205a1237f11b6a3598479e61febac93f8c8c1f74617563e3f65f42b3879d1"
+metafile = true
+
+[[files]]
+file = "mods/betterf3.toml"
+hash = "1c4001eff34abec7ad25eac24b554bb8658cf849ab285f05611168a15c3479cc"
+metafile = true
+
+[[files]]
+file = "mods/bobby.toml"
+hash = "4491272cf1fb2adb67386c5432b4358197dc1516981460d8e0dcae972b9fe437"
+metafile = true
+
+[[files]]
+file = "mods/bookshelf.toml"
+hash = "44d132eadb08765cf31d67d3ff66c1ebb93d58135f9d5636dba61f0e7e87e616"
+metafile = true
+
+[[files]]
+file = "mods/c2me-fabric.toml"
+hash = "e72273cbc32fb9fb946ec244e707a315ae91a7b816ac47444e5bd1cc664d29fa"
+metafile = true
+
+[[files]]
+file = "mods/cem.toml"
+hash = "727c319290b015a46f54f379fdb32b1a8eeb649c85bb7409fe3b9ffd3ebe5d22"
+metafile = true
+
+[[files]]
+file = "mods/cit-resewn.toml"
+hash = "514fca35d56842bf057e04b93848ef977156678bfc8949dfa2cdb2cdc04a7a0e"
+metafile = true
+
+[[files]]
+file = "mods/cloth-config.toml"
+hash = "010bc8378b59257708190728f5aee476d7415f47fc26567952f294eda6b0cd25"
+metafile = true
+
+[[files]]
+file = "mods/connected-doors.toml"
+hash = "844dafab1cd28ee54e0265ac03b81fbea60bc95dd45216b09dd554135125a4e9"
+metafile = true
+
+[[files]]
+file = "mods/continuity.toml"
+hash = "4932ddd020065b82614ddb7db60679f4c615b4c780dcac10c6ca43c3ba530c62"
+metafile = true
+
+[[files]]
+file = "mods/controlling.toml"
+hash = "8cdcf889900d23a3a8b813a70c040fb0a6a17477c6d3b04f748eadd942f676db"
+metafile = true
+
+[[files]]
+file = "mods/dcch.toml"
+hash = "f811170d884fbbe2ccbd8e5c42137eb490d0116255878f5b53336efafcb2877c"
+metafile = true
+
+[[files]]
+file = "mods/dynamic-fps.toml"
+hash = "ffc1f6d147394bfeb65b2fb9a78ca7d3365cbf5192c31af1312bc899190e4e34"
+metafile = true
+
+[[files]]
+file = "mods/easiercrafting.toml"
+hash = "b95252d61eac2ef829a30377ce389658e0c4e94b6e27ea0a7786b6b2a39b3d3f"
+metafile = true
+
+[[files]]
+file = "mods/easiervillagertrading.toml"
+hash = "997374e6540fbad0038c86e2eaeb6a12e6b4ec156aab0c5c4401a9e7d8c409f6"
+metafile = true
+
+[[files]]
+file = "mods/ebe.toml"
+hash = "50780c17b5bb008c6786a9ab8e4405fba1908a8276a1d7d03dff90f8f7408d78"
+metafile = true
+
+[[files]]
+file = "mods/editsign.toml"
+hash = "6d7b04efc75df1cf683461b8834aa27fcce910f1af30107a943bdef94c0ab408"
+metafile = true
+
+[[files]]
+file = "mods/enchantment-descriptions.toml"
+hash = "111087dc8c844f22401b24e75a1eb450c08d2add83579eef2ae38bd532a056c4"
+metafile = true
+
+[[files]]
+file = "mods/entitytexturefeatures.toml"
+hash = "3a604924cdf2de5d376cfeed9e5399ce2c7c8bc5bdf7e70aebbe20bf163f9e05"
+metafile = true
+
+[[files]]
+file = "mods/fabric-api.toml"
+hash = "b9598f1fae8ca026d737768ef3812f157c568ba86f2f780704ddb995fdec3502"
+metafile = true
+
+[[files]]
+file = "mods/fabric-language-kotlin.toml"
+hash = "738ffde3eab8e9d0c616e419862ff9c588bbd6009fad70953bd4d4697c88f202"
+metafile = true
+
+[[files]]
+file = "mods/fpsdisplay.toml"
+hash = "c70e9df45161cba28abd7388f859e62430c1e73472119ba2e5c467085f6e1215"
+metafile = true
+
+[[files]]
+file = "mods/indium.toml"
+hash = "df864fbe0b2602c2a0455b789e5e22f65ce1770994dbf3c6fe22a6b4ba9147b7"
+metafile = true
+
+[[files]]
+file = "mods/inspecio.toml"
+hash = "04e52fb1abeb1921e2de71447db36a81947a1eeed6d4709ed5cbe48c03f7dcab"
+metafile = true
+
+[[files]]
+file = "mods/invmove.toml"
+hash = "0352b6bd143e0ade4f4f7a4fb49cf32759d28b1f0ffb3b638bd0e60e665dbeb9"
+metafile = true
+
+[[files]]
+file = "mods/iris.toml"
+hash = "7486da78ccd788e6df69f762ee14db29fd533bf90b44969480ec1b112942e7fb"
+metafile = true
+
+[[files]]
+file = "mods/krypton.toml"
+hash = "219d4425679c60fd2855a6a39a6fccb6db3948dcc57b9da7c20907c855c5bd3d"
+metafile = true
+
+[[files]]
+file = "mods/lambdynamiclights.toml"
+hash = "158c40f09b2ed4fe14f5f2925751796fe11f6baee7e1ac7f35931ad831631a3d"
+metafile = true
+
+[[files]]
+file = "mods/lazydfu.toml"
+hash = "ea127e8f74006f3a9ce099f9e96adaa3b3f4f281231ece703c4e7f9732137ebd"
+metafile = true
+
+[[files]]
+file = "mods/light-overlay.toml"
+hash = "551328f7f97a853f48d6c6d915e422bfc41eadc50e1180727af2a1d9de60de22"
+metafile = true
+
+[[files]]
+file = "mods/lithium.toml"
+hash = "8243fcb2221942db16259a029d2964ca41d7a336fccc60464597d9f0d6699529"
+metafile = true
+
+[[files]]
+file = "mods/malilib.toml"
+hash = "fd88ab8b23121cea2b1c7d05f2b7cbbe76b93ced03d6b98f0b212521ccb0ecb2"
+metafile = true
+
+[[files]]
+file = "mods/minihud.toml"
+hash = "ea0f5b02b0ec99b0defe4f9b0ca8d9270a75142bea88752beb1ba5045c7708ee"
+metafile = true
+
+[[files]]
+file = "mods/modmenu.toml"
+hash = "86f5fc0b25c2d71a6ac6f07dcf0fd168a51b7d3604636d5cd75485835d465c3b"
+metafile = true
+
+[[files]]
+file = "mods/nofog.toml"
+hash = "0a35c052850da1b1f1c27961a72a80ffa8f230875516606a8c219240142a7352"
+metafile = true
+
+[[files]]
+file = "mods/ok-zoomer.toml"
+hash = "7bb446109174fb831ced527d41df13962b1c46677f7001557b7211e54e5d3e34"
+metafile = true
+
+[[files]]
+file = "mods/oneclickcrafting.toml"
+hash = "e6fc249698b8a1fb6e2504ba4c6ffc322a810f1339d9db57ca6dcfdbe3f6437b"
+metafile = true
+
+[[files]]
+file = "mods/puzzle.toml"
+hash = "dcbec3700e3c99a70229cac7ef47f62281a112a5f884ac7e0a23a6a27cf94609"
+metafile = true
+
+[[files]]
+file = "mods/reeses-sodium-options.toml"
+hash = "d935b491016306e60b08bc234cc978ac84412d84d1ae5a9b6f8878a09ea25202"
+metafile = true
+
+[[files]]
+file = "mods/screenshot-to-clipboard.toml"
+hash = "8cee882d886709a92b1c2ba19e6c5d1a55da9cc6ed79b78d62eec98b5b768588"
+metafile = true
+
+[[files]]
+file = "mods/sheep-consistency.toml"
+hash = "d6247196156f8d81b42229a9ffc933457e0475de6c8a3d1de4c893dd5305e2d2"
+metafile = true
+
+[[files]]
+file = "mods/sodium-extra.toml"
+hash = "f8d262a27787b948f6ec71d548131bcac4a60adc616a78db852a40d6461563be"
+metafile = true
+
+[[files]]
+file = "mods/sodium.toml"
+hash = "d1480fd38a1ac53311baa2d57b92556834372f6ac04c355169441df9a59a161c"
+metafile = true
+
+[[files]]
+file = "mods/starlight.toml"
+hash = "722031c0ae5d2de71783d6c4bfbf1c5cd25c65e55cb42d8bb4f7cadf478c4368"
+metafile = true
+
+[[files]]
+file = "mods/statuseffecttimer.toml"
+hash = "a8c88b905def4626c61e28436732a68f1941d5d4151688f87363178a807dd1ed"
+metafile = true
+
+[[files]]
+file = "mods/tipthescales.toml"
+hash = "1c3b113013e5a6399a4abe604c72c10046943cf0d5a6346f11f7fb62ef4be5d9"
+metafile = true
+
+[[files]]
+file = "mods/tooltipfix.toml"
+hash = "57279a8ae2d7c6e5053da3909d95254118db533d9a38c1a0763bf602d80c933d"
+metafile = true
+
+[[files]]
+file = "mods/tweakeroo.toml"
+hash = "8e8c93886297ff09bbe8f215cdf8fd072ad09427df0f882e2ee0235ddf1a2ec1"
+metafile = true
+
+[[files]]
+file = "mods/wthit.toml"
+hash = "f94b41695798cf547c3fe0e7afc2614e7954646fe51c87f7c7f1e8eeff6f3a90"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-minimap.toml"
+hash = "9135e6392522a9350e545240807e2a057ddd8d058342cb4edaa2989ac40d7347"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-world-map.toml"
+hash = "22fd3b5bb49bbfb913c9190ebf2e9c595384a4e99e0e1e020a0b90295032e87b"
+metafile = true
