@@ -1,0 +1,13 @@
+name = "ColorUtility"
+filename = "ColorUtility-[1.16.5-1.17]-fabric-2.0.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3370/190/ColorUtility-%5B1.16.5-1.17%5D-fabric-2.0.1.jar"
+hash-format = "sha1"
+hash = "e472c2f30069d07dfc8478149f0f5db5ff3d552c"
+
+[update]
+[update.curseforge]
+file-id = 3370190
+project-id = 259957

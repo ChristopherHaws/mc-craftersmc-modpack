@@ -46,6 +46,16 @@ hash = "e72273cbc32fb9fb946ec244e707a315ae91a7b816ac47444e5bd1cc664d29fa"
 metafile = true
 
 [[files]]
+file = "mods/carpet-extra.toml"
+hash = "0ed533d19feb09067d12d6c901b535427c14f395be666a4b94fa519548a5159e"
+metafile = true
+
+[[files]]
+file = "mods/carpet.toml"
+hash = "4f1ff263ced03be352e3336345ff76aa9aeec76afc7b13f4603dd229d779b3d1"
+metafile = true
+
+[[files]]
 file = "mods/cem.toml"
 hash = "727c319290b015a46f54f379fdb32b1a8eeb649c85bb7409fe3b9ffd3ebe5d22"
 metafile = true
@@ -61,8 +71,18 @@ hash = "010bc8378b59257708190728f5aee476d7415f47fc26567952f294eda6b0cd25"
 metafile = true
 
 [[files]]
+file = "mods/colorutility.toml"
+hash = "e34c55e4bff8813f1b1af7b1772ddb59db9fc46a349b73506db2004a701e8fe3"
+metafile = true
+
+[[files]]
 file = "mods/connected-doors.toml"
 hash = "844dafab1cd28ee54e0265ac03b81fbea60bc95dd45216b09dd554135125a4e9"
+metafile = true
+
+[[files]]
+file = "mods/consistencyplus.toml"
+hash = "c86ac4ffc9302496655bfea3b9f6cc093eb75b6d6936f548a54a1ff32246c7db"
 metafile = true
 
 [[files]]
@@ -78,6 +98,11 @@ metafile = true
 [[files]]
 file = "mods/dcch.toml"
 hash = "f811170d884fbbe2ccbd8e5c42137eb490d0116255878f5b53336efafcb2877c"
+metafile = true
+
+[[files]]
+file = "mods/debugify.toml"
+hash = "db6effac052536441c04b053632e2b8c35a41bb89a4b7db809ee80f597d74b0d"
 metafile = true
 
 [[files]]
@@ -111,6 +136,16 @@ hash = "111087dc8c844f22401b24e75a1eb450c08d2add83579eef2ae38bd532a056c4"
 metafile = true
 
 [[files]]
+file = "mods/entity-view-distance.toml"
+hash = "471fb3ad97887f85bcf36b1ba46e87fd8b16314516bf0e4930e345317a9c2c7f"
+metafile = true
+
+[[files]]
+file = "mods/entityculling.toml"
+hash = "c2ee93e74ad106f20b997ffb054f46189f941da0c37c73a1a97d5dd85ff530a5"
+metafile = true
+
+[[files]]
 file = "mods/entitytexturefeatures.toml"
 hash = "3a604924cdf2de5d376cfeed9e5399ce2c7c8bc5bdf7e70aebbe20bf163f9e05"
 metafile = true
@@ -123,6 +158,16 @@ metafile = true
 [[files]]
 file = "mods/fabric-language-kotlin.toml"
 hash = "738ffde3eab8e9d0c616e419862ff9c588bbd6009fad70953bd4d4697c88f202"
+metafile = true
+
+[[files]]
+file = "mods/fast-furnace-for-fabric.toml"
+hash = "37e620f13f7e75969d3ff4f743e9f6ea1e70eef22616917a0bbf2413e6d8725e"
+metafile = true
+
+[[files]]
+file = "mods/ferrite-core.toml"
+hash = "a845f8cb88d6aa0cf4e0f7de99067e615bd74a75e017c9937226ee2fdc408c5e"
 metafile = true
 
 [[files]]
@@ -171,6 +216,16 @@ hash = "551328f7f97a853f48d6c6d915e422bfc41eadc50e1180727af2a1d9de60de22"
 metafile = true
 
 [[files]]
+file = "mods/litematica-server-paster.toml"
+hash = "2bc75f80f57971c20e2623c6eb59b3ae740509188fd5e7c619252cbd7f58b574"
+metafile = true
+
+[[files]]
+file = "mods/litematica.toml"
+hash = "e225ab80917fa453c5a02348f864075931a6c16fbb97b2c67393c5649ad7ea4d"
+metafile = true
+
+[[files]]
 file = "mods/lithium.toml"
 hash = "8243fcb2221942db16259a029d2964ca41d7a336fccc60464597d9f0d6699529"
 metafile = true
@@ -206,6 +261,11 @@ hash = "e6fc249698b8a1fb6e2504ba4c6ffc322a810f1339d9db57ca6dcfdbe3f6437b"
 metafile = true
 
 [[files]]
+file = "mods/plasmo-voice.toml"
+hash = "224007230b67b8319ab69268a3afbb4f9cd92a3f50a75f84320dd4dc39cdc25e"
+metafile = true
+
+[[files]]
 file = "mods/puzzle.toml"
 hash = "dcbec3700e3c99a70229cac7ef47f62281a112a5f884ac7e0a23a6a27cf94609"
 metafile = true
@@ -221,8 +281,18 @@ hash = "8cee882d886709a92b1c2ba19e6c5d1a55da9cc6ed79b78d62eec98b5b768588"
 metafile = true
 
 [[files]]
+file = "mods/servux.toml"
+hash = "c53ee9fda551d5ee1b3df443afd4b6449909ebd1ef47470869bb833b88826ee0"
+metafile = true
+
+[[files]]
 file = "mods/sheep-consistency.toml"
 hash = "d6247196156f8d81b42229a9ffc933457e0475de6c8a3d1de4c893dd5305e2d2"
+metafile = true
+
+[[files]]
+file = "mods/sleep-warp.toml"
+hash = "6bdff050481f582ae8ea0fd3d91b44693ea5dbe5bb430b519dbb5a4c3564e8dd"
 metafile = true
 
 [[files]]
@@ -246,6 +316,11 @@ hash = "a8c88b905def4626c61e28436732a68f1941d5d4151688f87363178a807dd1ed"
 metafile = true
 
 [[files]]
+file = "mods/thorium.toml"
+hash = "bf2925b66d19c6dc81cc4c0af7e0fbe2d971b1fd94dbb4bb5e1600896eecf152"
+metafile = true
+
+[[files]]
 file = "mods/tipthescales.toml"
 hash = "1c3b113013e5a6399a4abe604c72c10046943cf0d5a6346f11f7fb62ef4be5d9"
 metafile = true
@@ -258,6 +333,11 @@ metafile = true
 [[files]]
 file = "mods/tweakeroo.toml"
 hash = "8e8c93886297ff09bbe8f215cdf8fd072ad09427df0f882e2ee0235ddf1a2ec1"
+metafile = true
+
+[[files]]
+file = "mods/worldedit.toml"
+hash = "e26b82bdb9bf431309361c50d5b515bb59c77202dfca04d5b0ca11098ab3c881"
 metafile = true
 
 [[files]]
