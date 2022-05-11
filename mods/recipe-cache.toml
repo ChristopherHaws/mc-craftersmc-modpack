@@ -1,0 +1,13 @@
+name = "Recipe Cache"
+filename = "recipecache-0.2.1-1.17.1.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3487/949/recipecache-0.2.1-1.17.1.jar"
+hash-format = "sha1"
+hash = "f1ead30e94acbc07915253adee4247019380e11a"
+
+[update]
+[update.curseforge]
+file-id = 3487949
+project-id = 473492

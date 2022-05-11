@@ -31,6 +31,11 @@ hash = "fd6f7453e6b6a66b26d32fc6da52d2545e7aadb1b7ccdacb7674ac3d4066a28a"
 metafile = true
 
 [[files]]
+file = "mods/armorstandeditor.toml"
+hash = "555d8e540ee5e767018c0a7a8b968f7a9b2bc631d5dd59693977475733301580"
+metafile = true
+
+[[files]]
 file = "mods/autoreconnect.toml"
 hash = "f4a205a1237f11b6a3598479e61febac93f8c8c1f74617563e3f65f42b3879d1"
 metafile = true
@@ -61,6 +66,11 @@ hash = "7182ffc62445fb6a8276cba3474db95d4c9b01e0e918dc4833455a176f407fb5"
 metafile = true
 
 [[files]]
+file = "mods/boxofplaceholders.toml"
+hash = "15e5ce76086cfffe27077248d1c4a5446be42012106e869a8157413a55e31ec9"
+metafile = true
+
+[[files]]
 file = "mods/brb.toml"
 hash = "6a64fad084bf8ef066077aaa393c6b2b1e50d76860d589581d9cf62f392bb795"
 metafile = true
@@ -83,6 +93,11 @@ metafile = true
 [[files]]
 file = "mods/cem.toml"
 hash = "727c319290b015a46f54f379fdb32b1a8eeb649c85bb7409fe3b9ffd3ebe5d22"
+metafile = true
+
+[[files]]
+file = "mods/chunky.toml"
+hash = "28bb1d5f48456c9c78599e37c8c52e2a87fd30ef90bb7fcb1db24a6abd40d697"
 metafile = true
 
 [[files]]
@@ -181,6 +196,16 @@ hash = "738ffde3eab8e9d0c616e419862ff9c588bbd6009fad70953bd4d4697c88f202"
 metafile = true
 
 [[files]]
+file = "mods/fabric-restart.toml"
+hash = "9af4c128efc2bc0e2e965accb3a7755cd9a6a502b07f58667329f953882dc579"
+metafile = true
+
+[[files]]
+file = "mods/fabricproxy-lite.toml"
+hash = "6878d5b228dd0642368911cc1bf09c72243fe93e329bd4b87045320b496713bc"
+metafile = true
+
+[[files]]
 file = "mods/ferrite-core.toml"
 hash = "f19e328fe42f91d1b65e244ee5bcf70f1e5305a27278945098ea85af82e05d0d"
 metafile = true
@@ -188,6 +213,11 @@ metafile = true
 [[files]]
 file = "mods/fpsdisplay.toml"
 hash = "c70e9df45161cba28abd7388f859e62430c1e73472119ba2e5c467085f6e1215"
+metafile = true
+
+[[files]]
+file = "mods/healthcare.toml"
+hash = "b17a525f628b5ef7ca49b5f058c56ae1aef68bacce47d8bcdda237214291b9ec"
 metafile = true
 
 [[files]]
@@ -228,6 +258,11 @@ metafile = true
 [[files]]
 file = "mods/lazydfu.toml"
 hash = "ea127e8f74006f3a9ce099f9e96adaa3b3f4f281231ece703c4e7f9732137ebd"
+metafile = true
+
+[[files]]
+file = "mods/ledger.toml"
+hash = "4f161155343d7d8ea0e5111b2fa601e2ece1501b932685a53487999524683100"
 metafile = true
 
 [[files]]
@@ -286,6 +321,11 @@ hash = "dcbec3700e3c99a70229cac7ef47f62281a112a5f884ac7e0a23a6a27cf94609"
 metafile = true
 
 [[files]]
+file = "mods/recipe-cache.toml"
+hash = "85c32f965a5d59d4ce80d80f7a3e418e3f7453045342d06bfa22ed8094b311de"
+metafile = true
+
+[[files]]
 file = "mods/reeses-sodium-options.toml"
 hash = "d935b491016306e60b08bc234cc978ac84412d84d1ae5a9b6f8878a09ea25202"
 metafile = true
@@ -293,6 +333,11 @@ metafile = true
 [[files]]
 file = "mods/screenshot-to-clipboard.toml"
 hash = "8cee882d886709a92b1c2ba19e6c5d1a55da9cc6ed79b78d62eec98b5b768588"
+metafile = true
+
+[[files]]
+file = "mods/server-chat-history.toml"
+hash = "f8b457a2fff9cd235fa2b09e3d2cbc1a5568d6c1a5e581ff29dedcf96947ef22"
 metafile = true
 
 [[files]]
@@ -336,6 +381,11 @@ hash = "f3788c11d6e2da088378f7b2fa47dbf01da87bc13a34bf0dbafac24fbdbc6acb"
 metafile = true
 
 [[files]]
+file = "mods/squaremap.toml"
+hash = "b71b46d08268e49407caec743ef9bc89e3c8b656cc51f1830c5214bd6853c80d"
+metafile = true
+
+[[files]]
 file = "mods/starlight.toml"
 hash = "722031c0ae5d2de71783d6c4bfbf1c5cd25c65e55cb42d8bb4f7cadf478c4368"
 metafile = true
@@ -346,6 +396,26 @@ hash = "3610cc0efd4c0bfa58b962452b7ee2c735f3c9a86c66b175a5c186258aaeecc7"
 metafile = true
 
 [[files]]
+file = "mods/styled-chat.toml"
+hash = "7c10e2599f25e36dab5f53cabbe3213082c853495b3dfc101a36b9dd7b9758b3"
+metafile = true
+
+[[files]]
+file = "mods/styled-nicknames.toml"
+hash = "2ff1e03f5bb7bfcb14687a8c0a9218306f68edd5d726833e7958ba83e64bcad1"
+metafile = true
+
+[[files]]
+file = "mods/styled-player-list.toml"
+hash = "896822bde3c62e821e850bf63569c6a34d3dd3c01b1c405ae880e6a142140603"
+metafile = true
+
+[[files]]
+file = "mods/tabtps.toml"
+hash = "70898b7bbec4d43ae064318e9a6038f11d518b5f7f0622108b5aa0584e1527b3"
+metafile = true
+
+[[files]]
 file = "mods/thorium.toml"
 hash = "56e1493909191f7b366a64ff4b65fa94bfc0b64dbaf965f25096077bbd9e2bcd"
 metafile = true
@@ -353,6 +423,11 @@ metafile = true
 [[files]]
 file = "mods/tipthescales.toml"
 hash = "80baaf1fcb6f0302f5522be576ac01d5c49e13559443ddf47d4aad33612ad7d6"
+metafile = true
+
+[[files]]
+file = "mods/too-fast.toml"
+hash = "6c039dc364c7352a5fcaba48b25799e598621ae174eb5652b6e841b586dc3e7f"
 metafile = true
 
 [[files]]

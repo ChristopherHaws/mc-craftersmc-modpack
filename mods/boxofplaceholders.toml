@@ -1,0 +1,13 @@
+name = "Box of Placeholders"
+filename = "box-of-placeholders-1.3.4+1.18.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/iA9GjB4v/versions/1.3.4+1.18/box-of-placeholders-1.3.4+1.18.jar"
+hash-format = "sha1"
+hash = "43e5f04a9ae6d5c255a13788dfea16aee9711951"
+
+[update]
+[update.modrinth]
+mod-id = "iA9GjB4v"
+version = "ZhSS92Sd"
