@@ -6,5 +6,92 @@
       0.0
     ]
   },
-  "shapes": {}
+  "shapes": {
+    "shapes": [
+      {
+        "type": "adjustable_spawn_sphere",
+        "color": 1613803696,
+        "enabled": true,
+        "display_name": "Adjustable Spawn Sphere 2",
+        "render_type": "outer_edge",
+        "layers": {
+          "mode": "ALL",
+          "axis": "Y",
+          "layer_single": 0,
+          "layer_above": 0,
+          "layer_below": 0,
+          "layer_range_min": 0,
+          "layer_range_max": 0,
+          "hotkey_range_min": false,
+          "hotkey_range_max": false
+        },
+        "snap": "center",
+        "combine_quads": false,
+        "center": [
+          -573.3000000119209,
+          77.0,
+          530.6999999880791
+        ],
+        "main_axis": "UP",
+        "radius": 64.0,
+        "margin": 0.0
+      },
+      {
+        "type": "adjustable_spawn_sphere",
+        "color": 1613803696,
+        "enabled": true,
+        "display_name": "Adjustable Spawn Sphere 1",
+        "render_type": "outer_edge",
+        "layers": {
+          "mode": "ALL",
+          "axis": "Y",
+          "layer_single": 0,
+          "layer_above": 0,
+          "layer_below": 0,
+          "layer_range_min": 0,
+          "layer_range_max": 0,
+          "hotkey_range_min": false,
+          "hotkey_range_max": false
+        },
+        "snap": "center",
+        "combine_quads": false,
+        "center": [
+          -521.4192645690023,
+          80.0,
+          530.5105105724185
+        ],
+        "main_axis": "UP",
+        "radius": 64.0,
+        "margin": 0.0
+      },
+      {
+        "type": "adjustable_spawn_sphere",
+        "color": 1613803696,
+        "enabled": true,
+        "display_name": "Adjustable Spawn Sphere 3",
+        "render_type": "outer_edge",
+        "layers": {
+          "mode": "ALL",
+          "axis": "Y",
+          "layer_single": 0,
+          "layer_above": 0,
+          "layer_below": 0,
+          "layer_range_min": 0,
+          "layer_range_max": 0,
+          "hotkey_range_min": false,
+          "hotkey_range_max": false
+        },
+        "snap": "center",
+        "combine_quads": false,
+        "center": [
+          -617.6999999880791,
+          80.0,
+          529.4330069940219
+        ],
+        "main_axis": "UP",
+        "radius": 64.0,
+        "margin": 0.0
+      }
+    ]
+  }
 }

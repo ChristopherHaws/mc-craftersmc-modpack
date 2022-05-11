@@ -1,5 +1,5 @@
 version:2975
-quilt_available_resource_packs:["continuity/default","continuity/glass_pane_culling_fix","programer_art","vanilla","file/VanillaTweaks_r795672.zip","file/Emissive+Ores+1.18.zip","file/VanillaTweaks_Quieter.zip","file/emissive-ores-e1710.zip","file/Colorful+Sheared+Sheep.zip","file/Jicklus+1.18.2.zip","file/John Smith Legacy 1.18.2 v8.zip","file/§bAVPBR_1-7_b1.zip","file/Unity-1.18.X-Dark-0.8.1.zip","file/rotrBLOCKS+2.4+1.18-13+256x+(OPEN+ME).zip"]
+quilt_available_resource_packs:["continuity/default","continuity/glass_pane_culling_fix","programer_art","vanilla","file/VanillaTweaks_r795672.zip","file/Emissive+Ores+1.18.zip","file/VanillaTweaks_Quieter.zip","file/emissive-ores-e1710.zip","file/Colorful+Sheared+Sheep.zip","file/Jicklus+1.18.2.zip","file/John Smith Legacy 1.18.2 v8.zip","file/§bAVPBR_1-7_b1.zip","file/Unity-1.18.X-Dark-0.8.1.zip","file/rotrBLOCKS+2.4+1.18-13+256x+(OPEN+ME).zip","file/Overlay-Textures-§61.17§r — no wood overlaying.zip","file/Overlay-Textures-§61.17§r.zip","file/Mizunos 16 Craft JE CIT_1.18.1-1.0.zip","file/Mizunos 16 Craft JE_1.18.2-1.0.zip"]
 autoJump:false
 autoSuggestions:true
 chatColors:true
@@ -22,11 +22,11 @@ darkMojangStudiosBackground:true
 hideLightningFlashes:false
 mouseSensitivity:0.5
 fov:0.0
-screenEffectScale:1.0
-fovEffectScale:1.0
+screenEffectScale:0.2
+fovEffectScale:0.4472136
 gamma:0.5
-renderDistance:22
-simulationDistance:10
+renderDistance:24
+simulationDistance:8
 entityDistanceScaling:5.0
 guiScale:2
 particles:0
@@ -66,7 +66,7 @@ narrator:0
 tutorialStep:none
 mouseWheelSensitivity:1.0
 rawMouseInput:true
-glDebugVerbosity:1
+glDebugVerbosity:0
 skipMultiplayerWarning:true
 skipRealms32bitWarning:false
 hideMatchedNames:true
@@ -98,7 +98,7 @@ key_key.fullscreen:key.keyboard.f11
 key_key.spectatorOutlines:key.keyboard.unknown
 key_key.swapOffhand:key.keyboard.f
 key_key.saveToolbarActivator:key.keyboard.unknown
-key_key.loadToolbarActivator:key.keyboard.x
+key_key.loadToolbarActivator:key.keyboard.unknown
 key_key.advancements:key.keyboard.semicolon
 key_key.hotbar.1:key.keyboard.1
 key_key.hotbar.2:key.keyboard.2
@@ -112,15 +112,14 @@ key_key.hotbar.9:key.keyboard.9
 key_key.dynamicfps.toggle_forced:key.keyboard.unknown
 key_key.dynamicfps.toggle_disabled:key.keyboard.unknown
 key_net.clayborn.accurateblockplacement.togglevanillaplacement:key.keyboard.unknown
+key_key.blockmeter.assign:key.keyboard.r
+key_key.blockmeter.menu:key.keyboard.left.alt
 key_key.entityculling.toggle:key.keyboard.unknown
 key_key.fpsdisplay.toggleFpsOverlay:key.keyboard.unknown
 key_keybind.invmove.toggleMove:key.keyboard.unknown
-key_iris.keybind.reload:key.keyboard.r
-key_iris.keybind.toggleShaders:key.keyboard.k
-key_iris.keybind.shaderPackSelection:key.keyboard.o
 key_key.lightoverlay.enable_overlay:key.keyboard.f7
 key_key.oneclickcrafting.toggle_hold:key.keyboard.unknown
-key_key.plasmo_voice.settings:key.keyboard.period
+key_key.plasmo_voice.settings:key.keyboard.unknown
 key_gui.xaero_switch_waypoint_set:key.keyboard.unknown
 key_gui.xaero_instant_waypoint:key.keyboard.keypad.add
 key_gui.xaero_toggle_slime:key.keyboard.unknown
@@ -128,7 +127,7 @@ key_gui.xaero_toggle_grid:key.keyboard.unknown
 key_gui.xaero_toggle_waypoints:key.keyboard.n
 key_gui.xaero_toggle_map_waypoints:key.keyboard.unknown
 key_gui.xaero_toggle_map:key.keyboard.j
-key_gui.xaero_enlarge_map:key.keyboard.z
+key_gui.xaero_enlarge_map:key.keyboard.x
 key_gui.xaero_waypoints_key:key.keyboard.u
 key_gui.xaero_zoom_in:key.keyboard.equal
 key_gui.xaero_zoom_out:key.keyboard.minus
@@ -147,7 +146,10 @@ key_key.okzoomer.zoom:key.keyboard.c
 key_key.okzoomer.decrease_zoom:key.keyboard.unknown
 key_key.okzoomer.increase_zoom:key.keyboard.unknown
 key_key.okzoomer.reset_zoom:key.keyboard.unknown
-soundCategory_master:0.45033112
+key_iris.keybind.reload:key.keyboard.unknown
+key_iris.keybind.toggleShaders:key.keyboard.k
+key_iris.keybind.shaderPackSelection:key.keyboard.o
+soundCategory_master:0.25827813
 soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0

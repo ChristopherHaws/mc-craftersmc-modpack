@@ -1,0 +1,15 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "Chaws",
+      "uniqueId": "b66a5d61-42a0-44a5-8c1d-86ac9967d3bc"
+    },
+    "time": 1652166872799,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/ZvTk0ioZqK"
+    }
+  }
+]
