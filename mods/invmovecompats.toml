@@ -1,0 +1,13 @@
+name = "InvMoveCompats"
+filename = "InvMoveCompats-1.18-0.1.0-Fabric.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/6IpcGP7T/versions/1.18-0.1.0-fabric/InvMoveCompats-1.18-0.1.0-Fabric.jar"
+hash-format = "sha1"
+hash = "9e7d230298d5f348f632782d7a6732a6b58bd5d1"
+
+[update]
+[update.modrinth]
+mod-id = "6IpcGP7T"
+version = "jtz99scr"

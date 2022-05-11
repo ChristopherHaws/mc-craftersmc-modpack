@@ -1,0 +1,13 @@
+name = "Block Meter"
+filename = "blockmeter-1.6.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/oGU9LXKC/versions/1.6/blockmeter-1.6.jar"
+hash-format = "sha1"
+hash = "261544deeedc70ed503b53d04ae6f86bb6c51834"
+
+[update]
+[update.modrinth]
+mod-id = "oGU9LXKC"
+version = "rqzE7cU2"
