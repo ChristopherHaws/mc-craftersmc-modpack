@@ -1,13 +1,13 @@
 name = "TipTheScales"
-filename = "TipTheScales-fabric-1.18.2-5.0.5.jar"
+filename = "TipTheScales-fabric-1.18.2-5.0.6.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3669/372/TipTheScales-fabric-1.18.2-5.0.5.jar"
+url = "https://edge.forgecdn.net/files/3757/604/TipTheScales-fabric-1.18.2-5.0.6.jar"
 hash-format = "sha1"
-hash = "3f8b6b172e5f42508c93cd585292ee7315220f83"
+hash = "7e8f248c189c34f98fe3a6cbb1cfb16c644b510d"
 
 [update]
 [update.curseforge]
-file-id = 3669372
+file-id = 3757604
 project-id = 282313

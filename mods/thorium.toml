@@ -1,13 +1,13 @@
 name = "thorium"
-filename = "thorium-1.1.1.jar"
+filename = "thorium-1.2.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/ImUQFWcy/versions/1.1.1/thorium-1.1.1.jar"
+url = "https://cdn.modrinth.com/data/ImUQFWcy/versions/1.2.1/thorium-1.2.1.jar"
 hash-format = "sha1"
-hash = "e260e54fc4b00b02d9ee109ecfd83e79cf36fa9b"
+hash = "04e8ea1597c200b4a7248a2b135005c5ca6ae511"
 
 [update]
 [update.modrinth]
 mod-id = "ImUQFWcy"
-version = "nq1YLcam"
+version = "DxVNym3k"
