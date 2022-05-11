@@ -56,6 +56,11 @@ hash = "2a2b24cbed14e064cf2573fdf6cc489b20aa9179c2fd848e02aab557d7c5dd97"
 metafile = true
 
 [[files]]
+file = "mods/boat-container.toml"
+hash = "0ae9dfead8fa73fbd11c2139fb5c93dce578ebd760412e5c3ee6945e85acf237"
+metafile = true
+
+[[files]]
 file = "mods/bobby.toml"
 hash = "4491272cf1fb2adb67386c5432b4358197dc1516981460d8e0dcae972b9fe437"
 metafile = true
@@ -107,17 +112,17 @@ metafile = true
 
 [[files]]
 file = "mods/cloth-config.toml"
-hash = "010bc8378b59257708190728f5aee476d7415f47fc26567952f294eda6b0cd25"
+hash = "25a7ae59066ec8104c5da601dc26923f7d0b7a9906d4c4fe9643222bbf4815aa"
+metafile = true
+
+[[files]]
+file = "mods/collective-fabric.toml"
+hash = "efac426e50a166afaee23320b09fe17425eaa94016448dbb4fec2b0a6ef5e2b4"
 metafile = true
 
 [[files]]
 file = "mods/colorutility.toml"
 hash = "59bd81b3a618cc4c6387f44c5d8ce0cb30ae94d0983e3f5337599acb2cdf8e22"
-metafile = true
-
-[[files]]
-file = "mods/connected-doors.toml"
-hash = "844dafab1cd28ee54e0265ac03b81fbea60bc95dd45216b09dd554135125a4e9"
 metafile = true
 
 [[files]]
@@ -143,6 +148,11 @@ metafile = true
 [[files]]
 file = "mods/debugify.toml"
 hash = "9d5d339c329cb7e2a8c7540da5dff5e81cb99b769986c3f88fcfa17d21477f18"
+metafile = true
+
+[[files]]
+file = "mods/double-doors-fabric.toml"
+hash = "df5efa8fcab50650bd433da9ece0fe344898d2198862bcaf5e9aca8603f5f484"
 metafile = true
 
 [[files]]
@@ -358,6 +368,11 @@ metafile = true
 [[files]]
 file = "mods/sheep-consistency.toml"
 hash = "d6247196156f8d81b42229a9ffc933457e0475de6c8a3d1de4c893dd5305e2d2"
+metafile = true
+
+[[files]]
+file = "mods/simple-backpack-fabric.toml"
+hash = "653b91685fb782853fa27a1b83f08b1a41a98a7fe4becd4d5573fe19ac6a0446"
 metafile = true
 
 [[files]]
