@@ -181,11 +181,6 @@ hash = "738ffde3eab8e9d0c616e419862ff9c588bbd6009fad70953bd4d4697c88f202"
 metafile = true
 
 [[files]]
-file = "mods/fast-furnace-for-fabric.toml"
-hash = "37e620f13f7e75969d3ff4f743e9f6ea1e70eef22616917a0bbf2413e6d8725e"
-metafile = true
-
-[[files]]
 file = "mods/ferrite-core.toml"
 hash = "f19e328fe42f91d1b65e244ee5bcf70f1e5305a27278945098ea85af82e05d0d"
 metafile = true
