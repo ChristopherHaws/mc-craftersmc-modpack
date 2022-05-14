@@ -226,6 +226,11 @@ hash = "c70e9df45161cba28abd7388f859e62430c1e73472119ba2e5c467085f6e1215"
 metafile = true
 
 [[files]]
+file = "mods/headindex.toml"
+hash = "ee08c85a5fec2c5e464d99d9df60c0c578d37d1a73f077bf04ee0d17ce2234f4"
+metafile = true
+
+[[files]]
 file = "mods/healthcare.toml"
 hash = "b17a525f628b5ef7ca49b5f058c56ae1aef68bacce47d8bcdda237214291b9ec"
 metafile = true
