@@ -281,6 +281,11 @@ hash = "551328f7f97a853f48d6c6d915e422bfc41eadc50e1180727af2a1d9de60de22"
 metafile = true
 
 [[files]]
+file = "mods/linked-storage.toml"
+hash = "18f6a4da7dc8188facb06bcc34edb3ec06a0c1b861dfa40fda491df75bd1c439"
+metafile = true
+
+[[files]]
 file = "mods/litematica-server-paster.toml"
 hash = "2bc75f80f57971c20e2623c6eb59b3ae740509188fd5e7c619252cbd7f58b574"
 metafile = true
@@ -307,7 +312,7 @@ metafile = true
 
 [[files]]
 file = "mods/modmenu.toml"
-hash = "439297a26554e1723ca14ff0142e18a12180700578c270e23501e4b1083dc2f4"
+hash = "b87fbd9a575e2f3f7c88bb84b5f53915daa01bc2c6d1facb039074e6598c726d"
 metafile = true
 
 [[files]]
@@ -322,7 +327,7 @@ metafile = true
 
 [[files]]
 file = "mods/plasmo-voice.toml"
-hash = "281ce89dbaa2edc01d2e814852c40ed05815029e71e6902dad709839ba08c2e2"
+hash = "69b74bbfe190074a1aca83d0f2e780f263810a20f05d72e1db35907785c02835"
 metafile = true
 
 [[files]]
@@ -372,7 +377,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-backpack-fabric.toml"
-hash = "653b91685fb782853fa27a1b83f08b1a41a98a7fe4becd4d5573fe19ac6a0446"
+hash = "c5c494c4b1e4680118325d4b4a19425e0192c368caf90a4739e6809b23607f99"
 metafile = true
 
 [[files]]

@@ -1,0 +1,13 @@
+name = "Linked Storage"
+filename = "linkedstorage-1.3.13.18.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3548/611/linkedstorage-1.3.13.18.jar"
+hash-format = "sha1"
+hash = "2d916e3aad461f9d10861140db8a83f0e9610e57"
+
+[update]
+[update.curseforge]
+file-id = 3548611
+project-id = 357718
