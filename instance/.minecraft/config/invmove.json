@@ -6,12 +6,14 @@
   "movement": {
     "enable": true,
     "jump": true,
-    "sneak": "Off",
+    "sneak": "Maintain",
     "dismount": false,
-    "textFieldDisables": true
+    "textFieldDisables": true,
+    "unrecognizedScreenDefault": false
   },
   "background": {
     "enable": true,
-    "hideOnPause": "Show"
+    "hideOnPause": "Show",
+    "unrecognizedScreenDefault": true
   }
 }

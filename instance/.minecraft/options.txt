@@ -1,11 +1,11 @@
 version:2975
-quilt_available_resource_packs:["continuity/default","continuity/glass_pane_culling_fix","programer_art","vanilla","file/VanillaTweaks_r795672.zip","file/Emissive+Ores+1.18.zip","file/VanillaTweaks_Quieter.zip","file/emissive-ores-e1710.zip","file/Colorful+Sheared+Sheep.zip","file/Jicklus+1.18.2.zip","file/John Smith Legacy 1.18.2 v8.zip","file/§bAVPBR_1-7_b1.zip","file/Unity-1.18.X-Dark-0.8.1.zip","file/rotrBLOCKS+2.4+1.18-13+256x+(OPEN+ME).zip","file/Overlay-Textures-§61.17§r — no wood overlaying.zip","file/Overlay-Textures-§61.17§r.zip","file/Mizunos 16 Craft JE CIT_1.18.1-1.0.zip","file/Mizunos 16 Craft JE_1.18.2-1.0.zip"]
+quilt_available_resource_packs:["continuity/default","continuity/glass_pane_culling_fix","programer_art","vanilla","file/VanillaTweaks_r795672.zip","file/VanillaTweaks_Quieter.zip","linkedstorage/enderstorage"]
 autoJump:false
 autoSuggestions:true
 chatColors:true
 chatLinks:true
 chatLinksPrompt:true
-enableVsync:false
+enableVsync:true
 entityShadows:true
 forceUnicodeFont:false
 discrete_mouse_scroll:true
@@ -14,7 +14,7 @@ realmsNotifications:true
 reducedDebugInfo:false
 showSubtitles:true
 touchscreen:false
-fullscreen:false
+fullscreen:true
 bobView:true
 toggleCrouch:false
 toggleSprint:true
@@ -24,20 +24,20 @@ mouseSensitivity:0.5
 fov:0.0
 screenEffectScale:0.2
 fovEffectScale:0.4472136
-gamma:0.5
+gamma:0.75
 renderDistance:24
 simulationDistance:8
 entityDistanceScaling:5.0
 guiScale:2
 particles:0
-maxFps:120
+maxFps:145
 difficulty:2
 graphicsMode:1
 ao:2
 prioritizeChunkUpdates:0
 biomeBlendRadius:7
 renderClouds:false
-resourcePacks:["vanilla","file/VanillaTweaks_r795672.zip","file/VanillaTweaks_Quieter.zip","file/Emissive+Ores+1.18.zip","file/Colorful+Sheared+Sheep.zip","continuity/default","continuity/glass_pane_culling_fix"]
+resourcePacks:["vanilla","file/VanillaTweaks_r795672.zip","file/VanillaTweaks_Quieter.zip","continuity/default","continuity/glass_pane_culling_fix"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
@@ -118,7 +118,6 @@ key_key.entityculling.toggle:key.keyboard.unknown
 key_key.fpsdisplay.toggleFpsOverlay:key.keyboard.unknown
 key_keybind.invmove.toggleMove:key.keyboard.unknown
 key_key.lightoverlay.enable_overlay:key.keyboard.f7
-key_key.oneclickcrafting.toggle_hold:key.keyboard.unknown
 key_key.plasmo_voice.settings:key.keyboard.unknown
 key_gui.xaero_switch_waypoint_set:key.keyboard.unknown
 key_gui.xaero_instant_waypoint:key.keyboard.keypad.add
@@ -136,9 +135,10 @@ key_gui.xaero_display_all_sets:key.keyboard.unknown
 key_gui.xaero_toggle_light_overlay:key.keyboard.unknown
 key_gui.xaero_toggle_entity_radar:key.keyboard.unknown
 key_gui.xaero_reverse_entity_radar:key.keyboard.unknown
+key_gui.xaero_toggle_manual_cave_mode:key.keyboard.unknown
 key_gui.xaero_minimap_settings:key.keyboard.y
 key_gui.xaero_open_map:key.keyboard.v
-key_gui.xaero_open_settings:key.keyboard.comma
+key_gui.xaero_open_settings:key.keyboard.unknown
 key_gui.xaero_map_zoom_in:key.keyboard.unknown
 key_gui.xaero_map_zoom_out:key.keyboard.unknown
 key_gui.xaero_quick_confirm:key.keyboard.right.shift
@@ -149,7 +149,7 @@ key_key.okzoomer.reset_zoom:key.keyboard.unknown
 key_iris.keybind.reload:key.keyboard.unknown
 key_iris.keybind.toggleShaders:key.keyboard.k
 key_iris.keybind.shaderPackSelection:key.keyboard.o
-soundCategory_master:0.25827813
+soundCategory_master:0.40728477
 soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0

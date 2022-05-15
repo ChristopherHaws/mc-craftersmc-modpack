@@ -6,7 +6,7 @@
     "schematicRebuildBreakPlaceOverlayColor": "#4C33CC33",
     "schematicRebuildBreakExceptPlaceOverlayColor": "#4CF03030",
     "schematicRebuildReplaceOverlayColor": "#4CF0A010",
-    "schematicOverlayColorExtra": "#4CFF4CE6",
+    "schematicOverlayColorExtra": "#19FF4CE6",
     "schematicOverlayColorMissing": "#2C33B3E6",
     "schematicOverlayColorWrongBlock": "#4CFF3333",
     "schematicOverlayColorWrongState": "#4CFF9010"
@@ -29,6 +29,7 @@
     "fixRailRotation": true,
     "generateLowercaseNames": false,
     "highlightBlockInInventory": false,
+    "itemUsePacketCheckBypass": true,
     "layerModeFollowsPlayer": false,
     "pasteIgnoreBlockEntitiesEntirely": false,
     "pasteIgnoreBlockEntitiesFromFill": true,
@@ -74,7 +75,7 @@
       "keys": "BUTTON_1"
     },
     "easyPlaceToggle": {
-      "keys": "LEFT_SUPER,LEFT_BRACKET"
+      "keys": "M,E"
     },
     "executeOperation": {
       "keys": "ENTER"
@@ -122,7 +123,7 @@
       "keys": "M,L"
     },
     "openGuiPlacementSettings": {
-      "keys": "KP_SUBTRACT"
+      "keys": "COMMA"
     },
     "openGuiSchematicPlacements": {
       "keys": "M,P"
@@ -314,7 +315,7 @@
     "enableSchematicBlocksRendering": true,
     "enableSchematicOverlay": true,
     "ignoreExistingFluids": false,
-    "overlayReducedInnerSides": false,
+    "overlayReducedInnerSides": true,
     "renderAreaSelectionBoxSides": true,
     "renderBlocksAsTranslucent": true,
     "renderCollidingSchematicBlocks": false,
@@ -328,8 +329,8 @@
     "schematicOverlayEnableSides": true,
     "schematicOverlayModelOutline": true,
     "schematicOverlayModelSides": true,
-    "schematicOverlayRenderThroughBlocks": false,
-    "schematicOverlayTypeExtra": true,
+    "schematicOverlayRenderThroughBlocks": true,
+    "schematicOverlayTypeExtra": false,
     "schematicOverlayTypeMissing": true,
     "schematicOverlayTypeWrongBlock": true,
     "schematicOverlayTypeWrongState": true,

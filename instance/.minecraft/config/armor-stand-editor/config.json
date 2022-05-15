@@ -1,0 +1,8 @@
+{
+  "CONFIG_VERSION_DONT_TOUCH_THIS": 1,
+  "armorStandTool": "minecraft:flint",
+  "requireIsArmorStandEditorTag": false,
+  "toggleAllPermissionOnByDefault": true,
+  "holdingToolSpawnsParticles": true,
+  "blackListedBuildInPresets": []
+}

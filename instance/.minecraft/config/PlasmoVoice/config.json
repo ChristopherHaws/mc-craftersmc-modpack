@@ -21,7 +21,7 @@
   "voiceActivationThreshold": -30.0,
   "microphoneAmplification": 1.0,
   "rnNoise": false,
-  "microphoneMuted": true,
+  "microphoneMuted": false,
   "javaxCapture": false,
   "hrtf": false,
   "directionalSources": false,

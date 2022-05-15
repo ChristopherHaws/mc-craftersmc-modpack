@@ -1,4 +1,4 @@
-#Mon May 02 21:34:52 PDT 2022
+#Thu May 12 14:52:10 PDT 2022
 Waving_Fire=false
 Waving_Grass=false
 minlight=0.006
