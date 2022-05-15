@@ -251,6 +251,11 @@ hash = "04e52fb1abeb1921e2de71447db36a81947a1eeed6d4709ed5cbe48c03f7dcab"
 metafile = true
 
 [[files]]
+file = "mods/invisible-frames.toml"
+hash = "04a4ac6aa5b670ebd77d76634ae66b0d46169e7a15d91a89fb20c2d678bcb207"
+metafile = true
+
+[[files]]
 file = "mods/invmove.toml"
 hash = "d4b7c04e0714f813d952d2307cdfed05a47b4549cb799a86a5da26ac43a98f2f"
 metafile = true
