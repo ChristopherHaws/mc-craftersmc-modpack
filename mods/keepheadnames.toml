@@ -1,0 +1,13 @@
+name = "Keep Head Names (Fabric/Forge)"
+filename = "KeepHeadNames-1.5.1-fabric-1.18.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3550/121/KeepHeadNames-1.5.1-fabric-1.18.jar"
+hash-format = "sha1"
+hash = "e29d47f189ae055225c3465eb7a96e521f854520"
+
+[update]
+[update.curseforge]
+file-id = 3550121
+project-id = 442278

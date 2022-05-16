@@ -271,6 +271,11 @@ hash = "cbc3d6649757c3751ac73aed8df427b3ebc5685a808935b0e631d213bf6a760b"
 metafile = true
 
 [[files]]
+file = "mods/keepheadnames.toml"
+hash = "c04c07d3fad627bba4afb4693926dda1e2c509255230f92f78b9022ce7de2c8f"
+metafile = true
+
+[[files]]
 file = "mods/krypton.toml"
 hash = "219d4425679c60fd2855a6a39a6fccb6db3948dcc57b9da7c20907c855c5bd3d"
 metafile = true
