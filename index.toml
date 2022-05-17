@@ -41,6 +41,11 @@ hash = "f4a205a1237f11b6a3598479e61febac93f8c8c1f74617563e3f65f42b3879d1"
 metafile = true
 
 [[files]]
+file = "mods/better-signs-and-frames.toml"
+hash = "7b960763b425fa0523c55c869caea919262af24abbb9346ad68ac61f2db57e79"
+metafile = true
+
+[[files]]
 file = "mods/better-third-person.toml"
 hash = "6e59c2eb29c400238dab0db6e8e5cfbc9e34b0a34934142e094dcaf6dbcea811"
 metafile = true
@@ -168,11 +173,6 @@ metafile = true
 [[files]]
 file = "mods/ebe.toml"
 hash = "50780c17b5bb008c6786a9ab8e4405fba1908a8276a1d7d03dff90f8f7408d78"
-metafile = true
-
-[[files]]
-file = "mods/editsign.toml"
-hash = "6d7b04efc75df1cf683461b8834aa27fcce910f1af30107a943bdef94c0ab408"
 metafile = true
 
 [[files]]
@@ -423,6 +423,11 @@ metafile = true
 [[files]]
 file = "mods/squaremap.toml"
 hash = "b71b46d08268e49407caec743ef9bc89e3c8b656cc51f1830c5214bd6853c80d"
+metafile = true
+
+[[files]]
+file = "mods/stack-refill-fabric.toml"
+hash = "6e6cf76b4b8bab42e3c95b9647abb13e0b204b39193896ae52e6f670feee12b0"
 metafile = true
 
 [[files]]
