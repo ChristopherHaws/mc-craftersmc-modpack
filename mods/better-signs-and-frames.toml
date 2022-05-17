@@ -1,0 +1,13 @@
+name = "Better Signs & Frames"
+filename = "better-signs-and-frames-0.8.3.jar"
+side = "both"
+
+[download]
+url = "https://media.forgecdn.net/files/3548/781/better-signs-and-frames-0.8.3.jar"
+hash-format = "sha1"
+hash = "fbb25bc9a97d987cd1d23fc1cee9a32fa766af57"
+
+[update]
+[update.curseforge]
+file-id = 3548781
+project-id = 384963
