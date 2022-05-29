@@ -1,12 +1,12 @@
 name = "CraftersMC Modpack"
 author = "chaws"
 version = "1.0.0"
-pack-format = "packwiz:1.0.0"
+pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "358a8faec22dc5a85b5500eae569b31b70c9582b781ad254e2526a473be90d3c"
+hash = "9d0dbd04d939d2ccdec3d7bc5ee0e96e2bd732a2530df13f8b402ec7a234dc2b"
 
 [versions]
 fabric = "0.14.5"

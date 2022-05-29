@@ -72,7 +72,7 @@ metafile = true
 
 [[files]]
 file = "mods/bookshelf.toml"
-hash = "7182ffc62445fb6a8276cba3474db95d4c9b01e0e918dc4833455a176f407fb5"
+hash = "f90500d8a671a20939619caee98bc58aee30c9c58362e20b8c01463c9173cd6a"
 metafile = true
 
 [[files]]
@@ -192,12 +192,12 @@ metafile = true
 
 [[files]]
 file = "mods/entitytexturefeatures.toml"
-hash = "7bae31b6e7a750532157653fe0c9a5ec3e47cf0074a7b7fac4c3e4ef14daf2c7"
+hash = "2c8c0f47e23586c8379c4f4f260812391137718e2f5333c5f0c3c0e9d34f88f5"
 metafile = true
 
 [[files]]
 file = "mods/fabric-api.toml"
-hash = "99fb566fe03abc87d64b6b541cbe225fa856d15c1ef7a6d4de85e6b6fb0c14e8"
+hash = "f3fdedadc83ac9005a59566330e45964cd52625d8dc15014ca8a40b929863638"
 metafile = true
 
 [[files]]
@@ -492,7 +492,7 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap.toml"
-hash = "ebf5fdabc760b83bd8cc952dd798a9feceacb82004357b3d5e8f908b79634c01"
+hash = "81dd7391f2b1eb47ffd1a3c589adc658086c39a8906b4f501470a2e2c87c0ec0"
 metafile = true
 
 [[files]]
