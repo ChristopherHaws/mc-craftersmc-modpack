@@ -121,6 +121,11 @@ hash = "25a7ae59066ec8104c5da601dc26923f7d0b7a9906d4c4fe9643222bbf4815aa"
 metafile = true
 
 [[files]]
+file = "mods/cobbled-paths.pw.toml"
+hash = "be64ac74a8c4f859d03cdc04ffa22cc379bf64580ecb798c2e78d5219da1193f"
+metafile = true
+
+[[files]]
 file = "mods/collective-fabric.toml"
 hash = "efac426e50a166afaee23320b09fe17425eaa94016448dbb4fec2b0a6ef5e2b4"
 metafile = true
