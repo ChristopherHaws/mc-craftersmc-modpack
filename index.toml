@@ -336,6 +336,11 @@ hash = "ea0f5b02b0ec99b0defe4f9b0ca8d9270a75142bea88752beb1ba5045c7708ee"
 metafile = true
 
 [[files]]
+file = "mods/modern-glass-doors.pw.toml"
+hash = "b28529026f8b762a14302dc4d31edd3e96232ad5ee48256b81d9a4b159465218"
+metafile = true
+
+[[files]]
 file = "mods/modmenu.toml"
 hash = "b87fbd9a575e2f3f7c88bb84b5f53915daa01bc2c6d1facb039074e6598c726d"
 metafile = true
