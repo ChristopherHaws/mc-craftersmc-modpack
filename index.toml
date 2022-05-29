@@ -41,6 +41,11 @@ hash = "f4a205a1237f11b6a3598479e61febac93f8c8c1f74617563e3f65f42b3879d1"
 metafile = true
 
 [[files]]
+file = "mods/better-signs-and-frames.pw.toml"
+hash = "536040180fb96b755a63863479a5280944b35c248efa2cc005c4a78250f1011e"
+metafile = true
+
+[[files]]
 file = "mods/better-signs-and-frames.toml"
 hash = "7b960763b425fa0523c55c869caea919262af24abbb9346ad68ac61f2db57e79"
 metafile = true
@@ -58,6 +63,11 @@ metafile = true
 [[files]]
 file = "mods/blockmeter.toml"
 hash = "2a2b24cbed14e064cf2573fdf6cc489b20aa9179c2fd848e02aab557d7c5dd97"
+metafile = true
+
+[[files]]
+file = "mods/boat-container.pw.toml"
+hash = "26338c8944a4ba54d08495f7ef68e977effe0ffe144eb49d693be8ae2b4a003e"
 metafile = true
 
 [[files]]
@@ -206,6 +216,11 @@ hash = "f3fdedadc83ac9005a59566330e45964cd52625d8dc15014ca8a40b929863638"
 metafile = true
 
 [[files]]
+file = "mods/fabric-language-kotlin.pw.toml"
+hash = "3c3d7e7f9e0ae6a978564276c618a802d0c54c4ca098a7a897252a662ff4723a"
+metafile = true
+
+[[files]]
 file = "mods/fabric-language-kotlin.toml"
 hash = "738ffde3eab8e9d0c616e419862ff9c588bbd6009fad70953bd4d4697c88f202"
 metafile = true
@@ -351,6 +366,11 @@ hash = "0a35c052850da1b1f1c27961a72a80ffa8f230875516606a8c219240142a7352"
 metafile = true
 
 [[files]]
+file = "mods/observable.pw.toml"
+hash = "aa64f5b7550437e363a22954515eaedb7ba78d927e90a221d7414ff5f3a61bee"
+metafile = true
+
+[[files]]
 file = "mods/ok-zoomer.toml"
 hash = "7bb446109174fb831ced527d41df13962b1c46677f7001557b7211e54e5d3e34"
 metafile = true
@@ -436,6 +456,11 @@ hash = "b71b46d08268e49407caec743ef9bc89e3c8b656cc51f1830c5214bd6853c80d"
 metafile = true
 
 [[files]]
+file = "mods/stack-refill-fabric.pw.toml"
+hash = "0b20a5c429ad20bd1db4dd8f908125bb08069b2806f7fc6adbf3c8f384c60c6a"
+metafile = true
+
+[[files]]
 file = "mods/stack-refill-fabric.toml"
 hash = "6e6cf76b4b8bab42e3c95b9647abb13e0b204b39193896ae52e6f670feee12b0"
 metafile = true
@@ -483,6 +508,11 @@ metafile = true
 [[files]]
 file = "mods/too-fast.toml"
 hash = "6c039dc364c7352a5fcaba48b25799e598621ae174eb5652b6e841b586dc3e7f"
+metafile = true
+
+[[files]]
+file = "mods/tool-stats.pw.toml"
+hash = "71031f12721235c97968e43b61977206b95ccecec4a6aad6503932ee8eb03b10"
 metafile = true
 
 [[files]]
