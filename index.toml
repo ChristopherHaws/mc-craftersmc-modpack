@@ -167,7 +167,7 @@ metafile = true
 
 [[files]]
 file = "mods/debugify.toml"
-hash = "9d5d339c329cb7e2a8c7540da5dff5e81cb99b769986c3f88fcfa17d21477f18"
+hash = "5c05e7323ec7f46a986c6cb90a7cff289a9f5edf532ebcb90667a7c4ade3e519"
 metafile = true
 
 [[files]]
@@ -207,12 +207,12 @@ metafile = true
 
 [[files]]
 file = "mods/entitytexturefeatures.toml"
-hash = "2c8c0f47e23586c8379c4f4f260812391137718e2f5333c5f0c3c0e9d34f88f5"
+hash = "31a4397e162acee7d192efec604ba07ba315d4b021bf0c5303becb23bea92b16"
 metafile = true
 
 [[files]]
 file = "mods/fabric-api.toml"
-hash = "f3fdedadc83ac9005a59566330e45964cd52625d8dc15014ca8a40b929863638"
+hash = "a580d407e80e0327592711f5deb1e34730e852dbab2d3de6dbd684a40e70fcc2"
 metafile = true
 
 [[files]]
@@ -432,7 +432,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-backpack-fabric.toml"
-hash = "c5c494c4b1e4680118325d4b4a19425e0192c368caf90a4739e6809b23607f99"
+hash = "66ea762ba483e8f06ed473f1e80544ea2d682eda7df951e042c649a9cd8c85a3"
 metafile = true
 
 [[files]]
@@ -537,10 +537,10 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap.toml"
-hash = "81dd7391f2b1eb47ffd1a3c589adc658086c39a8906b4f501470a2e2c87c0ec0"
+hash = "a6a392bda7133ece2097dec112d8e5b319672f5be40139cba6787330deb207db"
 metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.toml"
-hash = "59371a34fd30ad546ef6e346530027d6ed5ce84866c4ca1630fd19ae9583c6a8"
+hash = "c0c3b565d421de2de8d5265971b7cdc309c9f5c7e8d2e92183dc056a8bad7ce7"
 metafile = true
