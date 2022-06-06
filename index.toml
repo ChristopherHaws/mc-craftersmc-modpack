@@ -82,7 +82,7 @@ metafile = true
 
 [[files]]
 file = "mods/bookshelf.toml"
-hash = "f90500d8a671a20939619caee98bc58aee30c9c58362e20b8c01463c9173cd6a"
+hash = "b25a8008747635904c9c28acf1118c3992b14709fdcbaf68d7f5b0ae9de94ae0"
 metafile = true
 
 [[files]]
@@ -207,12 +207,12 @@ metafile = true
 
 [[files]]
 file = "mods/entitytexturefeatures.toml"
-hash = "e1eae51595706876f06124d5c3ca146690916f0bc768177f98692cd218c66a17"
+hash = "0e8bc51131e510743ce495452a58a79a6a1d5469e5644230c34abf1465456728"
 metafile = true
 
 [[files]]
 file = "mods/fabric-api.toml"
-hash = "a580d407e80e0327592711f5deb1e34730e852dbab2d3de6dbd684a40e70fcc2"
+hash = "37ae2e14a808e8668d356a2f5f53bad58b7f226e6936693b25dc7d6370f539c7"
 metafile = true
 
 [[files]]
@@ -262,7 +262,7 @@ metafile = true
 
 [[files]]
 file = "mods/immersive-portals-mod.pw.toml"
-hash = "46c887da6b63f6d5d045bb830240f4e2712d88fa061e7e018a38e1d9d63e626a"
+hash = "17642f365de0bc8e56101367b3979e86fcfa6204f06b76d7871d42f513098b27"
 metafile = true
 
 [[files]]
@@ -272,7 +272,7 @@ metafile = true
 
 [[files]]
 file = "mods/inspecio.toml"
-hash = "04e52fb1abeb1921e2de71447db36a81947a1eeed6d4709ed5cbe48c03f7dcab"
+hash = "8b61bc4a32e08ea0a08070dbe02973880e9c5f857492734012bf67104f7e8cd4"
 metafile = true
 
 [[files]]
