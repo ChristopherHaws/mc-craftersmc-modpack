@@ -15,3 +15,5 @@ version = "VyRVRcRk"
 
 [option]
 optional = true
+default = true
+description = "Works with 1.19 but not built for it yet."

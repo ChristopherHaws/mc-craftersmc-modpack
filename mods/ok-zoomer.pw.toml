@@ -15,4 +15,5 @@ version = "nu6gjAtJ"
 
 [option]
 optional = true
-description = "Ok Zoomer still doesnt work with 1.19 :("
+default = false
+description = "Doesn't work with 1.19 yet. Use WI Zoom in the meantime."

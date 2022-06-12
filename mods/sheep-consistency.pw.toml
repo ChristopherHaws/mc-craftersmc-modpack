@@ -14,3 +14,5 @@ project-id = 386175
 
 [option]
 optional = true
+default = true
+description = "Works with 1.19 but not built for it yet."

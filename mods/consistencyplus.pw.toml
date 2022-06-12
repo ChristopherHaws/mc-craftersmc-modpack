@@ -15,3 +15,5 @@ version = "TE9Gn7Bp"
 
 [option]
 optional = true
+default = false
+description = "Doesn't work with 1.19 yet"
