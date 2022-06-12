@@ -10,22 +10,36 @@
 1. Click *OK*
 
 ## Mods
-### Required
+### Added
+alternate-current
+appleskin
+armorstandeditor
+betterf3
+cit-resewn
+cloth-config
+consistencyplus
+continuity
+dynamic-fps
+fpsdisplay
+indium
+inspecio
+iris
+krypton
+lithium
+modmenu
+sodium
+starlight
+qsl
+
+### Awaiting 1.19 support
 accurate-block-placement
 bobby
-consistencyplus
-
-### Optional
 advancementinfo
-alternate-current
 animatica
-appleskin
 architectury-fabric
-armorstandeditor
 autoreconnect
 better-signs-and-frames
 better-third-person
-betterf3
 blockmeter
 boat-container
 bookshelf
@@ -36,17 +50,13 @@ carpet-extra
 carpet
 cem
 chunky
-cit-resewn
-cloth-config
 cobbled-paths
 collective-fabric
 colorutility
-continuity
 controlling
 dcch
 debugify
 double-doors-fabric
-dynamic-fps
 easiervillagertrading
 ebe
 enchantment-descriptions
@@ -57,19 +67,14 @@ fabric-language-kotlin
 fabric-restart
 fabricproxy-lite
 ferrite-core
-fpsdisplay
 headindex
 healthcare
 horsestatsvanilla
 immersive-portals-mod
-indium
-inspecio
 invisible-frames
 invmove
 invmovecompats
-iris
 keepheadnames
-krypton
 lambdynamiclights
 lazydfu
 ledger
@@ -77,17 +82,14 @@ light-overlay
 linked-storage
 litematica-server-paster
 litematica
-lithium
 malilib
 minihud
 modern-glass-doors
-modmenu
 nofog
 observable
 ok-zoomer
 plasmo-voice
 puzzle
-qsl
 recipe-cache
 reeses-sodium-options
 screenshot-to-clipboard
@@ -99,11 +101,9 @@ sheep-consistency
 simple-backpack-fabric
 sleep-warp
 sodium-extra
-sodium
 spark
 squaremap
 stack-refill-fabric
-starlight
 statuseffecttimer
 styled-chat
 styled-nicknames
