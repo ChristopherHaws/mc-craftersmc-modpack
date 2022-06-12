@@ -1,13 +1,13 @@
 name = "Collective (Fabric)"
-filename = "collective-fabric-1.18.x-4.26.jar"
+filename = "collective-fabric-1.18.x-4.27.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3704/29/collective-fabric-1.18.x-4.26.jar"
 hash-format = "sha1"
-hash = "511cc2159c9f4266c55a8390413d2f2ea73a16d3"
+hash = "e8aa2a5ef7f929c46a2ce193a366ddd63e449e41"
+mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 3704029
+file-id = 3821255
 project-id = 526606

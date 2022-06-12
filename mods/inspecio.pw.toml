@@ -1,14 +1,14 @@
 name = "Inspecio"
-filename = "inspecio-1.2.1+1.18.jar"
+filename = "inspecio-1.4.1+1.18.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/a93H3mKU/versions/1.2.1+1.18/inspecio-1.2.1+1.18.jar"
+url = "https://cdn.modrinth.com/data/a93H3mKU/versions/1.4.1+1.18/inspecio-1.4.1%2B1.18.jar"
 hash-format = "sha1"
-hash = "164d916ffa4576ae6e3b2a45b2d089e3dea0d5a8"
+hash = "886b2d77f495b8725dbd8557fcb6437227e354f9"
 mode = ""
 
 [update]
 [update.modrinth]
 mod-id = "a93H3mKU"
-version = "KOy3RLbg"
+version = "6sfabi0J"

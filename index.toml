@@ -12,7 +12,7 @@ metafile = true
 
 [[files]]
 file = "mods/alternate-current.pw.toml"
-hash = "e8de3f1e0caae9eb435a55971a724a39a9c9983fd55aaefaf6f3b1e329106959"
+hash = "5fc0700b127f0bfc9a8344664047ae065ee3d39073a6e633dc2485ac08f3626f"
 metafile = true
 
 [[files]]
@@ -62,7 +62,7 @@ metafile = true
 
 [[files]]
 file = "mods/boat-container.pw.toml"
-hash = "26338c8944a4ba54d08495f7ef68e977effe0ffe144eb49d693be8ae2b4a003e"
+hash = "e62f3a849be176d3081dbcd49e021372ead9b65db868b05d4a78f80c123dbdb9"
 metafile = true
 
 [[files]]
@@ -72,7 +72,7 @@ metafile = true
 
 [[files]]
 file = "mods/bookshelf.pw.toml"
-hash = "73d0fb0a42af741f03c54a70022f5b37aa7c325cf8771cf53ad13ff171174915"
+hash = "a4cad2df36776ad1c8f4ed9c3196e93ab7c315075067e8baa68e907b94eb1e2b"
 metafile = true
 
 [[files]]
@@ -127,7 +127,7 @@ metafile = true
 
 [[files]]
 file = "mods/collective-fabric.pw.toml"
-hash = "efac426e50a166afaee23320b09fe17425eaa94016448dbb4fec2b0a6ef5e2b4"
+hash = "48950625c9e767180664bd130ccdc7ef657626bb933bea64aa57091663d1cbbc"
 metafile = true
 
 [[files]]
@@ -142,7 +142,7 @@ metafile = true
 
 [[files]]
 file = "mods/continuity.pw.toml"
-hash = "4932ddd020065b82614ddb7db60679f4c615b4c780dcac10c6ca43c3ba530c62"
+hash = "5ff4e61ba19baca3337f1ff6aa31a6d906d8c30efe8af15dce3f44beb8297d5f"
 metafile = true
 
 [[files]]
@@ -182,7 +182,7 @@ metafile = true
 
 [[files]]
 file = "mods/enchantment-descriptions.pw.toml"
-hash = "82ef828b58e8bf0d8c03787f7b919a569341ffa30fee8bea935235ca02e7639e"
+hash = "7ec588c4d9ee3d775d9a8c3efc4bf38bb48ec97043653d13be24d1df5e9d72bb"
 metafile = true
 
 [[files]]
@@ -201,13 +201,8 @@ hash = "0e8bc51131e510743ce495452a58a79a6a1d5469e5644230c34abf1465456728"
 metafile = true
 
 [[files]]
-file = "mods/fabric-api.pw.toml"
-hash = "37ae2e14a808e8668d356a2f5f53bad58b7f226e6936693b25dc7d6370f539c7"
-metafile = true
-
-[[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
-hash = "3c3d7e7f9e0ae6a978564276c618a802d0c54c4ca098a7a897252a662ff4723a"
+hash = "cd7812412623eb47d8f612f3b276b4d86db3794496cc2a053fc709b19072afc3"
 metafile = true
 
 [[files]]
@@ -247,7 +242,7 @@ metafile = true
 
 [[files]]
 file = "mods/immersive-portals-mod.pw.toml"
-hash = "17642f365de0bc8e56101367b3979e86fcfa6204f06b76d7871d42f513098b27"
+hash = "47b744089083e220947bba37039899e75ab602cd14c07d7318f4129f7ac23633"
 metafile = true
 
 [[files]]
@@ -257,7 +252,7 @@ metafile = true
 
 [[files]]
 file = "mods/inspecio.pw.toml"
-hash = "8b61bc4a32e08ea0a08070dbe02973880e9c5f857492734012bf67104f7e8cd4"
+hash = "399e2642bdf663c6352d6560f4f48e903750e889e1b78c731d240caf0c6a2e28"
 metafile = true
 
 [[files]]
@@ -362,7 +357,7 @@ metafile = true
 
 [[files]]
 file = "mods/ok-zoomer.pw.toml"
-hash = "7bb446109174fb831ced527d41df13962b1c46677f7001557b7211e54e5d3e34"
+hash = "2c4643d064b78aa317a5a595923723bf15cd4aa947c9278406c0110be4b6d65b"
 metafile = true
 
 [[files]]
@@ -376,13 +371,18 @@ hash = "fb4243c78a8bac1273c3dda72dd7b71dbde8d7a1e1b9e6457103962da68216d9"
 metafile = true
 
 [[files]]
+file = "mods/qsl.pw.toml"
+hash = "65ccae834ef9b5d1fbe1b3b3424eea8507ab2ca542a66f5ad8c7d0de73862a3f"
+metafile = true
+
+[[files]]
 file = "mods/recipe-cache.pw.toml"
 hash = "85c32f965a5d59d4ce80d80f7a3e418e3f7453045342d06bfa22ed8094b311de"
 metafile = true
 
 [[files]]
 file = "mods/reeses-sodium-options.pw.toml"
-hash = "d935b491016306e60b08bc234cc978ac84412d84d1ae5a9b6f8878a09ea25202"
+hash = "d714f6e72ebc849970b4c28384ed68f95624f497ea39d18b92e3e79251cbf659"
 metafile = true
 
 [[files]]
@@ -427,7 +427,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium-extra.pw.toml"
-hash = "9f50922d190120ef3f832a8a3c6bdd123a80b9b16559a58e1b5c5a1520d9b2c4"
+hash = "dd3572a0414b6d647f18d4571a8007f0f93ebd7092d08aefa194861878a42c6f"
 metafile = true
 
 [[files]]
@@ -437,7 +437,7 @@ metafile = true
 
 [[files]]
 file = "mods/spark.pw.toml"
-hash = "f3788c11d6e2da088378f7b2fa47dbf01da87bc13a34bf0dbafac24fbdbc6acb"
+hash = "4a16b4814eec9f3cdf8abaa98bd6c5affb62da67da10c194b749c0895c69c842"
 metafile = true
 
 [[files]]
