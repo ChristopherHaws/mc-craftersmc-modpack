@@ -46,6 +46,11 @@ hash = "f18ab9b7b68a681042a6fc4aa6302bbbcb487dbde7514a566f5ff1df66dcc4cd"
 metafile = true
 
 [[files]]
+file = "mods/brb.pw.toml"
+hash = "4c0f05fa71d6e6c1eeeeac45cb3c977d9a45aac45e07eba62265a97fa9261c19"
+metafile = true
+
+[[files]]
 file = "mods/c2me-fabric.pw.toml"
 hash = "54fd18f38879794b61fd5d5c612b98dc85b4c28777f8a26b3fb639024838689f"
 metafile = true
@@ -201,6 +206,11 @@ hash = "a6c1932e906bd3532adb65f6c4c095e6bdbd4b9dcc2c525e31909f6583cb4a25"
 metafile = true
 
 [[files]]
+file = "mods/malilib.pw.toml"
+hash = "7e01dbcafc44dbd473cfa148b16e064f3e2a0e348ca33b617fbe4c3550dbea11"
+metafile = true
+
+[[files]]
 file = "mods/modern-glass-doors.pw.toml"
 hash = "c9443bd7eb29b6bb2dcff35bd45e7508964429f3ade9a0977bcd2ef470fc2c44"
 metafile = true
@@ -278,6 +288,11 @@ metafile = true
 [[files]]
 file = "mods/tooltipfix.pw.toml"
 hash = "5520c1dc76ba02ac7ab0648ca5facc2e5e65e6f98b5bc1c9b95d6f8be8280238"
+metafile = true
+
+[[files]]
+file = "mods/tweakeroo.pw.toml"
+hash = "5053d9f6e5ca7311afe5f98a98729cf6753404e6509c6521d584afed8141834e"
 metafile = true
 
 [[files]]

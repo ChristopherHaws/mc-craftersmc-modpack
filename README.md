@@ -62,15 +62,17 @@ xaeros-minimap
 xaeros-world-map
 
 ### Added 1.18.2 version
-ok-zoomer
+consistencyplus
+	architectury-fabric
 double-doors-fabric
 invmove
 invmovecompats
 light-overlay
+malilib
+ok-zoomer
 sheep-consistency
 sleep-warp
-consistencyplus
-	architectury-fabric
+tweakeroo
 
 ### Awaiting 1.19 support
 bobby
@@ -99,7 +101,6 @@ ledger
 linked-storage
 litematica-server-paster
 litematica
-malilib
 minihud
 nofog
 observable
@@ -119,5 +120,4 @@ styled-player-list
 tabtps
 tipthescales
 too-fast
-tweakeroo
 worldedit
