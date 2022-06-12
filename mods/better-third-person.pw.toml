@@ -1,0 +1,13 @@
+name = "Better Third Person"
+filename = "BetterThirdPerson-Fabric-1.19-1.8.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "af692e1f8b72cdf72e8f682269b54dea29d6cabb"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3827577
+project-id = 435044
