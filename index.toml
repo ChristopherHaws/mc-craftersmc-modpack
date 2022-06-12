@@ -47,7 +47,7 @@ metafile = true
 
 [[files]]
 file = "mods/better-third-person.pw.toml"
-hash = "6e59c2eb29c400238dab0db6e8e5cfbc9e34b0a34934142e094dcaf6dbcea811"
+hash = "d4b26a439a0f041ac974c4f96363245d06531d078c5485999deafd8c3b15bb2a"
 metafile = true
 
 [[files]]
@@ -112,7 +112,7 @@ metafile = true
 
 [[files]]
 file = "mods/cit-resewn.pw.toml"
-hash = "514fca35d56842bf057e04b93848ef977156678bfc8949dfa2cdb2cdc04a7a0e"
+hash = "e306361a119aa0b97d0b9966dfb750ff09d377281607e8e8a2b194ecbf78293b"
 metafile = true
 
 [[files]]
@@ -372,7 +372,7 @@ metafile = true
 
 [[files]]
 file = "mods/qsl.pw.toml"
-hash = "65ccae834ef9b5d1fbe1b3b3424eea8507ab2ca542a66f5ad8c7d0de73862a3f"
+hash = "5922864eedffaab170867c6ffd295701d59cd4fca37667b2e3da92dfa20311aa"
 metafile = true
 
 [[files]]
