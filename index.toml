@@ -16,6 +16,11 @@ hash = "cf1c8c1b2de20c6d260277ed690acbf02f876d901071eb6a2fb46135fd7455d7"
 metafile = true
 
 [[files]]
+file = "mods/architectury-api.pw.toml"
+hash = "e4cb28a7cfe3df8c9e40b33aff916e24bfd54dd0d884e6e2aed692010743a1c9"
+metafile = true
+
+[[files]]
 file = "mods/armorstandeditor.pw.toml"
 hash = "27edcb408a22e100becb64d7805ef28d3dfdbbeb04e27cfc51a006170fdc110c"
 metafile = true
@@ -78,6 +83,11 @@ metafile = true
 [[files]]
 file = "mods/collective-fabric.pw.toml"
 hash = "7c259f6e2a2d26db5827915ac37dbd45cdcbbda31da19fbfa2bb35e1cf4a1f37"
+metafile = true
+
+[[files]]
+file = "mods/consistencyplus.pw.toml"
+hash = "05cf48c83498cf9b763effc87cc60dd47e3c05eeb58e27bb4dd8d1a2033946c0"
 metafile = true
 
 [[files]]
@@ -202,7 +212,7 @@ metafile = true
 
 [[files]]
 file = "mods/ok-zoomer.pw.toml"
-hash = "7181878021d6a8c8fb7bf3b5f0a6f9530ed70d255914fc4a209d71c67fde1d9f"
+hash = "2b4579e22e3e62a60af95d928d3a9a5683e6aa8025047e28fdc8dc293d6c12c1"
 metafile = true
 
 [[files]]
@@ -268,6 +278,11 @@ metafile = true
 [[files]]
 file = "mods/tooltipfix.pw.toml"
 hash = "5520c1dc76ba02ac7ab0648ca5facc2e5e65e6f98b5bc1c9b95d6f8be8280238"
+metafile = true
+
+[[files]]
+file = "mods/wi-zoom.pw.toml"
+hash = "15da8b26ae55a554536b6bf00ec645308acf30186be2f84bf566144df7159fec"
 metafile = true
 
 [[files]]

@@ -26,7 +26,6 @@ cem
 cit-resewn
 cloth-config
 collective-fabric
-consistencyplus
 continuity
 debugify
 dynamic-fps
@@ -70,18 +69,20 @@ invmovecompats
 light-overlay
 sheep-consistency
 sleep-warp
+consistencyplus
+	architectury-fabric
 
 ### Awaiting 1.19 support
 bobby
 advancementinfo
 animatica
-architectury-fabric
 autoreconnect
 blockmeter
 boat-container
 boxofplaceholders
 brb
 cobbled-paths
+colored-lights
 colorutility
 controlling
 dcch
