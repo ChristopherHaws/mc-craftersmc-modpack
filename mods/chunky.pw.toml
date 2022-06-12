@@ -1,0 +1,14 @@
+name = "Chunky Pregenerator"
+filename = "Chunky-1.2.202.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/fALzjamp/versions/1.2.202/Chunky-1.2.202.jar"
+hash-format = "sha1"
+hash = "36d0f84689e642431b3233b93bb26dfe44f716b4"
+mode = ""
+
+[update]
+[update.modrinth]
+mod-id = "fALzjamp"
+version = "s488XwTT"

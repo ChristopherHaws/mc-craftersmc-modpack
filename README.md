@@ -18,6 +18,9 @@ armorstandeditor
 betterf3
 better-signs-and-frames
 better-third-person
+carpet-extra
+carpet
+chunky
 c2me-fabric
 cem
 cit-resewn
@@ -29,6 +32,8 @@ debugify
 dynamic-fps
 enchantment-descriptions
 entityculling
+entity-view-distance
+entitytexturefeatures
 ferrite-core
 fpsdisplay
 immersive-portals-mod
@@ -57,6 +62,15 @@ qsl
 xaeros-minimap
 xaeros-world-map
 
+### Added 1.18.2 version
+ok-zoomer
+double-doors-fabric
+invmove
+invmovecompats
+light-overlay
+sheep-consistency
+sleep-warp
+
 ### Awaiting 1.19 support
 bobby
 advancementinfo
@@ -67,29 +81,20 @@ blockmeter
 boat-container
 boxofplaceholders
 brb
-carpet-extra
-carpet
-chunky
 cobbled-paths
 colorutility
 controlling
 dcch
-double-doors-fabric
 easiervillagertrading
 ebe
-entity-view-distance
-entitytexturefeatures
 fabric-language-kotlin
 fabric-restart
 fabricproxy-lite
 headindex
 healthcare
 horsestatsvanilla
-invmove
-invmovecompats
 keepheadnames
 ledger
-light-overlay
 linked-storage
 litematica-server-paster
 litematica
@@ -97,16 +102,13 @@ malilib
 minihud
 nofog
 observable
-ok-zoomer
 plasmo-voice
 puzzle
 recipe-cache
 server-chat-history
 server-translations
 servux
-sheep-consistency
 simple-backpack-fabric
-sleep-warp
 spark
 squaremap
 statuseffecttimer

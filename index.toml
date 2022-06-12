@@ -46,8 +46,23 @@ hash = "54fd18f38879794b61fd5d5c612b98dc85b4c28777f8a26b3fb639024838689f"
 metafile = true
 
 [[files]]
+file = "mods/carpet-extra.pw.toml"
+hash = "b8158807deb51762fccfabf3c74ed3610769ed052b318d8f23814d99177646fb"
+metafile = true
+
+[[files]]
+file = "mods/carpet.pw.toml"
+hash = "3eb404aa3e5431eb0d5c38c0996b97db033fed570efe4b0a852fa183c56858ce"
+metafile = true
+
+[[files]]
 file = "mods/cem.pw.toml"
 hash = "02ce09e64c6ed4f5484b1496201ad411e78561812c3008e6c1bdd6dfab63e616"
+metafile = true
+
+[[files]]
+file = "mods/chunky.pw.toml"
+hash = "7889920ea76c1e9078be1ab0dfbe06ab6073db5aa02d035afbd3c016caf5cb9c"
 metafile = true
 
 [[files]]
@@ -76,6 +91,11 @@ hash = "839f1177ea52ae9032076d45505e0ab179e0aeedc1b2fe8a73af3b6e5e5413c4"
 metafile = true
 
 [[files]]
+file = "mods/double-doors-fabric.pw.toml"
+hash = "dc647bcbfaf84278f5a65a0f941cec361151b77eb62def5fd290075809788725"
+metafile = true
+
+[[files]]
 file = "mods/dynamic-fps.pw.toml"
 hash = "09a23d22d146a039769ed8d67f52de31f25648d952aca0ccab8775aa02a4b1f2"
 metafile = true
@@ -86,8 +106,18 @@ hash = "f233aca5d6443b50f3acea3475b41b59fa5ea90dd8397136fb3cd703a3c3879a"
 metafile = true
 
 [[files]]
+file = "mods/entity-view-distance.pw.toml"
+hash = "db9703d8bfc0d3654f544410d7dbb40baa57fa8b90e9ab45ec7e0bbae931719c"
+metafile = true
+
+[[files]]
 file = "mods/entityculling.pw.toml"
 hash = "fb056d772175c202b054fd2fa32ff8c3f98e618249f1078b8f2c6b24997a0f13"
+metafile = true
+
+[[files]]
+file = "mods/entitytexturefeatures.pw.toml"
+hash = "c192639a8fe5ba86a1e76ccbc33cce6989c631d7263952da5d924206d05c8818"
 metafile = true
 
 [[files]]
@@ -121,6 +151,16 @@ hash = "c28699f0cafb2abb6fea71f779a83308ac5e3294f306e3390618aed822eee4b2"
 metafile = true
 
 [[files]]
+file = "mods/invmove.pw.toml"
+hash = "b3ab43684de521b3b35f02e15417387a3f4bfcf7b768f1486db8ebb1fde75106"
+metafile = true
+
+[[files]]
+file = "mods/invmovecompats.pw.toml"
+hash = "2d47ce511bb7c92887af05f2f5113ca9ab286382c7d5f803aeb0f536711ea991"
+metafile = true
+
+[[files]]
 file = "mods/iris.pw.toml"
 hash = "9870d86c56f25115c79ade562b9605c98af9b0b1ea13d3e93c4e8390be52f5b0"
 metafile = true
@@ -141,6 +181,11 @@ hash = "3ffe2388740cc111a332082f56e37bb4b95764035dfe5d6dff81db8a35d4cc4d"
 metafile = true
 
 [[files]]
+file = "mods/light-overlay.pw.toml"
+hash = "e0809800d988cbcd95d99ce9cfec5fba8ef3b9448d3d37635ae6ce31f909004a"
+metafile = true
+
+[[files]]
 file = "mods/lithium.pw.toml"
 hash = "a6c1932e906bd3532adb65f6c4c095e6bdbd4b9dcc2c525e31909f6583cb4a25"
 metafile = true
@@ -153,6 +198,11 @@ metafile = true
 [[files]]
 file = "mods/modmenu.pw.toml"
 hash = "6b661b5a876138e7ae6611d70ad21640b0d51ba444c6bfded04edaf0bdfa2c5c"
+metafile = true
+
+[[files]]
+file = "mods/ok-zoomer.pw.toml"
+hash = "7181878021d6a8c8fb7bf3b5f0a6f9530ed70d255914fc4a209d71c67fde1d9f"
 metafile = true
 
 [[files]]
@@ -173,6 +223,16 @@ metafile = true
 [[files]]
 file = "mods/servercore.pw.toml"
 hash = "835140c34a5c4f2fb56c48589854d38304379bb00978111578aafa48e0607913"
+metafile = true
+
+[[files]]
+file = "mods/sheep-consistency.pw.toml"
+hash = "234478c378064f3a99e3b8ba40046b594ce6b9f67d6d9024ca7c3e1dd1175021"
+metafile = true
+
+[[files]]
+file = "mods/sleep-warp.pw.toml"
+hash = "7753852a05666b8a3875d97d2fc1f560ea2881f30dbec00b3c12e41a4aaf6674"
 metafile = true
 
 [[files]]
