@@ -41,6 +41,11 @@ hash = "455c662cc51dec506f65b8989db19650093be75b704f2c674e8375c32e016a58"
 metafile = true
 
 [[files]]
+file = "mods/bobby.pw.toml"
+hash = "64e0b406a14dc607b88ac95f7f2bbcc8a3e7ca95b13a9f171cc66beef7eeeda7"
+metafile = true
+
+[[files]]
 file = "mods/bookshelf.pw.toml"
 hash = "f18ab9b7b68a681042a6fc4aa6302bbbcb487dbde7514a566f5ff1df66dcc4cd"
 metafile = true
@@ -112,12 +117,12 @@ metafile = true
 
 [[files]]
 file = "mods/dynamic-fps.pw.toml"
-hash = "09a23d22d146a039769ed8d67f52de31f25648d952aca0ccab8775aa02a4b1f2"
+hash = "2db492a7ec0d37888c765c6d3a4a362de8b1539cfcaf97138176cb1e115d5da0"
 metafile = true
 
 [[files]]
 file = "mods/enchantment-descriptions.pw.toml"
-hash = "f233aca5d6443b50f3acea3475b41b59fa5ea90dd8397136fb3cd703a3c3879a"
+hash = "53f5a067795f6938d1f80f63e0ab87ce4f5f14cc22e3c97fb42f732b88997155"
 metafile = true
 
 [[files]]
@@ -277,7 +282,7 @@ metafile = true
 
 [[files]]
 file = "mods/thorium.pw.toml"
-hash = "f21e11b3b16016e16daa2c8e31febecc38234b86fea7c252b9b874e43123a331"
+hash = "bca5f92b10af710cc7e015669350083f5f4b676f22b7356250b065da1bbb33f2"
 metafile = true
 
 [[files]]
