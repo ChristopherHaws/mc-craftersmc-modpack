@@ -107,7 +107,7 @@ metafile = true
 
 [[files]]
 file = "mods/debugify.pw.toml"
-hash = "839f1177ea52ae9032076d45505e0ab179e0aeedc1b2fe8a73af3b6e5e5413c4"
+hash = "1ea5b5fcfc11394ba1f11e8e581c02d638bb35c85f24d98f50bf04daea8955c1"
 metafile = true
 
 [[files]]
@@ -137,7 +137,7 @@ metafile = true
 
 [[files]]
 file = "mods/entitytexturefeatures.pw.toml"
-hash = "c192639a8fe5ba86a1e76ccbc33cce6989c631d7263952da5d924206d05c8818"
+hash = "2e86b16749586ab17908d2051923d92f8315bb84508789b918ef5918204919ce"
 metafile = true
 
 [[files]]
@@ -148,6 +148,21 @@ metafile = true
 [[files]]
 file = "mods/fpsdisplay.pw.toml"
 hash = "63c96b0f2e4d71551c537385f8a65bacb24c65c6dca50a20ae0f314e1b83e474"
+metafile = true
+
+[[files]]
+file = "mods/free-cam.pw.toml"
+hash = "3cc93c666fa74a04cd0309c25dbeb38167b346140d14f070c368c2e5eb4706e6"
+metafile = true
+
+[[files]]
+file = "mods/gui-clock-fabric-version.pw.toml"
+hash = "01f824fbdf6b94c413de5295d7e6879612f0895c9079686ee631aa441ad1c31b"
+metafile = true
+
+[[files]]
+file = "mods/gui-compass-fabric-version.pw.toml"
+hash = "691c811ff409acb0266e69d2f8f675903a7d2c04d06cd748a2c4fe0bd915a3f4"
 metafile = true
 
 [[files]]
@@ -163,6 +178,11 @@ metafile = true
 [[files]]
 file = "mods/inspecio.pw.toml"
 hash = "8bab32d19a8d82d8b61e52d0fefdc20d5587550cc4b0d2f901419abeb5548660"
+metafile = true
+
+[[files]]
+file = "mods/inventory-totem-fabric.pw.toml"
+hash = "b5d32ec2efe1e2a1d7fb62dbda1c39c99df13d5d3a36d92cb590be1305b632f7"
 metafile = true
 
 [[files]]
@@ -202,7 +222,7 @@ metafile = true
 
 [[files]]
 file = "mods/light-overlay.pw.toml"
-hash = "f3ca40922813b908c34056fbeccb706ecba9a0a341d8c3c72709beab95e02ca3"
+hash = "fa038a19816f2268e77a76c6602c7ad724e706920af6f4c80e3ce2222436f906"
 metafile = true
 
 [[files]]
@@ -232,7 +252,7 @@ metafile = true
 
 [[files]]
 file = "mods/qsl.pw.toml"
-hash = "95558d0dec69293a34df91d884674d83b8a155fbd36a51906b0f885941dbb47b"
+hash = "48a867ed5a94ca69d6de9dcb4f2a91d691d98e8f7ebf1956b8ead8144d129c93"
 metafile = true
 
 [[files]]

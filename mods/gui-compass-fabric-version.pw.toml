@@ -1,0 +1,13 @@
+name = "GUI Compass (Fabric Version)"
+filename = "guicompass-fabric_1.19.x-2.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "797fb618135a5d6c2652ba1423326688176a53d0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3821571
+project-id = 541177

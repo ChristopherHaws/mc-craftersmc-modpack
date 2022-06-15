@@ -1,0 +1,13 @@
+name = "Inventory Totem (Fabric)"
+filename = "inventorytotem-fabric_1.19.x-1.7.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6b37901a7fb50228b74d22b7cfc17c26d4f3ee14"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3821552
+project-id = 529954
