@@ -1,18 +1,18 @@
 name = "WI Zoom"
-filename = "WI-Zoom-1.3-MC1.19.jar"
+filename = "WI-Zoom-1.4-MC1.19.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "018f8f15b8bffa7a1ee1a86c4ce53a7644066aed"
+hash = "cb322aec441afdffdbbbe5eb6ba279615951f6e9"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 3820981
+file-id = 3834808
 project-id = 349630
 
 [option]
 optional = true
-default = true
 description = "Ok Zoomer still doesnt work with 1.19 :("
+default = true

@@ -17,7 +17,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "9dcbe69864c1288f19dcd2f2daf1cec79c594e50fa3b85dfb267533e246fa7d1"
+hash = "e7c7db2cbdb3e5d66b2c4942a1f77d8bc4900e44e98995a27989ef2a20452e88"
 metafile = true
 
 [[files]]
@@ -32,7 +32,7 @@ metafile = true
 
 [[files]]
 file = "mods/better-third-person.pw.toml"
-hash = "b8282fd81ec48c33cffc4289e1632ad12767df7c3c874d584a113edfbc19eec9"
+hash = "4abdbfe570394a8cdd1e1874a2f89757f0d137a7c03612611b89c38b6249ea2e"
 metafile = true
 
 [[files]]
@@ -47,7 +47,7 @@ metafile = true
 
 [[files]]
 file = "mods/bookshelf.pw.toml"
-hash = "f18ab9b7b68a681042a6fc4aa6302bbbcb487dbde7514a566f5ff1df66dcc4cd"
+hash = "431fbcbd20380de850a599829dc12db64a5f812d904aa4768aa1aabbf7318874"
 metafile = true
 
 [[files]]
@@ -172,7 +172,7 @@ metafile = true
 
 [[files]]
 file = "mods/indium.pw.toml"
-hash = "8f6d91704fd94ce9194b84290e1ea812709ada7f7632a5a7f850cb3263d7daab"
+hash = "e053654a7b3c9dc4f09eaf3e841b7bac22a11075f847ef22d8fe02ad266a19fb"
 metafile = true
 
 [[files]]
@@ -277,7 +277,7 @@ metafile = true
 
 [[files]]
 file = "mods/sleep-warp.pw.toml"
-hash = "df1d29bed3863375c9f6ca193af26418e74c77f68c5064d1e3fc4ee79df21021"
+hash = "89295eaf42c3b88116265bac15fd64a171e59c27b71f320204f9102b8d62b565"
 metafile = true
 
 [[files]]
@@ -322,7 +322,7 @@ metafile = true
 
 [[files]]
 file = "mods/wi-zoom.pw.toml"
-hash = "8b0fd53e790ae1d7f9016ef0224f4a317c6050944696e76a62551831b3d13a8b"
+hash = "c4b67750272991f240dd667c1af2a2dbb1b9a9b0de32d4eac8458fa14764a243"
 metafile = true
 
 [[files]]
