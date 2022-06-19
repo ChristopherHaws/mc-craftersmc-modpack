@@ -52,7 +52,7 @@ metafile = true
 
 [[files]]
 file = "mods/brb.pw.toml"
-hash = "4c0f05fa71d6e6c1eeeeac45cb3c977d9a45aac45e07eba62265a97fa9261c19"
+hash = "7eeaf1ece57ab1c2f3b36729fcfaef389d3516e7a06545c6d6c4d755f28a28fa"
 metafile = true
 
 [[files]]
@@ -137,7 +137,7 @@ metafile = true
 
 [[files]]
 file = "mods/entitytexturefeatures.pw.toml"
-hash = "2e86b16749586ab17908d2051923d92f8315bb84508789b918ef5918204919ce"
+hash = "1894a2ba36de971ca2cb8658f886f420d5dda4a03481559a1815f712a88b92c9"
 metafile = true
 
 [[files]]
