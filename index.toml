@@ -52,7 +52,7 @@ metafile = true
 
 [[files]]
 file = "mods/brb.pw.toml"
-hash = "7eeaf1ece57ab1c2f3b36729fcfaef389d3516e7a06545c6d6c4d755f28a28fa"
+hash = "64d8e6c213e7bf2566d7ae903758eac82d2a220795bffc1c44af8ea4c4403d91"
 metafile = true
 
 [[files]]
