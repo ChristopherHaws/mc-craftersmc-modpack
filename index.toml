@@ -137,7 +137,7 @@ metafile = true
 
 [[files]]
 file = "mods/entitytexturefeatures.pw.toml"
-hash = "1894a2ba36de971ca2cb8658f886f420d5dda4a03481559a1815f712a88b92c9"
+hash = "1f47872fdf0e954fe7dab437208f9c86f10812284aad39c7d3ae8ca13d906b89"
 metafile = true
 
 [[files]]
@@ -167,7 +167,7 @@ metafile = true
 
 [[files]]
 file = "mods/immersiveportals.pw.toml"
-hash = "2d1f179302bf1abdb688844bab55d855f9dec31fd9230c3c07f18678bef4f086"
+hash = "8e864dbfdf7ae7246dc72f8b0e16c44176d9a82732e8f7bb0f71f20775804af5"
 metafile = true
 
 [[files]]
