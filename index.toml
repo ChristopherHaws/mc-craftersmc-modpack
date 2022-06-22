@@ -7,7 +7,7 @@ metafile = true
 
 [[files]]
 file = "mods/alternate-current.pw.toml"
-hash = "1a90afdbf0165faa959528c8a9aff01096b845d4d6c7056c308bcb5d90fab6af"
+hash = "cba26f438c185ab8cb33f549e78e8a46baf40294c14e63509bcb87035308a1d7"
 metafile = true
 
 [[files]]
@@ -107,7 +107,7 @@ metafile = true
 
 [[files]]
 file = "mods/debugify.pw.toml"
-hash = "1ea5b5fcfc11394ba1f11e8e581c02d638bb35c85f24d98f50bf04daea8955c1"
+hash = "89ba21e3753115ddf5670fd1063dac4f620b8ad8748a7702404a62081730f373"
 metafile = true
 
 [[files]]
