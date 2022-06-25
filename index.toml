@@ -17,7 +17,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "e7c7db2cbdb3e5d66b2c4942a1f77d8bc4900e44e98995a27989ef2a20452e88"
+hash = "fa9ffebe9d10c3a839ad0ae3d110d0bfd2c7c4a1fe7356d751253472432f5cbb"
 metafile = true
 
 [[files]]
@@ -192,7 +192,7 @@ metafile = true
 
 [[files]]
 file = "mods/invmove.pw.toml"
-hash = "d52df1626d91f2b4155260364ae7cf84e4e0779a23d25beddeb2f138178c4575"
+hash = "2f605d47ba916647555559b56ea8c98504da7d69ef95c0c8af307a2cbdb90cc3"
 metafile = true
 
 [[files]]
