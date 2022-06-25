@@ -11,3 +11,8 @@ mode = "metadata:curseforge"
 [update.curseforge]
 file-id = 3822543
 project-id = 466750
+
+[option]
+optional = true
+default = false
+description = "Have to manually install. https://www.curseforge.com/minecraft/mc-mods/healthcare"
