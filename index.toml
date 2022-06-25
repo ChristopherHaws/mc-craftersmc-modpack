@@ -111,11 +111,6 @@ hash = "7c259f6e2a2d26db5827915ac37dbd45cdcbbda31da19fbfa2bb35e1cf4a1f37"
 metafile = true
 
 [[files]]
-file = "mods/colorutility.pw.toml"
-hash = "152c6a12e9f4b05612450f2254fd12d9af250e9f00e4ccbbcf6307b71468f00a"
-metafile = true
-
-[[files]]
 file = "mods/consistencyplus.pw.toml"
 hash = "386c915338a5138b3ed68412ca9e087067ca6cc76ff61bce99c1716c7a77ecf8"
 metafile = true
