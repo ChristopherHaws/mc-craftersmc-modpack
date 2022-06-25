@@ -171,6 +171,11 @@ hash = "1f47872fdf0e954fe7dab437208f9c86f10812284aad39c7d3ae8ca13d906b89"
 metafile = true
 
 [[files]]
+file = "mods/fabric-seasons.pw.toml"
+hash = "1ec9dfa06e33af503dbd8ded0573daf20f866c286b54dab0813d9905d908fe3d"
+metafile = true
+
+[[files]]
 file = "mods/ferrite-core.pw.toml"
 hash = "87f056062378f276e55d07a577ff6c734bb9af9ea2b5591c424f7c381f82a552"
 metafile = true
