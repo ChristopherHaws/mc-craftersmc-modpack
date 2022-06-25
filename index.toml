@@ -112,7 +112,7 @@ metafile = true
 
 [[files]]
 file = "mods/colorutility.pw.toml"
-hash = "e0893fd201f897812f2457d24ab0724a80c3d910b7bcf3787f4d4dbbc2c519a2"
+hash = "152c6a12e9f4b05612450f2254fd12d9af250e9f00e4ccbbcf6307b71468f00a"
 metafile = true
 
 [[files]]
