@@ -12,12 +12,17 @@
 ## Mods
 ### Working
 accurate-block-placement
+advancementinfo
 alternate-current
+animatica
 appleskin
 armorstandeditor
 betterf3
 better-signs-and-frames
 better-third-person
+blockmeter
+bobby
+brb
 carpet-extra
 carpet
 chunky
@@ -28,13 +33,20 @@ cloth-config
 collective-fabric
 continuity
 debugify
+dont-clear-chat-history
 dynamic-fps
+easiervillagertrading
+ebe
 enchantment-descriptions
 entityculling
 entity-view-distance
 entitytexturefeatures
 ferrite-core
 fpsdisplay
+headindex
+keepheadnames
+healthcare
+horsestatsvanilla
 immersive-portals-mod
 indium
 inspecio
@@ -46,22 +58,28 @@ lazydfu
 lithium
 modern-glass-doors
 modmenu
+puzzle
+recipe-cache
 reeses-sodium-options
 screenshot-to-clipboard
 servercore
 sodium
 sodium-extra
+spark
 stack-refill-fabric
 starlight
+statuseffecttimer
 thorium
 tooltipfix
 tool-stats
 	bookshelf
 qsl
+worldedit
 xaeros-minimap
 xaeros-world-map
 
 ### Added 1.18.2 version
+colorutility
 consistencyplus
 	architectury-fabric
 double-doors-fabric
@@ -75,28 +93,14 @@ sleep-warp
 tweakeroo
 
 ### Awaiting 1.19 support
-bobby
-advancementinfo
-animatica
 autoreconnect
-blockmeter
-boat-container
 boxofplaceholders
-brb
 cobbled-paths
 colored-lights
-colorutility
 controlling
-dcch
-easiervillagertrading
-ebe
 fabric-language-kotlin
 fabric-restart
 fabricproxy-lite
-headindex
-healthcare
-horsestatsvanilla
-keepheadnames
 ledger
 linked-storage
 litematica-server-paster
@@ -105,19 +109,14 @@ minihud
 nofog
 observable
 plasmo-voice
-puzzle
-recipe-cache
 server-chat-history
 server-translations
 servux
 simple-backpack-fabric
-spark
 squaremap
-statuseffecttimer
 styled-chat
 styled-nicknames
 styled-player-list
 tabtps
 tipthescales
 too-fast
-worldedit

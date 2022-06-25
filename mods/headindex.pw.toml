@@ -1,0 +1,13 @@
+name = "Head Index"
+filename = "headindex-1.0.7.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "bba748cfc89a15bf0a43c7b5bbeff68965f4ddca"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3832383
+project-id = 483111

@@ -1,0 +1,13 @@
+name = "HealthCare"
+filename = "healthcare-1.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0b51fb55ec741758a1aa91daecbe37f08a343b5b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3822543
+project-id = 466750

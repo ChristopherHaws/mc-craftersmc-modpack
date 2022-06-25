@@ -1,0 +1,18 @@
+name = "ColorUtility"
+filename = "ColorUtility-[1.16.5-1.17]-fabric-2.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e472c2f30069d07dfc8478149f0f5db5ff3d552c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3370190
+project-id = 259957
+
+[option]
+optional = true
+default = false
+description = "Doesn't work with 1.19 yet"

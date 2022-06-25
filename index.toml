@@ -6,8 +6,18 @@ hash = "ad1ab18d70d76f894aa813e37074356901db392885c76e5118fcb26fb17ae6dd"
 metafile = true
 
 [[files]]
+file = "mods/advancementinfo.pw.toml"
+hash = "1adfed1eb9468a7aee481cac91008bdb8e0af1048c54900a5a408dc40c446500"
+metafile = true
+
+[[files]]
 file = "mods/alternate-current.pw.toml"
 hash = "cba26f438c185ab8cb33f549e78e8a46baf40294c14e63509bcb87035308a1d7"
+metafile = true
+
+[[files]]
+file = "mods/animatica.pw.toml"
+hash = "6e37a53e0cc21c40bc27956d667189c278cefe61dab2a798fd4ba39bbf741687"
 metafile = true
 
 [[files]]
@@ -41,8 +51,13 @@ hash = "455c662cc51dec506f65b8989db19650093be75b704f2c674e8375c32e016a58"
 metafile = true
 
 [[files]]
+file = "mods/blockmeter.pw.toml"
+hash = "bdb6c82bb8f455491a6a26d27735540908587c66ba4d782a6288c4e6e59130f6"
+metafile = true
+
+[[files]]
 file = "mods/bobby.pw.toml"
-hash = "64e0b406a14dc607b88ac95f7f2bbcc8a3e7ca95b13a9f171cc66beef7eeeda7"
+hash = "3dbdc65d048bbeb372d5e714c5026a832da38322d39a634e2944d17dc0195b9d"
 metafile = true
 
 [[files]]
@@ -96,6 +111,11 @@ hash = "7c259f6e2a2d26db5827915ac37dbd45cdcbbda31da19fbfa2bb35e1cf4a1f37"
 metafile = true
 
 [[files]]
+file = "mods/colorutility.pw.toml"
+hash = "e0893fd201f897812f2457d24ab0724a80c3d910b7bcf3787f4d4dbbc2c519a2"
+metafile = true
+
+[[files]]
 file = "mods/consistencyplus.pw.toml"
 hash = "386c915338a5138b3ed68412ca9e087067ca6cc76ff61bce99c1716c7a77ecf8"
 metafile = true
@@ -111,6 +131,11 @@ hash = "89ba21e3753115ddf5670fd1063dac4f620b8ad8748a7702404a62081730f373"
 metafile = true
 
 [[files]]
+file = "mods/dont-clear-chat-history.pw.toml"
+hash = "9e8a66d43611d16b5809628f192db4c81ec55c2a6dead5d4cd85923f0cbb2d6c"
+metafile = true
+
+[[files]]
 file = "mods/double-doors-fabric.pw.toml"
 hash = "16cda3955bad0bef18d139196d3aa13fd61709b15d3b39986b7c9a04e330021c"
 metafile = true
@@ -118,6 +143,16 @@ metafile = true
 [[files]]
 file = "mods/dynamic-fps.pw.toml"
 hash = "2db492a7ec0d37888c765c6d3a4a362de8b1539cfcaf97138176cb1e115d5da0"
+metafile = true
+
+[[files]]
+file = "mods/easiervillagertrading.pw.toml"
+hash = "c81e17f183aebdf15db7bb04a796368958af10294e784d65394e15b4eed66da2"
+metafile = true
+
+[[files]]
+file = "mods/ebe.pw.toml"
+hash = "073bff49ec9e664b669794177329cfbeef3c3d91d5c0660cd01144a640e0338b"
 metafile = true
 
 [[files]]
@@ -166,6 +201,21 @@ hash = "691c811ff409acb0266e69d2f8f675903a7d2c04d06cd748a2c4fe0bd915a3f4"
 metafile = true
 
 [[files]]
+file = "mods/headindex.pw.toml"
+hash = "9d7fb94c8e907973ba43b19c0ea1469a22dd4716d860362917af55bddde43ddc"
+metafile = true
+
+[[files]]
+file = "mods/healthcare.pw.toml"
+hash = "7f9bf0699a6401ff03b7632d1c5f39b84e7a18614cffd5b80087ab9b81880b32"
+metafile = true
+
+[[files]]
+file = "mods/horsestatsvanilla.pw.toml"
+hash = "1b663b4af57bdb828ba482bf5897a5e9da20af253f29185878d0c600abe3a840"
+metafile = true
+
+[[files]]
 file = "mods/immersiveportals.pw.toml"
 hash = "8e864dbfdf7ae7246dc72f8b0e16c44176d9a82732e8f7bb0f71f20775804af5"
 metafile = true
@@ -203,6 +253,11 @@ metafile = true
 [[files]]
 file = "mods/iris.pw.toml"
 hash = "9870d86c56f25115c79ade562b9605c98af9b0b1ea13d3e93c4e8390be52f5b0"
+metafile = true
+
+[[files]]
+file = "mods/keepheadnames.pw.toml"
+hash = "ed7cc5f2f066d2092de9353fcc4a4d20d609e5f16ac73ef9b83859c1aa98879e"
 metafile = true
 
 [[files]]
@@ -251,8 +306,18 @@ hash = "5909ac65d042d60fc94d06eefa5aab7f1942deaf47bce1fa1740ae90486ac91e"
 metafile = true
 
 [[files]]
+file = "mods/puzzle.pw.toml"
+hash = "4fb7562698801de5f0de106fccc93e307aae5562670df27e2d3000b303d4aaad"
+metafile = true
+
+[[files]]
 file = "mods/qsl.pw.toml"
 hash = "245e60722f366fbe33425d3b428ea512d7a67021abdb0c731f47cd2716ee19fc"
+metafile = true
+
+[[files]]
+file = "mods/recipe-cache.pw.toml"
+hash = "9a3ae5c72bc925fb64391a62bef32f2d585d40a52481dfa132e838e0cffadcd2"
 metafile = true
 
 [[files]]
@@ -291,6 +356,11 @@ hash = "c77f162c7072a9bb922faf3bd5f223ce4f57973d531cc32484a7dcf72d2e1f51"
 metafile = true
 
 [[files]]
+file = "mods/spark.pw.toml"
+hash = "1651ee5e299d8883a2aaa8956cef6818d8f8686410d83f1d153a944deb650bf2"
+metafile = true
+
+[[files]]
 file = "mods/stack-refill-fabric.pw.toml"
 hash = "e401c8b35f06c2c0c5f513bc4ce6bd952f7981a4c876ac8c087d5e4398c27e0c"
 metafile = true
@@ -298,6 +368,11 @@ metafile = true
 [[files]]
 file = "mods/starlight.pw.toml"
 hash = "fc45b583ec8ca686b666c2cdaaab32c2dc013ce491bfbffa4b5fc20b4c758a70"
+metafile = true
+
+[[files]]
+file = "mods/statuseffecttimer.pw.toml"
+hash = "30a9a5edabf15adfba9e3a1e4f3a297729a7a03caeba82fbc34ed54beeb01a4d"
 metafile = true
 
 [[files]]
@@ -323,6 +398,11 @@ metafile = true
 [[files]]
 file = "mods/wi-zoom.pw.toml"
 hash = "c4b67750272991f240dd667c1af2a2dbb1b9a9b0de32d4eac8458fa14764a243"
+metafile = true
+
+[[files]]
+file = "mods/worldedit.pw.toml"
+hash = "672aca2c7eb7c36fc709ae2812e3d67157937744edf7368e8b694ad06b22ab61"
 metafile = true
 
 [[files]]
