@@ -301,6 +301,11 @@ hash = "7e01dbcafc44dbd473cfa148b16e064f3e2a0e348ca33b617fbe4c3550dbea11"
 metafile = true
 
 [[files]]
+file = "mods/missing-wilds.pw.toml"
+hash = "3edfb15987fcbe52b81d976f76dc351d1c9a202b37b24f332e1b59cfdb1fc0cd"
+metafile = true
+
+[[files]]
 file = "mods/mixintrace.pw.toml"
 hash = "c564c408fa886b0eb077f4a0e9e326339da02dafbb1f3127e82613787af83bae"
 metafile = true
