@@ -1,19 +1,17 @@
 name = "Ok Zoomer"
-filename = "ok_zoomer-5.0.0-beta.7+1.18.2.jar"
+filename = "ok_zoomer-5.0.0-beta.8+1.19.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/aXf2OSFU/versions/5.0.0-beta.7+1.18.2/ok_zoomer-5.0.0-beta.7%2B1.18.2.jar"
+url = "https://cdn.modrinth.com/data/aXf2OSFU/versions/5.0.0-beta.8+1.19/ok_zoomer-5.0.0-beta.8%2B1.19.jar"
 hash-format = "sha1"
-hash = "3607c558bfe465c4bdde3d1599a2748e315b41f8"
+hash = "b1f1ba1da763d2345ad37c882f0965e9607d31b7"
 mode = ""
 
 [update]
 [update.modrinth]
 mod-id = "aXf2OSFU"
-version = "nu6gjAtJ"
+version = "E4nO7jjo"
 
 [option]
 optional = true
-default = false
-description = "Doesn't work with 1.19 yet. Use WI Zoom in the meantime."

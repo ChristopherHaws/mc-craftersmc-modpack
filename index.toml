@@ -322,7 +322,7 @@ metafile = true
 
 [[files]]
 file = "mods/ok-zoomer.pw.toml"
-hash = "5909ac65d042d60fc94d06eefa5aab7f1942deaf47bce1fa1740ae90486ac91e"
+hash = "845c0966ad1f86cc541dd2b61f2dde45c5302467e4778d8825d7058efeb4cf07"
 metafile = true
 
 [[files]]
