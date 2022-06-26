@@ -167,7 +167,7 @@ metafile = true
 
 [[files]]
 file = "mods/enchantment-descriptions.pw.toml"
-hash = "53f5a067795f6938d1f80f63e0ab87ce4f5f14cc22e3c97fb42f732b88997155"
+hash = "71842c73f6007effdce07d0b51cca7b615b95f4543fa732fe326861fd862a52a"
 metafile = true
 
 [[files]]
@@ -442,10 +442,10 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap.pw.toml"
-hash = "0807ea6c2d331838aee23ec8f6b41fe16fdab2869326306a637986962343b77f"
+hash = "e539d2aceef8a33be44a0d39f7f565f6268f4a5b77dad7f00f121cb800e448fb"
 metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
-hash = "4ff08115d4dec034c1fa2a5b933daf38cf4dfc31282b8e7ffa04db89c1cd307b"
+hash = "19b0fc5cdbba29719a944ec3e957126316d032a0012bb57f04eb6929527ce629"
 metafile = true
