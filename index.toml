@@ -92,7 +92,7 @@ metafile = true
 
 [[files]]
 file = "mods/chunky.pw.toml"
-hash = "7889920ea76c1e9078be1ab0dfbe06ab6073db5aa02d035afbd3c016caf5cb9c"
+hash = "4f99e376bed682544ec74a697244090353f7954edaa4c2cbe6606367e8de63ea"
 metafile = true
 
 [[files]]
@@ -312,7 +312,7 @@ metafile = true
 
 [[files]]
 file = "mods/qsl.pw.toml"
-hash = "245e60722f366fbe33425d3b428ea512d7a67021abdb0c731f47cd2716ee19fc"
+hash = "b15b50f027b860fb7eac9fe9997822ed192f67e7aeb0cf46ff5aa3ec5c14bac8"
 metafile = true
 
 [[files]]
