@@ -3,11 +3,12 @@ filename = "headindex-1.0.7.jar"
 side = "both"
 
 [download]
+url = "https://cdn.modrinth.com/data/mEPmyd7J/versions/1.0.7/headindex-1.0.7.jar"
 hash-format = "sha1"
 hash = "bba748cfc89a15bf0a43c7b5bbeff68965f4ddca"
-mode = "metadata:curseforge"
+mode = ""
 
 [update]
-[update.curseforge]
-file-id = 3832383
-project-id = 483111
+[update.modrinth]
+mod-id = "mEPmyd7J"
+version = "iqBVrVIW"

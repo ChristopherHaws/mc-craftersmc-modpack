@@ -81,8 +81,18 @@ hash = "b8158807deb51762fccfabf3c74ed3610769ed052b318d8f23814d99177646fb"
 metafile = true
 
 [[files]]
+file = "mods/carpet-fixes.pw.toml"
+hash = "eacbe4499eecdff59893effb60ba5912931057af6ac4d76c05f01b40eea42ab1"
+metafile = true
+
+[[files]]
 file = "mods/carpet.pw.toml"
 hash = "3eb404aa3e5431eb0d5c38c0996b97db033fed570efe4b0a852fa183c56858ce"
+metafile = true
+
+[[files]]
+file = "mods/cauldron-dyeing.pw.toml"
+hash = "272c74e6c2b4541c30a1c9636061f122321a0ed574e7e7cae7a9daa676c088e2"
 metafile = true
 
 [[files]]
@@ -118,6 +128,11 @@ metafile = true
 [[files]]
 file = "mods/continuity.pw.toml"
 hash = "96a3463c6b05867e7ed2cf98bd7faed2b8d190913d9d8f9b551bbae6eab8efe4"
+metafile = true
+
+[[files]]
+file = "mods/crops-love-rain.pw.toml"
+hash = "b76477889caeae2112915bfb32a0e8b369900f03780b32babc4f8c030789e8e7"
 metafile = true
 
 [[files]]
@@ -171,11 +186,6 @@ hash = "1f47872fdf0e954fe7dab437208f9c86f10812284aad39c7d3ae8ca13d906b89"
 metafile = true
 
 [[files]]
-file = "mods/fabric-seasons.pw.toml"
-hash = "1ec9dfa06e33af503dbd8ded0573daf20f866c286b54dab0813d9905d908fe3d"
-metafile = true
-
-[[files]]
 file = "mods/ferrite-core.pw.toml"
 hash = "87f056062378f276e55d07a577ff6c734bb9af9ea2b5591c424f7c381f82a552"
 metafile = true
@@ -202,7 +212,7 @@ metafile = true
 
 [[files]]
 file = "mods/headindex.pw.toml"
-hash = "9d7fb94c8e907973ba43b19c0ea1469a22dd4716d860362917af55bddde43ddc"
+hash = "c03f6603ae069a0b4e0a07a1b7746283233ed266d04d4336de3754f73fb0baf2"
 metafile = true
 
 [[files]]
@@ -291,6 +301,11 @@ hash = "7e01dbcafc44dbd473cfa148b16e064f3e2a0e348ca33b617fbe4c3550dbea11"
 metafile = true
 
 [[files]]
+file = "mods/mixintrace.pw.toml"
+hash = "c564c408fa886b0eb077f4a0e9e326339da02dafbb1f3127e82613787af83bae"
+metafile = true
+
+[[files]]
 file = "mods/modern-glass-doors.pw.toml"
 hash = "c9443bd7eb29b6bb2dcff35bd45e7508964429f3ade9a0977bcd2ef470fc2c44"
 metafile = true
@@ -326,6 +341,11 @@ hash = "f8784a0fc67a28151c4b19fd6b8aab83cf76843aed4c49be5df6441a3e3c4960"
 metafile = true
 
 [[files]]
+file = "mods/rpgstats.pw.toml"
+hash = "00feaea3e5b54f02b00215da4b3c42f44ab27525566530c613a4cd97e45ae458"
+metafile = true
+
+[[files]]
 file = "mods/screenshot-to-clipboard.pw.toml"
 hash = "9147414569dfdb12dab792512c7d810258ae563edd6fad91ae5f622d1792cd89"
 metafile = true
@@ -346,6 +366,11 @@ hash = "89295eaf42c3b88116265bac15fd64a171e59c27b71f320204f9102b8d62b565"
 metafile = true
 
 [[files]]
+file = "mods/snowyleavesplus.pw.toml"
+hash = "b4549e1e7a0d77e207bfb634992d1813d4300ff66660c6dff89e14440f9ac8f5"
+metafile = true
+
+[[files]]
 file = "mods/sodium-extra.pw.toml"
 hash = "3271fc1c210bc8c2dcd1cd58d80c683f4f7e6a3077c079920054b4483dcbcb33"
 metafile = true
@@ -353,6 +378,11 @@ metafile = true
 [[files]]
 file = "mods/sodium.pw.toml"
 hash = "c77f162c7072a9bb922faf3bd5f223ce4f57973d531cc32484a7dcf72d2e1f51"
+metafile = true
+
+[[files]]
+file = "mods/sort.pw.toml"
+hash = "344f742de0eab5096b2c969e884dd5efac4c4f9fbab90a229cecd6ef8bf5cc92"
 metafile = true
 
 [[files]]

@@ -1,0 +1,14 @@
+name = "RPGStats"
+filename = "rpgstats-4.3.15+1.19.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/8RtckdKf/versions/4.3.15/rpgstats-4.3.15%2B1.19.jar"
+hash-format = "sha1"
+hash = "7d5db1ea1dbd5361ff29e12d8a664e19f4dd37a9"
+mode = ""
+
+[update]
+[update.modrinth]
+mod-id = "8RtckdKf"
+version = "55y0Lp5w"
