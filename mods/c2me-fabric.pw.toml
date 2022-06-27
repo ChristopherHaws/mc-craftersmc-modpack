@@ -12,3 +12,7 @@ mode = ""
 [update.modrinth]
 mod-id = "VSNURh3q"
 version = "yU5A8Qx5"
+
+[option]
+optional = true
+description = "Doesn't work with Immersive Portals"
