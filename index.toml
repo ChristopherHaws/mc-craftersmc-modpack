@@ -56,6 +56,11 @@ hash = "bdb6c82bb8f455491a6a26d27735540908587c66ba4d782a6288c4e6e59130f6"
 metafile = true
 
 [[files]]
+file = "mods/boat-item-view.pw.toml"
+hash = "a27e87c19a373ad08cb747f01bccaf99da3f34634986e6bf45da5c72fc1f5de6"
+metafile = true
+
+[[files]]
 file = "mods/bobby.pw.toml"
 hash = "3dbdc65d048bbeb372d5e714c5026a832da38322d39a634e2944d17dc0195b9d"
 metafile = true
