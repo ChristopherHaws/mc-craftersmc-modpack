@@ -356,6 +356,16 @@ hash = "00feaea3e5b54f02b00215da4b3c42f44ab27525566530c613a4cd97e45ae458"
 metafile = true
 
 [[files]]
+file = "mods/rusted-iron.pw.toml"
+hash = "04f6155457fda795476a37d6b18e8cb9dd11e7f784094b65524bc64bb034752f"
+metafile = true
+
+[[files]]
+file = "mods/scout.pw.toml"
+hash = "c7d3298f267e69edbfcc5957b0a0ce5787414f832cfdbfa13a2e7e841583d0e9"
+metafile = true
+
+[[files]]
 file = "mods/screenshot-to-clipboard.pw.toml"
 hash = "9147414569dfdb12dab792512c7d810258ae563edd6fad91ae5f622d1792cd89"
 metafile = true
@@ -428,6 +438,11 @@ metafile = true
 [[files]]
 file = "mods/tooltipfix.pw.toml"
 hash = "5520c1dc76ba02ac7ab0648ca5facc2e5e65e6f98b5bc1c9b95d6f8be8280238"
+metafile = true
+
+[[files]]
+file = "mods/trinkets.pw.toml"
+hash = "5b02ff4b479157c4fcce8582b29c193583d96606296fadcfe0e67c65c5780bf5"
 metafile = true
 
 [[files]]
