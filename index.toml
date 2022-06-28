@@ -197,7 +197,7 @@ metafile = true
 
 [[files]]
 file = "mods/forgetmechunk.pw.toml"
-hash = "f5fe536e5ed5c4f67a8ecf1d98591e0913b87bcbfe6b08d9ea1adce732359204"
+hash = "93f999fdfe33eba4fed2df3d857ed64b0d9e7968a5ff24e18add31f94f207273"
 metafile = true
 
 [[files]]
@@ -237,7 +237,7 @@ metafile = true
 
 [[files]]
 file = "mods/immersiveportals.pw.toml"
-hash = "8e864dbfdf7ae7246dc72f8b0e16c44176d9a82732e8f7bb0f71f20775804af5"
+hash = "b2f902b5d3594a15ab18bf1988c49cb6a41d893ee4838590fb4a18ebad549afb"
 metafile = true
 
 [[files]]

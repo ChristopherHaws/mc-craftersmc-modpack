@@ -12,3 +12,8 @@ mode = ""
 [update.modrinth]
 mod-id = "zJpHMkdD"
 version = "JnGTIV4h"
+
+[option]
+optional = true
+default = false
+description = "Doesn't seem to work right now :("

@@ -12,3 +12,8 @@ mode = ""
 [update.modrinth]
 mod-id = "vRXn3MrA"
 version = "yX5SANL7"
+
+[option]
+optional = true
+default = false
+description = "Supposed to reduce chunk lag but seems to increase it..."
