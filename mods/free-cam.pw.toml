@@ -1,13 +1,13 @@
 name = "Freecam (Fabric)"
-filename = "freecam-1.0.8+1.19.jar"
+filename = "freecam-1.0.9+1.19.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "65d7152c481f686e311a24cec4539acd70614ef6"
+hash = "e3182981c75b3c0626d7e035399a1c1c23107ddf"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 3826911
+file-id = 3849886
 project-id = 557076
