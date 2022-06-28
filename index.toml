@@ -196,6 +196,11 @@ hash = "87f056062378f276e55d07a577ff6c734bb9af9ea2b5591c424f7c381f82a552"
 metafile = true
 
 [[files]]
+file = "mods/forgetmechunk.pw.toml"
+hash = "f5fe536e5ed5c4f67a8ecf1d98591e0913b87bcbfe6b08d9ea1adce732359204"
+metafile = true
+
+[[files]]
 file = "mods/fpsdisplay.pw.toml"
 hash = "63c96b0f2e4d71551c537385f8a65bacb24c65c6dca50a20ae0f314e1b83e474"
 metafile = true
@@ -303,6 +308,11 @@ metafile = true
 [[files]]
 file = "mods/malilib.pw.toml"
 hash = "7e01dbcafc44dbd473cfa148b16e064f3e2a0e348ca33b617fbe4c3550dbea11"
+metafile = true
+
+[[files]]
+file = "mods/memoryleakfix.pw.toml"
+hash = "67f02aef7f2cb95bd94ba2598b7d3eae032205c2cef2df6cc3cc98fbdeb00998"
 metafile = true
 
 [[files]]
