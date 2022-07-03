@@ -13,7 +13,7 @@
   "overlay": {
     "position": {
       "align": {
-        "x": "RIGHT",
+        "x": "CENTER",
         "y": "TOP"
       },
       "anchor": {

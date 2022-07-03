@@ -290,7 +290,7 @@ hash = "65242c90d0248278a7d2293b4ac8e531ba9d9981255a4c81f938b077b58c79f2"
 
 [[files]]
 file = "config/invmove/unrecognized.json"
-hash = "79eeca2b086f28ef6acd794b90e3847d3bcb86cbdf9af3f70840f5274b7d4dd6"
+hash = "e25288a8ee25dac6a12585891db9c97d68ffb7a6cc4f4638f7be802c48d519d3"
 
 [[files]]
 file = "config/invmove/unrecognized.json.bakup"
@@ -762,7 +762,7 @@ hash = "640800920130d084dec5a3a7f52c10e18d72ed7faca522b5bcb6bb46d0dcae9b"
 
 [[files]]
 file = "config/waila/waila.json"
-hash = "e05d55ea311745c360c1a35720cafec9a9d5566c69db35088e1526c03e2f394e"
+hash = "201bb5a6c229c363eb76ac7ea2daaac3cfb9fb834afc9e5c6b5d68365cba6acf"
 
 [[files]]
 file = "config/waila/waila_plugins.json"
@@ -778,7 +778,7 @@ hash = "757975109025cc70a5397bd757f7c4c105c350ae42f5b5d7f24e9fd5cba9dc01"
 
 [[files]]
 file = "config/xaerominimap_entities.json"
-hash = "1d4d21d4c4557ddcfefb56cd2d85920663faf61d6c57f63fbb3559200378a7cf"
+hash = "2e8e0e1fccd3fa8ea28d5163c20fc14efbc84b051665b211ad29edaf66b3bfa0"
 
 [[files]]
 file = "config/xaeropatreon.txt"

@@ -20,7 +20,9 @@
     "xaero.common.gui.GuiWaypoints": false,
     "su.plo.voice.client.gui.VoiceNotAvailableScreen": false,
     "net.minecraft.class_407": false,
-    "fi.dy.masa.litematica.gui.GuiConfigs": false
+    "fi.dy.masa.litematica.gui.GuiConfigs": false,
+    "mcp.mobius.waila.gui.screen.HomeScreen": false,
+    "mcp.mobius.waila.gui.screen.WailaConfigScreen": false
   },
   "hideBackground": {
     "com.kwpugh.simple_backpack.backpack.BackpackClientScreen": true,
