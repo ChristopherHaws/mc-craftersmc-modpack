@@ -811,12 +811,17 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "2b4bb57b112724cf3f7bff8d43fe262f168bee61d550d086f2383e65e7d83738"
+hash = "b41b8ce7b580d6bb90135c7d35f4c56328b8c5d92ef5c1e472969f2296dc4e5d"
 metafile = true
 
 [[files]]
 file = "mods/armorstandeditor.pw.toml"
 hash = "27edcb408a22e100becb64d7805ef28d3dfdbbeb04e27cfc51a006170fdc110c"
+metafile = true
+
+[[files]]
+file = "mods/badpackets.pw.toml"
+hash = "e6f7d05a47c717cbdef4b105f44d71b2f3202154e2517d6641d6661d01cad07c"
 metafile = true
 
 [[files]]

@@ -12,8 +12,3 @@ mode = ""
 [update.modrinth]
 mod-id = "lhGA9TYQ"
 version = "Hf0Bau1j"
-
-[option]
-optional = true
-default = false
-description = "Not needed until Consistency+ is updated to 1.19"
