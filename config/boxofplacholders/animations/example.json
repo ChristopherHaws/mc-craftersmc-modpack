@@ -1,0 +1,8 @@
+{
+  "id": "example",
+  "frames": [
+    "<red>Hello</red>",
+    "<yellow>%player:displayname%</yellow>"
+  ],
+  "updateRate": 2
+}

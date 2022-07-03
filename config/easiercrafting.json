@@ -1,0 +1,76 @@
+{
+  "easiercrafting.config.allowinternalbutton": {
+    "key": "easiercrafting.config.allowinternalbutton",
+    "toolTip": "easiercrafting.config.tt.allowinternalbutton",
+    "value": true,
+    "defaultValue": true
+  },
+  "easiercrafting.config.hidewithrei": {
+    "key": "easiercrafting.config.hidewithrei",
+    "toolTip": "easiercrafting.config.tt.hidewithrei",
+    "value": true,
+    "defaultValue": true
+  },
+  "easiercrafting.config.hidebrewingstandbutton": {
+    "key": "easiercrafting.config.hidebrewingstandbutton",
+    "toolTip": "easiercrafting.config.tt.hidebrewingstandbutton",
+    "value": false,
+    "defaultValue": false
+  },
+  "easiercrafting.config.guiright": {
+    "key": "easiercrafting.config.guiright",
+    "toolTip": "easiercrafting.config.tt.guiright",
+    "value": true,
+    "defaultValue": true
+  },
+  "easiercrafting.config.categorize": {
+    "key": "easiercrafting.config.categorize",
+    "toolTip": "easiercrafting.config.tt.categorize",
+    "value": true,
+    "defaultValue": true
+  },
+  "easiercrafting.config.fadeout": {
+    "key": "easiercrafting.config.fadeout",
+    "toolTip": "easiercrafting.config.tt.fadeout",
+    "value": 500,
+    "defaultValue": 500,
+    "minValue": 0,
+    "maxValue": 2000
+  },
+  "easiercrafting.config.specialrecipes": {
+    "key": "easiercrafting.config.specialrecipes",
+    "toolTip": "easiercrafting.config.tt.specialrecipes",
+    "value": true,
+    "defaultValue": true
+  },
+  "easiercrafting.config.autofocus": {
+    "key": "easiercrafting.config.autofocus",
+    "toolTip": "easiercrafting.config.tt.autofocus",
+    "value": false,
+    "defaultValue": false
+  },
+  "easiercrafting.config.loomclickspeed": {
+    "key": "easiercrafting.config.loomclickspeed",
+    "toolTip": "easiercrafting.config.tt.loomclickspeed",
+    "value": 3,
+    "defaultValue": 3,
+    "minValue": 0,
+    "maxValue": 20
+  },
+  "easiercrafting.config.autoupdate": {
+    "key": "easiercrafting.config.autoupdate",
+    "toolTip": "easiercrafting.config.tt.autoupdate",
+    "value": 2,
+    "defaultValue": 2,
+    "minValue": 0,
+    "maxValue": 30
+  },
+  "easiercrafting.config.maxenchants": {
+    "key": "easiercrafting.config.maxenchants",
+    "toolTip": "easiercrafting.config.tt.maxenchants",
+    "value": 0,
+    "defaultValue": 0,
+    "minValue": 0,
+    "maxValue": 10
+  }
+}

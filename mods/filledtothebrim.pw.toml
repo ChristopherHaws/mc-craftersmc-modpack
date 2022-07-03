@@ -1,0 +1,14 @@
+name = "FilledTotheBrim"
+filename = "FilledToTheBrim-1.0.9.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/v78RfA0u/versions/1.0.9.1/FilledToTheBrim-1.0.9.1.jar"
+hash-format = "sha1"
+hash = "8201dfaaf6be6fbb76d190a1834dc8af35a45b66"
+mode = ""
+
+[update]
+[update.modrinth]
+mod-id = "v78RfA0u"
+version = "mBsYu6yr"
