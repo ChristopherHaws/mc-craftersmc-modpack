@@ -4,13 +4,13 @@
 	// When enabled, will only show the GUI compass when a compass is present in the inventory.
 	"mustHaveCompassInInventory": false,
 	// Places the GUI compass on the left.
-	"compassPositionIsLeft": false,
+	"compassPositionIsLeft": true,
 	// Places the GUI compass in the middle.
-	"compassPositionIsCenter": true,
+	"compassPositionIsCenter": false,
 	// Places the GUI compass on the right.
 	"compassPositionIsRight": false,
 	// The vertical offset (y coord) for the Compass. This determines how far down the time should be on the screen. Can be changed to prevent GUIs from overlapping.
-	"compassHeightOffset": 5,
+	"compassHeightOffset": 4,
 	// The red RGB value for the compass text.
 	"RGB_R": 255,
 	// The green RGB value for the compass text.

@@ -186,7 +186,7 @@ hash = "8523589959e764e16ea895c5b35a4481ad166211edaedfb6531a01c9b45691a6"
 
 [[files]]
 file = "config/entityculling.json"
-hash = "0c78e42bc9ee8629e05830c89b882382dfa24c772c9b5a16d91225e1c63b11ad"
+hash = "054eaa843b83feaf2be06cd061f00ac4437f9eb73fc31a23575ef6db419cebcf"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
@@ -210,11 +210,11 @@ hash = "1c49051b7b10ca6e41c757e6ad0da5baaf05c577e8aa062f18e975f2c429511b"
 
 [[files]]
 file = "config/guiclock-fabric.json"
-hash = "b2607e9607235f09d2a8e7b38df58feeca88fb54607e95ef7406a3ba8da41424"
+hash = "e8cd7fe1d3144727ff17c3010793f001bd0654840f9c3e9724472054de389019"
 
 [[files]]
 file = "config/guicompass-fabric.json"
-hash = "dcf1073902ded77138b7c1265992dea34c33991f92785ecb7564687ce1a37270"
+hash = "d5f6f5ab02e3da6be7053decc3ff0f7d37b9b349babeb237a99c01646973d1b5"
 
 [[files]]
 file = "config/headindex-cache/alphabet.json"
@@ -738,7 +738,7 @@ hash = "16fc089a922d3cb3836746a0b58210b9991caba2adfe15306f2098bb995d44a7"
 
 [[files]]
 file = "config/torohealth.json"
-hash = "fad317188e6d186523b348d70461e4d432f0343fed90e0205d51105fd6280965"
+hash = "0921b805319e4bbbc0c97ec1fa89a63b4febb93bc9c3742311375675874b06cf"
 
 [[files]]
 file = "config/tr7zwDonorSettings.json"
