@@ -1,6 +1,8 @@
 name = "Xaero's World Map"
 filename = "XaerosWorldMap_1.24.0_Fabric_1.19.jar"
-side = "both"
+# Game is crashing when this is "both" for some reason
+# https://www.curseforge.com/minecraft/mc-mods/xaeros-world-map/issues/459
+side = "client"
 
 [download]
 hash-format = "sha1"
