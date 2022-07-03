@@ -14,5 +14,5 @@ project-id = 349630
 
 [option]
 optional = true
-description = "Ok Zoomer still doesnt work with 1.19 :("
-default = true
+default = false
+description = "OkZoomer is prefered"

@@ -15,4 +15,5 @@ version = "YcOhpy8N"
 
 [option]
 optional = true
+default = true
 description = "Doesn't seem to work right now :("

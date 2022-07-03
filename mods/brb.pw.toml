@@ -12,6 +12,3 @@ mode = ""
 [update.modrinth]
 mod-id = "vWIaVOTE"
 version = "lUbM1JGl"
-
-[option]
-optional = true

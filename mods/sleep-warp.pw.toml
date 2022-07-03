@@ -12,7 +12,3 @@ mode = ""
 [update.modrinth]
 mod-id = "OPvzuqtZ"
 version = "RFPkbUfX"
-
-[option]
-optional = true
-description = "Doesn't work with 1.19 yet"

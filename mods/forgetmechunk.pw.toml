@@ -15,5 +15,5 @@ version = "yX5SANL7"
 
 [option]
 optional = true
-default = false
-description = "Supposed to reduce chunk lag but seems to increase it..."
+default = true
+description = "Reduces chunk lag but needs more memory..."

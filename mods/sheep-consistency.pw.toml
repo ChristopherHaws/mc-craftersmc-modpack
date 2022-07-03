@@ -11,8 +11,3 @@ mode = "metadata:curseforge"
 [update.curseforge]
 file-id = 3692536
 project-id = 386175
-
-[option]
-optional = true
-default = true
-description = "Works with 1.19 but not built for it yet."

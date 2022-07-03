@@ -12,8 +12,3 @@ mode = ""
 [update.modrinth]
 mod-id = "YfOlc91N"
 version = "8MLUOCy0"
-
-[option]
-optional = true
-description = "Works with 1.19 but not built for it yet."
-default = true
