@@ -1332,3 +1332,11 @@ metafile = true
 file = "mods/xaeros-world-map.pw.toml"
 hash = "1ef66e0e30d47e1378ac770222791da5f625b49aa3b6daa4be38324879acff19"
 metafile = true
+
+[[files]]
+file = "shaderpacks/ComplementaryShaders_v4.4.zip"
+hash = "297e2947c1986ba2faefdd3f2e0aa365b3e6dfd308853baae70821b393c06861"
+
+[[files]]
+file = "shaderpacks/ComplementaryShaders_v4.4.zip.txt"
+hash = "6f18ae0556f6a64086c7836d5f23604c7f482263a094e37753f212c9ab8a843a"
