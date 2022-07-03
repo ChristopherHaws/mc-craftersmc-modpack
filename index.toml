@@ -194,7 +194,7 @@ hash = "054eaa843b83feaf2be06cd061f00ac4437f9eb73fc31a23575ef6db419cebcf"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "6132629610876924830066135dc3d618fd1cf7bf7d1a8c239c62f363491b9715"
+hash = "645b12a83bf31d309d5a79413257d398d54ba58245c3c3e26a93092ab2960edb"
 
 [[files]]
 file = "config/ferritecore.mixin.properties"
@@ -226,27 +226,27 @@ hash = "734511e490a2083ba2fd9a49dc3dda41951afb6c41922e1d24e2d05349fcb8e6"
 
 [[files]]
 file = "config/headindex-cache/animals.json"
-hash = "ff4ed97731f100707eacf295f6859b9157028b03fee7dab4ae9c7a60237e08f7"
+hash = "313df23e23e8088f60dee16b32a6c44b0c2ea90716a61a963f606ab8093a4b5e"
 
 [[files]]
 file = "config/headindex-cache/blocks.json"
-hash = "a0f07fe369bab4cfee94505754e93c71e15b00093dfa8fbd5369f6555c985ec1"
+hash = "8faed1fde72e657fb8cfab5cda48b111e2b80b650294181c337834f511897f58"
 
 [[files]]
 file = "config/headindex-cache/decoration.json"
-hash = "a0e548b10a8d464664dbee3ec7746056c3995b519b7193f55902341d591a0bb1"
+hash = "e4db86fdbaf0b34af8cd20c20232e3003343626d1cf2b92d69ad9162d7a43eeb"
 
 [[files]]
 file = "config/headindex-cache/food-drinks.json"
-hash = "89387ebdace91d287f0b0c1694e4567d30a01128a6975cccc211d27bc464b91f"
+hash = "f86facee5e349e80667a7562a42faecf5e43e258ae80e96e77c7e88a958a166b"
 
 [[files]]
 file = "config/headindex-cache/humanoid.json"
-hash = "cab73891547e377a086646fc50b79e9c92155bbde88c4e727fb68a44cc652254"
+hash = "af25f2b2ed32174097135d4526f3eda2a0da82cb0f62d6234051adf57cf20c40"
 
 [[files]]
 file = "config/headindex-cache/humans.json"
-hash = "4e7ee1ff1dae605a2f88c981a2b7ff7a215cc74a061a9f2400b88a2c283f70e6"
+hash = "5f3b8cdc3de1d2ada8089de387cccd8dec49e26a1e72d968c072273f06a0088f"
 
 [[files]]
 file = "config/headindex-cache/miscellaneous.json"
@@ -274,7 +274,7 @@ hash = "75e75c11db2e028cd09df7c8b43cfebdb88f2f6ccf137bd540eb649d54694eab"
 
 [[files]]
 file = "config/indium-renderer.properties"
-hash = "941ef5d2ff506f4c0ccdd58151c55c4fd1e930af522a66a6c39beab2de4b3df2"
+hash = "1ef14e7c95d462ac48db91209cfedafa8c32b9313cc521ab34381573a84ffbe6"
 
 [[files]]
 file = "config/inspecio.json"
@@ -302,7 +302,7 @@ hash = "e2c5633901520e37f24995b2fd0f619af5cdb3fb6acd70e4a5ddd0f8f6c2a352"
 
 [[files]]
 file = "config/iris.properties"
-hash = "e3640d2894a24a1c170b27fb6856c014137fd265ecbce9ea4b684ea004aa481c"
+hash = "ba0e640bfb3431fa8f836bc93dbca692c8cce73ff5876ba83462219e52208c5e"
 
 [[files]]
 file = "config/lambdynlights.toml"
@@ -762,15 +762,15 @@ hash = "640800920130d084dec5a3a7f52c10e18d72ed7faca522b5bcb6bb46d0dcae9b"
 
 [[files]]
 file = "config/waila/waila.json"
-hash = "bf863e8cfdb66cb48285156ea275d93797b8cc283bac0bb526c65a9f5badb46a"
+hash = "e05d55ea311745c360c1a35720cafec9a9d5566c69db35088e1526c03e2f394e"
 
 [[files]]
 file = "config/waila/waila_plugins.json"
-hash = "0d4dd9fd9cb9e134e1e89f9ede52ce9791879e082d4d3f13f3d75f104e8706c2"
+hash = "d4f3dd8ebb551401a546bb5756e9ba3b75a4e215c1e901b2cbb4000d26d14a5b"
 
 [[files]]
 file = "config/worldedit/worldedit.properties"
-hash = "891bf6d1b58743c18da4defbba8bf75e1611ffa2729b444cb2fcf763997dfbf4"
+hash = "2f02a81deb2910d871eb06b1019b4f2806157eabeae2a961e5a9bd2bb0118f20"
 
 [[files]]
 file = "config/xaerominimap.txt"
@@ -778,7 +778,7 @@ hash = "757975109025cc70a5397bd757f7c4c105c350ae42f5b5d7f24e9fd5cba9dc01"
 
 [[files]]
 file = "config/xaerominimap_entities.json"
-hash = "699b01b4679916b81c20c05c4f597f994e7409a9adf836f4c7f7a7ebd106c148"
+hash = "1d4d21d4c4557ddcfefb56cd2d85920663faf61d6c57f63fbb3559200378a7cf"
 
 [[files]]
 file = "config/xaeropatreon.txt"
