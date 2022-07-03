@@ -1131,7 +1131,7 @@ metafile = true
 
 [[files]]
 file = "mods/ok-zoomer.pw.toml"
-hash = "845c0966ad1f86cc541dd2b61f2dde45c5302467e4778d8825d7058efeb4cf07"
+hash = "ccd82506fb18193c3846c323166bc1c63c3333644cfbc314ec642497dee9ce56"
 metafile = true
 
 [[files]]
@@ -1302,6 +1302,11 @@ metafile = true
 [[files]]
 file = "mods/worldedit.pw.toml"
 hash = "672aca2c7eb7c36fc709ae2812e3d67157937744edf7368e8b694ad06b22ab61"
+metafile = true
+
+[[files]]
+file = "mods/wthit.pw.toml"
+hash = "f5339aa43702c0577fe4727d88f9753e699b0b5862d376b7ff45f9ba293e37c0"
 metafile = true
 
 [[files]]
