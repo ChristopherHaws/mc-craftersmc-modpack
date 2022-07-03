@@ -70,7 +70,7 @@ hash = "9509531a29e04324e03a9d4d5a64fd3cc54573dafd610ec2fd01f92194df5706"
 
 [[files]]
 file = "config/blockmeter.toml"
-hash = "6d52e69d255b952e54cffd958c9c4f9fc4be7b74dcd1a2cf107c6d55852abf34"
+hash = "02140dc2e94847d6f60901dee8989b7f7bd3ce40f86326b5eebc7cc1246f22ce"
 
 [[files]]
 file = "config/boatiview/client.toml"
@@ -1035,7 +1035,7 @@ metafile = true
 
 [[files]]
 file = "mods/immersiveportals.pw.toml"
-hash = "3c9b860234d1b6d92a7fcafd737cfb8575ee9d6d1cc95ea0522a02fce54abc69"
+hash = "fb4593dc10b02e51e3672095a4095589a4b879b72e2704434b0a2d8e0c8d764f"
 metafile = true
 
 [[files]]

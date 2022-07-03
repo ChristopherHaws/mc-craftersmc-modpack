@@ -1,6 +1,7 @@
 name = "Immersive Portals"
 filename = "immersive-portals-2.0.4-mc1.19-fabric.jar"
-side = "both"
+# Seems to be an issue with this working on the server
+side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/zJpHMkdD/versions/2.0.4-1.19/immersive-portals-2.0.4-mc1.19-fabric.jar"
@@ -16,4 +17,3 @@ version = "YcOhpy8N"
 [option]
 optional = true
 default = true
-description = "Doesn't seem to work right now :("

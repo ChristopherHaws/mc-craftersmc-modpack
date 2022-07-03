@@ -4,6 +4,6 @@ sendBoxes = true
 showBoxesWhenDisabled = false
 backgroundForLabels = true
 incrementColor = true
-innerDiagonal = false
+innerDiagonal = true
 showOtherUsersBoxes = false
 colorIndex = 0
