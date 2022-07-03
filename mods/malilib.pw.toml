@@ -1,6 +1,6 @@
 name = "MaLiLib"
 filename = "malilib-fabric-1.18.2-0.12.1.jar"
-side = "both"
+side = "client" # Is actually "both" but switching to "client" until the mod is released for 1.19
 
 [download]
 hash-format = "sha1"
