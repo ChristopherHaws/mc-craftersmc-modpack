@@ -920,7 +920,7 @@ metafile = true
 
 [[files]]
 file = "mods/consistencyplus.pw.toml"
-hash = "386c915338a5138b3ed68412ca9e087067ca6cc76ff61bce99c1716c7a77ecf8"
+hash = "47b4343e218f6dc2a7a536889755001d2ddc43a81da77872e37f9ee67c6563d0"
 metafile = true
 
 [[files]]
@@ -1310,7 +1310,7 @@ metafile = true
 
 [[files]]
 file = "mods/wi-zoom.pw.toml"
-hash = "47c5cdbc5d2d500bba34514067b7fdb8f2dc499a878f5fa85c2621cbe84f7f1b"
+hash = "4cecdf60392c789decde9ade6dcfd7ce0fa81ae6bf35711e2dd4b20588ef8b45"
 metafile = true
 
 [[files]]

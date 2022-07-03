@@ -1,6 +1,6 @@
 name = "WI Zoom"
 filename = "WI-Zoom-1.4-MC1.19.jar"
-side = "both"
+side = "client" # Is actually "both" but switching to "client" so this mod doesnt load in the server
 
 [download]
 hash-format = "sha1"
