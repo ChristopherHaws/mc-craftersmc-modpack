@@ -1,5 +1,6 @@
 # Exclude exported CurseForge zip files
 *.zip
+!/config/**/*.zip
 
 # Exclude exported Modrinth modpacks
 *.mrpack
