@@ -1234,11 +1234,6 @@ hash = "1651ee5e299d8883a2aaa8956cef6818d8f8686410d83f1d153a944deb650bf2"
 metafile = true
 
 [[files]]
-file = "mods/squaremap.pw.toml"
-hash = "d263820052db799c3d04458450de8bee8e19888c2156e5e46b2c8cc921d4ad93"
-metafile = true
-
-[[files]]
 file = "mods/stack-refill-fabric.pw.toml"
 hash = "e401c8b35f06c2c0c5f513bc4ce6bd952f7981a4c876ac8c087d5e4398c27e0c"
 metafile = true
