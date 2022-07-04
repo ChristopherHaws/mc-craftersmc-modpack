@@ -1179,11 +1179,6 @@ hash = "00feaea3e5b54f02b00215da4b3c42f44ab27525566530c613a4cd97e45ae458"
 metafile = true
 
 [[files]]
-file = "mods/rusted-iron.pw.toml"
-hash = "04f6155457fda795476a37d6b18e8cb9dd11e7f784094b65524bc64bb034752f"
-metafile = true
-
-[[files]]
 file = "mods/scout.pw.toml"
 hash = "c7d3298f267e69edbfcc5957b0a0ce5787414f832cfdbfa13a2e7e841583d0e9"
 metafile = true
