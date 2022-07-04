@@ -869,11 +869,6 @@ hash = "7cd505e84be05b0cb14eca5c93049522a1711fd2d5ab95483bfee53c7207a52f"
 metafile = true
 
 [[files]]
-file = "mods/c2me-fabric.pw.toml"
-hash = "62d2d74923ab015cca8cab491797cdcf7056ab163560854ccf354b804cbb8871"
-metafile = true
-
-[[files]]
 file = "mods/carpet-extra.pw.toml"
 hash = "b8158807deb51762fccfabf3c74ed3610769ed052b318d8f23814d99177646fb"
 metafile = true
@@ -1035,7 +1030,7 @@ metafile = true
 
 [[files]]
 file = "mods/immersiveportals.pw.toml"
-hash = "fb4593dc10b02e51e3672095a4095589a4b879b72e2704434b0a2d8e0c8d764f"
+hash = "e879a518927f3c0e5419ae1bf2bac86f431bc4de7ad6c0839f6f893745bf1e03"
 metafile = true
 
 [[files]]
