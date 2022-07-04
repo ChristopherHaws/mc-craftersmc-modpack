@@ -4,5 +4,6 @@
 /instance
 .gitattributes
 .gitignore
+.nojekyll
 CNAME
 README.md
