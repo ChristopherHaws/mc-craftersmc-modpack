@@ -864,11 +864,6 @@ hash = "ac687864e4db3da36883e596946a6ba7f137bc13ade04214927e60502d4e964c"
 metafile = true
 
 [[files]]
-file = "mods/borderless-mining.pw.toml"
-hash = "1d70faddc7182e3f784eaf67f5cc0582f6580151fec8ce22350eefa9895827b3"
-metafile = true
-
-[[files]]
 file = "mods/brb.pw.toml"
 hash = "7cd505e84be05b0cb14eca5c93049522a1711fd2d5ab95483bfee53c7207a52f"
 metafile = true
@@ -1144,11 +1139,6 @@ hash = "6b661b5a876138e7ae6611d70ad21640b0d51ba444c6bfded04edaf0bdfa2c5c"
 metafile = true
 
 [[files]]
-file = "mods/morechathistory.pw.toml"
-hash = "6b36a18c06a679288c153c8abae5d20340e9a091e3948e639021b467e25970df"
-metafile = true
-
-[[files]]
 file = "mods/moreculling.pw.toml"
 hash = "afc06d9e24d28300770d58eae656a4dfcc6810506747a9f078feac90129d2b79"
 metafile = true
@@ -1326,11 +1316,6 @@ metafile = true
 [[files]]
 file = "mods/worldedit.pw.toml"
 hash = "672aca2c7eb7c36fc709ae2812e3d67157937744edf7368e8b694ad06b22ab61"
-metafile = true
-
-[[files]]
-file = "mods/wthit-plugins.pw.toml"
-hash = "94f1c8abbc13b303db1a0dc58a9b5e2734b4787c4232d2cf8b2b216de07a119e"
 metafile = true
 
 [[files]]
