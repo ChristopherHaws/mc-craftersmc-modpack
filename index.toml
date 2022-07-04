@@ -864,11 +864,6 @@ hash = "ac687864e4db3da36883e596946a6ba7f137bc13ade04214927e60502d4e964c"
 metafile = true
 
 [[files]]
-file = "mods/borderless-mining.pw.toml"
-hash = "79bb15e462917e6192c3f89bc884ae8dd2340e1e9d7ee1c832f0389b8fdb1d83"
-metafile = true
-
-[[files]]
 file = "mods/brb.pw.toml"
 hash = "7cd505e84be05b0cb14eca5c93049522a1711fd2d5ab95483bfee53c7207a52f"
 metafile = true
@@ -1156,11 +1151,6 @@ metafile = true
 [[files]]
 file = "mods/moreculling.pw.toml"
 hash = "afc06d9e24d28300770d58eae656a4dfcc6810506747a9f078feac90129d2b79"
-metafile = true
-
-[[files]]
-file = "mods/multiconnect.pw.toml"
-hash = "03cccdc27289ac1e22bbf7b6ab5e48c648150660c0894d2d4bf48882f3301c43"
 metafile = true
 
 [[files]]
