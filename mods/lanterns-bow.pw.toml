@@ -1,0 +1,14 @@
+name = "Lanterns Belong on Walls"
+filename = "lanterns-belong-on-walls-1.2.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/V1CFwy2A/versions/1.2.1/lanterns-belong-on-walls-1.2.1.jar"
+hash-format = "sha1"
+hash = "14c661b7661e30a47c74fec3ff11c048e621a185"
+mode = ""
+
+[update]
+[update.modrinth]
+mod-id = "V1CFwy2A"
+version = "kHcxpt3c"
