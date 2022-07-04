@@ -1154,11 +1154,6 @@ hash = "afc06d9e24d28300770d58eae656a4dfcc6810506747a9f078feac90129d2b79"
 metafile = true
 
 [[files]]
-file = "mods/multiconnect.pw.toml"
-hash = "03cccdc27289ac1e22bbf7b6ab5e48c648150660c0894d2d4bf48882f3301c43"
-metafile = true
-
-[[files]]
 file = "mods/ok-zoomer.pw.toml"
 hash = "ccd82506fb18193c3846c323166bc1c63c3333644cfbc314ec642497dee9ce56"
 metafile = true
