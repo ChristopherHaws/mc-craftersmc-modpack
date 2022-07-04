@@ -1,10 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = ".nojekyll"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
 file = "config/.puzzle_cache/mojangstudios.png"
 hash = "27b2ea2946ca5b00841ce7d1813b42dfb7e36b12ad50c7c9bea09053ac226cf3"
 
@@ -15,6 +11,7 @@ hash = "70aefe0b9471c924782bdd67eb880f7a724a7da8db67fd100f8046e3d1f06341"
 [[files]]
 file = "config/PlasmoVoice/config.json"
 hash = "df9440fff717c95e7376ebaed840fa04e812fd7bdb654640f49a1f8477b1b8ea"
+preserve = true
 
 [[files]]
 file = "config/PlasmoVoice/server.yml"
@@ -59,6 +56,7 @@ hash = "8cec3f0def08a4029fbb6f0c4cb8d5f2729be40cdc283c5c9df5565f59171651"
 [[files]]
 file = "config/autoreconnect.json5"
 hash = "49f6af7e980660ad284898e567338b964d5a229a48230b86834471b03eff57fe"
+preserve = true
 
 [[files]]
 file = "config/betterf3.json"
@@ -79,6 +77,7 @@ hash = "5a2efd90464dcfe793380701139c18f71fc6c9afc6528c70be398fc0c37b4e8c"
 [[files]]
 file = "config/bobby.conf"
 hash = "b53c14bbef682afb9ad89d42e06c06f093d63923661bb685f6686011f71bbb53"
+preserve = true
 
 [[files]]
 file = "config/boxofplacholders/animations/example.json"
@@ -221,46 +220,6 @@ file = "config/guicompass-fabric.json"
 hash = "d5f6f5ab02e3da6be7053decc3ff0f7d37b9b349babeb237a99c01646973d1b5"
 
 [[files]]
-file = "config/headindex-cache/alphabet.json"
-hash = "734511e490a2083ba2fd9a49dc3dda41951afb6c41922e1d24e2d05349fcb8e6"
-
-[[files]]
-file = "config/headindex-cache/animals.json"
-hash = "313df23e23e8088f60dee16b32a6c44b0c2ea90716a61a963f606ab8093a4b5e"
-
-[[files]]
-file = "config/headindex-cache/blocks.json"
-hash = "8faed1fde72e657fb8cfab5cda48b111e2b80b650294181c337834f511897f58"
-
-[[files]]
-file = "config/headindex-cache/decoration.json"
-hash = "e4db86fdbaf0b34af8cd20c20232e3003343626d1cf2b92d69ad9162d7a43eeb"
-
-[[files]]
-file = "config/headindex-cache/food-drinks.json"
-hash = "f86facee5e349e80667a7562a42faecf5e43e258ae80e96e77c7e88a958a166b"
-
-[[files]]
-file = "config/headindex-cache/humanoid.json"
-hash = "af25f2b2ed32174097135d4526f3eda2a0da82cb0f62d6234051adf57cf20c40"
-
-[[files]]
-file = "config/headindex-cache/humans.json"
-hash = "5f3b8cdc3de1d2ada8089de387cccd8dec49e26a1e72d968c072273f06a0088f"
-
-[[files]]
-file = "config/headindex-cache/miscellaneous.json"
-hash = "96cc2d9bbdef33154cfb460fe0f22a1320ecd1a53adfea047e671561e23286fc"
-
-[[files]]
-file = "config/headindex-cache/monsters.json"
-hash = "de34a92872d5b38fb005acee30c756ef9e5a0d3c24d49cd07ab576ed511a0e42"
-
-[[files]]
-file = "config/headindex-cache/plants.json"
-hash = "73440910a010e0f8b3847073eaed3ab2408cb2b13112bad4dd9bc404f276fbb3"
-
-[[files]]
 file = "config/health_config.json"
 hash = "43e94db75138bf3304a3222891894d613490ec0cf557f379f7a5c84a6cbdd03c"
 
@@ -283,26 +242,27 @@ hash = "b7e6193f25e9f5921404fd4ed3fedb0e713718359a2a998d5b279c85e037b5a3"
 [[files]]
 file = "config/invmove.json"
 hash = "911fa605af5c2ee23b6fd65e5fe5daa23b6369b3ac16a78e35578776e2e9c04e"
+preserve = true
 
 [[files]]
 file = "config/invmove/cloth-config.json"
 hash = "65242c90d0248278a7d2293b4ac8e531ba9d9981255a4c81f938b077b58c79f2"
+preserve = true
 
 [[files]]
 file = "config/invmove/unrecognized.json"
 hash = "e25288a8ee25dac6a12585891db9c97d68ffb7a6cc4f4638f7be802c48d519d3"
-
-[[files]]
-file = "config/invmove/unrecognized.json.bakup"
-hash = "dcdaddaee38381a5c1c166458cdd736c4e501469b6001a8407612f0c5503b8d3"
+preserve = true
 
 [[files]]
 file = "config/invmove/vanilla.json"
 hash = "e2c5633901520e37f24995b2fd0f619af5cdb3fb6acd70e4a5ddd0f8f6c2a352"
+preserve = true
 
 [[files]]
 file = "config/iris.properties"
 hash = "ba0e640bfb3431fa8f836bc93dbca692c8cce73ff5876ba83462219e52208c5e"
+preserve = true
 
 [[files]]
 file = "config/lambdynlights.toml"
@@ -319,102 +279,6 @@ hash = "7f81fc26158482bf5c28ba316d09eb806364853ae83fb3648d189878bed0c5c6"
 [[files]]
 file = "config/litematica.json"
 hash = "3b785dab02fd444210db80791f8e003b53b018d9454433e7f741065b67a994ed"
-
-[[files]]
-file = "config/litematica/litematica_192.168.1.2_30067.json"
-hash = "12174fd2e7b7105aa4aa98a486df7baa470fd770ff30a731cf314c4fd571701a"
-
-[[files]]
-file = "config/litematica/litematica_192.168.1.2_30067_dim_minecraft_overworld.json"
-hash = "fc69a2c7ff1ec5b01546a99c5ea8566f9a095302477b7ba950409df0a64c60ff"
-
-[[files]]
-file = "config/litematica/litematica_creative.json"
-hash = "c5084e511824ed9f2f38764243b970bd4c7d1047c5fa450b4f4e1c6a2cf9622e"
-
-[[files]]
-file = "config/litematica/litematica_creative_dim_minecraft_overworld.json"
-hash = "c78e1b2c50db4418b604d48d8c12db3dc1e29893b100021693be13b4d8946998"
-
-[[files]]
-file = "config/litematica/litematica_creative_dim_minecraft_the_nether.json"
-hash = "c78e1b2c50db4418b604d48d8c12db3dc1e29893b100021693be13b4d8946998"
-
-[[files]]
-file = "config/litematica/litematica_isolationcraft.json"
-hash = "67626c348985002c70dd7f592ee6e00ab2e15de2fb23dbdcbdaca80747d9c293"
-
-[[files]]
-file = "config/litematica/litematica_isolationcraft_dim_minecraft_overworld.json"
-hash = "fc69a2c7ff1ec5b01546a99c5ea8566f9a095302477b7ba950409df0a64c60ff"
-
-[[files]]
-file = "config/litematica/litematica_krik.cloud.json"
-hash = "12174fd2e7b7105aa4aa98a486df7baa470fd770ff30a731cf314c4fd571701a"
-
-[[files]]
-file = "config/litematica/litematica_krik.cloud_dim_minecraft_overworld.json"
-hash = "15326e9ca6efb0938de1cad48410ad84436e87968927f4296a9e175df005f7f0"
-
-[[files]]
-file = "config/litematica/litematica_krik.cloud_dim_minecraft_the_nether.json"
-hash = "fc69a2c7ff1ec5b01546a99c5ea8566f9a095302477b7ba950409df0a64c60ff"
-
-[[files]]
-file = "config/litematica/litematica_new_world.json"
-hash = "12174fd2e7b7105aa4aa98a486df7baa470fd770ff30a731cf314c4fd571701a"
-
-[[files]]
-file = "config/litematica/litematica_new_world_dim_minecraft_overworld.json"
-hash = "fc69a2c7ff1ec5b01546a99c5ea8566f9a095302477b7ba950409df0a64c60ff"
-
-[[files]]
-file = "config/litematica/litematica_play.beacoland.com.json"
-hash = "284010e7eb70a5e384af14eef2a657d3e4b95dd651bb2b397db5776b07fe159c"
-
-[[files]]
-file = "config/litematica/litematica_play.beacoland.com_dim_minecraft_overworld.json"
-hash = "98517aa983ed38fae15559db49a13512a4954f589c4ba5b923a272bab3f0467a"
-
-[[files]]
-file = "config/litematica/litematica_play.beacoland.com_dim_minecraft_the_end.json"
-hash = "98517aa983ed38fae15559db49a13512a4954f589c4ba5b923a272bab3f0467a"
-
-[[files]]
-file = "config/litematica/litematica_play.beacoland.com_dim_minecraft_the_nether.json"
-hash = "98517aa983ed38fae15559db49a13512a4954f589c4ba5b923a272bab3f0467a"
-
-[[files]]
-file = "config/litematica/litematica_play.craftersmc.com.json"
-hash = "284010e7eb70a5e384af14eef2a657d3e4b95dd651bb2b397db5776b07fe159c"
-
-[[files]]
-file = "config/litematica/litematica_play.craftersmc.com_dim_minecraft_overworld.json"
-hash = "a059abfecf550b29cb0ad6673ea0c6d09e671bd9c66a5522c55cbafdbbfbdcb0"
-
-[[files]]
-file = "config/litematica/litematica_play.craftersmc.com_dim_minecraft_the_end.json"
-hash = "98517aa983ed38fae15559db49a13512a4954f589c4ba5b923a272bab3f0467a"
-
-[[files]]
-file = "config/litematica/litematica_play.craftersmc.com_dim_minecraft_the_nether.json"
-hash = "fc69a2c7ff1ec5b01546a99c5ea8566f9a095302477b7ba950409df0a64c60ff"
-
-[[files]]
-file = "config/litematica/litematica_playground.json"
-hash = "12174fd2e7b7105aa4aa98a486df7baa470fd770ff30a731cf314c4fd571701a"
-
-[[files]]
-file = "config/litematica/litematica_playground_dim_minecraft_overworld.json"
-hash = "1a631d3cc8bd28f34caf3dc029afc0f8c2342d336ea3a95f1e201605fa9ef968"
-
-[[files]]
-file = "config/litematica/litematica_shroomland.json"
-hash = "12174fd2e7b7105aa4aa98a486df7baa470fd770ff30a731cf314c4fd571701a"
-
-[[files]]
-file = "config/litematica/litematica_shroomland_dim_minecraft_overworld.json"
-hash = "fc69a2c7ff1ec5b01546a99c5ea8566f9a095302477b7ba950409df0a64c60ff"
 
 [[files]]
 file = "config/lithium.properties"
@@ -557,110 +421,6 @@ file = "config/minihud.json"
 hash = "55f1cff3a26636735825764eb283f522c3b5211f9f6131fdf2293c5a286f348f"
 
 [[files]]
-file = "config/minihud/192.168.1.2_30067.json"
-hash = "7d379de5ad06b4471e4b7e62970340437662e77453dd1bacb3bc90f975403464"
-
-[[files]]
-file = "config/minihud/192.168.1.2_30067_dim_minecraft_overworld.json"
-hash = "dd81d0abfde5de7a306ad024b0e6dc984435eb7f14502199cff365a767dbfb2c"
-
-[[files]]
-file = "config/minihud/creative.json"
-hash = "7d379de5ad06b4471e4b7e62970340437662e77453dd1bacb3bc90f975403464"
-
-[[files]]
-file = "config/minihud/creative_dim_minecraft_overworld.json"
-hash = "dd81d0abfde5de7a306ad024b0e6dc984435eb7f14502199cff365a767dbfb2c"
-
-[[files]]
-file = "config/minihud/creative_dim_minecraft_the_nether.json"
-hash = "dd81d0abfde5de7a306ad024b0e6dc984435eb7f14502199cff365a767dbfb2c"
-
-[[files]]
-file = "config/minihud/isolationcraft.json"
-hash = "7d379de5ad06b4471e4b7e62970340437662e77453dd1bacb3bc90f975403464"
-
-[[files]]
-file = "config/minihud/isolationcraft_dim_minecraft_overworld.json"
-hash = "ded0bbcf2b02edb2381a49458fd1bc2a6f54b60c16907074661ff4f4bf69fba4"
-
-[[files]]
-file = "config/minihud/krik.cloud.json"
-hash = "7d379de5ad06b4471e4b7e62970340437662e77453dd1bacb3bc90f975403464"
-
-[[files]]
-file = "config/minihud/krik.cloud_dim_minecraft_overworld.json"
-hash = "6bac57c000467729afc90e3c3b485d123df46d44c71581faa6eca1b63dbda584"
-
-[[files]]
-file = "config/minihud/krik.cloud_dim_minecraft_the_nether.json"
-hash = "425e7a446a56658475d80d275eeb961c0071211c460fbe52bf6c849ebc89338d"
-
-[[files]]
-file = "config/minihud/new_world.json"
-hash = "7d379de5ad06b4471e4b7e62970340437662e77453dd1bacb3bc90f975403464"
-
-[[files]]
-file = "config/minihud/new_world_dim_minecraft_overworld.json"
-hash = "dd81d0abfde5de7a306ad024b0e6dc984435eb7f14502199cff365a767dbfb2c"
-
-[[files]]
-file = "config/minihud/play.beacoland.com.json"
-hash = "7d379de5ad06b4471e4b7e62970340437662e77453dd1bacb3bc90f975403464"
-
-[[files]]
-file = "config/minihud/play.beacoland.com_dim_minecraft_overworld.json"
-hash = "dd81d0abfde5de7a306ad024b0e6dc984435eb7f14502199cff365a767dbfb2c"
-
-[[files]]
-file = "config/minihud/play.beacoland.com_dim_minecraft_the_end.json"
-hash = "dd81d0abfde5de7a306ad024b0e6dc984435eb7f14502199cff365a767dbfb2c"
-
-[[files]]
-file = "config/minihud/play.beacoland.com_dim_minecraft_the_nether.json"
-hash = "dd81d0abfde5de7a306ad024b0e6dc984435eb7f14502199cff365a767dbfb2c"
-
-[[files]]
-file = "config/minihud/play.craftersmc.com.json"
-hash = "7d379de5ad06b4471e4b7e62970340437662e77453dd1bacb3bc90f975403464"
-
-[[files]]
-file = "config/minihud/play.craftersmc.com_dim_minecraft_overworld.json"
-hash = "97c832f8066b87c6af4a0a6d95d0b9fad27acae05a5e74a21626b8a19723e671"
-
-[[files]]
-file = "config/minihud/play.craftersmc.com_dim_minecraft_the_end.json"
-hash = "316d5d9bdef506a222d4cf31d9802058e2dda13172d91c9d8fb17b54a51d5381"
-
-[[files]]
-file = "config/minihud/play.craftersmc.com_dim_minecraft_the_nether.json"
-hash = "316d5d9bdef506a222d4cf31d9802058e2dda13172d91c9d8fb17b54a51d5381"
-
-[[files]]
-file = "config/minihud/playground.json"
-hash = "7d379de5ad06b4471e4b7e62970340437662e77453dd1bacb3bc90f975403464"
-
-[[files]]
-file = "config/minihud/playground_dim_minecraft_overworld.json"
-hash = "dd81d0abfde5de7a306ad024b0e6dc984435eb7f14502199cff365a767dbfb2c"
-
-[[files]]
-file = "config/minihud/shroomland.json"
-hash = "7d379de5ad06b4471e4b7e62970340437662e77453dd1bacb3bc90f975403464"
-
-[[files]]
-file = "config/minihud/shroomland_dim_minecraft_overworld.json"
-hash = "dd81d0abfde5de7a306ad024b0e6dc984435eb7f14502199cff365a767dbfb2c"
-
-[[files]]
-file = "config/modget/config.yaml"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
-file = "config/modmanager.json"
-hash = "0eecc4d067114e6fc5754f3b6725bee8fb938a4efd7c34e9a65ffd19292ec0e2"
-
-[[files]]
 file = "config/modmenu.json"
 hash = "503f96151dab202359895d267084c5ca81604cf9a3455446c20a5c0c69ec7cdb"
 
@@ -695,10 +455,6 @@ hash = "a5e698870cb9a8e0f7090f96f7b196018dac490c2658946e5c980257445f1dc9"
 [[files]]
 file = "config/servercore.toml"
 hash = "21daa3fbbe747c5f51b8851638a846bbfbfad03789bfe47cded10496d3adaf92"
-
-[[files]]
-file = "config/simple_backpack/general.json5"
-hash = "b4a6d80f48cc54fb2ee92ab60e186500f148f07f4d28fc78656532530e0e7de7"
 
 [[files]]
 file = "config/sleepwarp.properties"
@@ -742,7 +498,7 @@ hash = "16fc089a922d3cb3836746a0b58210b9991caba2adfe15306f2098bb995d44a7"
 
 [[files]]
 file = "config/torohealth.json"
-hash = "0921b805319e4bbbc0c97ec1fa89a63b4febb93bc9c3742311375675874b06cf"
+hash = "58c0a947f53da06526c0c81163b4dfdf3fe18e5f465af5b074d6f96a924c3422"
 
 [[files]]
 file = "config/tr7zwDonorSettings.json"
@@ -751,6 +507,7 @@ hash = "b4f660488920eac2dffd3c2208d281e92e1444e6f9c7808461a2687347c787d5"
 [[files]]
 file = "config/tweakeroo.json"
 hash = "2a9b5486c2215373bb7c124b63dc68b5d846f11a65ffe854bd3a76b59fdf7c9a"
+preserve = true
 
 [[files]]
 file = "config/waig.config"
@@ -759,14 +516,17 @@ hash = "3b52837331c0177e7dba567d76a5b956c011492f0071a4fd7c4bac2a59c01194"
 [[files]]
 file = "config/waila/blacklist.json"
 hash = "640800920130d084dec5a3a7f52c10e18d72ed7faca522b5bcb6bb46d0dcae9b"
+preserve = true
 
 [[files]]
 file = "config/waila/waila.json"
 hash = "201bb5a6c229c363eb76ac7ea2daaac3cfb9fb834afc9e5c6b5d68365cba6acf"
+preserve = true
 
 [[files]]
 file = "config/waila/waila_plugins.json"
 hash = "d4f3dd8ebb551401a546bb5756e9ba3b75a4e215c1e901b2cbb4000d26d14a5b"
+preserve = true
 
 [[files]]
 file = "config/worldedit/worldedit.properties"
@@ -775,10 +535,12 @@ hash = "2f02a81deb2910d871eb06b1019b4f2806157eabeae2a961e5a9bd2bb0118f20"
 [[files]]
 file = "config/xaerominimap.txt"
 hash = "757975109025cc70a5397bd757f7c4c105c350ae42f5b5d7f24e9fd5cba9dc01"
+preserve = true
 
 [[files]]
 file = "config/xaerominimap_entities.json"
 hash = "2e8e0e1fccd3fa8ea28d5163c20fc14efbc84b051665b211ad29edaf66b3bfa0"
+preserve = true
 
 [[files]]
 file = "config/xaeropatreon.txt"
@@ -787,6 +549,7 @@ hash = "8f416b1035da696f526b1cc83494f348616a6603f0091b6ec11ee84e1b70aa09"
 [[files]]
 file = "config/xaeroworldmap.txt"
 hash = "cf2dcdca67076c7b59573140082f166da0c260cf932120eee956632f2e6870f6"
+preserve = true
 
 [[files]]
 file = "mods/accurate-block-placement.pw.toml"
@@ -1340,3 +1103,4 @@ hash = "297e2947c1986ba2faefdd3f2e0aa365b3e6dfd308853baae70821b393c06861"
 [[files]]
 file = "shaderpacks/ComplementaryShaders_v4.4.zip.txt"
 hash = "6f18ae0556f6a64086c7836d5f23604c7f482263a094e37753f212c9ab8a843a"
+preserve = true

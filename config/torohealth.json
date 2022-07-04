@@ -1,15 +1,15 @@
 {
   "watchForChanges": true,
   "hud": {
-    "distance": 60,
+    "distance": 24,
     "x": 4.0,
     "y": 4.0,
     "scale": 1.0,
-    "hideDelay": 20,
+    "hideDelay": 0,
     "anchorPoint": "TOP_LEFT",
-    "showEntity": true,
-    "showBar": true,
-    "showSkin": true,
+    "showEntity": false,
+    "showBar": false,
+    "showSkin": false,
     "onlyWhenHurt": false
   },
   "bar": {
@@ -20,8 +20,8 @@
     "foeColorSecondary": "#800000"
   },
   "inWorld": {
-    "mode": "NONE",
-    "distance": 60.0,
+    "mode": "WHEN_HOLDING_WEAPON",
+    "distance": 48.0,
     "onlyWhenLookingAt": false,
     "onlyWhenHurt": true
   },
@@ -29,6 +29,6 @@
     "show": true,
     "damageColor": "#ff0000",
     "healColor": "#00ff00",
-    "distance": 60
+    "distance": 32
   }
 }
