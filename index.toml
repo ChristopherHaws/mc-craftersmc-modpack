@@ -2497,11 +2497,6 @@ hash = "1adfed1eb9468a7aee481cac91008bdb8e0af1048c54900a5a408dc40c446500"
 metafile = true
 
 [[files]]
-file = "mods/alternate-current.pw.toml"
-hash = "cba26f438c185ab8cb33f549e78e8a46baf40294c14e63509bcb87035308a1d7"
-metafile = true
-
-[[files]]
 file = "mods/animatica.pw.toml"
 hash = "6e37a53e0cc21c40bc27956d667189c278cefe61dab2a798fd4ba39bbf741687"
 metafile = true
