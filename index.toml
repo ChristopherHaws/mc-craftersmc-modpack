@@ -2698,7 +2698,7 @@ metafile = true
 
 [[files]]
 file = "mods/free-cam.pw.toml"
-hash = "22219ddb194828f5d53ab38272e13e77a0abc12a6830fbb73b52a509483d2b08"
+hash = "8ecbab83f53862a6f9c6f40ae5b60e31fa496e04ccba65babaf9cd387a228278"
 metafile = true
 
 [[files]]
@@ -2828,7 +2828,7 @@ metafile = true
 
 [[files]]
 file = "mods/ok-zoomer.pw.toml"
-hash = "ccd82506fb18193c3846c323166bc1c63c3333644cfbc314ec642497dee9ce56"
+hash = "c967bab25029788ec600daa9f99ff2ee806e7aa63318de30145596beccbd9f0c"
 metafile = true
 
 [[files]]
