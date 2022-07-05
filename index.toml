@@ -2707,16 +2707,6 @@ hash = "22219ddb194828f5d53ab38272e13e77a0abc12a6830fbb73b52a509483d2b08"
 metafile = true
 
 [[files]]
-file = "mods/gui-clock-fabric-version.pw.toml"
-hash = "01f824fbdf6b94c413de5295d7e6879612f0895c9079686ee631aa441ad1c31b"
-metafile = true
-
-[[files]]
-file = "mods/gui-compass-fabric-version.pw.toml"
-hash = "691c811ff409acb0266e69d2f8f675903a7d2c04d06cd748a2c4fe0bd915a3f4"
-metafile = true
-
-[[files]]
 file = "mods/headindex.pw.toml"
 hash = "1269bac2d94cdbe511582be0c1074710ee3a2d1fac693c1c9de14d0c33c8fcb1"
 metafile = true
