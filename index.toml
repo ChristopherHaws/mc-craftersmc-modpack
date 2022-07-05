@@ -2164,7 +2164,7 @@ hash = "a1682e8de53c1a4a2824110400cfa3d83496c023355ca2c853e6cf6fdc9b1b3b"
 
 [[files]]
 file = "config/immersive_portals_fabric.json"
-hash = "75e75c11db2e028cd09df7c8b43cfebdb88f2f6ccf137bd540eb649d54694eab"
+hash = "320f76e566ffb9e034f42d32e85d9437cde244a2b2cda9cd86b115ce614a508a"
 
 [[files]]
 file = "config/indium-renderer.properties"
@@ -2814,11 +2814,6 @@ metafile = true
 [[files]]
 file = "mods/mixintrace.pw.toml"
 hash = "c564c408fa886b0eb077f4a0e9e326339da02dafbb1f3127e82613787af83bae"
-metafile = true
-
-[[files]]
-file = "mods/modern-glass-doors.pw.toml"
-hash = "c9443bd7eb29b6bb2dcff35bd45e7508964429f3ade9a0977bcd2ef470fc2c44"
 metafile = true
 
 [[files]]
