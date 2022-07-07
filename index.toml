@@ -2787,11 +2787,6 @@ hash = "d8ca4646d17fd9803950059b8a5f61b226853b6e0c5a629f2986d650dba650b4"
 metafile = true
 
 [[files]]
-file = "mods/litematica-server-paster.pw.toml"
-hash = "2a3fc4bfdfb7fa9aabf72cc0fd970b7c18cea7a09aa2f70338ee592660dd65a3"
-metafile = true
-
-[[files]]
 file = "mods/litematica.pw.toml"
 hash = "d66277abcba19f84dfb35cabf877075e0650c8e930ebcf1773d332a3eaae40d6"
 metafile = true
