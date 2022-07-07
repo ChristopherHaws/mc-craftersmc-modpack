@@ -1,11 +1,12 @@
 name = "MaLiLib"
-filename = "malilib-fabric-1.18.2-0.12.1.jar"
-side = "client" # Is actually "both" but switching to "client" until the mod is released for 1.19
+filename = "malilib-fabric-1.19-0.12.1.jar"
+side = "both"
 
 [download]
+url = "https://kosma.pl/masamods/malilib-fabric-1.19-0.12.1.jar"
 hash-format = "sha1"
-hash = "a810cf1f28751ac2681ab94a1f00b58c49884649"
-mode = "metadata:curseforge"
+hash = "a8874b54e6ff01dd7ddaa5db86128671f0c1a044"
+# mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
@@ -14,5 +15,5 @@ project-id = 303119
 
 [option]
 optional = true
-default = false
-description = "Doesn't work with 1.19 yet."
+default = true
+description = "Unofficial 1.19 port"

@@ -1,0 +1,19 @@
+name = "Litematica"
+filename = "litematica-fabric-1.18.2-0.11.3.jar"
+side = "both"
+
+[download]
+url = "https://kosma.pl/masamods/litematica-fabric-1.19-0.11.3.jar"
+hash-format = "sha1"
+hash = "eadeaa26bcabe4cf357fc91d22ab71861b1fadf6"
+#mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3783909
+project-id = 308892
+
+[option]
+optional = true
+default = true
+description = "Unofficial 1.19 port (requires malilib)"
