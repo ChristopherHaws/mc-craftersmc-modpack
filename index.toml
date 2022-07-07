@@ -3017,6 +3017,51 @@ hash = "2bc3242a6a026024a2048e0051c0efed79d159e72d6ea361da847acbc6f68da5"
 metafile = true
 
 [[files]]
+file = "schematics/9 Furnace Smelter.litematic"
+hash = "2ede486a8790fe11c96f6635b5497eab82ce11ad4ebe8a5c969e67d79bdddc21"
+preserve = true
+
+[[files]]
+file = "schematics/Honey Module (no front).litematic"
+hash = "8347a1306d9443e81038a8182893caa831e7c85c6c7d6dfea1c33ed758d3607a"
+preserve = true
+
+[[files]]
+file = "schematics/Iron Farm (Large).litematic"
+hash = "a1c9c5bfd73de19b0d3b5d397f9801a4c12ad330a0e4c833217cf5792ac4d131"
+preserve = true
+
+[[files]]
+file = "schematics/Iron Farm (Small) by Wattles.litematic"
+hash = "21c1d8995e79c36413b16d1126e7ac4adf6d779eeb5011639216ee5888958181"
+preserve = true
+
+[[files]]
+file = "schematics/Item Elevator (Silent Dropper).litematic"
+hash = "6b6ee9158db2c9e7b52be30d53c68b568d71b2b74065d831b48c47dbb46c6489"
+preserve = true
+
+[[files]]
+file = "schematics/Item Elevator.litematic"
+hash = "6d1698b2670ca4498fbf8408504084f726dcd537be5228911c034123d695f22a"
+preserve = true
+
+[[files]]
+file = "schematics/MultiItem Sorter Module.litematic"
+hash = "293386bb578d6a259aaac24d1b1a30223692ded9a2fb999609b0e60e90edcd26"
+preserve = true
+
+[[files]]
+file = "schematics/Villager Breeder.litematic"
+hash = "fec153ea943578b39a345f7bc7651dace787c1508ad3044d48005cf2d76dabbd"
+preserve = true
+
+[[files]]
+file = "schematics/Villager Trading Hall Section.litematic"
+hash = "55e3c9b9dd23bbea85c79023776e3cf9413fbd7aec8ad42af3b42d7e18d52338"
+preserve = true
+
+[[files]]
 file = "shaderpacks/ComplementaryShaders_v4.4.zip"
 hash = "297e2947c1986ba2faefdd3f2e0aa365b3e6dfd308853baae70821b393c06861"
 
