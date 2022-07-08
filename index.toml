@@ -2522,6 +2522,11 @@ hash = "e6f7d05a47c717cbdef4b105f44d71b2f3202154e2517d6641d6661d01cad07c"
 metafile = true
 
 [[files]]
+file = "mods/beaconoverhaul.pw.toml"
+hash = "aa188015e8d4943e5193ff081a8f62bbe3a1564e416a747e70600cc1a77ec829"
+metafile = true
+
+[[files]]
 file = "mods/better-signs-and-frames.pw.toml"
 hash = "902be52ec56171d6bb20625c92703d57d3543ec280c3100dd39560e726bf83a7"
 metafile = true
@@ -2707,6 +2712,11 @@ hash = "1269bac2d94cdbe511582be0c1074710ee3a2d1fac693c1c9de14d0c33c8fcb1"
 metafile = true
 
 [[files]]
+file = "mods/horsebuff.pw.toml"
+hash = "645884cfb77a80f09ec53ed044778e42632dabc125756977506dd1ddee546cbd"
+metafile = true
+
+[[files]]
 file = "mods/horsestatsvanilla.pw.toml"
 hash = "1b663b4af57bdb828ba482bf5897a5e9da20af253f29185878d0c600abe3a840"
 metafile = true
@@ -2804,6 +2814,11 @@ metafile = true
 [[files]]
 file = "mods/memoryleakfix.pw.toml"
 hash = "67f02aef7f2cb95bd94ba2598b7d3eae032205c2cef2df6cc3cc98fbdeb00998"
+metafile = true
+
+[[files]]
+file = "mods/mining-helmet-mod.pw.toml"
+hash = "99354da4bdc2920be2d723fb9cf5e935eb6b17ae50859fab4682b2f27b64b80b"
 metafile = true
 
 [[files]]

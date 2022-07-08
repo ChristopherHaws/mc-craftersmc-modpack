@@ -1,0 +1,14 @@
+name = "Mining Helmet"
+filename = "mining-helmet-mod-1.1.1+1.19.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/SsTvttLF/versions/1.1.1+1.19/mining-helmet-mod-1.1.1%2B1.19.jar"
+hash-format = "sha1"
+hash = "fe1a61b9285978c2146339b11cbafb5313a14876"
+mode = ""
+
+[update]
+[update.modrinth]
+mod-id = "SsTvttLF"
+version = "QS7pywqU"

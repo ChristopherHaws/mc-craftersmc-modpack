@@ -1,0 +1,14 @@
+name = "Beacon Overhaul"
+filename = "BeaconOverhaul-1.7.0+1.19.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/v0cwu8bJ/versions/1.7.0+1.19/BeaconOverhaul-1.7.0%2B1.19.jar"
+hash-format = "sha1"
+hash = "6d7f8cf53e0ca4a7bfa311fb649f1763be748244"
+mode = ""
+
+[update]
+[update.modrinth]
+mod-id = "v0cwu8bJ"
+version = "U3ADeedF"
