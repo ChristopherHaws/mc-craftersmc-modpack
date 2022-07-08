@@ -2648,7 +2648,7 @@ metafile = true
 
 [[files]]
 file = "mods/lambdynamiclights.pw.toml"
-hash = "eeaf807ce6a744daa4d6c3e5aa13bfbbd9fa3bcddcfc36a507875d3a2e4f412a"
+hash = "94690110840b6ac0d257ce753a5d2ef91f85762d7eab874a6ab1922c4d504ce5"
 metafile = true
 
 [[files]]
@@ -2689,11 +2689,6 @@ metafile = true
 [[files]]
 file = "mods/memoryleakfix.pw.toml"
 hash = "67f02aef7f2cb95bd94ba2598b7d3eae032205c2cef2df6cc3cc98fbdeb00998"
-metafile = true
-
-[[files]]
-file = "mods/mining-helmet-mod.pw.toml"
-hash = "99354da4bdc2920be2d723fb9cf5e935eb6b17ae50859fab4682b2f27b64b80b"
 metafile = true
 
 [[files]]
