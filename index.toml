@@ -1936,10 +1936,6 @@ hash = "2e0b0c4eeb69567931fb1a5aabff11cc04b267b7864aab3b4119ca11a30efc98"
 preserve = true
 
 [[files]]
-file = "config/.puzzle_cache/mojangstudios.png"
-hash = "27b2ea2946ca5b00841ce7d1813b42dfb7e36b12ad50c7c9bea09053ac226cf3"
-
-[[files]]
 file = "config/InvisFrames.conf"
 hash = "70aefe0b9471c924782bdd67eb880f7a724a7da8db67fd100f8046e3d1f06341"
 
@@ -1967,10 +1963,6 @@ hash = "3fd00fc2b5ebf23230be6143e51c4c3308430d37c6321b2e0c7f199099e75366"
 [[files]]
 file = "config/TabTPS/themes/default.conf"
 hash = "2e4ba57919837e709285c9a59d02caa0697a2f78396097db11bd63709cfcce8c"
-
-[[files]]
-file = "config/TabTPS/userdata/b66a5d61-42a0-44a5-8c1d-86ac9967d3bc.json"
-hash = "075bf0b3a1555dbcf7e707042641cc79b8979dd3a043aa824505d59aa9ffee0d"
 
 [[files]]
 file = "config/advancementinfo.json5"
@@ -2214,6 +2206,7 @@ hash = "7f81fc26158482bf5c28ba316d09eb806364853ae83fb3648d189878bed0c5c6"
 [[files]]
 file = "config/litematica.json"
 hash = "3b785dab02fd444210db80791f8e003b53b018d9454433e7f741065b67a994ed"
+preserve = true
 
 [[files]]
 file = "config/lithium.properties"
@@ -2228,124 +2221,9 @@ file = "config/loomrecipes.zip"
 hash = "d5f71510f70667a68f70267de781ca6c6b6b6f9dd231c0d4fc99d058f0a773eb"
 
 [[files]]
-file = "config/loomrecipes/letter_A.lr"
-hash = "6582a5a76a0e5b84a77fdbb72094358e295da3428eab119d772d5ada8de0d292"
-
-[[files]]
-file = "config/loomrecipes/letter_B.lr"
-hash = "2a731475da3400f3d5dd975bda3de096bb3b4893e00ebb66a3a66cd0e9de208f"
-
-[[files]]
-file = "config/loomrecipes/letter_C.lr"
-hash = "d4508f68082def07a1ced479291bd8e865d478fd13c250e64d73ac0f98c628c5"
-
-[[files]]
-file = "config/loomrecipes/letter_D.lr"
-hash = "765c4b8b685517f1a2699f42e3edf2de5fba9df994ab9a0a6b8cc0fa07b7cf37"
-
-[[files]]
-file = "config/loomrecipes/letter_E.lr"
-hash = "c740acb83caeaa5aef5140fe6db9d565348240afbffbb33d11e7e85ceef91c33"
-
-[[files]]
-file = "config/loomrecipes/letter_F.lr"
-hash = "7f877fc776b74d9cb38671e1169653e201c83a4ef789bbbe5e926d301c8185ea"
-
-[[files]]
-file = "config/loomrecipes/letter_G.lr"
-hash = "9c442da072b78959c1419e1ca730663948f4c3caa8630f24d1f78cbc90ce940e"
-
-[[files]]
-file = "config/loomrecipes/letter_H.lr"
-hash = "4f5c08245fe595f17d6cbdd67af05c27c0dad234f74f0acf2db23fe644f6155c"
-
-[[files]]
-file = "config/loomrecipes/letter_I.lr"
-hash = "0d736c0cae4bd13a5788138a81f0e1b4beaa388d194458f04e2c714254fdd6e7"
-
-[[files]]
-file = "config/loomrecipes/letter_J.lr"
-hash = "2ff51af91c94a21287f8acea31ba43e354ee87dc3913a786ad13f41931f06f57"
-
-[[files]]
-file = "config/loomrecipes/letter_K.lr"
-hash = "100b80aa33a60dd6106a1f21921c44eafaf7e5e698f28a32afbbbe3eab3095b7"
-
-[[files]]
-file = "config/loomrecipes/letter_L.lr"
-hash = "3bef9c03d9bb60a936f71aea73df3b91b2bf0025f386a8bf499070af79d58b22"
-
-[[files]]
-file = "config/loomrecipes/letter_M.lr"
-hash = "f0068d242536471f252d032f5930eb86b3d339155fe5add5ccf53bfa9ffea94b"
-
-[[files]]
-file = "config/loomrecipes/letter_N.lr"
-hash = "7bb22346ef57bfccdfe8602d7a102ba6dd5150042aa3766ee9b46cc209027a40"
-
-[[files]]
-file = "config/loomrecipes/letter_O.lr"
-hash = "33c87bad8874074e8e6ede938c13d8de6bd5c81dc351d0370e72b8d7133c252b"
-
-[[files]]
-file = "config/loomrecipes/letter_P.lr"
-hash = "bbaec063918158e851e0ae6658a38016c5327e7339cb74a395480886766dd760"
-
-[[files]]
-file = "config/loomrecipes/letter_Q.lr"
-hash = "0dffcb6cbbe7292cf35b2bd142fba3b34d19934d0ab7a2cefa7a5fdbf464fcdf"
-
-[[files]]
-file = "config/loomrecipes/letter_R.lr"
-hash = "7a3810bbc97467760791349192a3384594d882c10b8e96d6c1cde3a9bc620e65"
-
-[[files]]
-file = "config/loomrecipes/letter_S.lr"
-hash = "049e052cb8ff1b921ebba017f2dc1f485964864d56c02f5a03bec16f4175bbeb"
-
-[[files]]
-file = "config/loomrecipes/letter_T.lr"
-hash = "132fcaf2b48cc3316d5c66301c6342d5c541d7463c94db3bb444125dfe1ee08e"
-
-[[files]]
-file = "config/loomrecipes/letter_U.lr"
-hash = "67ac1aca4b23abaedbae03460c77a57c49ab8f382bd611fc5190d1f867b67d4e"
-
-[[files]]
-file = "config/loomrecipes/letter_V.lr"
-hash = "0cc7b4ba8dd14ad76b2df136a343ec68c491db0d37430ce72d87c1caa46e11d3"
-
-[[files]]
-file = "config/loomrecipes/letter_W.lr"
-hash = "8be23d1ada19eeff34959247a854bfff4601720a524bd088307a25e6bc4a07b3"
-
-[[files]]
-file = "config/loomrecipes/letter_X.lr"
-hash = "f2171dc5d2b0e044978618cb88aee6bef3bc807ddbeb6f06e0581a4a0a630147"
-
-[[files]]
-file = "config/loomrecipes/letter_Y.lr"
-hash = "edebf912c6b940fe3c7071cbc8893b2a28182cdac2ed091dff53c4fe14ba8724"
-
-[[files]]
-file = "config/loomrecipes/letter_Z.lr"
-hash = "87bf819facf3c3e59bb530be804a8e9ce05a2ded00b0fea52693592641c4997f"
-
-[[files]]
-file = "config/loomrecipes/mark_dot.lr"
-hash = "789f2153ca265e720588bc0f557d7feaf8cb89dc2a05961443711a5f39573265"
-
-[[files]]
-file = "config/loomrecipes/mark_exclam.lr"
-hash = "ee1ba96d6b17770c3be739ddb478cbd72b19ae08ce5fa4633eff922a902e891d"
-
-[[files]]
-file = "config/loomrecipes/mark_question.lr"
-hash = "2f9ab13e2bc2afd021981c94a11ead8d82c57fc74d2940443d26a8a8ea15abf7"
-
-[[files]]
 file = "config/malilib.json"
 hash = "a4976d6a5206a02939ee0ad164b06eb0bd0530dc5ffff42c9372327d1f5e5b64"
+preserve = true
 
 [[files]]
 file = "config/midnightlib.json"
@@ -2354,6 +2232,7 @@ hash = "6b52769b3358f87b591871a4444f3cef8124a9dced0da1755f18db2f47adf4f3"
 [[files]]
 file = "config/minihud.json"
 hash = "55f1cff3a26636735825764eb283f522c3b5211f9f6131fdf2293c5a286f348f"
+preserve = true
 
 [[files]]
 file = "config/modmenu.json"
@@ -2393,7 +2272,7 @@ hash = "21daa3fbbe747c5f51b8851638a846bbfbfad03789bfe47cded10496d3adaf92"
 
 [[files]]
 file = "config/sleepwarp.properties"
-hash = "d5f36ecf5cdcee021410d309d7f62ddf9b68b626ac7a8d8c7201d7c577024b9d"
+hash = "5f62baa7ffd16125e165b10156a3d7c7e3a0eb5e91560dbc9ba5a702f4353dca"
 
 [[files]]
 file = "config/sodium-extra-options.json"
@@ -2410,10 +2289,6 @@ hash = "051558518a6f3350fadb1546346d937e7f78f69834a075bf91b59921f151cc26"
 [[files]]
 file = "config/sodium-options.json"
 hash = "c06fc2e756fa6ec8f2e2949b320b2712e1d82defc7965980f72b292350df7120"
-
-[[files]]
-file = "config/spark/activity.json"
-hash = "8e5bddc83c9dffc0db0dd4613b17aaca90707bb5b7cd20dc7a4db1f150215da6"
 
 [[files]]
 file = "config/styled-chat.json"
