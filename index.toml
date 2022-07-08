@@ -2627,6 +2627,11 @@ hash = "89ba21e3753115ddf5670fd1063dac4f620b8ad8748a7702404a62081730f373"
 metafile = true
 
 [[files]]
+file = "mods/dimthread.pw.toml"
+hash = "37c821a968a27be827c1bcd5fbf78718bc541a51e7c501bd8989af6202ca7b0f"
+metafile = true
+
+[[files]]
 file = "mods/dont-clear-chat-history.pw.toml"
 hash = "9e8a66d43611d16b5809628f192db4c81ec55c2a6dead5d4cd85923f0cbb2d6c"
 metafile = true
