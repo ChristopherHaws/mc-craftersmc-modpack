@@ -2205,7 +2205,7 @@ hash = "7f81fc26158482bf5c28ba316d09eb806364853ae83fb3648d189878bed0c5c6"
 
 [[files]]
 file = "config/litematica.json"
-hash = "3b785dab02fd444210db80791f8e003b53b018d9454433e7f741065b67a994ed"
+hash = "5cb44769a63a2cf0ac8b6642cd559c1d9203a6a97832bce5318c84cb744b3d65"
 preserve = true
 
 [[files]]
@@ -2648,7 +2648,7 @@ metafile = true
 
 [[files]]
 file = "mods/lambdynamiclights.pw.toml"
-hash = "94690110840b6ac0d257ce753a5d2ef91f85762d7eab874a6ab1922c4d504ce5"
+hash = "eeaf807ce6a744daa4d6c3e5aa13bfbbd9fa3bcddcfc36a507875d3a2e4f412a"
 metafile = true
 
 [[files]]

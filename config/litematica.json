@@ -7,7 +7,7 @@
     "schematicRebuildBreakExceptPlaceOverlayColor": "#4CF03030",
     "schematicRebuildReplaceOverlayColor": "#4CF0A010",
     "schematicOverlayColorExtra": "#19FF4CE6",
-    "schematicOverlayColorMissing": "#2C33B3E6",
+    "schematicOverlayColorMissing": "#13C3FF00",
     "schematicOverlayColorWrongBlock": "#4CFF3333",
     "schematicOverlayColorWrongState": "#4CFF9010"
   },
@@ -75,7 +75,7 @@
       "keys": "BUTTON_1"
     },
     "easyPlaceToggle": {
-      "keys": "M,E"
+      "keys": "BUTTON_4"
     },
     "executeOperation": {
       "keys": "ENTER"
@@ -123,7 +123,7 @@
       "keys": "M,L"
     },
     "openGuiPlacementSettings": {
-      "keys": "COMMA"
+      "keys": "BUTTON_5"
     },
     "openGuiSchematicPlacements": {
       "keys": "M,P"
@@ -231,7 +231,7 @@
       "keys": ""
     },
     "toggleOverlayRendering": {
-      "keys": ""
+      "keys": "M,O"
     },
     "toggleOverlayOutlineRendering": {
       "keys": ""
@@ -325,7 +325,7 @@
     "renderPlacementEnclosingBox": true,
     "renderPlacementEnclosingBoxSides": false,
     "renderTranslucentBlockInnerSides": false,
-    "schematicOverlayEnableOutlines": true,
+    "schematicOverlayEnableOutlines": false,
     "schematicOverlayEnableSides": true,
     "schematicOverlayModelOutline": true,
     "schematicOverlayModelSides": true,
