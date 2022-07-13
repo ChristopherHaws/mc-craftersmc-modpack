@@ -502,6 +502,11 @@ hash = "ac687864e4db3da36883e596946a6ba7f137bc13ade04214927e60502d4e964c"
 metafile = true
 
 [[files]]
+file = "mods/borderless-mining.pw.toml"
+hash = "94a1f6d77920d815b3ae8fe10b58c9d2bc4df5fdbe2c53a07e55dcdb4e8bd0be"
+metafile = true
+
+[[files]]
 file = "mods/brb.pw.toml"
 hash = "7cd505e84be05b0cb14eca5c93049522a1711fd2d5ab95483bfee53c7207a52f"
 metafile = true
