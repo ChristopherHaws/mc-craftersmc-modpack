@@ -448,7 +448,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "42ba6435cc8222498d21aac477895325090143ca3e52fb9aeeacb079d7a8675e"
+hash = "fbd278a84e8ecbc539478dcd2776ae8593c0980212ca9fa656cf6647252444ad"
 metafile = true
 
 [[files]]
@@ -468,7 +468,7 @@ metafile = true
 
 [[files]]
 file = "mods/better-signs-and-frames.pw.toml"
-hash = "902be52ec56171d6bb20625c92703d57d3543ec280c3100dd39560e726bf83a7"
+hash = "b93d3e008e986349f3372fde6e194436f08c2c0914d1be59ba9ca8ef50a23b4d"
 metafile = true
 
 [[files]]
@@ -498,7 +498,7 @@ metafile = true
 
 [[files]]
 file = "mods/bookshelf.pw.toml"
-hash = "ac687864e4db3da36883e596946a6ba7f137bc13ade04214927e60502d4e964c"
+hash = "3a225baa090da48176c80dcd126bf1c0b43498fd7abe71b782392436611d6ffa"
 metafile = true
 
 [[files]]
@@ -548,7 +548,7 @@ metafile = true
 
 [[files]]
 file = "mods/cloth-config.pw.toml"
-hash = "dbf2c28de7653648cca1bfb357ff393fe8a7b3bd06dbcfc6780b91e63b7b9e82"
+hash = "85ebb0df9d958fede547f04d88b59d71284e919a27f152f60b3c03563cac22f5"
 metafile = true
 
 [[files]]
@@ -782,7 +782,7 @@ metafile = true
 
 [[files]]
 file = "mods/modmenu.pw.toml"
-hash = "6b661b5a876138e7ae6611d70ad21640b0d51ba444c6bfded04edaf0bdfa2c5c"
+hash = "7dbb47e18dbbf75736897f19805ac275284b1c196980beb2ce4e536bff51d754"
 metafile = true
 
 [[files]]
@@ -972,7 +972,7 @@ metafile = true
 
 [[files]]
 file = "mods/wthit.pw.toml"
-hash = "f5339aa43702c0577fe4727d88f9753e699b0b5862d376b7ff45f9ba293e37c0"
+hash = "42c2651d27ef90e1616c1026182a52bed4bf93476ad1d6fb4d8c175dba956f43"
 metafile = true
 
 [[files]]
