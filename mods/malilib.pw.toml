@@ -8,10 +8,11 @@ hash-format = "sha1"
 hash = "a8874b54e6ff01dd7ddaa5db86128671f0c1a044"
 # mode = "metadata:curseforge"
 
-[update]
-[update.curseforge]
-file-id = 3692220
-project-id = 303119
+# Commented out until tweakaroo, litematica, and minihud all have proper updates
+# [update]
+# [update.curseforge]
+# file-id = 3692220
+# project-id = 303119
 
 [option]
 optional = true
