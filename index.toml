@@ -782,7 +782,7 @@ metafile = true
 
 [[files]]
 file = "mods/modmenu.pw.toml"
-hash = "7dbb47e18dbbf75736897f19805ac275284b1c196980beb2ce4e536bff51d754"
+hash = "dfa5c722d138df87aafa11fee3b7566b0fcff8adf155eed9f478d08436ec9f9f"
 metafile = true
 
 [[files]]
@@ -972,7 +972,7 @@ metafile = true
 
 [[files]]
 file = "mods/wthit.pw.toml"
-hash = "42c2651d27ef90e1616c1026182a52bed4bf93476ad1d6fb4d8c175dba956f43"
+hash = "4ac7b004a3dade41a68f4bda59dc459aa17a08fe8bd0dcc93c5dded71a667c91"
 metafile = true
 
 [[files]]
