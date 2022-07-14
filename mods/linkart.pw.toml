@@ -1,0 +1,14 @@
+name = "Linkart"
+filename = "linkart-4.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/sc4Mu9Zu/versions/4.0.1/linkart-4.0.1.jar"
+hash-format = "sha1"
+hash = "3ff2f5350593c791847833b753d588c3cc3ccf5d"
+mode = ""
+
+[update]
+[update.modrinth]
+mod-id = "sc4Mu9Zu"
+version = "77tfe44f"
