@@ -962,6 +962,11 @@ hash = "30a9a5edabf15adfba9e3a1e4f3a297729a7a03caeba82fbc34ed54beeb01a4d"
 metafile = true
 
 [[files]]
+file = "mods/stendhal.pw.toml"
+hash = "c429a2b5d2a8e85472f4625c786fa407ea80cfe9ab8d9aedbbf2a00f0a7467d8"
+metafile = true
+
+[[files]]
 file = "mods/styled-chat.pw.toml"
 hash = "d53173b52eb8ecdec389e9d993dc89c6a21b1d5628712e819d1cec2dc3f6e0aa"
 metafile = true
