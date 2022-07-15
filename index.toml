@@ -448,7 +448,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "fbd278a84e8ecbc539478dcd2776ae8593c0980212ca9fa656cf6647252444ad"
+hash = "957f447037e778eec0de9370cfad61ff804bcc0c67ba52516fe5e6b5fbad2b2f"
 metafile = true
 
 [[files]]
@@ -668,7 +668,7 @@ metafile = true
 
 [[files]]
 file = "mods/horsestatsvanilla.pw.toml"
-hash = "1b663b4af57bdb828ba482bf5897a5e9da20af253f29185878d0c600abe3a840"
+hash = "83007613cc7de8b9375d925e0ec1e7381e68b38f49587e9e279311d0d419d466"
 metafile = true
 
 [[files]]
@@ -822,7 +822,7 @@ metafile = true
 
 [[files]]
 file = "mods/qsl.pw.toml"
-hash = "abac5084638e76db51e4ce0b456682c78e701517eb561b8037d429ff78ba205c"
+hash = "c5e997ed52882b5f852bfe43ddb04989079242531eac07688850dda41236bd8c"
 metafile = true
 
 [[files]]
@@ -892,7 +892,7 @@ metafile = true
 
 [[files]]
 file = "mods/spark.pw.toml"
-hash = "1651ee5e299d8883a2aaa8956cef6818d8f8686410d83f1d153a944deb650bf2"
+hash = "6a1a561ba4c553e877d7b916645bf17488ac9edea61bb75104ffd3f8a09e091f"
 metafile = true
 
 [[files]]
