@@ -572,6 +572,11 @@ hash = "b76477889caeae2112915bfb32a0e8b369900f03780b32babc4f8c030789e8e7"
 metafile = true
 
 [[files]]
+file = "mods/cull-less-leaves.pw.toml"
+hash = "8c594cadc0cb0aff268d8b96cdc99d7e9655cf69f5110c1375b7b3e39ee419e9"
+metafile = true
+
+[[files]]
 file = "mods/debugify.pw.toml"
 hash = "89ba21e3753115ddf5670fd1063dac4f620b8ad8748a7702404a62081730f373"
 metafile = true
@@ -764,6 +769,11 @@ metafile = true
 [[files]]
 file = "mods/malilib.pw.toml"
 hash = "3304623e2746c2e6af506a9ff5143b710863651bc3a29bcd5f25ce8d485f69e1"
+metafile = true
+
+[[files]]
+file = "mods/mcdiscordchat.pw.toml"
+hash = "c9d8d7f49bc5fcb4c1a7554d87caec917363a3ffa3289ac2b50f9b1a46683a98"
 metafile = true
 
 [[files]]
