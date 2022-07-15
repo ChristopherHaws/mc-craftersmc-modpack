@@ -442,6 +442,11 @@ hash = "6e37a53e0cc21c40bc27956d667189c278cefe61dab2a798fd4ba39bbf741687"
 metafile = true
 
 [[files]]
+file = "mods/antighost.pw.toml"
+hash = "8f96ee6a786812f7d07824c838d60b56e6eee6139c00a158c43f3459c02d927a"
+metafile = true
+
+[[files]]
 file = "mods/appleskin.pw.toml"
 hash = "cf1c8c1b2de20c6d260277ed690acbf02f876d901071eb6a2fb46135fd7455d7"
 metafile = true
@@ -692,6 +697,11 @@ hash = "8bab32d19a8d82d8b61e52d0fefdc20d5587550cc4b0d2f901419abeb5548660"
 metafile = true
 
 [[files]]
+file = "mods/inventory-profiles-next.pw.toml"
+hash = "beb05254a68e58e1d48d051fe08bfb1bc1f68e048aa70c9e7c1c4e3ac3c4d77c"
+metafile = true
+
+[[files]]
 file = "mods/inventory-totem-fabric.pw.toml"
 hash = "b5d32ec2efe1e2a1d7fb62dbda1c39c99df13d5d3a36d92cb590be1305b632f7"
 metafile = true
@@ -807,6 +817,11 @@ hash = "dfa5c722d138df87aafa11fee3b7566b0fcff8adf155eed9f478d08436ec9f9f"
 metafile = true
 
 [[files]]
+file = "mods/mods-command.pw.toml"
+hash = "a9e08a7158cee9af1351033e092ab735a2a65f1b9ed7d99587ed4552015f874a"
+metafile = true
+
+[[files]]
 file = "mods/morechathistory.pw.toml"
 hash = "6b36a18c06a679288c153c8abae5d20340e9a091e3948e639021b467e25970df"
 metafile = true
@@ -814,6 +829,11 @@ metafile = true
 [[files]]
 file = "mods/moreculling.pw.toml"
 hash = "1c849308491af80ffbcc9f583536d45aad8ce790f5db055b3b3862c33650fb3b"
+metafile = true
+
+[[files]]
+file = "mods/nether-chest.pw.toml"
+hash = "3ac1e7f3b28a7350ba416dd8c8d9778ae066dd62d278bb6540512503a25771ec"
 metafile = true
 
 [[files]]
@@ -842,6 +862,11 @@ hash = "c5e997ed52882b5f852bfe43ddb04989079242531eac07688850dda41236bd8c"
 metafile = true
 
 [[files]]
+file = "mods/raised.pw.toml"
+hash = "d97d8ed60864c0ea8a18de822739841d65b458ec86f651bcab6c2b2894cb2dc0"
+metafile = true
+
+[[files]]
 file = "mods/recipe-cache.pw.toml"
 hash = "9a3ae5c72bc925fb64391a62bef32f2d585d40a52481dfa132e838e0cffadcd2"
 metafile = true
@@ -849,6 +874,11 @@ metafile = true
 [[files]]
 file = "mods/reeses-sodium-options.pw.toml"
 hash = "f8784a0fc67a28151c4b19fd6b8aab83cf76843aed4c49be5df6441a3e3c4960"
+metafile = true
+
+[[files]]
+file = "mods/repurposed-structures-fabric.pw.toml"
+hash = "07fb6da7e40c18ec692c481ac7ecac9933282dc000cdc554b127ab889deb547c"
 metafile = true
 
 [[files]]
@@ -874,6 +904,11 @@ metafile = true
 [[files]]
 file = "mods/servercore.pw.toml"
 hash = "835140c34a5c4f2fb56c48589854d38304379bb00978111578aafa48e0607913"
+metafile = true
+
+[[files]]
+file = "mods/shards.pw.toml"
+hash = "3f15af45e2d3dc93cfeaf0cff6f7402ff475a7714e19bb0ffc22d656a29ce060"
 metafile = true
 
 [[files]]
