@@ -782,8 +782,9 @@ hash = "67f02aef7f2cb95bd94ba2598b7d3eae032205c2cef2df6cc3cc98fbdeb00998"
 metafile = true
 
 [[files]]
-file = "mods/minihud.toml"
+file = "mods/minihud.pw.toml"
 hash = "2e77f97da688c759c021342306721cf4287c564d088e20b755f45eaea590e4a4"
+metafile = true
 
 [[files]]
 file = "mods/missing-wilds.pw.toml"
