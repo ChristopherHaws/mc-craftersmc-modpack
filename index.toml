@@ -827,6 +827,11 @@ hash = "c967bab25029788ec600daa9f99ff2ee806e7aa63318de30145596beccbd9f0c"
 metafile = true
 
 [[files]]
+file = "mods/polymer.pw.toml"
+hash = "44479171d8d88a459f2205b72cc4f9c81dbbf419b83f58bedae06ad6bee22592"
+metafile = true
+
+[[files]]
 file = "mods/puzzle.pw.toml"
 hash = "4f033c8165f561c19dd99c3c4a8017dc3cba9f655f6371582f14118a0ec093b4"
 metafile = true
@@ -879,6 +884,11 @@ metafile = true
 [[files]]
 file = "mods/sleep-warp.pw.toml"
 hash = "f885589f0f3bf1af099f1e4a27156b8e2568175601112b3234b9233c3cde7ede"
+metafile = true
+
+[[files]]
+file = "mods/smoothboot-fabric.pw.toml"
+hash = "162338e36a43bbfd68c0e981990026245b0a502de730ea5e71890ce94e5c815b"
 metafile = true
 
 [[files]]
