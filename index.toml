@@ -766,6 +766,11 @@ hash = "96a3463c6b05867e7ed2cf98bd7faed2b8d190913d9d8f9b551bbae6eab8efe4"
 metafile = true
 
 [[files]]
+file = "mods/crawl.pw.toml"
+hash = "58445e46c8bd9793021ccdf62cda503c769b9757539e5e577461b0a4742358b7"
+metafile = true
+
+[[files]]
 file = "mods/crops-love-rain.pw.toml"
 hash = "b76477889caeae2112915bfb32a0e8b369900f03780b32babc4f8c030789e8e7"
 metafile = true
@@ -988,6 +993,11 @@ metafile = true
 [[files]]
 file = "mods/lithium.pw.toml"
 hash = "e7986bc23e319e750e19139d68f1facec6df41d98d51d417293c5c1434e7f845"
+metafile = true
+
+[[files]]
+file = "mods/lucys-sloths.pw.toml"
+hash = "e710815645db3e92e4ce213a21564df1b7f8b55466b438f209e5a9d8e50ca42f"
 metafile = true
 
 [[files]]
