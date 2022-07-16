@@ -1,0 +1,13 @@
+name = "Expanded Storage"
+filename = "expandedstorage-8.0.1+1.19-quilt.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "92ed55b8d1f70defa52f16208468a55277103565"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3864236
+project-id = 317856

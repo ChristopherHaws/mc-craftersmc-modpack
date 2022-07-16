@@ -811,6 +811,11 @@ hash = "073bff49ec9e664b669794177329cfbeef3c3d91d5c0660cd01144a640e0338b"
 metafile = true
 
 [[files]]
+file = "mods/ellemes-container-library.pw.toml"
+hash = "e9691e7c1065f3db1dfe4ebc407597cca5bdd07b1a6130d785b82cf38d357360"
+metafile = true
+
+[[files]]
 file = "mods/enchantment-descriptions.pw.toml"
 hash = "71842c73f6007effdce07d0b51cca7b615b95f4543fa732fe326861fd862a52a"
 metafile = true
@@ -828,6 +833,11 @@ metafile = true
 [[files]]
 file = "mods/entitytexturefeatures.pw.toml"
 hash = "1f47872fdf0e954fe7dab437208f9c86f10812284aad39c7d3ae8ca13d906b89"
+metafile = true
+
+[[files]]
+file = "mods/expanded-storage.pw.toml"
+hash = "d7b1a4836d307c994074fc1b451b539fed2e1b5670abbb6dca4968abe75b747f"
 metafile = true
 
 [[files]]
