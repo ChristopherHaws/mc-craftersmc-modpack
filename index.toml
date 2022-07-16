@@ -786,6 +786,11 @@ hash = "89ba21e3753115ddf5670fd1063dac4f620b8ad8748a7702404a62081730f373"
 metafile = true
 
 [[files]]
+file = "mods/discord4fabric.pw.toml"
+hash = "2f2fa3dd08dd1bf29a52423c16ccfd507b9640f08154424e3fe548e5461baf4f"
+metafile = true
+
+[[files]]
 file = "mods/dont-clear-chat-history.pw.toml"
 hash = "9e8a66d43611d16b5809628f192db4c81ec55c2a6dead5d4cd85923f0cbb2d6c"
 metafile = true
@@ -978,11 +983,6 @@ metafile = true
 [[files]]
 file = "mods/malilib.pw.toml"
 hash = "3304623e2746c2e6af506a9ff5143b710863651bc3a29bcd5f25ce8d485f69e1"
-metafile = true
-
-[[files]]
-file = "mods/mcdiscordchat.pw.toml"
-hash = "c9d8d7f49bc5fcb4c1a7554d87caec917363a3ffa3289ac2b50f9b1a46683a98"
 metafile = true
 
 [[files]]
