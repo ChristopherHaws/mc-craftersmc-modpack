@@ -3,6 +3,7 @@ hash-format = "sha256"
 [[files]]
 file = "config/InvisFrames.conf"
 hash = "70aefe0b9471c924782bdd67eb880f7a724a7da8db67fd100f8046e3d1f06341"
+preserve = true
 
 [[files]]
 file = "config/PlasmoVoice/config.json"
@@ -12,38 +13,47 @@ preserve = true
 [[files]]
 file = "config/PlasmoVoice/server.yml"
 hash = "e6ce65e98af572331c88791889512396135390f31db973a0ec2ed7b552247367"
+preserve = true
 
 [[files]]
 file = "config/PlasmoVoice/server_data.json"
 hash = "ec1e4eb5cb0f9781edaefa27df5c620a72c4e5f5b56169d31196640e6683e966"
+preserve = true
 
 [[files]]
 file = "config/TabTPS/display-configs/default.conf"
 hash = "132dea92601aab1d567afbe16c54c878ad6c99fc8bd6ebc05cee6f7b35ecad47"
+preserve = true
 
 [[files]]
 file = "config/TabTPS/main.conf"
 hash = "3fd00fc2b5ebf23230be6143e51c4c3308430d37c6321b2e0c7f199099e75366"
+preserve = true
 
 [[files]]
 file = "config/TabTPS/themes/default.conf"
 hash = "2e4ba57919837e709285c9a59d02caa0697a2f78396097db11bd63709cfcce8c"
+preserve = true
 
 [[files]]
 file = "config/advancementinfo.json5"
 hash = "82fb3f9fd7931ded27c4c0cc78b86bed8a82e2d17b587f26f3a094a8589e13e6"
+preserve = true
 
 [[files]]
 file = "config/animatica.properties"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+preserve = true
 
 [[files]]
 file = "config/appleskin.json5"
 hash = "ae87f2d1b38dfd4b1e0767dfeb539261deaaf4fd2eb73692afcbaac7147855b9"
+preserve = true
 
 [[files]]
 file = "config/armor-stand-editor/config.json"
 hash = "8cec3f0def08a4029fbb6f0c4cb8d5f2729be40cdc283c5c9df5565f59171651"
+preserve = true
 
 [[files]]
 file = "config/autoreconnect.json5"
@@ -53,18 +63,22 @@ preserve = true
 [[files]]
 file = "config/betterf3.json"
 hash = "2b579c08f84daf5d686dab829db49396cfd6c8d24d74adfdfe950baa6c49bffb"
+preserve = true
 
 [[files]]
 file = "config/betterthirdperson.json5"
 hash = "9509531a29e04324e03a9d4d5a64fd3cc54573dafd610ec2fd01f92194df5706"
+preserve = true
 
 [[files]]
 file = "config/blockmeter.toml"
 hash = "02140dc2e94847d6f60901dee8989b7f7bd3ce40f86326b5eebc7cc1246f22ce"
+preserve = true
 
 [[files]]
 file = "config/boatiview/client.toml"
 hash = "5a2efd90464dcfe793380701139c18f71fc6c9afc6528c70be398fc0c37b4e8c"
+preserve = true
 
 [[files]]
 file = "config/bobby.conf"
@@ -74,162 +88,202 @@ preserve = true
 [[files]]
 file = "config/boxofplacholders/animations/example.json"
 hash = "69ee9d35dd5dd0a2ea8e136c2f5fcf36ea9a2cf01a1733fb217004d7a4b76cea"
+preserve = true
 
 [[files]]
 file = "config/boxofplacholders/config.json"
 hash = "b7928344407c8018380e798e61ba3aeaa69e5469b1dc19a6d47bd92bb2e65aeb"
+preserve = true
 
 [[files]]
 file = "config/boxofplacholders/static.json"
 hash = "e3fc1d319a67c30b50dae8499397a4cca037caec62dc40dcf4ac799fe8152eed"
+preserve = true
 
 [[files]]
 file = "config/brb.toml"
 hash = "094c2e64cddebad18481ad12093cf156cef5197ffb16914146f31072fb3b8776"
+preserve = true
 
 [[files]]
 file = "config/c2me-compat.toml"
 hash = "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+preserve = true
 
 [[files]]
 file = "config/c2me.toml"
 hash = "2f0b1c64b2f2917499d1d68b93bda5be409646a8305fd61a4ccad85e3a52941d"
+preserve = true
 
 [[files]]
 file = "config/carpet/default_carpet-fixes.conf"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+preserve = true
 
 [[files]]
 file = "config/carpet/default_carpet.conf"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+preserve = true
 
 [[files]]
 file = "config/cem.conf"
 hash = "5264fcf9f29194bb2a4728b5b9d7d63f1c2328d915abf6e9d4edebcdf47720e3"
+preserve = true
 
 [[files]]
 file = "config/chunky.json"
 hash = "314e5382c4f0ac6fb9fea3d5625ca136433fd996572ae78ba160896e480dbcc6"
+preserve = true
 
 [[files]]
 file = "config/citresewn-defaults.json"
 hash = "0b333b0bf9a0e573fa14f81610a621b488d5277c9e8f8c6a4c81e6a6cb37e482"
+preserve = true
 
 [[files]]
 file = "config/citresewn.json"
 hash = "1ea03400477ac2075d61ae58cfc573bc78ce954507d090ab69547de279918656"
+preserve = true
 
 [[files]]
 file = "config/collective-fabric.json"
 hash = "a96dc1d34609e0ed2d4bd3c3cab74944040d52000d9dffe3047865e14f2bb14b"
+preserve = true
 
 [[files]]
 file = "config/continuity.json"
 hash = "5b973cc25d36791f3c62ad6ef434ec183f59e7c80c29f9ea92fc02869178ffe5"
+preserve = true
 
 [[files]]
 file = "config/crowdin.txt"
 hash = "fadbd1094e4079597c631b59da43ea2e315aa610c47282045384e888894ecc41"
+preserve = true
 
 [[files]]
 file = "config/ctm.json"
 hash = "ac1c4527b4eed67acecb0786990c9729a1f97ef6c41e73ebab2d6eab080626ec"
+preserve = true
 
 [[files]]
 file = "config/debugify-descriptions.json"
 hash = "c68a74b2d75636884474831e103f9615227a4735ed1ebdc299818284081ab2f2"
+preserve = true
 
 [[files]]
 file = "config/debugify.json"
 hash = "10d75016499501468909dd59d1cbba54a6faecf477e4e1d64048086cf42d27b6"
+preserve = true
 
 [[files]]
 file = "config/doubledoors-fabric.json"
 hash = "a0c2237842dd0577f5b4999effd7766a6fb020d73f1bd751cd46de9bd58ecf18"
+preserve = true
 
 [[files]]
 file = "config/dynamicfps.toml"
 hash = "f5474c5f2aa9e04cc88211eb6c0b7c4d3835814ba7047252edf624355862caa6"
+preserve = true
 
 [[files]]
 file = "config/easiercrafting.json"
 hash = "73e80ecd35a7e5729d33a0dc29266232b670c8fa3cdd6f471a0de4b3af4087f6"
+preserve = true
 
 [[files]]
 file = "config/easiervillagertrading.json"
 hash = "65e82ba2a298c1079e308736833155089776932fc6c56a36f677cb91244e73c6"
+preserve = true
 
 [[files]]
 file = "config/editsign.json"
 hash = "cdaa38de39f50b1bcdb2e0c5541cf110779122c2a25127c551a85cea8244353b"
+preserve = true
 
 [[files]]
 file = "config/enchdesc.json"
 hash = "9c38c6c61cee2b7ce9ca30abfc1365884eebbdf51705798d71854979d2643923"
+preserve = true
 
 [[files]]
 file = "config/enhanced_bes.properties"
 hash = "cb65718b519d549da0aaa38c07577eb99dc859e867301085c2bc62f11605a328"
+preserve = true
 
 [[files]]
 file = "config/entity-view-distance.json"
 hash = "471260f24f9e6e45865cb37f9b729da5d381421ba4de4afc891f535fc6e33a6f"
+preserve = true
 
 [[files]]
 file = "config/entity_texture_features.json"
 hash = "8523589959e764e16ea895c5b35a4481ad166211edaedfb6531a01c9b45691a6"
+preserve = true
 
 [[files]]
 file = "config/entityculling.json"
 hash = "054eaa843b83feaf2be06cd061f00ac4437f9eb73fc31a23575ef6db419cebcf"
+preserve = true
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
 hash = "645b12a83bf31d309d5a79413257d398d54ba58245c3c3e26a93092ab2960edb"
+preserve = true
 
 [[files]]
 file = "config/ferritecore.mixin.properties"
 hash = "647c97bf8ba08a082324b85ed87ae43356109953b4140fe57847cf7b97448ecd"
+preserve = true
 
 [[files]]
 file = "config/fpsdisplay.json"
 hash = "fa21f2e3b7aced19d3d8d24163d89187d77e12c45f52d3a97e48f0e51eb4201c"
+preserve = true
 
 [[files]]
 file = "config/freecam.json5"
 hash = "3a1bdfeaecfc85343be2aa4c643598c5e90abde30f82a9e92bad870df0a1e4e6"
+preserve = true
 
 [[files]]
 file = "config/grid.json"
 hash = "1c49051b7b10ca6e41c757e6ad0da5baaf05c577e8aa062f18e975f2c429511b"
+preserve = true
 
 [[files]]
 file = "config/guiclock-fabric.json"
 hash = "e8cd7fe1d3144727ff17c3010793f001bd0654840f9c3e9724472054de389019"
+preserve = true
 
 [[files]]
 file = "config/guicompass-fabric.json"
 hash = "d5f6f5ab02e3da6be7053decc3ff0f7d37b9b349babeb237a99c01646973d1b5"
+preserve = true
 
 [[files]]
 file = "config/health_config.json"
 hash = "43e94db75138bf3304a3222891894d613490ec0cf557f379f7a5c84a6cbdd03c"
+preserve = true
 
 [[files]]
 file = "config/horsestatsvanilla.json5"
 hash = "a1682e8de53c1a4a2824110400cfa3d83496c023355ca2c853e6cf6fdc9b1b3b"
+preserve = true
 
 [[files]]
 file = "config/immersive_portals_fabric.json"
 hash = "320f76e566ffb9e034f42d32e85d9437cde244a2b2cda9cd86b115ce614a508a"
+preserve = true
 
 [[files]]
 file = "config/indium-renderer.properties"
 hash = "1ef14e7c95d462ac48db91209cfedafa8c32b9313cc521ab34381573a84ffbe6"
+preserve = true
 
 [[files]]
 file = "config/inspecio.json"
 hash = "b7e6193f25e9f5921404fd4ed3fedb0e713718359a2a998d5b279c85e037b5a3"
+preserve = true
 
 [[files]]
 file = "config/invmove.json"
@@ -259,14 +313,17 @@ preserve = true
 [[files]]
 file = "config/lambdynlights.toml"
 hash = "5af5f81c9fe5be3b0b156dcc339dd958dfda5359158e7215a4b6962903b7b556"
+preserve = true
 
 [[files]]
 file = "config/libgui.json5"
 hash = "6814fc05aa8d6664712b056cfd6cb51cb4bafeabe3f274b9cf5e19e27eff406d"
+preserve = true
 
 [[files]]
 file = "config/lightoverlay.properties"
 hash = "7f81fc26158482bf5c28ba316d09eb806364853ae83fb3648d189878bed0c5c6"
+preserve = true
 
 [[files]]
 file = "config/litematica.json"
@@ -276,14 +333,17 @@ preserve = true
 [[files]]
 file = "config/lithium.properties"
 hash = "4f5890cb55b35047fdb433efa30060827aa9415e0850220f85b2c8ad663d6722"
+preserve = true
 
 [[files]]
 file = "config/localrecipes.zip"
 hash = "864af477727595f658caca7f6a41996b8648b7e9302da3c58314174db737882c"
+preserve = true
 
 [[files]]
 file = "config/loomrecipes.zip"
 hash = "d5f71510f70667a68f70267de781ca6c6b6b6f9dd231c0d4fc99d058f0a773eb"
+preserve = true
 
 [[files]]
 file = "config/malilib.json"
@@ -293,6 +353,7 @@ preserve = true
 [[files]]
 file = "config/midnightlib.json"
 hash = "6b52769b3358f87b591871a4444f3cef8124a9dced0da1755f18db2f47adf4f3"
+preserve = true
 
 [[files]]
 file = "config/minihud.json"
@@ -302,82 +363,102 @@ preserve = true
 [[files]]
 file = "config/modmenu.json"
 hash = "503f96151dab202359895d267084c5ca81604cf9a3455446c20a5c0c69ec7cdb"
+preserve = true
 
 [[files]]
 file = "config/no_fog.json"
 hash = "24c6ca04f25518e2b4358bac31c4502e6b7c42b500226a508db0858cd81a232c"
+preserve = true
 
 [[files]]
 file = "config/ok_zoomer/config.toml"
 hash = "5d1fb4332df4717c2f0e0c4d206514b23e4598f27b2ee98008d8853ccde03d55"
+preserve = true
 
 [[files]]
 file = "config/okzoomer.json5"
 hash = "44231e1a7a97ca10e18b39f19e9dbadf4a0b4c23b92bc670786fddfd7fc4ddf8"
+preserve = true
 
 [[files]]
 file = "config/oneclickcrafting.json"
 hash = "d601aee2e45452763dd6659123fdc3b21e700b8a02b312aa248fd1dba733ecd2"
+preserve = true
 
 [[files]]
 file = "config/puzzle.json"
 hash = "31b4f5e6090b4048858edfcf45f842240d031c580e600b91b5708824bfb710ec"
+preserve = true
 
 [[files]]
 file = "config/rpgstats.json5"
 hash = "073f94d084afa1d3a17c4cb998aeccdde29032dc0c03a5f55f9f532944846f23"
+preserve = true
 
 [[files]]
 file = "config/rrp.properties"
 hash = "a5e698870cb9a8e0f7090f96f7b196018dac490c2658946e5c980257445f1dc9"
+preserve = true
 
 [[files]]
 file = "config/servercore.toml"
 hash = "21daa3fbbe747c5f51b8851638a846bbfbfad03789bfe47cded10496d3adaf92"
+preserve = true
 
 [[files]]
 file = "config/sleepwarp.properties"
 hash = "5f62baa7ffd16125e165b10156a3d7c7e3a0eb5e91560dbc9ba5a702f4353dca"
+preserve = true
 
 [[files]]
 file = "config/sodium-extra-options.json"
 hash = "08110f4199726f09b80cd4eb84bbe4ac382e437f85f523424e69e472c5680366"
+preserve = true
 
 [[files]]
 file = "config/sodium-extra.properties"
 hash = "a2f1b47c1eaa119ab34727f1d43c2506cb3d7f17ba8fb4efb49e20c8e0b58e70"
+preserve = true
 
 [[files]]
 file = "config/sodium-mixins.properties"
 hash = "051558518a6f3350fadb1546346d937e7f78f69834a075bf91b59921f151cc26"
+preserve = true
 
 [[files]]
 file = "config/sodium-options.json"
 hash = "c06fc2e756fa6ec8f2e2949b320b2712e1d82defc7965980f72b292350df7120"
+preserve = true
 
 [[files]]
 file = "config/styled-chat.json"
 hash = "cca17f13fae6302c452d7a0485c6d221a32409658e4d923430fe74d3a826e2b9"
+preserve = true
 
 [[files]]
 file = "config/styled-nicknames.json"
 hash = "904eeaf6d8daf8629104c325cb8b1ec96398c56d3a2af1cf5316c52f7dd9416b"
+preserve = true
 
 [[files]]
 file = "config/thorium/thorium.conf"
 hash = "3b9b77629687ddb58e99fdc6dda38cc3a40f2c208175ea0432eaaed3a4f18288"
+preserve = true
 
 [[files]]
 file = "config/toolstats.json"
 hash = "16fc089a922d3cb3836746a0b58210b9991caba2adfe15306f2098bb995d44a7"
+preserve = true
 
 [[files]]
 file = "config/torohealth.json"
 hash = "58c0a947f53da06526c0c81163b4dfdf3fe18e5f465af5b074d6f96a924c3422"
+preserve = true
 
 [[files]]
 file = "config/tr7zwDonorSettings.json"
 hash = "b4f660488920eac2dffd3c2208d281e92e1444e6f9c7808461a2687347c787d5"
+preserve = true
 
 [[files]]
 file = "config/tweakeroo.json"
@@ -387,6 +468,7 @@ preserve = true
 [[files]]
 file = "config/waig.config"
 hash = "3b52837331c0177e7dba567d76a5b956c011492f0071a4fd7c4bac2a59c01194"
+preserve = true
 
 [[files]]
 file = "config/waila/blacklist.json"
@@ -406,6 +488,7 @@ preserve = true
 [[files]]
 file = "config/worldedit/worldedit.properties"
 hash = "2f02a81deb2910d871eb06b1019b4f2806157eabeae2a961e5a9bd2bb0118f20"
+preserve = true
 
 [[files]]
 file = "config/xaerominimap.txt"
@@ -420,6 +503,7 @@ preserve = true
 [[files]]
 file = "config/xaeropatreon.txt"
 hash = "8f416b1035da696f526b1cc83494f348616a6603f0091b6ec11ee84e1b70aa09"
+preserve = true
 
 [[files]]
 file = "config/xaeroworldmap.txt"
@@ -1099,6 +1183,7 @@ preserve = true
 [[files]]
 file = "shaderpacks/ComplementaryShaders_v4.4.zip"
 hash = "297e2947c1986ba2faefdd3f2e0aa365b3e6dfd308853baae70821b393c06861"
+preserve = true
 
 [[files]]
 file = "shaderpacks/ComplementaryShaders_v4.4.zip.txt"
