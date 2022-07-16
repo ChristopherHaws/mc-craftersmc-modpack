@@ -2,6 +2,7 @@
 *.zip
 !/config/**/*.zip
 !/shaderpacks/**/*.zip
+!/resourcepacks/**/*.zip
 !/XaeroWorldMap/**/*.zip
 
 # Exclude exported Modrinth modpacks

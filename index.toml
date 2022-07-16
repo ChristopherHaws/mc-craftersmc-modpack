@@ -1246,6 +1246,36 @@ hash = "2e490db1ac5470e5ab80919b497be21e7b3396d2c3f0a39fbe01290099ec06e6"
 metafile = true
 
 [[files]]
+file = "resourcepacks/Better+Leaves+Addon+V2.9-1.19.zip"
+hash = "f41455bedbaa6520e0c5a76b78d29e97498b6ef2a7d86290635dd7b994863f7b"
+preserve = true
+
+[[files]]
+file = "resourcepacks/VanillaTweaks_Base.zip"
+hash = "fed02b6773178aa4cc24087d8b77134d40109b9b7c569876467c35f911b96e23"
+preserve = true
+
+[[files]]
+file = "resourcepacks/VanillaTweaks_BrighterNether.zip"
+hash = "816c8144f7d5279ab47b2f7639eca7bb51d0b48b4ddeae07f50d2c5a2eae5153"
+preserve = true
+
+[[files]]
+file = "resourcepacks/VanillaTweaks_BushyLeaves.zip"
+hash = "f4d07adbeb71849be98509e1638818c1b7bf879bc5fdaf9b12f733a0f6fbb5d3"
+preserve = true
+
+[[files]]
+file = "resourcepacks/VanillaTweaks_FullyAgedMarkers.zip"
+hash = "0d2762f85422e89179e364d3f578faebfd2a1d0a812b937a136337bb2c632ca8"
+preserve = true
+
+[[files]]
+file = "resourcepacks/VanillaTweaks_LushGrassEverywhere.zip"
+hash = "b8ae65eaa0e3308ef190f0e40a49199bf65ce85d80d60f61415817c624b45d41"
+preserve = true
+
+[[files]]
 file = "schematics/9 Furnace Smelter.litematic"
 hash = "2ede486a8790fe11c96f6635b5497eab82ce11ad4ebe8a5c969e67d79bdddc21"
 preserve = true
