@@ -1026,11 +1026,6 @@ hash = "c77f162c7072a9bb922faf3bd5f223ce4f57973d531cc32484a7dcf72d2e1f51"
 metafile = true
 
 [[files]]
-file = "mods/sort.pw.toml"
-hash = "344f742de0eab5096b2c969e884dd5efac4c4f9fbab90a229cecd6ef8bf5cc92"
-metafile = true
-
-[[files]]
 file = "mods/stack-refill-fabric.pw.toml"
 hash = "e401c8b35f06c2c0c5f513bc4ce6bd952f7981a4c876ac8c087d5e4398c27e0c"
 metafile = true
