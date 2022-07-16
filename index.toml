@@ -776,6 +776,11 @@ hash = "8c594cadc0cb0aff268d8b96cdc99d7e9655cf69f5110c1375b7b3e39ee419e9"
 metafile = true
 
 [[files]]
+file = "mods/dawn.pw.toml"
+hash = "36e2c3886e92d59108184fb3382388909ec6e12386fd85bf3e5d739f87824b75"
+metafile = true
+
+[[files]]
 file = "mods/debugify.pw.toml"
 hash = "89ba21e3753115ddf5670fd1063dac4f620b8ad8748a7702404a62081730f373"
 metafile = true
