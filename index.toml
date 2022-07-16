@@ -882,7 +882,7 @@ metafile = true
 
 [[files]]
 file = "mods/immersiveportals.pw.toml"
-hash = "e879a518927f3c0e5419ae1bf2bac86f431bc4de7ad6c0839f6f893745bf1e03"
+hash = "8506203c27bfda2a52cac04dfd4ab09b78a2e1587dcf36423a4027208beb3701"
 metafile = true
 
 [[files]]
@@ -1027,7 +1027,7 @@ metafile = true
 
 [[files]]
 file = "mods/moreculling.pw.toml"
-hash = "1c849308491af80ffbcc9f583536d45aad8ce790f5db055b3b3862c33650fb3b"
+hash = "d1af77ba35e101f01375f9dc68af675a2e0f993b8ab0618a2bc55dcf36689d4b"
 metafile = true
 
 [[files]]
@@ -1167,7 +1167,7 @@ metafile = true
 
 [[files]]
 file = "mods/styled-nicknames.pw.toml"
-hash = "064990c4cbe3e5c49c5540eaa1f89f623e868aff7485e294af3120640ad3885c"
+hash = "1155214d17d32326fa55c97ad4b1e018d3a91f8b25d1790b8a73ee72e2510fa7"
 metafile = true
 
 [[files]]
