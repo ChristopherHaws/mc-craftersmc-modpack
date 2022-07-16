@@ -1,18 +1,18 @@
 name = "Xaero's Minimap"
-filename = "Xaeros_Minimap_22.11.1_Fabric_1.19.jar"
+filename = "Xaeros_Minimap_22.12.0_Fabric_1.19.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "abece2dac936abe2edbb34c27052ea3431961072"
+hash = "ed2d1b3e42a1752e90ba567c2776c3d034244737"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 3861255
+file-id = 3876771
 project-id = 263420
 
 [option]
 optional = true
-default = true
 description = "Seems to be crashing sometimes"
+default = true

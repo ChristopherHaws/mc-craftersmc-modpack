@@ -1,18 +1,18 @@
 name = "Xaero's World Map"
-filename = "XaerosWorldMap_1.25.1_Fabric_1.19.jar"
+filename = "XaerosWorldMap_1.26.1_Fabric_1.19.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "282e9371743630e1fb64b3f935dbe7fd4bd6aac8"
+hash = "341c2cd5ff11bc1496b4045cb70389eda92f4d74"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 3861273
+file-id = 3876752
 project-id = 317780
 
 [option]
 optional = true
-default = true
 description = "Seems to be crashing sometimes"
+default = true
