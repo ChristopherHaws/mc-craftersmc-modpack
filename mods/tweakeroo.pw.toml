@@ -1,17 +1,11 @@
 name = "Tweakeroo"
 filename = "tweakeroo-fabric-1.19-0.13.3.jar"
-side = "client" # Seems to make the server crash =(
+side = "both"
 
 [download]
 url = "https://kosma.pl/masamods/tweakeroo-fabric-1.19-0.13.3.jar"
 hash-format = "sha1"
-hash = "86b73189a898f8618f7534bef7c4e2a0facb160d"
-mode = "metadata:curseforge"
-
-[update]
-[update.curseforge]
-file-id = 3783910
-project-id = 297344
+hash = "7559e6288fd5f56db50e8c9f2249ccac603c3e5f"
 
 [option]
 optional = true
