@@ -1061,6 +1061,11 @@ hash = "44479171d8d88a459f2205b72cc4f9c81dbbf419b83f58bedae06ad6bee22592"
 metafile = true
 
 [[files]]
+file = "mods/promenade.pw.toml"
+hash = "bd791852ac4db6b263f3807c8782b23ad9410f062af568aacd3238169dabc6a4"
+metafile = true
+
+[[files]]
 file = "mods/puzzle.pw.toml"
 hash = "4f033c8165f561c19dd99c3c4a8017dc3cba9f655f6371582f14118a0ec093b4"
 metafile = true
