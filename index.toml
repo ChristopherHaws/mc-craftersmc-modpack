@@ -1176,6 +1176,11 @@ hash = "3416cc3c2ef06f8290a3de093bd40caaddf97d710616b4d6c0e7ff841f857cde"
 metafile = true
 
 [[files]]
+file = "mods/things.pw.toml"
+hash = "79f270cd2987f5cb3803c5e763d056c5214ea418bdd8a12c945aa0f0108cc010"
+metafile = true
+
+[[files]]
 file = "mods/thorium.pw.toml"
 hash = "bca5f92b10af710cc7e015669350083f5f4b676f22b7356250b065da1bbb33f2"
 metafile = true
