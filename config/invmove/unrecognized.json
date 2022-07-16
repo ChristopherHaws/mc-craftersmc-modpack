@@ -22,10 +22,37 @@
     "net.minecraft.class_407": false,
     "fi.dy.masa.litematica.gui.GuiConfigs": false,
     "mcp.mobius.waila.gui.screen.HomeScreen": false,
-    "mcp.mobius.waila.gui.screen.WailaConfigScreen": false
+    "mcp.mobius.waila.gui.screen.WailaConfigScreen": false,
+    "me.shedaniel.clothconfig2.gui.ClothConfigScreen": false,
+    "me.pepperbell.continuity.client.config.ContinuityConfigScreen": false,
+    "xaero.common.gui.GuiMinimapViewSettings": false,
+    "xaero.common.gui.GuiEditMode": false,
+    "xaero.common.gui.GuiMinimapMiscSettings": false,
+    "xaero.common.gui.GuiMinimapInfoSettings": false,
+    "xaero.common.gui.GuiMinimapOverlaysSettings": false,
+    "xaero.common.gui.GuiLightOverlay": false,
+    "xaero.common.gui.GuiMinimapBlockMapSettings": false,
+    "fi.dy.masa.litematica.gui.GuiSchematicLoad": false,
+    "fi.dy.masa.litematica.gui.GuiMaterialList": false,
+    "fi.dy.masa.litematica.gui.GuiSchematicPlacementsList": false,
+    "fi.dy.masa.litematica.gui.GuiPlacementConfiguration": false,
+    "fi.dy.masa.litematica.gui.GuiAreaSelectionManager": false,
+    "fi.dy.masa.litematica.gui.GuiSchematicLoadedList": false,
+    "fi.dy.masa.litematica.gui.GuiRenderLayer": false,
+    "fi.dy.masa.malilib.gui.GuiColorEditorHSV": false,
+    "net.minecraft.class_410": false,
+    "net.minecraft.class_5375": false,
+    "net.minecraft.class_5522": false,
+    "fi.dy.masa.malilib.MaLiLibConfigGui": false,
+    "com.nebspacefarer.stendhal.screens.SymbolsScreen": false,
+    "org.anti_ad.mc.ipnext.gui.ConfigScreen": false,
+    "dev.lambdaurora.lambdynlights.gui.SettingsScreen": false,
+    "link.infra.borderlessmining.config.ModMenuCompat$1": false,
+    "org.anti_ad.mc.ipnext.gui.GUIDEEditorScreen": false
   },
   "hideBackground": {
     "com.kwpugh.simple_backpack.backpack.BackpackClientScreen": true,
-    "net.minecraft.class_4895": true
+    "net.minecraft.class_4895": true,
+    "net.minecraft.class_5522": true
   }
 }

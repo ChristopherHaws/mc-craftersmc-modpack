@@ -1,6 +1,11 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/HorseBuff.toml"
+hash = "db9dbb98a4a53aadd20167e7a6da4d8cfd86b8c345f9ae7b255d80207e32a698"
+preserve = true
+
+[[files]]
 file = "config/InvisFrames.conf"
 hash = "70aefe0b9471c924782bdd67eb880f7a724a7da8db67fd100f8046e3d1f06341"
 preserve = true
@@ -61,6 +66,21 @@ hash = "49f6af7e980660ad284898e567338b964d5a229a48230b86834471b03eff57fe"
 preserve = true
 
 [[files]]
+file = "config/autoswitch.cfg"
+hash = "1b49a37a09ed5732041bae10b431202827055a47384d030c0d81666a699ddb3d"
+preserve = true
+
+[[files]]
+file = "config/autoswitchAttackAction.cfg"
+hash = "a74395de23698fe37ac674636bc5d1d4b569dd37a5a3a6ccad02285c8542cdf3"
+preserve = true
+
+[[files]]
+file = "config/autoswitchUseAction.cfg"
+hash = "01aa71989473460bf14d2529d4a8664537cdd6181b639389603a9be1ee12de89"
+preserve = true
+
+[[files]]
 file = "config/betterf3.json"
 hash = "2b579c08f84daf5d686dab829db49396cfd6c8d24d74adfdfe950baa6c49bffb"
 preserve = true
@@ -83,6 +103,11 @@ preserve = true
 [[files]]
 file = "config/bobby.conf"
 hash = "b53c14bbef682afb9ad89d42e06c06f093d63923661bb685f6686011f71bbb53"
+preserve = true
+
+[[files]]
+file = "config/borderlessmining.json"
+hash = "97d88071650e42b4c23540a24de6c7d5d72febd593efd33f7290a9352c169cfe"
 preserve = true
 
 [[files]]
@@ -166,6 +191,11 @@ hash = "ac1c4527b4eed67acecb0786990c9729a1f97ef6c41e73ebab2d6eab080626ec"
 preserve = true
 
 [[files]]
+file = "config/cull-less-leaves.toml"
+hash = "3014156e8543c9d237b9df9148fa618e8e5d1c05dbbefbebf8095c365618719e"
+preserve = true
+
+[[files]]
 file = "config/debugify-descriptions.json"
 hash = "c68a74b2d75636884474831e103f9615227a4735ed1ebdc299818284081ab2f2"
 preserve = true
@@ -237,12 +267,17 @@ preserve = true
 
 [[files]]
 file = "config/fpsdisplay.json"
-hash = "fa21f2e3b7aced19d3d8d24163d89187d77e12c45f52d3a97e48f0e51eb4201c"
+hash = "8aba51ce0e3e1d89837d4f30c8db3919219f36410e3f2b309b298944ef9714b4"
 preserve = true
 
 [[files]]
 file = "config/freecam.json5"
-hash = "3a1bdfeaecfc85343be2aa4c643598c5e90abde30f82a9e92bad870df0a1e4e6"
+hash = "2fe83a37bdb4d9f27c66ed1557c17bdf19938230a11fa6ce48ef562b8fcef1bf"
+preserve = true
+
+[[files]]
+file = "config/gravel_carts.json"
+hash = "876c10123d166efd8540a53de55ed391b5234362c3cd2fc29c0f0a92a1972e1f"
 preserve = true
 
 [[files]]
@@ -286,6 +321,21 @@ hash = "b7e6193f25e9f5921404fd4ed3fedb0e713718359a2a998d5b279c85e037b5a3"
 preserve = true
 
 [[files]]
+file = "config/inventoryprofilesnext/integrationHints/exampleIntegrationHints.json"
+hash = "ca413dea02cce69c69dccdc525fb0ec013236876eff2d142772c68db3d772d3a"
+preserve = true
+
+[[files]]
+file = "config/inventoryprofilesnext/integrationHints/player-defined.json"
+hash = "7119fdc89e6f384a2c84c1411fd59a771a5df1f096618f8d0b04642d9f107c17"
+preserve = true
+
+[[files]]
+file = "config/inventoryprofilesnext/inventoryprofiles.json"
+hash = "335968235b7a8ebdd9594b2b122fb951264f56ad6cd1014a99c9514a34a0c4c1"
+preserve = true
+
+[[files]]
 file = "config/invmove.json"
 hash = "911fa605af5c2ee23b6fd65e5fe5daa23b6369b3ac16a78e35578776e2e9c04e"
 preserve = true
@@ -297,7 +347,7 @@ preserve = true
 
 [[files]]
 file = "config/invmove/unrecognized.json"
-hash = "e25288a8ee25dac6a12585891db9c97d68ffb7a6cc4f4638f7be802c48d519d3"
+hash = "94cc58c9854cf2124869864bf6b4fff3c86c93976aec1714735267e321b36b6e"
 preserve = true
 
 [[files]]
@@ -312,7 +362,7 @@ preserve = true
 
 [[files]]
 file = "config/lambdynlights.toml"
-hash = "5af5f81c9fe5be3b0b156dcc339dd958dfda5359158e7215a4b6962903b7b556"
+hash = "e33375e5ab7f21e453d7fbd80ad2337c08b667440bca5d16e64d6642cb818c1b"
 preserve = true
 
 [[files]]
@@ -322,12 +372,17 @@ preserve = true
 
 [[files]]
 file = "config/lightoverlay.properties"
-hash = "7f81fc26158482bf5c28ba316d09eb806364853ae83fb3648d189878bed0c5c6"
+hash = "dd91a8e0c2380165c3fed96ff44e3126483e069535d72f9a022b38097ad975b1"
+preserve = true
+
+[[files]]
+file = "config/linkart.json"
+hash = "ff16934cb78e9738543493d8149d49c722b0fd018b90fba736a51c6e245fec00"
 preserve = true
 
 [[files]]
 file = "config/litematica.json"
-hash = "5cb44769a63a2cf0ac8b6642cd559c1d9203a6a97832bce5318c84cb744b3d65"
+hash = "7ae1d69bec351a01ded0b418678ecd29f6453f0dc5a4b0ce6f18987765ca5e47"
 preserve = true
 
 [[files]]
@@ -347,7 +402,7 @@ preserve = true
 
 [[files]]
 file = "config/malilib.json"
-hash = "a4976d6a5206a02939ee0ad164b06eb0bd0530dc5ffff42c9372327d1f5e5b64"
+hash = "c7486c0c1e198b7227066f1926389117aab9d4705aca3911ed3aceb450669e4b"
 preserve = true
 
 [[files]]
@@ -366,13 +421,43 @@ hash = "503f96151dab202359895d267084c5ca81604cf9a3455446c20a5c0c69ec7cdb"
 preserve = true
 
 [[files]]
+file = "config/mods-command.conf"
+hash = "1dc950605222f7e499d7312d196859fbb25211df2b3fb33c2daf05365c4d62fd"
+preserve = true
+
+[[files]]
+file = "config/moreculling.toml"
+hash = "9f6ab143827807c9d0e8f3ca91db72410091c6a6b772df3642a4621cc173dd16"
+preserve = true
+
+[[files]]
+file = "config/multiconnect/config.json"
+hash = "c9ef7cebc6d2066002a2b669474158ea01b516402d6ede0b665a375822fe7441"
+preserve = true
+
+[[files]]
+file = "config/multiconnect/servers_ext.json"
+hash = "ee8944bca3202aa91084fed1ce3dc8517b374045ac682393b8b0351b780b852a"
+preserve = true
+
+[[files]]
+file = "config/netherchest.json"
+hash = "2acfca638033ebf0bc0f1e2f2e86f29e89430e998de8c74868da3f487d072d2e"
+preserve = true
+
+[[files]]
 file = "config/no_fog.json"
 hash = "24c6ca04f25518e2b4358bac31c4502e6b7c42b500226a508db0858cd81a232c"
 preserve = true
 
 [[files]]
+file = "config/notenoughcrashes.json"
+hash = "8deed1a37e1d8b3741c5059ec8351ab8855ea44614ae22b2c377f9d3c7b34aaf"
+preserve = true
+
+[[files]]
 file = "config/ok_zoomer/config.toml"
-hash = "5d1fb4332df4717c2f0e0c4d206514b23e4598f27b2ee98008d8853ccde03d55"
+hash = "cad7dbbfb4b1373efd0ae789a65fc59c3f87ab2c2d3f2b1bc4129db0776c30ff"
 preserve = true
 
 [[files]]
@@ -386,8 +471,23 @@ hash = "d601aee2e45452763dd6659123fdc3b21e700b8a02b312aa248fd1dba733ecd2"
 preserve = true
 
 [[files]]
+file = "config/polymer/client.json"
+hash = "1c9a98f540496f4ef6d95308d7f50f3014454cf56024d5722a79e23071d2d981"
+preserve = true
+
+[[files]]
+file = "config/polymer/server.json"
+hash = "b2626d2957638cc07bb3086e5f6e7ec2d3310a925fbd3adb2ff60baae01ce97f"
+preserve = true
+
+[[files]]
 file = "config/puzzle.json"
 hash = "31b4f5e6090b4048858edfcf45f842240d031c580e600b91b5708824bfb710ec"
+preserve = true
+
+[[files]]
+file = "config/repurposed_structures.json"
+hash = "14e4fe1ded11fa49bfc3479a8e7efdda0e5bc7333d6c9723b44c87306619d8ab"
 preserve = true
 
 [[files]]
@@ -411,6 +511,11 @@ hash = "5f62baa7ffd16125e165b10156a3d7c7e3a0eb5e91560dbc9ba5a702f4353dca"
 preserve = true
 
 [[files]]
+file = "config/smoothboot.json"
+hash = "7eb2c9832f1adc79eb19fe0c0262d9cb7ed551cc59f79d4bdcf9373c3194c2c5"
+preserve = true
+
+[[files]]
 file = "config/sodium-extra-options.json"
 hash = "08110f4199726f09b80cd4eb84bbe4ac382e437f85f523424e69e472c5680366"
 preserve = true
@@ -428,6 +533,11 @@ preserve = true
 [[files]]
 file = "config/sodium-options.json"
 hash = "c06fc2e756fa6ec8f2e2949b320b2712e1d82defc7965980f72b292350df7120"
+preserve = true
+
+[[files]]
+file = "config/stendhal/stendhal.properties"
+hash = "1af09ec5636236f55cf8c4c6f841ee7ea1b1ce8835883b2454eb58d317b42352"
 preserve = true
 
 [[files]]
@@ -462,7 +572,7 @@ preserve = true
 
 [[files]]
 file = "config/tweakeroo.json"
-hash = "2a9b5486c2215373bb7c124b63dc68b5d846f11a65ffe854bd3a76b59fdf7c9a"
+hash = "cad637d260f9cbaba5d89c26beeb27edf30a7551cacea30f2cdde832f4c136ee"
 preserve = true
 
 [[files]]
@@ -492,12 +602,12 @@ preserve = true
 
 [[files]]
 file = "config/xaerominimap.txt"
-hash = "757975109025cc70a5397bd757f7c4c105c350ae42f5b5d7f24e9fd5cba9dc01"
+hash = "538ef6ce211fe002071b9435da9d3ffe0104c0214efec13b0bbe5f4a0f4d35c2"
 preserve = true
 
 [[files]]
 file = "config/xaerominimap_entities.json"
-hash = "2e8e0e1fccd3fa8ea28d5163c20fc14efbc84b051665b211ad29edaf66b3bfa0"
+hash = "fb81cc5ce55aeee4a800d8399053d0b13b5408d0e4527772971ff9ecf12ad9f6"
 preserve = true
 
 [[files]]
@@ -507,7 +617,7 @@ preserve = true
 
 [[files]]
 file = "config/xaeroworldmap.txt"
-hash = "cf2dcdca67076c7b59573140082f166da0c260cf932120eee956632f2e6870f6"
+hash = "9070fe753e0f5ae8f7f8fbb0a5abfd3c5a6d85dcd1971d413e30d62f9d18d85a"
 preserve = true
 
 [[files]]
@@ -1181,11 +1291,21 @@ hash = "55e3c9b9dd23bbea85c79023776e3cf9413fbd7aec8ad42af3b42d7e18d52338"
 preserve = true
 
 [[files]]
+file = "shaderpacks/ComplementaryReimagined_r1.1.1.zip"
+hash = "329606ba016eb7e880c7360bef80b6701e3e0825a90ef14d009b3db89655f792"
+preserve = true
+
+[[files]]
+file = "shaderpacks/ComplementaryReimagined_r1.1.1.zip.txt"
+hash = "5fc143cc7119cff74d5300e9d7842058cb4ba9ecd455308677d9764e076213c2"
+preserve = true
+
+[[files]]
 file = "shaderpacks/ComplementaryShaders_v4.4.zip"
 hash = "297e2947c1986ba2faefdd3f2e0aa365b3e6dfd308853baae70821b393c06861"
 preserve = true
 
 [[files]]
 file = "shaderpacks/ComplementaryShaders_v4.4.zip.txt"
-hash = "6f18ae0556f6a64086c7836d5f23604c7f482263a094e37753f212c9ab8a843a"
+hash = "04facb7774cbae7460a181097be2ccac0c9a0190fbf60914739db727703c2b58"
 preserve = true

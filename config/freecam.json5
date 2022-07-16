@@ -21,6 +21,8 @@
 	"showPlayer": true,
 	// Whether you can see your hand in freecam.
 	"showHand": false,
-	// Whether action bar notifications are displayed.
-	"notify": true
+	// Notifies you when entering/exiting freecam.
+	"notifyFreecam": true,
+	// Notifies you when entering/exiting tripod cameras.
+	"notifyPersistent": true
 }

@@ -308,7 +308,7 @@
     "verifierErrorHilightMaxPositions": 1000
   },
   "Visuals": {
-    "enableRendering": true,
+    "enableRendering": false,
     "enableSchematicRendering": true,
     "enableAreaSelectionBoxesRendering": true,
     "enablePlacementBoxesRendering": true,
@@ -337,7 +337,7 @@
     "schematicVerifierUseBlockModels": false,
     "ghostBlockAlpha": 0.5,
     "placementBoxSideAlpha": 0.2,
-    "schematicOverlayOutlineWidth": 1.0,
-    "schematicOverlayOutlineWidthThrough": 3.0
+    "schematicOverlayOutlineWidth": 0.0,
+    "schematicOverlayOutlineWidthThrough": 0.0
   }
 }

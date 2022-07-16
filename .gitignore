@@ -6,3 +6,10 @@
 
 # Exclude exported Modrinth modpacks
 *.mrpack
+
+# Exclude config files that shouldn't be in source control
+config/.puzzle_cache/**
+config/headindex-cache/**
+config/inventoryprofilesnext/**/lockSlots.txt
+config/litematica/**
+config/minihud/**

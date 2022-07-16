@@ -1,0 +1,24 @@
+{
+    "ModSettings": {
+        "highlight_foused_items": false,
+        "highlight_foused_items_foreground": false,
+        "enable_profiles": false,
+        "restock_hotbar": true,
+        "first_run": false
+    },
+    "GuiSettings": {
+        "enable_profiles_ui": false,
+        "enable_inventory_editor_button": false,
+        "show_continuous_crafting_checkbox": false,
+        "continuous_crafting_saved_value": false
+    },
+    "AutoRefillSettings": {
+        "tool_damage_threshold": 5,
+        "allow_break_for_non_enchanted": true
+    },
+    "EditProfiles": {
+        "quick_slot_1_profile": "Profile 1",
+        "quick_slot_2_profile": "Profile 2",
+        "quick_slot_3_profile": "Profile 3"
+    }
+}

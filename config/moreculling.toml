@@ -1,0 +1,4 @@
+useBlockStateCulling = true
+useCustomItemFrameRenderer = true
+useItemFrameLOD = true
+useItemFrame3FaceCulling = true

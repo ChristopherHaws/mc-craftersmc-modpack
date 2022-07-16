@@ -1,6 +1,6 @@
 # LambDynamicLights configuration.
 # The dynamic lights mode
-mode = "fancy"
+mode = "off"
 
 # Light sources settings.
 [light_sources]
@@ -17,13 +17,61 @@ mode = "fancy"
 
 	[light_sources.settings]
 
+		[light_sources.settings.block_entities]
+
+			[light_sources.settings.block_entities.minecraft]
+				bed = true
+				furnace = true
+				dropper = true
+				daylight_detector = true
+				jukebox = true
+				sign = true
+				brewing_stand = true
+				sculk_sensor = true
+				conduit = true
+				beehive = true
+				dispenser = true
+				smoker = true
+				lectern = true
+				skull = true
+				campfire = true
+				barrel = true
+				chest = true
+				piston = true
+				sculk_shrieker = true
+				end_portal = true
+				shulker_box = true
+				enchanting_table = true
+				banner = true
+				structure_block = true
+				sculk_catalyst = true
+				ender_chest = true
+				bell = true
+				end_gateway = true
+				comparator = true
+				beacon = true
+				command_block = true
+				jigsaw = true
+				hopper = true
+				mob_spawner = true
+				trapped_chest = true
+				blast_furnace = true
+
+			[light_sources.settings.block_entities.netherchest]
+				nether_chest = true
+
+			[light_sources.settings.block_entities.cauldron_dyeing]
+				water_cauldron_entity = true
+
 		[light_sources.settings.entities]
 
 			[light_sources.settings.entities.minecraft]
+				zombie_horse = true
 				axolotl = true
 				egg = true
 				zoglin = true
 				spawner_minecart = true
+				allay = true
 				llama = true
 				mule = true
 				bat = true
@@ -39,13 +87,16 @@ mode = "fancy"
 				horse = true
 				vindicator = true
 				minecart = true
+				spectral_arrow = true
 				llama_spit = true
 				mooshroom = true
 				glow_item_frame = false
 				snowball = true
+				tnt = true
 				parrot = true
 				creeper = true
 				lightning_bolt = true
+				tadpole = true
 				ravager = true
 				evoker_fangs = true
 				chest_minecart = true
@@ -66,7 +117,9 @@ mode = "fancy"
 				wither_skull = true
 				wolf = true
 				zombie_villager = true
+				tnt_minecart = true
 				elder_guardian = true
+				chest_boat = true
 				boat = true
 				small_fireball = true
 				strider = true
@@ -83,6 +136,7 @@ mode = "fancy"
 				magma_cube = true
 				pig = true
 				skeleton = true
+				frog = true
 				hoglin = true
 				armor_stand = true
 				experience_orb = true
@@ -104,6 +158,7 @@ mode = "fancy"
 				evoker = true
 				marker = true
 				glow_squid = true
+				warden = true
 				squid = true
 				shulker_bullet = true
 				enderman = true
@@ -128,69 +183,20 @@ mode = "fancy"
 				hopper_minecart = true
 				falling_block = true
 				painting = true
-				allay = true
-				chest_boat = true
-				frog = true
-				tnt_minecart = true
-				tnt = true
-				spectral_arrow = true
-				tadpole = true
-				warden = true
 				wither = true
-				zombie_horse = true
 
 			[light_sources.settings.entities.immersive_portals]
-				loading_indicator = true
-				portal = true
 				nether_portal_new = true
-				end_portal = true
 				mirror = true
-				breakable_mirror = true
-				global_tracked_portal = true
 				border_portal = true
+				global_tracked_portal = true
+				end_portal = true
 				end_floor_portal = true
+				loading_indicator = true
 				general_breakable_portal = true
+				portal = true
+				breakable_mirror = true
 
 			[light_sources.settings.entities.boatcontainer]
 				chest_boat = true
-
-		[light_sources.settings.block_entities]
-
-			[light_sources.settings.block_entities.minecraft]
-				furnace = true
-				chest = true
-				trapped_chest = true
-				ender_chest = true
-				jukebox = true
-				dispenser = true
-				dropper = true
-				sign = true
-				mob_spawner = true
-				piston = true
-				brewing_stand = true
-				enchanting_table = true
-				end_portal = true
-				beacon = true
-				skull = true
-				daylight_detector = true
-				hopper = true
-				comparator = true
-				banner = true
-				structure_block = true
-				end_gateway = true
-				command_block = true
-				shulker_box = true
-				bed = true
-				conduit = true
-				barrel = true
-				smoker = true
-				blast_furnace = true
-				lectern = true
-				bell = true
-				jigsaw = true
-				campfire = true
-				beehive = true
-				sculk_sensor = true
-				sculk_catalyst = true
-				sculk_shrieker = true
 
