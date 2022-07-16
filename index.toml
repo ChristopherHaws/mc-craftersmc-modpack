@@ -996,11 +996,6 @@ hash = "e7986bc23e319e750e19139d68f1facec6df41d98d51d417293c5c1434e7f845"
 metafile = true
 
 [[files]]
-file = "mods/lucys-sloths.pw.toml"
-hash = "e710815645db3e92e4ce213a21564df1b7f8b55466b438f209e5a9d8e50ca42f"
-metafile = true
-
-[[files]]
 file = "mods/malilib.pw.toml"
 hash = "3304623e2746c2e6af506a9ff5143b710863651bc3a29bcd5f25ce8d485f69e1"
 metafile = true
