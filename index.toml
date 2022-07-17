@@ -982,7 +982,7 @@ metafile = true
 
 [[files]]
 file = "mods/lanterns-bow.pw.toml"
-hash = "cd5e941a422ded0ee7cbe5bad9725fffe2555ca9fcfb51a62065c2beb1c9045e"
+hash = "3c724ea84755f16e0b75fe6c06e3860c06a3e7195122ac977a32345e8939c957"
 metafile = true
 
 [[files]]
@@ -1087,7 +1087,7 @@ metafile = true
 
 [[files]]
 file = "mods/polymer.pw.toml"
-hash = "56515b64a29e7a25face55213880bc66a6cf9bcc5d0e6d002fffdc5052de799e"
+hash = "b5583edd08b8125e56c038911cc265a519f06451b6bc54df74fdc2819db19b61"
 metafile = true
 
 [[files]]
