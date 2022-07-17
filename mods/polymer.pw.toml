@@ -5,7 +5,7 @@ side = "both"
 [download]
 url = "https://cdn.modrinth.com/data/xGdtZczs/versions/0.2.8+1.19/polymer-all-0.2.8%2B1.19.jar"
 hash-format = "sha1"
-hash = "a72e37437e73015769b97b1df289c1abd8463ae5"
+hash = "988fa8c7878d2c92ecbaf5420e2e953ebe0e9276"
 mode = ""
 
 [update]
