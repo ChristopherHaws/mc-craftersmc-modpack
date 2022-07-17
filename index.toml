@@ -862,7 +862,7 @@ metafile = true
 
 [[files]]
 file = "mods/expanded-storage.pw.toml"
-hash = "d7b1a4836d307c994074fc1b451b539fed2e1b5670abbb6dca4968abe75b747f"
+hash = "6ddf6d9f225603f710e75183b7f3bb32df2e942730cc64de0ac25ae13d8821ac"
 metafile = true
 
 [[files]]
@@ -1087,7 +1087,7 @@ metafile = true
 
 [[files]]
 file = "mods/polymer.pw.toml"
-hash = "44479171d8d88a459f2205b72cc4f9c81dbbf419b83f58bedae06ad6bee22592"
+hash = "43e1b64732235cc6010cfc0a32cdd9d52c6f9c337ddd89791b33a26941bd996e"
 metafile = true
 
 [[files]]
