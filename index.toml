@@ -1256,16 +1256,6 @@ hash = "672aca2c7eb7c36fc709ae2812e3d67157937744edf7368e8b694ad06b22ab61"
 metafile = true
 
 [[files]]
-file = "mods/wthit-plugins.pw.toml"
-hash = "94f1c8abbc13b303db1a0dc58a9b5e2734b4787c4232d2cf8b2b216de07a119e"
-metafile = true
-
-[[files]]
-file = "mods/wthit.pw.toml"
-hash = "4ac7b004a3dade41a68f4bda59dc459aa17a08fe8bd0dcc93c5dded71a667c91"
-metafile = true
-
-[[files]]
 file = "mods/xaeros-minimap.pw.toml"
 hash = "5d37a9a81c0b6fb25f739bc58b06018faa87e2537cee79d98ddd13c1c51bf841"
 metafile = true
