@@ -1266,6 +1266,11 @@ hash = "2e0899151aede6d34d8e75b2886adcea6aed481021288ca4b5bde4a125448d5d"
 metafile = true
 
 [[files]]
+file = "mods/vtdownloader.pw.toml"
+hash = "03929a8004bdad8c121541c729d6f7dd0c7e07bbe0a9397ff1f3a577ebe1d427"
+metafile = true
+
+[[files]]
 file = "mods/wi-zoom.pw.toml"
 hash = "4cecdf60392c789decde9ade6dcfd7ce0fa81ae6bf35711e2dd4b20588ef8b45"
 metafile = true
