@@ -1,0 +1,13 @@
+name = "Display Case"
+filename = "Display Case-quilt-1.19-1.0.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b53888a2208fa16f8a2364111b9e0a6802efbb8a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3860151
+project-id = 517791

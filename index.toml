@@ -676,6 +676,11 @@ hash = "4abdbfe570394a8cdd1e1874a2f89757f0d137a7c03612611b89c38b6249ea2e"
 metafile = true
 
 [[files]]
+file = "mods/betteranimalsplus.pw.toml"
+hash = "d9f1f6df976af1b3feaef4a1e96ca13a2bbd831b4d1b6892966ee14eb13dbed8"
+metafile = true
+
+[[files]]
 file = "mods/betterf3.pw.toml"
 hash = "455c662cc51dec506f65b8989db19650093be75b704f2c674e8375c32e016a58"
 metafile = true
@@ -736,6 +741,11 @@ hash = "02ce09e64c6ed4f5484b1496201ad411e78561812c3008e6c1bdd6dfab63e616"
 metafile = true
 
 [[files]]
+file = "mods/chickensshed.pw.toml"
+hash = "a9f76ef40b5525eb1f759337a1b2909fadfef92817785c5fdc8f5c104b9068aa"
+metafile = true
+
+[[files]]
 file = "mods/chunky.pw.toml"
 hash = "4f99e376bed682544ec74a697244090353f7954edaa4c2cbe6606367e8de63ea"
 metafile = true
@@ -747,7 +757,7 @@ metafile = true
 
 [[files]]
 file = "mods/cloth-config.pw.toml"
-hash = "85ebb0df9d958fede547f04d88b59d71284e919a27f152f60b3c03563cac22f5"
+hash = "a567bff99a6dea536cc8fd0d51df141d158cd000008eb2e5f53f20b1e14ee35e"
 metafile = true
 
 [[files]]
@@ -793,6 +803,11 @@ metafile = true
 [[files]]
 file = "mods/discord4fabric.pw.toml"
 hash = "2f2fa3dd08dd1bf29a52423c16ccfd507b9640f08154424e3fe548e5461baf4f"
+metafile = true
+
+[[files]]
+file = "mods/displaycase.pw.toml"
+hash = "8fbaae37b695fe8ef95d54cb1199202fb8e33ed365bc147ffe26ecd7be20063c"
 metafile = true
 
 [[files]]
@@ -898,6 +913,11 @@ metafile = true
 [[files]]
 file = "mods/horsestatsvanilla.pw.toml"
 hash = "83007613cc7de8b9375d925e0ec1e7381e68b38f49587e9e279311d0d419d466"
+metafile = true
+
+[[files]]
+file = "mods/image2map.pw.toml"
+hash = "d6a119f9664c648a0833c2fc239aa30694d7364a57ab076d2fab0dd3eee2f810"
 metafile = true
 
 [[files]]
@@ -1253,6 +1273,11 @@ metafile = true
 [[files]]
 file = "mods/worldedit.pw.toml"
 hash = "672aca2c7eb7c36fc709ae2812e3d67157937744edf7368e8b694ad06b22ab61"
+metafile = true
+
+[[files]]
+file = "mods/worldeditcui-fabric.pw.toml"
+hash = "967674c89571c0e2cc9de0d3fc2131ab98a3e2bc65c5ca55d5d7a1980900aced"
 metafile = true
 
 [[files]]
