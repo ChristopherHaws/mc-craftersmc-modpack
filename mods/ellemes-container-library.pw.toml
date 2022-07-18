@@ -1,13 +1,13 @@
 name = "Ellemes' Container Library"
-filename = "ellemes-container-library-2.1.0-alpha.9+1.19-quilt.jar"
+filename = "ellemes-container-library-2.1.0-alpha.10+1.19-quilt.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "e0bb2f6dcc014b6dbc381b6bf7c886362b470929"
+hash = "023bce6d731fe38a8222ae1007576f9e50f13733"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 3878485
+file-id = 3881490
 project-id = 530668
