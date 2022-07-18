@@ -891,6 +891,11 @@ hash = "674b69231bf37773aadd3a03e40288abbf0ea312b6a662b200db488b8942bbd9"
 metafile = true
 
 [[files]]
+file = "mods/fastload.pw.toml"
+hash = "a0b0634bd788990f48886260715d12228264dc0cbbb86c160433b4ff6dbb43f8"
+metafile = true
+
+[[files]]
 file = "mods/ferrite-core.pw.toml"
 hash = "87f056062378f276e55d07a577ff6c734bb9af9ea2b5591c424f7c381f82a552"
 metafile = true
