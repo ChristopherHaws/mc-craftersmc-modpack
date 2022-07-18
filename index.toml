@@ -681,6 +681,11 @@ hash = "aa188015e8d4943e5193ff081a8f62bbe3a1564e416a747e70600cc1a77ec829"
 metafile = true
 
 [[files]]
+file = "mods/better-beds.pw.toml"
+hash = "43ad173e5e3b92a29c52ba9f7af4c9ba63bf2c57076ea83349967f37499dccef"
+metafile = true
+
+[[files]]
 file = "mods/better-signs-and-frames.pw.toml"
 hash = "b93d3e008e986349f3372fde6e194436f08c2c0914d1be59ba9ca8ef50a23b4d"
 metafile = true
@@ -1001,6 +1006,11 @@ hash = "3c724ea84755f16e0b75fe6c06e3860c06a3e7195122ac977a32345e8939c957"
 metafile = true
 
 [[files]]
+file = "mods/lapis-reserve.pw.toml"
+hash = "24bba80c1c319fa238373f9d2211c27b491fd27f3969b451311dedf62ec08ba0"
+metafile = true
+
+[[files]]
 file = "mods/lazydfu.pw.toml"
 hash = "3ffe2388740cc111a332082f56e37bb4b95764035dfe5d6dff81db8a35d4cc4d"
 metafile = true
@@ -1073,6 +1083,11 @@ metafile = true
 [[files]]
 file = "mods/mods-command.pw.toml"
 hash = "a9e08a7158cee9af1351033e092ab735a2a65f1b9ed7d99587ed4552015f874a"
+metafile = true
+
+[[files]]
+file = "mods/more-mc-music-discs.pw.toml"
+hash = "5a5055308f2d4a85570bd52b519725685b0d74d59617c577e7633f62e32e1337"
 metafile = true
 
 [[files]]

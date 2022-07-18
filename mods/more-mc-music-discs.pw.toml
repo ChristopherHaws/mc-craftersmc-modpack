@@ -1,0 +1,13 @@
+name = "More Music Discs+"
+filename = "morediscs-1.19-14.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "764d242da4ce3a64f3e5a9f414e683bb7f2cfce3"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3832582
+project-id = 471002
