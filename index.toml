@@ -626,6 +626,11 @@ hash = "ad1ab18d70d76f894aa813e37074356901db392885c76e5118fcb26fb17ae6dd"
 metafile = true
 
 [[files]]
+file = "mods/adorn.pw.toml"
+hash = "f8c3d0c82375e13af90d6ee9f91fb59089b3b68233a7883ab963d3b3dc4ffb6f"
+metafile = true
+
+[[files]]
 file = "mods/advancementinfo.pw.toml"
 hash = "1adfed1eb9468a7aee481cac91008bdb8e0af1048c54900a5a408dc40c446500"
 metafile = true
@@ -653,6 +658,11 @@ metafile = true
 [[files]]
 file = "mods/armorstandeditor.pw.toml"
 hash = "27edcb408a22e100becb64d7805ef28d3dfdbbeb04e27cfc51a006170fdc110c"
+metafile = true
+
+[[files]]
+file = "mods/attributefix.pw.toml"
+hash = "40dd64add3884b98011e8818911b1d6b61838dff863be8bd99cd2d299d39e035"
 metafile = true
 
 [[files]]
@@ -1016,6 +1026,11 @@ hash = "e7986bc23e319e750e19139d68f1facec6df41d98d51d417293c5c1434e7f845"
 metafile = true
 
 [[files]]
+file = "mods/lovely-snails.pw.toml"
+hash = "3feb3898d181e92003f4c7cd37097affa82b54f124f98301012b5511c6b1bccb"
+metafile = true
+
+[[files]]
 file = "mods/malilib.pw.toml"
 hash = "3304623e2746c2e6af506a9ff5143b710863651bc3a29bcd5f25ce8d485f69e1"
 metafile = true
@@ -1117,7 +1132,7 @@ metafile = true
 
 [[files]]
 file = "mods/redstone-multimeter-fabric.pw.toml"
-hash = "e8dc5ac3710df05ee86aaf1c5ce6790f635b0a913fa6faa758ca3529eb8c1140"
+hash = "2c5e1c54902079229a85fb914640b0e7765591a0c6c7a58bf0d7796f3655b60d"
 metafile = true
 
 [[files]]
@@ -1228,6 +1243,11 @@ metafile = true
 [[files]]
 file = "mods/tabtps.pw.toml"
 hash = "3416cc3c2ef06f8290a3de093bd40caaddf97d710616b4d6c0e7ff841f857cde"
+metafile = true
+
+[[files]]
+file = "mods/terralith.pw.toml"
+hash = "fadeb361e518c1b853cc61485f3ee0a4d914b72b5ffc270550faa0cff33dd8aa"
 metafile = true
 
 [[files]]

@@ -11,8 +11,3 @@ mode = "metadata:curseforge"
 [update.curseforge]
 file-id = 3881149
 project-id = 475001
-
-[option]
-optional = true
-default = false
-description = "Helpful for debugging redstone"
