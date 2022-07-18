@@ -1116,6 +1116,11 @@ hash = "9a3ae5c72bc925fb64391a62bef32f2d585d40a52481dfa132e838e0cffadcd2"
 metafile = true
 
 [[files]]
+file = "mods/redstone-multimeter-fabric.pw.toml"
+hash = "e8dc5ac3710df05ee86aaf1c5ce6790f635b0a913fa6faa758ca3529eb8c1140"
+metafile = true
+
+[[files]]
 file = "mods/reeses-sodium-options.pw.toml"
 hash = "f8784a0fc67a28151c4b19fd6b8aab83cf76843aed4c49be5df6441a3e3c4960"
 metafile = true
