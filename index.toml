@@ -626,6 +626,11 @@ hash = "ad1ab18d70d76f894aa813e37074356901db392885c76e5118fcb26fb17ae6dd"
 metafile = true
 
 [[files]]
+file = "mods/additional-banners.pw.toml"
+hash = "4b23063beb1cc16b9c9e7f7597902734760153ff3e569c4a24428469157b5a7e"
+metafile = true
+
+[[files]]
 file = "mods/adorn.pw.toml"
 hash = "f8c3d0c82375e13af90d6ee9f91fb59089b3b68233a7883ab963d3b3dc4ffb6f"
 metafile = true
@@ -1132,7 +1137,7 @@ metafile = true
 
 [[files]]
 file = "mods/redstone-multimeter-fabric.pw.toml"
-hash = "2c5e1c54902079229a85fb914640b0e7765591a0c6c7a58bf0d7796f3655b60d"
+hash = "c35e5e9e7539a04627389ee45382322d5613730af303a23c7940403b61bc8439"
 metafile = true
 
 [[files]]
