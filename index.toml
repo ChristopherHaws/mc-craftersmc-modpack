@@ -697,12 +697,12 @@ metafile = true
 
 [[files]]
 file = "mods/betteranimalsplus.pw.toml"
-hash = "d9f1f6df976af1b3feaef4a1e96ca13a2bbd831b4d1b6892966ee14eb13dbed8"
+hash = "0abb3d6175eb811aadb9ce64423505bb37f316fcb1b22eba58012f3a2cd7b849"
 metafile = true
 
 [[files]]
 file = "mods/betterf3.pw.toml"
-hash = "455c662cc51dec506f65b8989db19650093be75b704f2c674e8375c32e016a58"
+hash = "d8d2deac03ddd37b9a8bd858268683f0cc936f95bb7836aeb54dffc935f472ee"
 metafile = true
 
 [[files]]
@@ -862,7 +862,7 @@ metafile = true
 
 [[files]]
 file = "mods/enchantment-descriptions.pw.toml"
-hash = "71842c73f6007effdce07d0b51cca7b615b95f4543fa732fe326861fd862a52a"
+hash = "0826f4d5e528eea9ba7f6b84f4e1b798bfee59c010439d995fc16bc9f938cd27"
 metafile = true
 
 [[files]]
@@ -1102,7 +1102,7 @@ metafile = true
 
 [[files]]
 file = "mods/moreculling.pw.toml"
-hash = "d1af77ba35e101f01375f9dc68af675a2e0f993b8ab0618a2bc55dcf36689d4b"
+hash = "afe0ff4747b1fef2d046f4982d3ab0725649a58c1968f811638041811eee02ac"
 metafile = true
 
 [[files]]

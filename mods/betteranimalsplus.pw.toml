@@ -1,13 +1,13 @@
 name = "Better Animals Plus"
-filename = "betteranimalsplus-1.19-11.0.6-fabric.jar"
+filename = "betteranimalsplus-1.19-11.0.7-fabric.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "d2771590c08dbad5a0921e74f75737c5c3044c2d"
+hash = "59a10d8bc64adfee387b22d669fbc42d87ac57b8"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 3825878
+file-id = 3884095
 project-id = 303557
