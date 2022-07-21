@@ -671,6 +671,11 @@ hash = "40dd64add3884b98011e8818911b1d6b61838dff863be8bd99cd2d299d39e035"
 metafile = true
 
 [[files]]
+file = "mods/autoswitch.pw.toml"
+hash = "bb097ba5e87c9dda9c7f25d8f21ae20d1a55e3e2dcc654fddfc431448bebb2be"
+metafile = true
+
+[[files]]
 file = "mods/badpackets.pw.toml"
 hash = "e6f7d05a47c717cbdef4b105f44d71b2f3202154e2517d6641d6661d01cad07c"
 metafile = true
