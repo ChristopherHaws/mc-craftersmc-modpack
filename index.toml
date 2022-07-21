@@ -672,7 +672,7 @@ metafile = true
 
 [[files]]
 file = "mods/autoswitch.pw.toml"
-hash = "bb097ba5e87c9dda9c7f25d8f21ae20d1a55e3e2dcc654fddfc431448bebb2be"
+hash = "49c3a06e62c2272a5b138b9fcaac5ac8e05b55e7bfe1c811bc994c5931a0ff30"
 metafile = true
 
 [[files]]

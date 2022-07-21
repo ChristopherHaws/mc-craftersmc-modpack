@@ -12,3 +12,8 @@ mode = ""
 [update.modrinth]
 mod-id = "uSdcnlts"
 version = "nY6reJtC"
+
+[option]
+optional = true
+default = false
+description = "Just for you Pilko"
