@@ -1116,6 +1116,11 @@ hash = "3ac1e7f3b28a7350ba416dd8c8d9778ae066dd62d278bb6540512503a25771ec"
 metafile = true
 
 [[files]]
+file = "mods/new-infinity-fix.pw.toml"
+hash = "b71fc6540d8deeb5da2fef5080636740fcc251c04aea4f25ff5c7434341cfdc1"
+metafile = true
+
+[[files]]
 file = "mods/notenoughcrashes.pw.toml"
 hash = "9413d03007564d3eaaf8ec25eabe10d5e741ff0c68017c2d2c824a8ed9be18d3"
 metafile = true
@@ -1203,6 +1208,11 @@ metafile = true
 [[files]]
 file = "mods/sheep-consistency.pw.toml"
 hash = "d57495f075c39e68bc14847f0b47c03e14d6d7042d85f5befcb51472c9ab69ce"
+metafile = true
+
+[[files]]
+file = "mods/simple-chunkloader-fabric.pw.toml"
+hash = "38ddd0df33f6174614f571f302fd0bcf6301b298e63fe553867342b3cf5b9caf"
 metafile = true
 
 [[files]]
