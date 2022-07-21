@@ -11,3 +11,8 @@ mode = "metadata:curseforge"
 [update.curseforge]
 file-id = 3874786
 project-id = 310111
+
+[option]
+optional = true
+default = false
+description = "Some people dont like this mod."
