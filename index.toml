@@ -632,7 +632,7 @@ metafile = true
 
 [[files]]
 file = "mods/adorn.pw.toml"
-hash = "f8c3d0c82375e13af90d6ee9f91fb59089b3b68233a7883ab963d3b3dc4ffb6f"
+hash = "985fc57fb7f38d858a3154b599265d05a86a33df3e7127da35ba7dafd79744be"
 metafile = true
 
 [[files]]
@@ -657,7 +657,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "957f447037e778eec0de9370cfad61ff804bcc0c67ba52516fe5e6b5fbad2b2f"
+hash = "c16e2215c3385b46f996476be4ae51c6be17e98d576542ff204242ee1d66dc06"
 metafile = true
 
 [[files]]
@@ -722,7 +722,7 @@ metafile = true
 
 [[files]]
 file = "mods/bookshelf.pw.toml"
-hash = "3a225baa090da48176c80dcd126bf1c0b43498fd7abe71b782392436611d6ffa"
+hash = "40fbd4192515ed365a57916a04c3a5a701558694e331b0bfd1afb90df4be3532"
 metafile = true
 
 [[files]]
@@ -742,7 +742,7 @@ metafile = true
 
 [[files]]
 file = "mods/carpet-fixes.pw.toml"
-hash = "d9f0bb8bafb7ca4099cf9b8d6358b5f4d7e53992bb3ec0b7daac273f16ca975f"
+hash = "c3d5ab4c14b47482c02c153fc1d04dd1cbc5cb8d46f85cadcc34bd4454687c3c"
 metafile = true
 
 [[files]]
@@ -817,7 +817,7 @@ metafile = true
 
 [[files]]
 file = "mods/debugify.pw.toml"
-hash = "89ba21e3753115ddf5670fd1063dac4f620b8ad8748a7702404a62081730f373"
+hash = "f47806a3b1f33d2bfbcffbdc2609bfb7a5de1977a397d27e8d74a8f5ba1a33bc"
 metafile = true
 
 [[files]]
@@ -862,7 +862,7 @@ metafile = true
 
 [[files]]
 file = "mods/enchantment-descriptions.pw.toml"
-hash = "0826f4d5e528eea9ba7f6b84f4e1b798bfee59c010439d995fc16bc9f938cd27"
+hash = "94395acd6f7f4169eba18ab28c8a230a29ede89c809b301ca82cf3c1d02c7d34"
 metafile = true
 
 [[files]]
@@ -887,7 +887,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
-hash = "674b69231bf37773aadd3a03e40288abbf0ea312b6a662b200db488b8942bbd9"
+hash = "571251a12f49f5542775ca3ced589e23ad622fc2b93ec3cecf1a7eb77f33eb2f"
 metafile = true
 
 [[files]]
@@ -917,7 +917,7 @@ metafile = true
 
 [[files]]
 file = "mods/free-cam.pw.toml"
-hash = "490512fd6297e157073e7a118c4c769eeb35aab097c4db27c21ee2f70d4016bb"
+hash = "bcdda6d91b77b324290295a21ef7c65d0b381386c7da399e58538e5ea450eb16"
 metafile = true
 
 [[files]]
@@ -1102,7 +1102,7 @@ metafile = true
 
 [[files]]
 file = "mods/moreculling.pw.toml"
-hash = "afe0ff4747b1fef2d046f4982d3ab0725649a58c1968f811638041811eee02ac"
+hash = "39549b143e287cefb0f0098e098536fe37219fe043e707eb465e6518b24daac3"
 metafile = true
 
 [[files]]
@@ -1142,7 +1142,7 @@ metafile = true
 
 [[files]]
 file = "mods/qsl.pw.toml"
-hash = "9614e00a40e4f4dc98a422b0b352123706bf377fda324cbf1618e26885a1b39a"
+hash = "d2b8481451c85b8972ee4ab21627e59b9897e1712bc26b007c83c5eae7f8172b"
 metafile = true
 
 [[files]]
