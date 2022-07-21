@@ -1181,6 +1181,11 @@ hash = "07fb6da7e40c18ec692c481ac7ecac9933282dc000cdc554b127ab889deb547c"
 metafile = true
 
 [[files]]
+file = "mods/roughly-enough-items.pw.toml"
+hash = "df0b721ae4a76832ad6e66ef1600f161df6e1b14f3129f33b57e9664ecbba9e5"
+metafile = true
+
+[[files]]
 file = "mods/scout.pw.toml"
 hash = "c7d3298f267e69edbfcc5957b0a0ce5787414f832cfdbfa13a2e7e841583d0e9"
 metafile = true
