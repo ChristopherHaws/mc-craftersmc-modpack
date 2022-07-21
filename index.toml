@@ -946,6 +946,11 @@ hash = "d6a119f9664c648a0833c2fc239aa30694d7364a57ab076d2fab0dd3eee2f810"
 metafile = true
 
 [[files]]
+file = "mods/immersive-weathering-fabric.pw.toml"
+hash = "9549d5918a2a48f0fc9bc2146d2afee3b4d6cb17aeae87d1c1ccad9ad9dc7756"
+metafile = true
+
+[[files]]
 file = "mods/immersiveportals.pw.toml"
 hash = "8506203c27bfda2a52cac04dfd4ab09b78a2e1587dcf36423a4027208beb3701"
 metafile = true
