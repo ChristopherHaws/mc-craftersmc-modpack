@@ -1216,6 +1216,11 @@ hash = "835140c34a5c4f2fb56c48589854d38304379bb00978111578aafa48e0607913"
 metafile = true
 
 [[files]]
+file = "mods/servux.pw.toml"
+hash = "1cfbfd92ef7d5688cd9710c9f6030987182a023f848bc01efa654037642fc982"
+metafile = true
+
+[[files]]
 file = "mods/shards.pw.toml"
 hash = "3f15af45e2d3dc93cfeaf0cff6f7402ff475a7714e19bb0ffc22d656a29ce060"
 metafile = true
