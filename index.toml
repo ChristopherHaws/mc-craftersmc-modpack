@@ -1082,7 +1082,7 @@ metafile = true
 
 [[files]]
 file = "mods/missing-wilds.pw.toml"
-hash = "3edfb15987fcbe52b81d976f76dc351d1c9a202b37b24f332e1b59cfdb1fc0cd"
+hash = "8349a1627902ce1cb2fae60513629e0425a9a65c95c310a9f1833afdcf9ddfad"
 metafile = true
 
 [[files]]
