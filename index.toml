@@ -671,6 +671,11 @@ hash = "40dd64add3884b98011e8818911b1d6b61838dff863be8bd99cd2d299d39e035"
 metafile = true
 
 [[files]]
+file = "mods/autoreconnect.pw.toml"
+hash = "07a4b6556597a34df6809c9450c8cee43e9f686abbdd261517751264948daf08"
+metafile = true
+
+[[files]]
 file = "mods/autoswitch.pw.toml"
 hash = "49c3a06e62c2272a5b138b9fcaac5ac8e05b55e7bfe1c811bc994c5931a0ff30"
 metafile = true
