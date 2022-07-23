@@ -927,7 +927,7 @@ metafile = true
 
 [[files]]
 file = "mods/free-cam.pw.toml"
-hash = "bcdda6d91b77b324290295a21ef7c65d0b381386c7da399e58538e5ea450eb16"
+hash = "9a50e4888bee056f6a15ba55d276e6d8ff6d40d570031b80b3b9aeb09069e85e"
 metafile = true
 
 [[files]]
@@ -1117,7 +1117,7 @@ metafile = true
 
 [[files]]
 file = "mods/moreculling.pw.toml"
-hash = "39549b143e287cefb0f0098e098536fe37219fe043e707eb465e6518b24daac3"
+hash = "6e87a1a1f5735a45af0cbdbd18d1f5e8be13918bc318a42be8a35c812135aecc"
 metafile = true
 
 [[files]]
