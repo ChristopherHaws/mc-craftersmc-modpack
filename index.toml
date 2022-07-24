@@ -1,6 +1,11 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/Adorn.json5"
+hash = "307414275390a02051b42622dbfcd04f40eda0cdd885b64f5a9180bb852bca5a"
+preserve = true
+
+[[files]]
 file = "config/HorseBuff.toml"
 hash = "db9dbb98a4a53aadd20167e7a6da4d8cfd86b8c345f9ae7b255d80207e32a698"
 preserve = true
@@ -61,6 +66,11 @@ hash = "8cec3f0def08a4029fbb6f0c4cb8d5f2729be40cdc283c5c9df5565f59171651"
 preserve = true
 
 [[files]]
+file = "config/attributefix.json"
+hash = "904de88654952330538cdeafd0f7898b4d11be2fe2f87804a5e90133964326d4"
+preserve = true
+
+[[files]]
 file = "config/autoreconnect.json5"
 hash = "49f6af7e980660ad284898e567338b964d5a229a48230b86834471b03eff57fe"
 preserve = true
@@ -81,8 +91,13 @@ hash = "01aa71989473460bf14d2529d4a8664537cdd6181b639389603a9be1ee12de89"
 preserve = true
 
 [[files]]
+file = "config/betteranimalsplus-client.json5"
+hash = "f035458cca9ab5e58cb2982eff0ab4b070ec26d44fd35eeb8d3eb458511500fb"
+preserve = true
+
+[[files]]
 file = "config/betterf3.json"
-hash = "2b579c08f84daf5d686dab829db49396cfd6c8d24d74adfdfe950baa6c49bffb"
+hash = "16295e91acd1aaeaa99974dfeafda5a8e6151245cb0d95ac08efd9b9c47cc1be"
 preserve = true
 
 [[files]]
@@ -156,6 +171,11 @@ hash = "5264fcf9f29194bb2a4728b5b9d7d63f1c2328d915abf6e9d4edebcdf47720e3"
 preserve = true
 
 [[files]]
+file = "config/chickensshed.json5"
+hash = "49e1937ba80d013f282367208eceb505cd6dc8a8dfe924f83741590899c14981"
+preserve = true
+
+[[files]]
 file = "config/chunky.json"
 hash = "314e5382c4f0ac6fb9fea3d5625ca136433fd996572ae78ba160896e480dbcc6"
 preserve = true
@@ -192,17 +212,22 @@ preserve = true
 
 [[files]]
 file = "config/cull-less-leaves.toml"
-hash = "3014156e8543c9d237b9df9148fa618e8e5d1c05dbbefbebf8095c365618719e"
+hash = "338da294aef3676c893b796487083d24204cbb83e66ebd6dbdc3fd6e7f090dd3"
+preserve = true
+
+[[files]]
+file = "config/dawn/features.json"
+hash = "467b0c5ba2eeacd383157b6f6a457e27a280e25b8cfc2d88c5deaba6ae4e63cb"
 preserve = true
 
 [[files]]
 file = "config/debugify-descriptions.json"
-hash = "c68a74b2d75636884474831e103f9615227a4735ed1ebdc299818284081ab2f2"
+hash = "89f59074513813c7e2125d76b2f6fef851cd102c776a031a5bb25dac3429a1be"
 preserve = true
 
 [[files]]
 file = "config/debugify.json"
-hash = "10d75016499501468909dd59d1cbba54a6faecf477e4e1d64048086cf42d27b6"
+hash = "1fdfb68aed20bcf7b23d37a430512d248ff02ea2657f499cfdd6e6968b02cdba"
 preserve = true
 
 [[files]]
@@ -256,6 +281,11 @@ hash = "054eaa843b83feaf2be06cd061f00ac4437f9eb73fc31a23575ef6db419cebcf"
 preserve = true
 
 [[files]]
+file = "config/expandedstorage.json"
+hash = "f9d9187aa13720c1fb62eb93e9b1a2b680d8757da312047113c5007de287a8b0"
+preserve = true
+
+[[files]]
 file = "config/fabric/indigo-renderer.properties"
 hash = "645b12a83bf31d309d5a79413257d398d54ba58245c3c3e26a93092ab2960edb"
 preserve = true
@@ -272,7 +302,7 @@ preserve = true
 
 [[files]]
 file = "config/freecam.json5"
-hash = "2fe83a37bdb4d9f27c66ed1557c17bdf19938230a11fa6ce48ef562b8fcef1bf"
+hash = "df757adc53579ba8135c82d3dba3e4b9a8e4d30040cdc1913419a9500fa079c2"
 preserve = true
 
 [[files]]
@@ -306,13 +336,23 @@ hash = "a1682e8de53c1a4a2824110400cfa3d83496c023355ca2c853e6cf6fdc9b1b3b"
 preserve = true
 
 [[files]]
+file = "config/image2map.json"
+hash = "017fcc31d5228472e9c4e42054f28df39c2bc11010ec6ae035d7af1d1b7e1eb3"
+preserve = true
+
+[[files]]
 file = "config/immersive_portals_fabric.json"
-hash = "320f76e566ffb9e034f42d32e85d9437cde244a2b2cda9cd86b115ce614a508a"
+hash = "a0719d5da4dfc44f4c8022b842ac299942d19f1051d3385530eb5bfe4bc6ac63"
+preserve = true
+
+[[files]]
+file = "config/immersive_weathering.json5"
+hash = "d36d6a9ec21f41d57485eb23efe3ec078159d1889d2b703371fcdfb9b72dfc0a"
 preserve = true
 
 [[files]]
 file = "config/indium-renderer.properties"
-hash = "1ef14e7c95d462ac48db91209cfedafa8c32b9313cc521ab34381573a84ffbe6"
+hash = "104a3494e7d3eff74489af64f7a7c4c5b1142bafec41ab7e56d7ea7cae3bc583"
 preserve = true
 
 [[files]]
@@ -347,7 +387,7 @@ preserve = true
 
 [[files]]
 file = "config/invmove/unrecognized.json"
-hash = "94cc58c9854cf2124869864bf6b4fff3c86c93976aec1714735267e321b36b6e"
+hash = "b8f18987e6285f6fcdb5fe83df69c9559cba7872764ad4d4ed34b5d8d8b4f6dc"
 preserve = true
 
 [[files]]
@@ -357,12 +397,12 @@ preserve = true
 
 [[files]]
 file = "config/iris.properties"
-hash = "ba0e640bfb3431fa8f836bc93dbca692c8cce73ff5876ba83462219e52208c5e"
+hash = "939d0d368b641ec9359be317bf20fda84dfe557700fa54bd534fe9fba24fb02a"
 preserve = true
 
 [[files]]
 file = "config/lambdynlights.toml"
-hash = "e33375e5ab7f21e453d7fbd80ad2337c08b667440bca5d16e64d6642cb818c1b"
+hash = "d27b8d4df095483d9228fd4e50cbba6f254c676d12d2834521f6012650275342"
 preserve = true
 
 [[files]]
@@ -372,7 +412,7 @@ preserve = true
 
 [[files]]
 file = "config/lightoverlay.properties"
-hash = "dd91a8e0c2380165c3fed96ff44e3126483e069535d72f9a022b38097ad975b1"
+hash = "0cfd78ff1ff58367e266f72f98ec57fe2df377c61bbcc1bdc4a5f85fe021bece"
 preserve = true
 
 [[files]]
@@ -382,7 +422,7 @@ preserve = true
 
 [[files]]
 file = "config/litematica.json"
-hash = "7ae1d69bec351a01ded0b418678ecd29f6453f0dc5a4b0ce6f18987765ca5e47"
+hash = "c8f504ce78c1ba71ddb9e227d3f903b83f4a5ca99520a1bb94214d6f1a1efc6c"
 preserve = true
 
 [[files]]
@@ -412,7 +452,7 @@ preserve = true
 
 [[files]]
 file = "config/minihud.json"
-hash = "ed31a86784df08168463b92cca4a2a68562fd6650ebe0384ead03e1975dd9958"
+hash = "e2bdfbe47c2426d334e4e12bcde828006b0ccd2c97a40878561419e45a180f28"
 preserve = true
 
 [[files]]
@@ -427,7 +467,7 @@ preserve = true
 
 [[files]]
 file = "config/moreculling.toml"
-hash = "9f6ab143827807c9d0e8f3ca91db72410091c6a6b772df3642a4621cc173dd16"
+hash = "55f905a00f3cb8516aa275cb54a4019637bf01129681ccd6a5cbc78a25b51355"
 preserve = true
 
 [[files]]
@@ -481,13 +521,53 @@ hash = "b2626d2957638cc07bb3086e5f6e7ec2d3310a925fbd3adb2ff60baae01ce97f"
 preserve = true
 
 [[files]]
+file = "config/promenade/animals.json"
+hash = "1743231f8f05ee72d929909858c73577bd342ba5e8c66a28d35b46e2713cec7a"
+preserve = true
+
+[[files]]
+file = "config/promenade/biomes.json"
+hash = "c6d3d1569159088f2773973d5b48bc8a3363cd6ee86a587f8a9888d6e2f9fac6"
+preserve = true
+
+[[files]]
+file = "config/promenade/monsters.json"
+hash = "f732e159957eec9432735978f0e1a8fbe8aa0811e2092297e569199de64b5cc2"
+preserve = true
+
+[[files]]
+file = "config/promenade/world_features.json"
+hash = "f99fc366dffd6232b726d94a96000743bb4594d2937107d67f860a586e1fd25b"
+preserve = true
+
+[[files]]
 file = "config/puzzle.json"
 hash = "31b4f5e6090b4048858edfcf45f842240d031c580e600b91b5708824bfb710ec"
 preserve = true
 
 [[files]]
+file = "config/raised.json"
+hash = "0de5ec07093840523c66b8634f19fc8a0eb41e8b992bef31ce513197f0108b9a"
+preserve = true
+
+[[files]]
+file = "config/redstone_multimeter/hotkeys.txt"
+hash = "b688e81ecb00bd24ff531d6d73ebda8125f6f1916b312205d08670fc645a106b"
+preserve = true
+
+[[files]]
+file = "config/redstone_multimeter/options.txt"
+hash = "7a8745635b7cd28f9ace801eef0675f2793640e1b6c3b54b222ab698326494a6"
+preserve = true
+
+[[files]]
 file = "config/repurposed_structures.json"
 hash = "14e4fe1ded11fa49bfc3479a8e7efdda0e5bc7333d6c9723b44c87306619d8ab"
+preserve = true
+
+[[files]]
+file = "config/roughlyenoughitems/config.json5"
+hash = "20b998031c1136b277832e9989ddc8585c5fdcadbaf3faa55fe6e4fb47271d45"
 preserve = true
 
 [[files]]
@@ -517,7 +597,7 @@ preserve = true
 
 [[files]]
 file = "config/sodium-extra-options.json"
-hash = "08110f4199726f09b80cd4eb84bbe4ac382e437f85f523424e69e472c5680366"
+hash = "b6fc0f7b069f407498600426f2cd86993b203ee3b9e98a1dc8cac39782c1c5bc"
 preserve = true
 
 [[files]]
@@ -548,6 +628,11 @@ preserve = true
 [[files]]
 file = "config/styled-nicknames.json"
 hash = "904eeaf6d8daf8629104c325cb8b1ec96398c56d3a2af1cf5316c52f7dd9416b"
+preserve = true
+
+[[files]]
+file = "config/things.json5"
+hash = "6735f4ed1ff4c7678d9da6c12ab15da8cd04998014bd800f3b34dbae10aa6183"
 preserve = true
 
 [[files]]
@@ -601,13 +686,18 @@ hash = "2f02a81deb2910d871eb06b1019b4f2806157eabeae2a961e5a9bd2bb0118f20"
 preserve = true
 
 [[files]]
+file = "config/worldeditcui.config.json"
+hash = "9221a1c42d4d25101c09ff8980ea8babda5d2d0ed2471f0d2b5ac76bc2c9ea10"
+preserve = true
+
+[[files]]
 file = "config/xaerominimap.txt"
-hash = "538ef6ce211fe002071b9435da9d3ffe0104c0214efec13b0bbe5f4a0f4d35c2"
+hash = "38f43328310fe53cf96d69dac9c635359d21d7b483a352c52908f2547be44048"
 preserve = true
 
 [[files]]
 file = "config/xaerominimap_entities.json"
-hash = "fb81cc5ce55aeee4a800d8399053d0b13b5408d0e4527772971ff9ecf12ad9f6"
+hash = "de53b49ac35e62ef5db009cba8d695dbf7603e9dd4ce2deba4d0620456f8d19c"
 preserve = true
 
 [[files]]
@@ -617,7 +707,7 @@ preserve = true
 
 [[files]]
 file = "config/xaeroworldmap.txt"
-hash = "9070fe753e0f5ae8f7f8fbb0a5abfd3c5a6d85dcd1971d413e30d62f9d18d85a"
+hash = "88a2b68bab56efc40fe596963cc0bfbe3e9d3bc999b5b7aee4cf52c39b1bf26a"
 preserve = true
 
 [[files]]

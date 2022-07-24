@@ -18,7 +18,7 @@ oldDeathpoints:true
 distance:1
 showCoords:true
 lockNorth:false
-zoom:2
+zoom:3
 minimapSize:144
 chunkGrid:-1
 slimeChunks:false

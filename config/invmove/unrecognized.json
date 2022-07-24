@@ -48,11 +48,27 @@
     "org.anti_ad.mc.ipnext.gui.ConfigScreen": false,
     "dev.lambdaurora.lambdynlights.gui.SettingsScreen": false,
     "link.infra.borderlessmining.config.ModMenuCompat$1": false,
-    "org.anti_ad.mc.ipnext.gui.GUIDEEditorScreen": false
+    "org.anti_ad.mc.ipnext.gui.GUIDEEditorScreen": false,
+    "ellemes.container_library.client.gui.PickScreen": true,
+    "ellemes.container_library.client.gui.SingleScreen": true,
+    "mc.rpgstats.client.screen.RPGStatDisplayScreen": false,
+    "me.cominixo.betterf3.config.gui.ModConfigScreen": false,
+    "me.cominixo.betterf3.config.gui.modules.ModulesScreen": false,
+    "redstone.multimeter.client.gui.screen.ScreenWrapper": false,
+    "juuxel.adorn.client.gui.screen.GuideBookScreen": false,
+    "me.shedaniel.rei.impl.client.gui.screen.DefaultDisplayViewingScreen": false,
+    "me.shedaniel.clothconfig2.gui.GlobalizedClothConfigScreen": false,
+    "re.zarex.simplechunkloader.gui.ChunkLoaderBlockScreen": false,
+    "xaero.common.gui.GuiEntityRadarCategorySettings": false,
+    "fi.dy.masa.litematica.gui.GuiSubRegionConfiguration": false
   },
   "hideBackground": {
     "com.kwpugh.simple_backpack.backpack.BackpackClientScreen": true,
     "net.minecraft.class_4895": true,
-    "net.minecraft.class_5522": true
+    "net.minecraft.class_5522": true,
+    "ellemes.container_library.client.gui.PickScreen": true,
+    "ellemes.container_library.client.gui.SingleScreen": true,
+    "me.shedaniel.rei.impl.client.gui.screen.DefaultDisplayViewingScreen": true,
+    "re.zarex.simplechunkloader.gui.ChunkLoaderBlockScreen": true
   }
 }

@@ -166,7 +166,7 @@
   },
   "InfoTypeToggles": {
     "infoBeeCount": false,
-    "infoBiome": true,
+    "infoBiome": false,
     "infoBiomeRegistryName": false,
     "infoBlockBreakSpeed": false,
     "infoBlockInChunk": false,
@@ -212,7 +212,7 @@
     "infoTimeIRL": false,
     "infoTimeTotalModulo": false,
     "infoTimeWorld": false,
-    "infoWorldTimeFormatted": true
+    "infoWorldTimeFormatted": false
   },
   "InfoHotkeys": {
     "infoBeeCount": {
@@ -361,7 +361,7 @@
     }
   },
   "RendererToggles": {
-    "overlayBeaconRange": false,
+    "overlayBeaconRange": true,
     "overlayBiomeBorder": false,
     "overlayBlockGrid": false,
     "overlayConduitRange": false,
@@ -562,7 +562,7 @@
     "Pillager Outpost": false,
     "Ruined Portal": false,
     "Shipwreck": false,
-    "Stronghold": false,
+    "Stronghold": true,
     "Village": false,
     "Witch Hut": false
   },

@@ -200,3 +200,47 @@ mode = "off"
 			[light_sources.settings.entities.boatcontainer]
 				chest_boat = true
 
+			[light_sources.settings.entities.promenade]
+				lush_creeper = true
+				duck = true
+				sunken_skeleton = true
+
+			[light_sources.settings.entities.betteranimalsplus]
+				butterfly = true
+				whale = true
+				shark = true
+				jellyfish = true
+				nautilus = true
+				bobbit_worm = true
+				lamprey = true
+				eel_freshwater = true
+				crab = true
+				eel_saltwater = true
+				goose = true
+				songbird = true
+				boar = true
+				brownbear = true
+				pheasant = true
+				lammergeier = true
+				piranha = true
+				turkey = true
+				squirrel = true
+				deer = true
+				reindeer = true
+				horseshoecrab = true
+				badger = true
+				coyote = true
+				badgerdirt = true
+				octopus = true
+				flying_fish = true
+				tarantula = true
+				blackbear = true
+				feralwolf = true
+				moose = true
+				squid_giant = true
+				dragonfly = true
+				squid_colossal = true
+
+			[light_sources.settings.entities.lovely_snails]
+				snail = true
+

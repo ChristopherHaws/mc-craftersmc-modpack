@@ -288,7 +288,7 @@
     "verifierOverlayEnabled": true,
     "warnDisabledRendering": true,
     "blockInfoLinesAlignment": "top_right",
-    "blockInfoOverlayAlignment": "top_center",
+    "blockInfoOverlayAlignment": "center",
     "infoHudAlignment": "bottom_right",
     "toolHudAlignment": "bottom_left",
     "blockInfoLinesOffsetX": 4,
