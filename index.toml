@@ -1141,6 +1141,11 @@ hash = "c967bab25029788ec600daa9f99ff2ee806e7aa63318de30145596beccbd9f0c"
 metafile = true
 
 [[files]]
+file = "mods/omnihopper.pw.toml"
+hash = "5328b021d76a86ebc7b4a2975fc02dc6d2450419ce899f2406aedac9a3294953"
+metafile = true
+
+[[files]]
 file = "mods/owo-lib.pw.toml"
 hash = "89096582f8cc0ee3403cb0c0e571f9030ffa51227815f6fa3e232342dd0481b8"
 metafile = true
@@ -1278,6 +1283,11 @@ metafile = true
 [[files]]
 file = "mods/stendhal.pw.toml"
 hash = "c429a2b5d2a8e85472f4625c786fa407ea80cfe9ab8d9aedbbf2a00f0a7467d8"
+metafile = true
+
+[[files]]
+file = "mods/sticky-hopper.pw.toml"
+hash = "6f73205b6804bb6ea452532504383789ec2c0fd268cf8fbccbd0b79ebad864af"
 metafile = true
 
 [[files]]
