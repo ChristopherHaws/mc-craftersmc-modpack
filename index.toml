@@ -641,6 +641,11 @@ hash = "1adfed1eb9468a7aee481cac91008bdb8e0af1048c54900a5a408dc40c446500"
 metafile = true
 
 [[files]]
+file = "mods/afkdisplay.pw.toml"
+hash = "bf98d18aef6550c2d85ad9c28afc05929ce54a17cefce9e38aefe70340162a87"
+metafile = true
+
+[[files]]
 file = "mods/animatica.pw.toml"
 hash = "6e37a53e0cc21c40bc27956d667189c278cefe61dab2a798fd4ba39bbf741687"
 metafile = true
@@ -1117,7 +1122,7 @@ metafile = true
 
 [[files]]
 file = "mods/moreculling.pw.toml"
-hash = "6e87a1a1f5735a45af0cbdbd18d1f5e8be13918bc318a42be8a35c812135aecc"
+hash = "0ef44b9254451d85119e6f7906fa1069edd4eb513d6b183db9e3f56f66e6281a"
 metafile = true
 
 [[files]]
