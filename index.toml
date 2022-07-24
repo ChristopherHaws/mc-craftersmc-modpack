@@ -412,7 +412,7 @@ preserve = true
 
 [[files]]
 file = "config/minihud.json"
-hash = "55f1cff3a26636735825764eb283f522c3b5211f9f6131fdf2293c5a286f348f"
+hash = "ed31a86784df08168463b92cca4a2a68562fd6650ebe0384ead03e1975dd9958"
 preserve = true
 
 [[files]]
@@ -887,7 +887,7 @@ metafile = true
 
 [[files]]
 file = "mods/entitytexturefeatures.pw.toml"
-hash = "1f47872fdf0e954fe7dab437208f9c86f10812284aad39c7d3ae8ca13d906b89"
+hash = "51949291a0f29beab1674ac3e5a6736946042b727ff7d911767f8e44fcd50a8a"
 metafile = true
 
 [[files]]
@@ -1147,7 +1147,7 @@ metafile = true
 
 [[files]]
 file = "mods/polymer.pw.toml"
-hash = "b5583edd08b8125e56c038911cc265a519f06451b6bc54df74fdc2819db19b61"
+hash = "ae3d02fc0170b4f4bb9409f33276cdd1cb368cc216641e9c5167b2ccb82d713d"
 metafile = true
 
 [[files]]
@@ -1187,7 +1187,7 @@ metafile = true
 
 [[files]]
 file = "mods/repurposed-structures-fabric.pw.toml"
-hash = "07fb6da7e40c18ec692c481ac7ecac9933282dc000cdc554b127ab889deb547c"
+hash = "e88005717f80c1c4bd89825bef2f608c02649ff9b96000c8bad1472f30c6c096"
 metafile = true
 
 [[files]]
