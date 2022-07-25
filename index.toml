@@ -926,11 +926,6 @@ hash = "402c5ef7a114c1122f11a0f7876895088bf007c6f1c63b86687bad7228bb0d20"
 metafile = true
 
 [[files]]
-file = "mods/discord4fabric.pw.toml"
-hash = "2f2fa3dd08dd1bf29a52423c16ccfd507b9640f08154424e3fe548e5461baf4f"
-metafile = true
-
-[[files]]
 file = "mods/displaycase.pw.toml"
 hash = "8fbaae37b695fe8ef95d54cb1199202fb8e33ed365bc147ffe26ecd7be20063c"
 metafile = true
