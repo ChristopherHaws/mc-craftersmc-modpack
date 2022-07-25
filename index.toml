@@ -1336,6 +1336,11 @@ hash = "38ddd0df33f6174614f571f302fd0bcf6301b298e63fe553867342b3cf5b9caf"
 metafile = true
 
 [[files]]
+file = "mods/simple-discord-link-bot-forge-fabric-spigot.pw.toml"
+hash = "719d15d0af5cf1147b3df531fa04cba079fe8923fa7b237c4a0e232fc3570138"
+metafile = true
+
+[[files]]
 file = "mods/sleep-warp.pw.toml"
 hash = "f885589f0f3bf1af099f1e4a27156b8e2568175601112b3234b9233c3cde7ede"
 metafile = true
