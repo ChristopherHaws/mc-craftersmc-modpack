@@ -847,7 +847,7 @@ metafile = true
 
 [[files]]
 file = "mods/carpet-fixes.pw.toml"
-hash = "c3d5ab4c14b47482c02c153fc1d04dd1cbc5cb8d46f85cadcc34bd4454687c3c"
+hash = "86563961328c167bbc16fbff56d1c9a54f192749c5da3615a571a2968e00f841"
 metafile = true
 
 [[files]]
@@ -1092,7 +1092,7 @@ metafile = true
 
 [[files]]
 file = "mods/iris.pw.toml"
-hash = "9870d86c56f25115c79ade562b9605c98af9b0b1ea13d3e93c4e8390be52f5b0"
+hash = "a348ec1aec5a10f7235d6741e08aea583e042049eded3d6eafd97a0688a891c0"
 metafile = true
 
 [[files]]
