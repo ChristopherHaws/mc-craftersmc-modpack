@@ -1,18 +1,17 @@
 name = "Roughly Enough Items Fabric/Forge (REI)"
-filename = "RoughlyEnoughItems-9.1.517.jar"
+filename = "RoughlyEnoughItems-9.1.518.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "b80b3f03bfe4d84eb131db405d9cbc09bad9c742"
+hash = "37334994cc5b5ab99c22aeaf5fd1dde6bcb1f95b"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 3874786
+file-id = 3900965
 project-id = 310111
 
 [option]
 optional = true
-default = false
 description = "Some people dont like this mod."
