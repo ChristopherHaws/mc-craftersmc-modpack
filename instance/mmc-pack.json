@@ -1,18 +1,9 @@
 {
     "components": [
         {
-            "cachedName": "LWJGL 3",
-            "cachedVersion": "3.3.1",
-            "cachedVolatile": true,
-            "dependencyOnly": true,
-            "uid": "org.lwjgl3",
-            "version": "3.3.1"
-        },
-        {
             "cachedName": "Minecraft",
             "cachedRequires": [
                 {
-                    "equals": "3.3.1",
                     "suggests": "3.3.1",
                     "uid": "org.lwjgl3"
                 }
@@ -21,6 +12,25 @@
             "important": true,
             "uid": "net.minecraft",
             "version": "1.19"
+        },
+        {
+            "cachedName": "LWJGL 3",
+            "cachedVersion": "3.3.1",
+            "cachedVolatile": true,
+            "dependencyOnly": true,
+            "uid": "org.lwjgl3",
+            "version": "3.3.1"
+        },
+        {
+            "cachedName": "Quilt Loader",
+            "cachedRequires": [
+                {
+                    "uid": "net.fabricmc.intermediary"
+                }
+            ],
+            "cachedVersion": "0.17.1",
+            "uid": "org.quiltmc.quilt-loader",
+            "version": "0.17.1"
         },
         {
             "cachedName": "Intermediary Mappings",
@@ -35,17 +45,6 @@
             "dependencyOnly": true,
             "uid": "net.fabricmc.intermediary",
             "version": "1.19"
-        },
-        {
-            "cachedName": "Quilt Loader",
-            "cachedRequires": [
-                {
-                    "uid": "net.fabricmc.intermediary"
-                }
-            ],
-            "cachedVersion": "0.17.1-beta.6",
-            "uid": "org.quiltmc.quilt-loader",
-            "version": "0.17.1-beta.6"
         }
     ],
     "formatVersion": 1
