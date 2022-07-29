@@ -1,13 +1,13 @@
 name = "Tool Stats"
-filename = "ToolStats-Fabric-1.19-10.0.1.jar"
+filename = "ToolStats-Fabric-1.19-10.1.3.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "213ad7d464d5978b5778a5940919a29e3c9711ba"
+hash = "3d24de5c92ae40115ae7abfd559ce9004c45bb6c"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 3824171
+file-id = 3902910
 project-id = 377109

@@ -717,7 +717,7 @@ metafile = true
 
 [[files]]
 file = "mods/additional-banners.pw.toml"
-hash = "4b23063beb1cc16b9c9e7f7597902734760153ff3e569c4a24428469157b5a7e"
+hash = "89b252cbff471ff40efeeeaa9f796bf807fa8c1b0567ed7eb50b475887598e4d"
 metafile = true
 
 [[files]]
@@ -762,7 +762,7 @@ metafile = true
 
 [[files]]
 file = "mods/attributefix.pw.toml"
-hash = "40dd64add3884b98011e8818911b1d6b61838dff863be8bd99cd2d299d39e035"
+hash = "be67ad5390d52c99727a98b0facb42d20530287c605f06f658a07df6b09b52fc"
 metafile = true
 
 [[files]]
@@ -827,7 +827,7 @@ metafile = true
 
 [[files]]
 file = "mods/bookshelf.pw.toml"
-hash = "2c6edc45f370046fdde505356a106c09b6132a570a753f23c27c65d1c3b977af"
+hash = "69fbd5258464b60fda1da6530dd036433833e3f1a02984c2c46a660e3ce8085f"
 metafile = true
 
 [[files]]
@@ -962,7 +962,7 @@ metafile = true
 
 [[files]]
 file = "mods/enchantment-descriptions.pw.toml"
-hash = "6bebf52ea474e1c3cb49f6ee24c75f472ab6f71702cd68d130086b7a0bb332a7"
+hash = "28fa30b850d3a8ed828cd65ee12e1ead7d3fec9a610eb969c0f3a62de485727a"
 metafile = true
 
 [[files]]
@@ -1082,7 +1082,7 @@ metafile = true
 
 [[files]]
 file = "mods/invmove.pw.toml"
-hash = "211031daf827cfb59989a9ef1266ae53069c586de658c5f8cdeecdf3b93ef776"
+hash = "2f028c67b37fc7c906bcd8983e775c588b49d03a05953acc9a38e37cb275ea96"
 metafile = true
 
 [[files]]
@@ -1407,7 +1407,7 @@ metafile = true
 
 [[files]]
 file = "mods/terralith.pw.toml"
-hash = "fadeb361e518c1b853cc61485f3ee0a4d914b72b5ffc270550faa0cff33dd8aa"
+hash = "9205368991a2cb12d412f3c6cd29ced16c8119403fda2606d167291c8786d2b9"
 metafile = true
 
 [[files]]
@@ -1427,7 +1427,7 @@ metafile = true
 
 [[files]]
 file = "mods/tool-stats.pw.toml"
-hash = "fe592c0ffeef82f938bc072422d0c1e36bee256b2b1df338a09780399aa2107a"
+hash = "7a0a4b5316b7726afbc5190a4cd8ec782913906557a8b965d9103d2557696c32"
 metafile = true
 
 [[files]]
@@ -1462,7 +1462,7 @@ metafile = true
 
 [[files]]
 file = "mods/worldedit.pw.toml"
-hash = "672aca2c7eb7c36fc709ae2812e3d67157937744edf7368e8b694ad06b22ab61"
+hash = "3712c67c4b3626bd4488df8dde5d741e04aa8e255a18b42d5eb52f35a3fb6551"
 metafile = true
 
 [[files]]
