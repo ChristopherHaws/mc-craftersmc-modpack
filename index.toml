@@ -1511,6 +1511,10 @@ hash = "b8ae65eaa0e3308ef190f0e40a49199bf65ce85d80d60f61415817c624b45d41"
 preserve = true
 
 [[files]]
+file = "resourcepacks/Xaero's+Minimap+-+Mod+Icons.zip"
+hash = "95144c4b60efd94068c0ecc4db4a63e2fffcd40e0501ffc30a18cb601e6847fe"
+
+[[files]]
 file = "schematics/9 Furnace Smelter.litematic"
 hash = "2ede486a8790fe11c96f6635b5497eab82ce11ad4ebe8a5c969e67d79bdddc21"
 preserve = true
