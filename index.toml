@@ -936,6 +936,11 @@ hash = "402c5ef7a114c1122f11a0f7876895088bf007c6f1c63b86687bad7228bb0d20"
 metafile = true
 
 [[files]]
+file = "mods/deepslatecutting.pw.toml"
+hash = "ff5e0289bf8abab09f289cd7ea65c48eefd14bbbb83e6dbfc4328b62f80091f2"
+metafile = true
+
+[[files]]
 file = "mods/displaycase.pw.toml"
 hash = "8fbaae37b695fe8ef95d54cb1199202fb8e33ed365bc147ffe26ecd7be20063c"
 metafile = true
