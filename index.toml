@@ -921,6 +921,11 @@ hash = "b76477889caeae2112915bfb32a0e8b369900f03780b32babc4f8c030789e8e7"
 metafile = true
 
 [[files]]
+file = "mods/crossstitch.pw.toml"
+hash = "27d8c96d3721eb06ad12bc963d99d50eb1f48fe4c6f19b6c39e8f92876a12e1b"
+metafile = true
+
+[[files]]
 file = "mods/cull-less-leaves.pw.toml"
 hash = "8c594cadc0cb0aff268d8b96cdc99d7e9655cf69f5110c1375b7b3e39ee419e9"
 metafile = true
@@ -1268,11 +1273,6 @@ metafile = true
 [[files]]
 file = "mods/puzzle.pw.toml"
 hash = "4f033c8165f561c19dd99c3c4a8017dc3cba9f655f6371582f14118a0ec093b4"
-metafile = true
-
-[[files]]
-file = "mods/qforward.pw.toml"
-hash = "ac2f1ff32e115dbc5b349800a7640ce5df7c4b457432f80f702dc3c268ba0ec2"
 metafile = true
 
 [[files]]
