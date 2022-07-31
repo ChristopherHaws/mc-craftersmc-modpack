@@ -1,0 +1,13 @@
+name = "Linked Storage"
+filename = "linkedstorage-1.5.0-1.19.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c6c2cdd82897ade8cc473166d7e4423ee6adcd2a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3901308
+project-id = 357718

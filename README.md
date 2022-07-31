@@ -11,20 +11,8 @@
 1. Click *OK*
 
 ### Mods awaiting 1.19 support
-autoreconnect
-boxofplaceholders
-cobbled-paths
-controlling
-fabric-language-kotlin
-fabric-restart
-fabricproxy-lite
-linked-storage
-litematica-server-paster
-litematica
-minihud
-observable
-server-translations
-servux
-simple-backpack-fabric
-tipthescales
-connectible_chains
+- [cobbled-paths](https://www.curseforge.com/minecraft/mc-mods/cobbled-paths)
+- [litematica-server-paster](https://modrinth.com/mod/litematica-server-paster)
+- [observable](https://www.curseforge.com/minecraft/mc-mods/observable)
+- [tipthescales](https://www.curseforge.com/minecraft/mc-mods/tipthescales)
+- [connectible_chains](https://modrinth.com/mod/connectible_chains)

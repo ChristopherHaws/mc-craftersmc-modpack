@@ -906,6 +906,11 @@ hash = "96a3463c6b05867e7ed2cf98bd7faed2b8d190913d9d8f9b551bbae6eab8efe4"
 metafile = true
 
 [[files]]
+file = "mods/controlling.pw.toml"
+hash = "4dd35c3c78436695d4a8741a98c0e83b1d62783e4da73dc2abb3707fe0649755"
+metafile = true
+
+[[files]]
 file = "mods/crawl.pw.toml"
 hash = "58445e46c8bd9793021ccdf62cda503c769b9757539e5e577461b0a4742358b7"
 metafile = true
@@ -993,6 +998,11 @@ metafile = true
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
 hash = "571251a12f49f5542775ca3ced589e23ad622fc2b93ec3cecf1a7eb77f33eb2f"
+metafile = true
+
+[[files]]
+file = "mods/fabricproxy-lite.pw.toml"
+hash = "ef1233ba89ceb429284c9abab0380fed30ef5cbb12a9e45a92978db84a2bac4c"
 metafile = true
 
 [[files]]
@@ -1143,6 +1153,11 @@ metafile = true
 [[files]]
 file = "mods/linkart.pw.toml"
 hash = "ead01414f028c3a5021dbbb21ba8135b772e3b31aa40dc266a82a8c3d5fa95b8"
+metafile = true
+
+[[files]]
+file = "mods/linked-storage.pw.toml"
+hash = "d097030a6c04f892a11c0b212c60cfccb75aa40c6d086c38e5503df5c88a0d9e"
 metafile = true
 
 [[files]]
