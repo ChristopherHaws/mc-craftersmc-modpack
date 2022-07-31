@@ -11,8 +11,3 @@ mode = "metadata:curseforge"
 [update.curseforge]
 file-id = 3876771
 project-id = 263420
-
-[option]
-optional = true
-description = "Seems to be crashing sometimes"
-default = true

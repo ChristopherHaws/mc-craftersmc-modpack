@@ -1142,7 +1142,7 @@ metafile = true
 
 [[files]]
 file = "mods/litematica.pw.toml"
-hash = "eb43c0ab30e2b2933a02eea4a61f4c4877622d2aa367e106928651e7860f8c27"
+hash = "81836f67133273b4c5a23c7ec57a8cfeed06d64d56c29686242532971882178d"
 metafile = true
 
 [[files]]
@@ -1157,7 +1157,7 @@ metafile = true
 
 [[files]]
 file = "mods/malilib.pw.toml"
-hash = "3304623e2746c2e6af506a9ff5143b710863651bc3a29bcd5f25ce8d485f69e1"
+hash = "9d9b3772d9e12b474675846005279f4b3957711744a550ab14284ed4187fc270"
 metafile = true
 
 [[files]]
@@ -1167,7 +1167,7 @@ metafile = true
 
 [[files]]
 file = "mods/minihud.pw.toml"
-hash = "2e77f97da688c759c021342306721cf4287c564d088e20b755f45eaea590e4a4"
+hash = "4dd0a7589833be6441edea5369f06fe7f8a01d758b685a7792f99b5cf4175888"
 metafile = true
 
 [[files]]
@@ -1447,7 +1447,7 @@ metafile = true
 
 [[files]]
 file = "mods/tweakeroo.pw.toml"
-hash = "2e0899151aede6d34d8e75b2886adcea6aed481021288ca4b5bde4a125448d5d"
+hash = "2bf332f43dd6858e29e18da850bdcc9bf2492dbc70034f9563f0083099c22f39"
 metafile = true
 
 [[files]]
@@ -1472,12 +1472,12 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap.pw.toml"
-hash = "5d37a9a81c0b6fb25f739bc58b06018faa87e2537cee79d98ddd13c1c51bf841"
+hash = "0360f1b7e138c05c7e8a6541e087eac24845212cb8c0565c3a219c6abf6f41c3"
 metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
-hash = "2e490db1ac5470e5ab80919b497be21e7b3396d2c3f0a39fbe01290099ec06e6"
+hash = "d16b4b5ad11c01690bccfcef8b4965123d064da7914451654f3cbea7b9005b2f"
 metafile = true
 
 [[files]]
