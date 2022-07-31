@@ -1001,11 +1001,6 @@ hash = "571251a12f49f5542775ca3ced589e23ad622fc2b93ec3cecf1a7eb77f33eb2f"
 metafile = true
 
 [[files]]
-file = "mods/fabricproxy-lite.pw.toml"
-hash = "ef1233ba89ceb429284c9abab0380fed30ef5cbb12a9e45a92978db84a2bac4c"
-metafile = true
-
-[[files]]
 file = "mods/fastload.pw.toml"
 hash = "a0b0634bd788990f48886260715d12228264dc0cbbb86c160433b4ff6dbb43f8"
 metafile = true
@@ -1256,11 +1251,6 @@ hash = "5328b021d76a86ebc7b4a2975fc02dc6d2450419ce899f2406aedac9a3294953"
 metafile = true
 
 [[files]]
-file = "mods/owo-lib.pw.toml"
-hash = "602bd67a9bb4a39330a67c037bcbf8d0a6631f53374d6d2c4a8311fcad425f5f"
-metafile = true
-
-[[files]]
 file = "mods/polymer.pw.toml"
 hash = "2b20ba4033a23a6cb20ef47f89e0a497dd6be70756383dd93640349b20ea066e"
 metafile = true
@@ -1273,6 +1263,11 @@ metafile = true
 [[files]]
 file = "mods/puzzle.pw.toml"
 hash = "4f033c8165f561c19dd99c3c4a8017dc3cba9f655f6371582f14118a0ec093b4"
+metafile = true
+
+[[files]]
+file = "mods/qforward.pw.toml"
+hash = "ac2f1ff32e115dbc5b349800a7640ce5df7c4b457432f80f702dc3c268ba0ec2"
 metafile = true
 
 [[files]]
