@@ -811,6 +811,11 @@ hash = "d8d2deac03ddd37b9a8bd858268683f0cc936f95bb7836aeb54dffc935f472ee"
 metafile = true
 
 [[files]]
+file = "mods/blanket.pw.toml"
+hash = "ad4adface5e9e24580fa832bdbd95e436300d12d16e6309508677903517b3ffc"
+metafile = true
+
+[[files]]
 file = "mods/blockmeter.pw.toml"
 hash = "bdb6c82bb8f455491a6a26d27735540908587c66ba4d782a6288c4e6e59130f6"
 metafile = true
@@ -1197,7 +1202,7 @@ metafile = true
 
 [[files]]
 file = "mods/more-mc-music-discs.pw.toml"
-hash = "5a5055308f2d4a85570bd52b519725685b0d74d59617c577e7633f62e32e1337"
+hash = "c2234f406fce0140dd50490edc7afc675d073d29ec15a25599f6b04b0c590bc2"
 metafile = true
 
 [[files]]
@@ -1207,7 +1212,7 @@ metafile = true
 
 [[files]]
 file = "mods/moreculling.pw.toml"
-hash = "70794068a407652022124d83b39e696d2c3194daeea0e4993afd50fb0351552c"
+hash = "8146180d1612a9ec226fb5981f0a95167c19a4a0e6a188eae93c94e5bcc8ea47"
 metafile = true
 
 [[files]]
@@ -1287,12 +1292,12 @@ metafile = true
 
 [[files]]
 file = "mods/roughly-enough-items.pw.toml"
-hash = "5aa0be8a5441604c31f0338c164c97d8e47d4c20c5336bcf8136803ec619bc92"
+hash = "155b7b50839e05bda18b13acc8ecd53ae96c3835b54609ccbe53aaf522650e88"
 metafile = true
 
 [[files]]
 file = "mods/scout.pw.toml"
-hash = "c7d3298f267e69edbfcc5957b0a0ce5787414f832cfdbfa13a2e7e841583d0e9"
+hash = "b756b703c3d2076c067f8a2ce07f71f9fbc42d1f922e128b3e759b704571bcc5"
 metafile = true
 
 [[files]]
