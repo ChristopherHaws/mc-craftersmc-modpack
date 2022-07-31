@@ -1,0 +1,13 @@
+name = "FabricProxy-Lite"
+filename = "FabricProxy-Lite-2.1.1.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/8dI2tmqs/versions/v2.1.1/FabricProxy-Lite-2.1.1.jar"
+hash-format = "sha1"
+hash = "666e0d906cb9a34bea73778ac32b2b0611b4fae0"
+
+[update]
+[update.modrinth]
+mod-id = "8dI2tmqs"
+version = "2Yvbf5hW"

@@ -1006,6 +1006,11 @@ hash = "571251a12f49f5542775ca3ced589e23ad622fc2b93ec3cecf1a7eb77f33eb2f"
 metafile = true
 
 [[files]]
+file = "mods/fabricproxy-lite.pw.toml"
+hash = "ef1233ba89ceb429284c9abab0380fed30ef5cbb12a9e45a92978db84a2bac4c"
+metafile = true
+
+[[files]]
 file = "mods/fastload.pw.toml"
 hash = "a0b0634bd788990f48886260715d12228264dc0cbbb86c160433b4ff6dbb43f8"
 metafile = true
