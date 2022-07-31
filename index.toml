@@ -1251,6 +1251,11 @@ hash = "5328b021d76a86ebc7b4a2975fc02dc6d2450419ce899f2406aedac9a3294953"
 metafile = true
 
 [[files]]
+file = "mods/owo-lib.pw.toml"
+hash = "602bd67a9bb4a39330a67c037bcbf8d0a6631f53374d6d2c4a8311fcad425f5f"
+metafile = true
+
+[[files]]
 file = "mods/polymer.pw.toml"
 hash = "2b20ba4033a23a6cb20ef47f89e0a497dd6be70756383dd93640349b20ea066e"
 metafile = true
