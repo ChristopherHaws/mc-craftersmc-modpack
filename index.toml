@@ -796,11 +796,6 @@ hash = "43ad173e5e3b92a29c52ba9f7af4c9ba63bf2c57076ea83349967f37499dccef"
 metafile = true
 
 [[files]]
-file = "mods/better-signs-and-frames.pw.toml"
-hash = "9b16755328a7f62015fb53a89655b81cc8ca49ef70e264fcb6a421eb42c79f03"
-metafile = true
-
-[[files]]
 file = "mods/better-third-person.pw.toml"
 hash = "4abdbfe570394a8cdd1e1874a2f89757f0d137a7c03612611b89c38b6249ea2e"
 metafile = true
@@ -1073,6 +1068,11 @@ metafile = true
 [[files]]
 file = "mods/immersiveportals.pw.toml"
 hash = "8506203c27bfda2a52cac04dfd4ab09b78a2e1587dcf36423a4027208beb3701"
+metafile = true
+
+[[files]]
+file = "mods/improved-signs.pw.toml"
+hash = "d8e9477b8ebc63689926888078f8e9af87fffbe71642c94be9b2944b8d117229"
 metafile = true
 
 [[files]]
