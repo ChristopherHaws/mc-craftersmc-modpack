@@ -797,7 +797,7 @@ metafile = true
 
 [[files]]
 file = "mods/better-signs-and-frames.pw.toml"
-hash = "b93d3e008e986349f3372fde6e194436f08c2c0914d1be59ba9ca8ef50a23b4d"
+hash = "9b16755328a7f62015fb53a89655b81cc8ca49ef70e264fcb6a421eb42c79f03"
 metafile = true
 
 [[files]]
@@ -822,7 +822,7 @@ metafile = true
 
 [[files]]
 file = "mods/blockmeter.pw.toml"
-hash = "bdb6c82bb8f455491a6a26d27735540908587c66ba4d782a6288c4e6e59130f6"
+hash = "aa347fb2d84ed5d40ce08014972734fb069221ecae48eae66f76d70ade0d126b"
 metafile = true
 
 [[files]]
@@ -1077,7 +1077,7 @@ metafile = true
 
 [[files]]
 file = "mods/indium.pw.toml"
-hash = "5dc09aa39836e32c785297fd6e34c70e1ca9cb80264da8b088e0bc166b69d9e9"
+hash = "eefcd81493fa26fa8135cf85495cbfb52127aa43667c5a4faea27d16d7bb2191"
 metafile = true
 
 [[files]]
@@ -1187,7 +1187,7 @@ metafile = true
 
 [[files]]
 file = "mods/memoryleakfix.pw.toml"
-hash = "9bedd7ca66c806a5bc8bfefc04ac3a4665bccf3a6672e3a4ebd69dd752c5ee6f"
+hash = "8fca044c06687f1e0f645ea179fa96a73abe84c7e4e4c982633868c150553732"
 metafile = true
 
 [[files]]
@@ -1277,7 +1277,7 @@ metafile = true
 
 [[files]]
 file = "mods/puzzle.pw.toml"
-hash = "4f033c8165f561c19dd99c3c4a8017dc3cba9f655f6371582f14118a0ec093b4"
+hash = "48aefe7fedf925380793a244646e6449cf3f5aebeeb651b09ab86d6638e8b0c1"
 metafile = true
 
 [[files]]
@@ -1297,7 +1297,7 @@ metafile = true
 
 [[files]]
 file = "mods/redstone-multimeter-fabric.pw.toml"
-hash = "c35e5e9e7539a04627389ee45382322d5613730af303a23c7940403b61bc8439"
+hash = "de6fae5fdc7830d7e3019803f4ba884294ef2d82f7a54bab37e92e5daec78373"
 metafile = true
 
 [[files]]

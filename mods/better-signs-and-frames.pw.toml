@@ -1,13 +1,13 @@
-name = "Better Signs & Frames"
-filename = "better-signs-and-frames-0.8.5.jar"
+name = "Improved Signs"
+filename = "improvedsigns-1.0.0.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "88d6964a03c317226bbd45deaf9478631372b1c7"
+hash = "eb25d8e681de9fcad679350c32ef791e1c64742f"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 3871445
+file-id = 3912161
 project-id = 384963

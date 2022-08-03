@@ -1,18 +1,17 @@
 name = "Redstone Multimeter Fabric"
-filename = "redstone-multimeter-fabric-mc1.19-1.8.0.jar"
+filename = "redstone-multimeter-fabric-mc1.19-1.9.0.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "96f3604a2b40072b5f204279e1c42ca84085f03b"
+hash = "bc81fbf52f18366121782e019f27dcbeb6f975ef"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 3881149
+file-id = 3912806
 project-id = 475001
 
 [option]
 optional = true
-default = false
 description = "Used for debugging redstone. Disable if you dont need it."

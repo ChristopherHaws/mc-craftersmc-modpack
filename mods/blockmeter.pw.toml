@@ -3,12 +3,11 @@ filename = "blockmeter-1.7-HEAD.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/oGU9LXKC/versions/v1.7.9/blockmeter-1.7-HEAD.jar"
+url = "https://cdn.modrinth.com/data/oGU9LXKC/versions/v1.7.10/blockmeter-1.7-HEAD.jar"
 hash-format = "sha1"
-hash = "d9c814d9d94799cce574aa4a0bc63db93a70c7b1"
-mode = ""
+hash = "2a1096d1062eb113f83fe9f9ab7c902633e3da1e"
 
 [update]
 [update.modrinth]
 mod-id = "oGU9LXKC"
-version = "Sp0n5r1E"
+version = "JEMRlxY2"
