@@ -786,11 +786,6 @@ hash = "e6594654ecc0cb73faef21d6d434cdd5382d28ca7b58aa20d9b97101127b3452"
 metafile = true
 
 [[files]]
-file = "mods/better-beacon.pw.toml"
-hash = "d54366a197a28ccfce80dfa28a05ded83681a6ea38d62b5c84e4db95f4b22749"
-metafile = true
-
-[[files]]
 file = "mods/better-beds.pw.toml"
 hash = "43ad173e5e3b92a29c52ba9f7af4c9ba63bf2c57076ea83349967f37499dccef"
 metafile = true
@@ -938,6 +933,11 @@ metafile = true
 [[files]]
 file = "mods/deepslatecutting.pw.toml"
 hash = "ff5e0289bf8abab09f289cd7ea65c48eefd14bbbb83e6dbfc4328b62f80091f2"
+metafile = true
+
+[[files]]
+file = "mods/discontinuous-beacon-beams.pw.toml"
+hash = "a2d04d3ae30021ea2bbda38daa9a64cbcbcbcba8154d3da4afaab54864ab6971"
 metafile = true
 
 [[files]]
