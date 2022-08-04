@@ -782,7 +782,7 @@ metafile = true
 
 [[files]]
 file = "mods/beaconoverhaul.pw.toml"
-hash = "aa188015e8d4943e5193ff081a8f62bbe3a1564e416a747e70600cc1a77ec829"
+hash = "e6594654ecc0cb73faef21d6d434cdd5382d28ca7b58aa20d9b97101127b3452"
 metafile = true
 
 [[files]]
@@ -1232,7 +1232,7 @@ metafile = true
 
 [[files]]
 file = "mods/moreculling.pw.toml"
-hash = "8146180d1612a9ec226fb5981f0a95167c19a4a0e6a188eae93c94e5bcc8ea47"
+hash = "90cfb6a5fdd929c94421cd0674e2af68089e33a8e3965d7dec723ab00df2e94a"
 metafile = true
 
 [[files]]
