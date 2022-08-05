@@ -1,0 +1,13 @@
+name = "BetterDarkMode"
+filename = "better-dark-mode-2.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1225050e9d6d17dfca6bff9d8853cb4639fa8518"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3903387
+project-id = 537641

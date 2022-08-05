@@ -781,6 +781,11 @@ hash = "e6f7d05a47c717cbdef4b105f44d71b2f3202154e2517d6641d6661d01cad07c"
 metafile = true
 
 [[files]]
+file = "mods/bclib.pw.toml"
+hash = "e165fe9293c1b9828beadcc5611292e6f43f5b40b45b43b598f7e2a6f8941474"
+metafile = true
+
+[[files]]
 file = "mods/beaconoverhaul.pw.toml"
 hash = "e6594654ecc0cb73faef21d6d434cdd5382d28ca7b58aa20d9b97101127b3452"
 metafile = true
@@ -798,6 +803,16 @@ metafile = true
 [[files]]
 file = "mods/betteranimalsplus.pw.toml"
 hash = "0abb3d6175eb811aadb9ce64423505bb37f316fcb1b22eba58012f3a2cd7b849"
+metafile = true
+
+[[files]]
+file = "mods/betterdarkmode.pw.toml"
+hash = "eef358011da60d6601956f5bf1102f188cf00af3d2aea794180653eda90a8b19"
+metafile = true
+
+[[files]]
+file = "mods/betterend.pw.toml"
+hash = "2f651d0f178a985a25a1721cc32d2c4eef04d513aca323622115930de2986338"
 metafile = true
 
 [[files]]
@@ -973,6 +988,16 @@ metafile = true
 [[files]]
 file = "mods/ellemes-container-library.pw.toml"
 hash = "cf9c08e9c7d76150fcb49babe437b495693b165b4d77ed6eac5f8b2934e97683"
+metafile = true
+
+[[files]]
+file = "mods/enchanted-vertical-slabs-betterend-edition.pw.toml"
+hash = "94fcb1c675541572e88b013e6e23f402d7bd4f7189dcdff4c2ed3d2932f759a9"
+metafile = true
+
+[[files]]
+file = "mods/enchanted-vertical-slabs.pw.toml"
+hash = "052b09c4837ab7713ee4fe391e265731d46d42a5104af6817250d2ea50418dab"
 metafile = true
 
 [[files]]
