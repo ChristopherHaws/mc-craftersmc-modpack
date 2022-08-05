@@ -821,6 +821,11 @@ hash = "d8d2deac03ddd37b9a8bd858268683f0cc936f95bb7836aeb54dffc935f472ee"
 metafile = true
 
 [[files]]
+file = "mods/betternether.pw.toml"
+hash = "116d1868d48db127b06699196a8cd6ddde9f3a17c0fbc9652978066592d93603"
+metafile = true
+
+[[files]]
 file = "mods/blanket.pw.toml"
 hash = "ad4adface5e9e24580fa832bdbd95e436300d12d16e6309508677903517b3ffc"
 metafile = true
@@ -983,6 +988,11 @@ metafile = true
 [[files]]
 file = "mods/ebe.pw.toml"
 hash = "073bff49ec9e664b669794177329cfbeef3c3d91d5c0660cd01144a640e0338b"
+metafile = true
+
+[[files]]
+file = "mods/eden-ring.pw.toml"
+hash = "83bc6beb12871fe71523c4bd67ab2d94b7fa13ede9051dbdfac195d319955add"
 metafile = true
 
 [[files]]
