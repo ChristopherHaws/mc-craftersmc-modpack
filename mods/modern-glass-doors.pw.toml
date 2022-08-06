@@ -1,13 +1,13 @@
 name = "Modern Glass Doors"
-filename = "glassdoor-3.0.0-rc.1+1.19.jar"
+filename = "glassdoor-3.0.0+1.19.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "3d740e5b2503a35252634169f1a88c1baaddea4f"
+hash = "a0d031c49bebfbbc5c2e31639b73bfff66b06e62"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 3826646
+file-id = 3919770
 project-id = 326641

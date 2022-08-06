@@ -752,7 +752,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "f992709d951bbf4d96e0f668ab30a790f3448f1d4da32917053eb6414108e997"
+hash = "225420b1d5737f764f8fdd29e8481d82d0f7fb5ec92cfaef33b99d5046a2023f"
 metafile = true
 
 [[files]]
@@ -1242,7 +1242,7 @@ metafile = true
 
 [[files]]
 file = "mods/modern-glass-doors.pw.toml"
-hash = "c9443bd7eb29b6bb2dcff35bd45e7508964429f3ade9a0977bcd2ef470fc2c44"
+hash = "f91b174e245975bb8c174eae8c173b4434dec9939130e100b58259016603c3cf"
 metafile = true
 
 [[files]]
@@ -1332,7 +1332,7 @@ metafile = true
 
 [[files]]
 file = "mods/redstone-multimeter-fabric.pw.toml"
-hash = "de6fae5fdc7830d7e3019803f4ba884294ef2d82f7a54bab37e92e5daec78373"
+hash = "7946dc36f6068d045c112be866758142129daece3959cc6fc54c1e6593df5d85"
 metafile = true
 
 [[files]]
@@ -1392,7 +1392,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-discord-link-bot-forge-fabric-spigot.pw.toml"
-hash = "719d15d0af5cf1147b3df531fa04cba079fe8923fa7b237c4a0e232fc3570138"
+hash = "029623b4a1d4d3001c23b88104dd69f901705b21a9351fe94f4532882a82750c"
 metafile = true
 
 [[files]]
