@@ -852,7 +852,7 @@ metafile = true
 
 [[files]]
 file = "mods/borderless-mining.pw.toml"
-hash = "94a1f6d77920d815b3ae8fe10b58c9d2bc4df5fdbe2c53a07e55dcdb4e8bd0be"
+hash = "3ef9c29b431637e1baa5325ff9fc8f3a7d7a63b32219ac42cd2a06f8459e9ca7"
 metafile = true
 
 [[files]]

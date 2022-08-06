@@ -12,3 +12,8 @@ mode = ""
 [update.modrinth]
 mod-id = "kYq5qkSL"
 version = "gqoXgtxO"
+
+[option]
+optional = true
+default = false
+description = "Makes MC run in borderless windowed mode"
