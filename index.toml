@@ -1630,21 +1630,21 @@ hash = "55e3c9b9dd23bbea85c79023776e3cf9413fbd7aec8ad42af3b42d7e18d52338"
 preserve = true
 
 [[files]]
-file = "shaderpacks/ComplementaryReimagined_r1.1.1.zip"
-hash = "329606ba016eb7e880c7360bef80b6701e3e0825a90ef14d009b3db89655f792"
-preserve = true
-
-[[files]]
-file = "shaderpacks/ComplementaryReimagined_r1.1.1.zip.txt"
+file = "shaderpacks/ComplementaryReimagined_r1.2.1.zip.txt"
 hash = "5fc143cc7119cff74d5300e9d7842058cb4ba9ecd455308677d9764e076213c2"
 preserve = true
 
 [[files]]
-file = "shaderpacks/ComplementaryShaders_v4.4.zip"
-hash = "297e2947c1986ba2faefdd3f2e0aa365b3e6dfd308853baae70821b393c06861"
+file = "shaderpacks/ComplementaryShaders_v4.5.1.zip.txt"
+hash = "04facb7774cbae7460a181097be2ccac0c9a0190fbf60914739db727703c2b58"
 preserve = true
 
 [[files]]
-file = "shaderpacks/ComplementaryShaders_v4.4.zip.txt"
-hash = "04facb7774cbae7460a181097be2ccac0c9a0190fbf60914739db727703c2b58"
-preserve = true
+file = "shaderpacks/complementary-reimagined.pw.toml"
+hash = "47d499d22fce1b0d726d92ca2c40adc57ceff7e05e5693559754d1b62ea3f02f"
+metafile = true
+
+[[files]]
+file = "shaderpacks/complementary-shaders.pw.toml"
+hash = "16e2bd0034ed0cf298b372bc06e1d2ffd77236e76cc18faadd3d7aa43769f104"
+metafile = true
