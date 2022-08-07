@@ -782,7 +782,7 @@ metafile = true
 
 [[files]]
 file = "mods/bclib.pw.toml"
-hash = "e165fe9293c1b9828beadcc5611292e6f43f5b40b45b43b598f7e2a6f8941474"
+hash = "0c2703bbc8f46fe76dead6fc276fba1f4af877e63db4157f5c9eedc9065dbd9b"
 metafile = true
 
 [[files]]
@@ -822,7 +822,7 @@ metafile = true
 
 [[files]]
 file = "mods/betternether.pw.toml"
-hash = "116d1868d48db127b06699196a8cd6ddde9f3a17c0fbc9652978066592d93603"
+hash = "42a1922956c0640656c437853b5160f32ad9603b8f38dbcf23ac357b71aafee8"
 metafile = true
 
 [[files]]
@@ -957,7 +957,7 @@ metafile = true
 
 [[files]]
 file = "mods/discontinuous-beacon-beams.pw.toml"
-hash = "a2d04d3ae30021ea2bbda38daa9a64cbcbcbcba8154d3da4afaab54864ab6971"
+hash = "e8678f528249a8eb7045a359ad5ddaf6ec2f7cf4fd2b67fb7534f10152397dba"
 metafile = true
 
 [[files]]
@@ -1122,7 +1122,7 @@ metafile = true
 
 [[files]]
 file = "mods/inventory-profiles-next.pw.toml"
-hash = "beb05254a68e58e1d48d051fe08bfb1bc1f68e048aa70c9e7c1c4e3ac3c4d77c"
+hash = "90659979cd3a5ba9806a880b7ef0117fcb14f211d78692e698951704995aed58"
 metafile = true
 
 [[files]]
@@ -1307,7 +1307,7 @@ metafile = true
 
 [[files]]
 file = "mods/promenade.pw.toml"
-hash = "bd791852ac4db6b263f3807c8782b23ad9410f062af568aacd3238169dabc6a4"
+hash = "347ccf45370cce05e8341ae2c2ef987ad2af7b2763335943b1788fac6599fca8"
 metafile = true
 
 [[files]]

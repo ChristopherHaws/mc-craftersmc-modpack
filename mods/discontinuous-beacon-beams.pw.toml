@@ -1,13 +1,13 @@
 name = "Discontinuous Beacon Beams"
-filename = "discontinuous-beacon-beams-1.1.5+MC1.19-1.19.1.jar"
+filename = "discontinuous-beacon-beams-1.1.6+MC1.19-1.19.2.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "8679bbcbd28847ed1f0407a1bb58eed10dc6a5c9"
+hash = "1b4a15322c4da7e46464b55370ba5c4cb0a08ba2"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 3905181
+file-id = 3922149
 project-id = 431698
