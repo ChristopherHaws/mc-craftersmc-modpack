@@ -1,19 +1,17 @@
 name = "AutoSwitch"
-filename = "autoswitch-5.1.3-alpha.1.jar"
+filename = "autoswitch-5.1.5-alpha.1.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/uSdcnlts/versions/5.1.3-alpha.1/autoswitch-5.1.3-alpha.1.jar"
+url = "https://cdn.modrinth.com/data/uSdcnlts/versions/5.1.5-alpha.1/autoswitch-5.1.5-alpha.1.jar"
 hash-format = "sha1"
-hash = "29a21ee1745cc59256045a5fdbfe1f6b8b682537"
-mode = ""
+hash = "d26e8903496ef99bbe48e3de3c348b7b048da180"
 
 [update]
 [update.modrinth]
 mod-id = "uSdcnlts"
-version = "nY6reJtC"
+version = "QW33lhHq"
 
 [option]
 optional = true
-default = false
 description = "Just for you Pilko"

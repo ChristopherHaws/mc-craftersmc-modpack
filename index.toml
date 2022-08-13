@@ -747,12 +747,12 @@ metafile = true
 
 [[files]]
 file = "mods/appleskin.pw.toml"
-hash = "cf1c8c1b2de20c6d260277ed690acbf02f876d901071eb6a2fb46135fd7455d7"
+hash = "4d571d5ebe245ffb62a0df83e81d1c03670807d3528650d6dd9c983bd26ae860"
 metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "79d10b35c03c33c05e1d72276af5884e032e14040551d4abc79febfc8bdc995c"
+hash = "921f73f17f138ece4672c2b822eecebe4508bf565e47f1e6d69936f4b3895aa0"
 metafile = true
 
 [[files]]
@@ -772,7 +772,7 @@ metafile = true
 
 [[files]]
 file = "mods/autoswitch.pw.toml"
-hash = "49c3a06e62c2272a5b138b9fcaac5ac8e05b55e7bfe1c811bc994c5931a0ff30"
+hash = "37eb39fb1a3d0af55a1bbbc4dee25c592432ebc4eb086e2ba2da848b50d5801c"
 metafile = true
 
 [[files]]
@@ -917,7 +917,7 @@ metafile = true
 
 [[files]]
 file = "mods/continuity.pw.toml"
-hash = "96a3463c6b05867e7ed2cf98bd7faed2b8d190913d9d8f9b551bbae6eab8efe4"
+hash = "3648ed55ffae5bc153c16b2d414925cc30165b5171aa0e2a146e5ba22366fcf1"
 metafile = true
 
 [[files]]
@@ -1242,7 +1242,7 @@ metafile = true
 
 [[files]]
 file = "mods/modern-glass-doors.pw.toml"
-hash = "f91b174e245975bb8c174eae8c173b4434dec9939130e100b58259016603c3cf"
+hash = "a9a2b1866fc889c5afdac083feebf5494a1b0b1bfca24695dc97f54426dc9b5b"
 metafile = true
 
 [[files]]
@@ -1267,7 +1267,7 @@ metafile = true
 
 [[files]]
 file = "mods/moreculling.pw.toml"
-hash = "90cfb6a5fdd929c94421cd0674e2af68089e33a8e3965d7dec723ab00df2e94a"
+hash = "9dbc20e8a4e9bd8c997c2af628640f8dcdd05fde6437afbacd630531735c1fcb"
 metafile = true
 
 [[files]]
@@ -1347,7 +1347,7 @@ metafile = true
 
 [[files]]
 file = "mods/roughly-enough-items.pw.toml"
-hash = "155b7b50839e05bda18b13acc8ecd53ae96c3835b54609ccbe53aaf522650e88"
+hash = "35c8d1c5cabc956b5ce9dce2392a638f035cbd5250122a7d8cc368884e9f6202"
 metafile = true
 
 [[files]]
