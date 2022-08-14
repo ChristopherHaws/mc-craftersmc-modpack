@@ -887,7 +887,7 @@ metafile = true
 
 [[files]]
 file = "mods/chickensshed.pw.toml"
-hash = "dbc31136121380776f01b220bce9f3021d7c2b7e6ca6120db6fb513493916796"
+hash = "a9f76ef40b5525eb1f759337a1b2909fadfef92817785c5fdc8f5c104b9068aa"
 metafile = true
 
 [[files]]
@@ -902,7 +902,7 @@ metafile = true
 
 [[files]]
 file = "mods/cloth-config.pw.toml"
-hash = "417d6f9564d5d6c76596ea1287f76def11d40d7b4c2f5e88fd4e00abd34286de"
+hash = "a567bff99a6dea536cc8fd0d51df141d158cd000008eb2e5f53f20b1e14ee35e"
 metafile = true
 
 [[files]]
