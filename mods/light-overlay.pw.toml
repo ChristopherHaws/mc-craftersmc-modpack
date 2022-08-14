@@ -12,3 +12,8 @@ mode = ""
 [update.modrinth]
 mod-id = "YfOlc91N"
 version = "8MLUOCy0"
+
+[option]
+optional = true
+default = false
+description = "MiniHUD provides this functionality"
