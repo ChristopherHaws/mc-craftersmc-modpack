@@ -1122,7 +1122,7 @@ metafile = true
 
 [[files]]
 file = "mods/inventory-profiles-next.pw.toml"
-hash = "90659979cd3a5ba9806a880b7ef0117fcb14f211d78692e698951704995aed58"
+hash = "76296dabc015ef02058556c4a08f5cbe4cc6ca5cbdb8c45072dfce03a8bdf7a9"
 metafile = true
 
 [[files]]
@@ -1267,7 +1267,7 @@ metafile = true
 
 [[files]]
 file = "mods/moreculling.pw.toml"
-hash = "9dbc20e8a4e9bd8c997c2af628640f8dcdd05fde6437afbacd630531735c1fcb"
+hash = "741381be667a7b124ce60ba17fca9207369bd6ead4e58ce64fa140aff95f8159"
 metafile = true
 
 [[files]]
