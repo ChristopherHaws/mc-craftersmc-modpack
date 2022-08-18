@@ -926,6 +926,11 @@ hash = "4dd35c3c78436695d4a8741a98c0e83b1d62783e4da73dc2abb3707fe0649755"
 metafile = true
 
 [[files]]
+file = "mods/copper-hopper.pw.toml"
+hash = "6a5c4a265192a3c6b87cc9093a928f3f17898d182ee307caafcae93e43d33ad3"
+metafile = true
+
+[[files]]
 file = "mods/crawl.pw.toml"
 hash = "58445e46c8bd9793021ccdf62cda503c769b9757539e5e577461b0a4742358b7"
 metafile = true
