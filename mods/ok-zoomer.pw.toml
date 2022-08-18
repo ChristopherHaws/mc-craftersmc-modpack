@@ -12,3 +12,8 @@ mode = ""
 [update.modrinth]
 mod-id = "aXf2OSFU"
 version = "vNZwWPKn"
+
+[option]
+optional = true
+default = true
+description = "Trying a different mod"

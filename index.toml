@@ -427,7 +427,7 @@ preserve = true
 
 [[files]]
 file = "config/lithium.properties"
-hash = "4f5890cb55b35047fdb433efa30060827aa9415e0850220f85b2c8ad663d6722"
+hash = "96d2264806af1fbdf3de4559d73061be6cb288200845929d79295a19ad4c2d68"
 preserve = true
 
 [[files]]
@@ -1292,7 +1292,7 @@ metafile = true
 
 [[files]]
 file = "mods/ok-zoomer.pw.toml"
-hash = "c967bab25029788ec600daa9f99ff2ee806e7aa63318de30145596beccbd9f0c"
+hash = "eb36e2c7220eb03fcb092d99bbace749423e11e6c0e13f9e00c5e823072a81e0"
 metafile = true
 
 [[files]]
@@ -1451,11 +1451,6 @@ hash = "c429a2b5d2a8e85472f4625c786fa407ea80cfe9ab8d9aedbbf2a00f0a7467d8"
 metafile = true
 
 [[files]]
-file = "mods/sticky-hopper.pw.toml"
-hash = "6f73205b6804bb6ea452532504383789ec2c0fd268cf8fbccbd0b79ebad864af"
-metafile = true
-
-[[files]]
 file = "mods/styled-chat.pw.toml"
 hash = "d53173b52eb8ecdec389e9d993dc89c6a21b1d5628712e819d1cec2dc3f6e0aa"
 metafile = true
@@ -1553,6 +1548,11 @@ metafile = true
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
 hash = "d16b4b5ad11c01690bccfcef8b4965123d064da7914451654f3cbea7b9005b2f"
+metafile = true
+
+[[files]]
+file = "mods/zoomify.pw.toml"
+hash = "60d6622948e0e7d8463f6ff419496b4e0c021a030b9f2d340bc1dcb76853b6ff"
 metafile = true
 
 [[files]]
