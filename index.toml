@@ -428,7 +428,6 @@ preserve = true
 [[files]]
 file = "config/lithium.properties"
 hash = "96d2264806af1fbdf3de4559d73061be6cb288200845929d79295a19ad4c2d68"
-preserve = true
 
 [[files]]
 file = "config/localrecipes.zip"
