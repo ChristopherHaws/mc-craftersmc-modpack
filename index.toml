@@ -876,7 +876,7 @@ metafile = true
 
 [[files]]
 file = "mods/cauldron-dyeing.pw.toml"
-hash = "272c74e6c2b4541c30a1c9636061f122321a0ed574e7e7cae7a9daa676c088e2"
+hash = "fc31f5b1ad03bf84f655c2d4a81e31f41bfc23aa0126829ef83316a8d93d92fc"
 metafile = true
 
 [[files]]
@@ -1341,7 +1341,7 @@ metafile = true
 
 [[files]]
 file = "mods/reeses-sodium-options.pw.toml"
-hash = "00ad50268c777fc61e4c00c431bb5f898d669b9d86fc1120413884b1233a7105"
+hash = "2f69649f1658de740bd483dc45f4b4d29267c00bec0ae9d80583e6dc115044a4"
 metafile = true
 
 [[files]]
@@ -1416,7 +1416,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium-extra.pw.toml"
-hash = "6213f3c46f9544b1fd9b62af7a00ce3c7ee75d941ab127757cde2ddad2cc9ac9"
+hash = "a861006c66175659b11c63a2e3872852b58626e7bb756bf39213cef991c490be"
 metafile = true
 
 [[files]]
@@ -1551,7 +1551,7 @@ metafile = true
 
 [[files]]
 file = "mods/zoomify.pw.toml"
-hash = "60d6622948e0e7d8463f6ff419496b4e0c021a030b9f2d340bc1dcb76853b6ff"
+hash = "7685f7630efac6002d8a5308fd91819ee506f84166acf47d6578ab0c66c67c78"
 metafile = true
 
 [[files]]
