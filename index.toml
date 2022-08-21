@@ -1330,11 +1330,6 @@ hash = "9147414569dfdb12dab792512c7d810258ae563edd6fad91ae5f622d1792cd89"
 metafile = true
 
 [[files]]
-file = "mods/server-chat-history.pw.toml"
-hash = "9cb19cb90b75ab18943a1ed32473b0d663ee18ecb775f765467cca36039084b7"
-metafile = true
-
-[[files]]
 file = "mods/servercore.pw.toml"
 hash = "0d2580694a5821cd27dfe03940ade7d0ff556ba6c55d8e08321ab48a7e9ac26b"
 metafile = true
