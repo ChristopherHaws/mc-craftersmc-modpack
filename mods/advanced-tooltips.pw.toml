@@ -1,0 +1,13 @@
+name = "Advanced Tooltips"
+filename = "advancedtooltips-1.6.0+1.19.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b3da299586a18362f4509f4fe34eae8ae8967195"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3926150
+project-id = 640815
