@@ -755,11 +755,6 @@ hash = "75dcdffc0d37e098ef12f1b149d68182337372e2d48653ffe0389b94b357a0de"
 metafile = true
 
 [[files]]
-file = "mods/armorstandeditor.pw.toml"
-hash = "b0c3cd58565ed97f3e334db5438874ab574ea7000cea4be74490a47b8417a33f"
-metafile = true
-
-[[files]]
 file = "mods/attributefix.pw.toml"
 hash = "4b30b4f24efc144ce8898866ec74cfb36110eccfbc72b142718d21c107f6002f"
 metafile = true
