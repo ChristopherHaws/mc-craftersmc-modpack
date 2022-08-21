@@ -950,11 +950,6 @@ hash = "e8678f528249a8eb7045a359ad5ddaf6ec2f7cf4fd2b67fb7534f10152397dba"
 metafile = true
 
 [[files]]
-file = "mods/displaycase.pw.toml"
-hash = "8fbaae37b695fe8ef95d54cb1199202fb8e33ed365bc147ffe26ecd7be20063c"
-metafile = true
-
-[[files]]
 file = "mods/double-doors-fabric.pw.toml"
 hash = "2588e5aa4fe89387bbb33957c1044a840433ce66e2b111a85f146a369dd67b29"
 metafile = true
@@ -976,7 +971,7 @@ metafile = true
 
 [[files]]
 file = "mods/ellemes-container-library.pw.toml"
-hash = "cf9c08e9c7d76150fcb49babe437b495693b165b4d77ed6eac5f8b2934e97683"
+hash = "c09bb2753657e76b4963c1c57624b9229e0159fb01f1b812547dfcd36cb4efb2"
 metafile = true
 
 [[files]]
@@ -1011,7 +1006,7 @@ metafile = true
 
 [[files]]
 file = "mods/expanded-storage.pw.toml"
-hash = "716a7908c2ad84c54423e3139b5a1427eab15e64461c05796551cd5a558a36e6"
+hash = "246894bbd6a715e9f239dc93e3228ec224d4d4b75501a067acddb28c384a600f"
 metafile = true
 
 [[files]]
