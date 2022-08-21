@@ -1,18 +1,17 @@
 name = "WI Zoom"
-filename = "WI-Zoom-1.4-MC1.19.jar"
-side = "client" # Is actually "both" but switching to "client" so this mod doesnt load in the server
+filename = "WI-Zoom-1.4-MC1.19.2.jar"
+side = "client"
 
 [download]
 hash-format = "sha1"
-hash = "cb322aec441afdffdbbbe5eb6ba279615951f6e9"
+hash = "553803318f57bc7ac6efb6b63cff720dd51b721e"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 3834808
+file-id = 3921702
 project-id = 349630
 
 [option]
 optional = true
-default = false
 description = "OkZoomer is prefered"

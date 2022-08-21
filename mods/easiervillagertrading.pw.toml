@@ -1,13 +1,13 @@
 name = "EasierVillagerTrading"
-filename = "easiervillagertrading-1.19-fabric0.53.3-1.5.4.jar"
+filename = "easiervillagertrading-1.19.1-fabric0.58.5-1.5.4.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "c9f02bcad227a730aac030b861e4284f0a0f8817"
+hash = "5df7c30b1ab95250238ac86327c1106a66732de2"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 3828525
+file-id = 3907249
 project-id = 261605

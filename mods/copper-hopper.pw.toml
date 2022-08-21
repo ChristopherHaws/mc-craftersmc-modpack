@@ -1,13 +1,13 @@
 name = "Copper Hopper"
-filename = "copperhopper-0.0.9+1.19.jar"
+filename = "copperhopper-0.0.10+1.19.2.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "ff7f33ca91b732380f5d6c0ece9931cf906d1cad"
+hash = "43570acc722c94506236b26730ae68f5c738a528"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 3849588
+file-id = 3932255
 project-id = 575851

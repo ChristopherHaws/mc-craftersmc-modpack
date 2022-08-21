@@ -1,13 +1,13 @@
 name = "Carpet Extra"
-filename = "carpet-extra-1.19-1.4.79.jar"
+filename = "carpet-extra-1.19.1-1.4.83.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "8f085641fb8ce42bd3d8c7fcd7b4630972dfae74"
+hash = "aa5dc49f61db4a4aead9dc2d363ea090641b4211"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 3820880
+file-id = 3902791
 project-id = 349240
