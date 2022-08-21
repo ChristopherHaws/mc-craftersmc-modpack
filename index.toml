@@ -755,6 +755,11 @@ hash = "921f73f17f138ece4672c2b822eecebe4508bf565e47f1e6d69936f4b3895aa0"
 metafile = true
 
 [[files]]
+file = "mods/armored-elytra.pw.toml"
+hash = "2eced8bcbdf59b46b49ce565c423d61c9fda9d9c37d82c35fe4ac00f89234e87"
+metafile = true
+
+[[files]]
 file = "mods/armorstandeditor.pw.toml"
 hash = "27edcb408a22e100becb64d7805ef28d3dfdbbeb04e27cfc51a006170fdc110c"
 metafile = true
