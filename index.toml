@@ -1080,6 +1080,11 @@ hash = "9549d5918a2a48f0fc9bc2146d2afee3b4d6cb17aeae87d1c1ccad9ad9dc7756"
 metafile = true
 
 [[files]]
+file = "mods/immersiveportals.pw.toml"
+hash = "d459ad4c93a8260fe3190e881358df0c189174b9ca4796f1e7ef1001dc77af4b"
+metafile = true
+
+[[files]]
 file = "mods/improved-signs.pw.toml"
 hash = "50676b8bc4b67cf6f7f941d17d13e58d437f9560a670fd11f6695ca2b2eb2ec6"
 metafile = true
