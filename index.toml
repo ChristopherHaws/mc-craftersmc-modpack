@@ -950,11 +950,6 @@ hash = "8fbaae37b695fe8ef95d54cb1199202fb8e33ed365bc147ffe26ecd7be20063c"
 metafile = true
 
 [[files]]
-file = "mods/dont-clear-chat-history.pw.toml"
-hash = "9e8a66d43611d16b5809628f192db4c81ec55c2a6dead5d4cd85923f0cbb2d6c"
-metafile = true
-
-[[files]]
 file = "mods/double-doors-fabric.pw.toml"
 hash = "2588e5aa4fe89387bbb33957c1044a840433ce66e2b111a85f146a369dd67b29"
 metafile = true
