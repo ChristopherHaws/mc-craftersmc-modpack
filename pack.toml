@@ -1,16 +1,13 @@
-name = "CraftersMC Modpack"
+name = "craftersmc"
 author = "chaws"
-version = "1.19.0"
+version = "1.0.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "5124bb0b1ac3cfba2fcfad419bfe71735a1ad0cf8a427e3cc33de8f9c1bd1dd3"
+hash = "394c0efb6e5ce512bee9fcca5d917692b44219bb2d55c8ca7271c66a3878cb0d"
 
 [versions]
-fabric = "0.14.9"
+fabric = "0.14.10"
 minecraft = "1.19.2"
-
-[options]
-acceptable-game-versions = ["1.19", "1.19.0", "1.19.1", "1.19.2"]

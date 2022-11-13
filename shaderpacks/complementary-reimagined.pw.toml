@@ -1,8 +1,0 @@
-name = "Complementary Reimagined"
-filename = "ComplementaryReimagined_r1.2.1.zip"
-side = "both"
-
-[download]
-url = "https://mediafiles.forgecdn.net/files/3922/966/ComplementaryReimagined_r1.2.1.zip"
-hash-format = "sha1"
-hash = "030669c00a9f769ea28b17fbb86735be889a2730"
