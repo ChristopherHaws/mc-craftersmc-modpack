@@ -1,5 +1,6 @@
 # Exclude exported CurseForge zip files
 *.zip
+!/instance/craftersmc.zip
 !/config/**/*.zip
 !/shaderpacks/**/*.zip
 !/resourcepacks/**/*.zip
