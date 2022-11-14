@@ -182,6 +182,7 @@ creative-one-punch
 [server-chat-history - sends players chat history on join](https://modrinth.com/mod/server-chat-history)
 [slumber - freeze the server when no one is online](https://modrinth.com/mod/slumber)
 [dynamic-view-fabric - if servercore render view settings arent working](https://www.curseforge.com/minecraft/mc-mods/dynamic-view-fabric)
+[friends-and-foes - adds missing mobs from mob votes](https://www.curseforge.com/minecraft/mc-mods/friends-and-foes)
 
 
 # References
