@@ -504,6 +504,10 @@ hash = "9e538cf089ca697fdd2e932f36857651d392e6f00debf8cce24508f3ce744b63"
 metafile = true
 
 [[files]]
+file = "mods/placeholder-api-2.0.0-pre.1+1.19.2.jar"
+hash = "f31f5ac5b52a7f2dcacf6c902fdf3f2ac0703d18ba699aeb0960329904b35fc2"
+
+[[files]]
 file = "mods/player-pronouns.pw.toml"
 hash = "874f539c5823fbbe3ed8e6bea74b2c4f81bdd1fda71b99868aebe62a070ca68d"
 metafile = true

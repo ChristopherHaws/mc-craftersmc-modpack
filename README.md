@@ -123,6 +123,9 @@ PuzzlesLib
 shetiphiancore-fabric
 TerraBlender-fabric
 YetAnotherConfigLib
+[PlaceholderApi Fabric](https://github.com/Patbox/TextPlaceholderAPI)
+[LuckPerms](https://modrinth.com/mod/luckperms)
+[LuckPerms Placeholders](https://github.com/LuckPerms/placeholders)
 
 # Testing
 axes-are-weapons
