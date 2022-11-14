@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "mods/LuckPerms-Fabric-PlaceholderAPI-Hook-build4.jar"
+hash = "87e49eea3a73f9eb779fae72d0e17d384d523c7a3a22d410727134ce3c916b59"
+
+[[files]]
 file = "mods/accurate-block-placement.pw.toml"
 hash = "7d6f565c72e8bd0c10c48333f749b41399ed0562ad643fbaa3cb7e1de6dc061a"
 metafile = true
