@@ -1,0 +1,13 @@
+name = "Cache My Enderchest"
+filename = "cachemyenderchest-1.0.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "35134d48acea73f539b9b3c02adc9b7d1505d535"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3921305
+project-id = 629366

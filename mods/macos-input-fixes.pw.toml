@@ -1,0 +1,13 @@
+name = "MacOS Input Fixes"
+filename = "macos-input-fixes-1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "bc406e79e134267535a6757691a7c6ed34a52e71"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4014644
+project-id = 678691

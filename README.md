@@ -1,8 +1,8 @@
 # CraftersMC Modpack
 
-## Setup PolyMC Instance
-1. Download and install [PolyMC](https://polymc.org/)
-1. Open PolyMC
+## Setup PrismLauncher Instance
+1. Download and install [PrismLauncher](https://prismlauncher.org/)
+1. Open PrismLauncher
 1. Login to your Minecraft account (in the upper right corner)
 1. Click *Add Instance*
 1. Set the instance name (for example `CraftersMC`)
@@ -10,9 +10,118 @@
 1. Set the URL to `https://github.com/ChristopherHaws/minecraft-craftersmc-modpack/releases/download/v1.0.0/craftersmc.zip`
 1. Click *OK*
 
-### Mods awaiting 1.19 support
-- [cobbled-paths](https://www.curseforge.com/minecraft/mc-mods/cobbled-paths)
-- [litematica-server-paster](https://modrinth.com/mod/litematica-server-paster)
-- [observable](https://www.curseforge.com/minecraft/mc-mods/observable)
-- [tipthescales](https://www.curseforge.com/minecraft/mc-mods/tipthescales)
-- [connectible_chains](https://modrinth.com/mod/connectible_chains)
+## Mods
+### Main Mods
+create-fabric
+enchantedshulkers
+enderchests-fabric
+inventorytotem-fabric
+oh-the-biomes-youll-go-fabric
+roughly-enough-items
+simplevoicechat-fabric
+
+### Decoration Mods
+ArmorStatues
+
+### Optimization Mods
+alternate-current
+badpackets-fabric
+betterbeds
+c2me-fabric
+cachemyenderchest
+chunky
+cull-less-leaves
+dashloader
+dynamic-fps
+entityculling-fabric
+Fastload
+ferritecore
+forgetmechunk
+indium
+iris
+krypton
+lazydfu
+lithium-fabric
+memoryleakfix
+moreculling
+smoothboot-fabric
+sodium-extra
+sodium-fabric
+spark
+starlight
+tabtps-fabric
+thorium
+
+### Utility Mods
+accurate-block-placement
+advancedtooltips
+appleskin-fabric
+auto-clicker-fabric
+beenfo
+better-dark-mode
+BetterAdvancements-Fabric
+BetterF3
+better-third-person
+blockmeter
+bobby
+borderless-mining
+brb
+chat-up
+cyclepaintings-fabric
+doubledoors-fabric
+easiervillagertrading
+horse-stats-vanilla
+hotbarcycle
+inventory-profiles-next
+litematica-fabric
+macos-input-fixes
+minihud-fabric
+mixintrace
+modmenu
+morechathistory
+notenoughcrashes
+observable
+rebind-all-the-keys
+reeses_sodium_options
+screenshot-to-clipboard
+sheep-consistency
+shift-scroll-fix
+shulkerboxtooltip-fabric
+skin-swapper-fabric
+statuseffecttimer
+text-utilities-fabric
+the-one-probe-fabric
+ToolStats
+tooltipfix
+tweakeroo-fabric
+vt-downloader
+whereisit
+worldedit-mod
+worldeditcui-fabric
+xaeros-minimap
+xaeros-world-map
+Zoomify
+
+### OptiFine Replacement
+CITResewn
+continuity
+entity_texture_features_fabric
+lambdynamiclights
+sodium-shadowy-path-blocks
+
+### Library Mod
+architectury
+Bookshelf-Fabric
+collective-fabric
+Controlling-fabric
+fabric-api
+fabric-language-kotlin
+libIPN-fabric
+malilib-fabric
+owo-lib
+PuzzlesLib
+shetiphiancore-fabric
+TerraBlender-fabric
+YetAnotherConfigLib
+
+

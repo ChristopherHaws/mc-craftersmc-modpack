@@ -1,0 +1,13 @@
+name = "The One Probe Fabric"
+filename = "theoneprobe-fabric-1.19-6.2.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b880a5573e00936a9e1081fdd14c4cf7425a549a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4062215
+project-id = 581847

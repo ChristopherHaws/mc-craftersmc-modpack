@@ -1,0 +1,13 @@
+name = "Auto Clicker (Fabric)"
+filename = "auto-clicker-fabric-1.19.2-1.4.2-build.19.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0c460143ab4ac26643f6837e719e7d9e56587a1b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3926133
+project-id = 445095
