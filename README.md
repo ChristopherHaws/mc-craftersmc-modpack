@@ -124,4 +124,21 @@ shetiphiancore-fabric
 TerraBlender-fabric
 YetAnotherConfigLib
 
-
+# Testing
+axes-are-weapons
+blanket
+carpet-fixes
+deathlog
+fabrictailor
+mixin-conflict-helper
+styledplayerlist
+styled-chat
+ledger
+expanded-axe-enchanting
+litematica-server-paster
+crops-love-rain
+invview
+leaves-us-in-peace
+deepslatecutting
+carpet
+servercore

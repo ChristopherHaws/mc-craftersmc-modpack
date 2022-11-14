@@ -36,6 +36,11 @@ hash = "9d7146e7881d716e56e4533dc83e361ae37fb322d0c6e27bce93ca942ca28465"
 metafile = true
 
 [[files]]
+file = "mods/axes-are-weapons.pw.toml"
+hash = "17286bf8c9bcbb1aae16dca55cd42d139bb034e11bca5a5284808284330b0d98"
+metafile = true
+
+[[files]]
 file = "mods/badpackets.pw.toml"
 hash = "63edbd012db544d0590a1cd2563a4973c0316b8033370b41a48c05b0e8e667e5"
 metafile = true
@@ -71,6 +76,11 @@ hash = "e8cd685b609577ab23e2a55ec3273a1ff9475daef52f0999b2c5d27f7c795f5c"
 metafile = true
 
 [[files]]
+file = "mods/blanket.pw.toml"
+hash = "b0f1f64f998f86fec1bbaf06eb39c08ea3c712b590170d3277e899a74f045c2f"
+metafile = true
+
+[[files]]
 file = "mods/blockmeter.pw.toml"
 hash = "aa347fb2d84ed5d40ce08014972734fb069221ecae48eae66f76d70ade0d126b"
 metafile = true
@@ -103,6 +113,16 @@ metafile = true
 [[files]]
 file = "mods/cachemyenderchest.pw.toml"
 hash = "cf30cb0d6b478ed9678f4b81e6b8b7c888734b0d45551324c5b2bf9222ef0df1"
+metafile = true
+
+[[files]]
+file = "mods/carpet-fixes.pw.toml"
+hash = "25eb272f5f04290914e0b4c7370cf0ee059ee11888c43b8fd2805aaafecfa39c"
+metafile = true
+
+[[files]]
+file = "mods/carpet.pw.toml"
+hash = "3d89448c7689702ee772d9d1a5119dc7f47facdf8adf0d780804fda257d6671a"
 metafile = true
 
 [[files]]
@@ -150,6 +170,11 @@ file = "mods/create-fabric-1.19.2-0.5.0f-758.jar"
 hash = "61da2a7b7685ba284ba1775bd1f6d333ad9564307d00337cf1c19dc08ce4102c"
 
 [[files]]
+file = "mods/crops-love-rain.pw.toml"
+hash = "e6ce78af13cd662ab6dedf5c67d8b9d9210b66242593cf1be08f45ed935d4af7"
+metafile = true
+
+[[files]]
 file = "mods/crossstitch.pw.toml"
 hash = "27d8c96d3721eb06ad12bc963d99d50eb1f48fe4c6f19b6c39e8f92876a12e1b"
 metafile = true
@@ -167,6 +192,16 @@ metafile = true
 [[files]]
 file = "mods/dashloader.pw.toml"
 hash = "4fb938b3b07afc32216c63ba982ba25e28f4d0e63ddecdd26bea4e6dfa77b0fc"
+metafile = true
+
+[[files]]
+file = "mods/deathlog.pw.toml"
+hash = "be160873f910e05a59aab41a59e682a41f9c413642e24727383505c013e5e3fc"
+metafile = true
+
+[[files]]
+file = "mods/deepslatecutting.pw.toml"
+hash = "0479206225a4fe784aa2866d422a0f9bad857a8c1ade89179d6626f812c4fbb8"
 metafile = true
 
 [[files]]
@@ -215,18 +250,28 @@ hash = "76a5d61442e06180aede0b5cf457f04b471b37d85a8631726d550f9309b2ddeb"
 metafile = true
 
 [[files]]
+file = "mods/expanded-axe-enchanting.pw.toml"
+hash = "04342ff0cf44a6fb0e4196a555859be82cb4bad125144a6e368fc15a2ccb1e93"
+metafile = true
+
+[[files]]
 file = "mods/fabric-api.pw.toml"
 hash = "a5f47659fcd7300b84571ef6461d0461b8a1556642fa845b8955902aeaf59c9b"
 metafile = true
 
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
-hash = "5e0fb026c7bfa446e3398b6297ff4a7223f8b423a829a8543d78174b83063edf"
+hash = "2d6dd083a7b01b1035a52c09a088137b930ea6f0f8f28ae3e0ba23f05937e3ef"
 metafile = true
 
 [[files]]
 file = "mods/fabricproxy-lite.pw.toml"
 hash = "92c92ffb7a6ee49e51bf3a34537c9829351e7f702d83c3340843d2095f8f6ad5"
+metafile = true
+
+[[files]]
+file = "mods/fabrictailor.pw.toml"
+hash = "b3e1f7b080b5c4a2e3de434a6873d84ba5bd357dff99268d45db4a79fb6d43b9"
 metafile = true
 
 [[files]]
@@ -275,6 +320,11 @@ hash = "e194424b0978c6f2467ceffd93745aad96954b3636855c71fbb93011b05d310d"
 metafile = true
 
 [[files]]
+file = "mods/invview.pw.toml"
+hash = "7cfacba402f52a71096bda72ede806b9b6964c2c807019da76f4e27fa839c8a5"
+metafile = true
+
+[[files]]
 file = "mods/iris.pw.toml"
 hash = "3d195b45c6dff7ee5a52dcb9e57a4172c91ec8d5c9d17c97305ee674fc22a357"
 metafile = true
@@ -295,8 +345,23 @@ hash = "b4ca05b39b85c27cd97ccb65d5fb832f5e9fd7ee5710542a3e69dfa30a97ea7d"
 metafile = true
 
 [[files]]
+file = "mods/leaves-us-in-peace.pw.toml"
+hash = "fec1221e797b3ed8390543fbde976327cdf5cdc3ace62e58e1ef49f76d8133f5"
+metafile = true
+
+[[files]]
+file = "mods/ledger.pw.toml"
+hash = "cbd6b97dfc49090b18480f43eeef4401144006ed406110f32fb1126d47a21f11"
+metafile = true
+
+[[files]]
 file = "mods/libipn.pw.toml"
 hash = "431d07740e83adbc9f8dbeaf6485eeb510554308a9956c3ae509d70df8a96cf3"
+metafile = true
+
+[[files]]
+file = "mods/litematica-server-paster.pw.toml"
+hash = "1208df96e9753f1be2bcbd249043255543a1d5cc566290ce2c0d9f4a87f17c0c"
 metafile = true
 
 [[files]]
@@ -332,6 +397,11 @@ metafile = true
 [[files]]
 file = "mods/minihud.pw.toml"
 hash = "ec2e01258ac91cd8a753b776bfe1e01ad7dacfedbbff19fb4eec779bb10cf4aa"
+metafile = true
+
+[[files]]
+file = "mods/mixin-conflict-helper.pw.toml"
+hash = "c7388b6ebb78040be98251fb064a009f3d7574133e15d2844e3fadf2929b2980"
 metafile = true
 
 [[files]]
@@ -397,6 +467,11 @@ metafile = true
 [[files]]
 file = "mods/screenshot-to-clipboard.pw.toml"
 hash = "672f3809a2053eef01aea4015ca4b0d4be6c507622172c091c17833b8d2ffb39"
+metafile = true
+
+[[files]]
+file = "mods/servercore.pw.toml"
+hash = "94d8491cd39504b6faa3fb1c3da6233dfc0dbf5d854798a53079fb3f7c5fdfd0"
 metafile = true
 
 [[files]]
@@ -467,6 +542,16 @@ metafile = true
 [[files]]
 file = "mods/statuseffecttimer.pw.toml"
 hash = "26b3e4ca90196024b0cdc02fb3591af480e03bde037ffb3e800499dc2c45167e"
+metafile = true
+
+[[files]]
+file = "mods/styled-chat.pw.toml"
+hash = "b54a2d0cdb07a011d353462037ee68dfa2108767be8485c58f65fea4986cb934"
+metafile = true
+
+[[files]]
+file = "mods/styledplayerlist.pw.toml"
+hash = "d2accfdeb772987301d7517f93e081a276e5ae7610caf1f213a2012204699358"
 metafile = true
 
 [[files]]
