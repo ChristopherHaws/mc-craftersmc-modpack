@@ -1,6 +1,6 @@
 name = "Chat Up!"
 filename = "chat-up-2.1.0.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"

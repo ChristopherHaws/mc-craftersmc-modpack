@@ -1,6 +1,6 @@
 name = "Auto Clicker (Fabric)"
 filename = "auto-clicker-fabric-1.19.2-1.4.2-build.19.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"
@@ -11,3 +11,8 @@ mode = "metadata:curseforge"
 [update.curseforge]
 file-id = 3926133
 project-id = 445095
+
+[option]
+optional = true
+default = false
+description = "Useful for AFKing"

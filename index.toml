@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "mods/accurate-block-placement.pw.toml"
-hash = "ab9bdc3b336e2a48ba1f869a7497a9a03cda9a45f50eae9a616dc86c4acae80f"
+hash = "7d6f565c72e8bd0c10c48333f749b41399ed0562ad643fbaa3cb7e1de6dc061a"
 metafile = true
 
 [[files]]
@@ -17,7 +17,7 @@ metafile = true
 
 [[files]]
 file = "mods/appleskin.pw.toml"
-hash = "4d571d5ebe245ffb62a0df83e81d1c03670807d3528650d6dd9c983bd26ae860"
+hash = "54bd27556b8fbfa18a62311511a1417941db4854a39f4a979aef3f6e3edaaa56"
 metafile = true
 
 [[files]]
@@ -32,7 +32,7 @@ metafile = true
 
 [[files]]
 file = "mods/auto-clicker-fabric.pw.toml"
-hash = "a626df296bf3ce45cc2b9620d5ad51c77c388855c1f24118665dae625a041ba3"
+hash = "9d7146e7881d716e56e4533dc83e361ae37fb322d0c6e27bce93ca942ca28465"
 metafile = true
 
 [[files]]
@@ -102,12 +102,12 @@ metafile = true
 
 [[files]]
 file = "mods/cachemyenderchest.pw.toml"
-hash = "6b342fa8c47e4a41e86e599380eaeede102e01a5f0fd6803aad72b54ddd5c9b3"
+hash = "cf30cb0d6b478ed9678f4b81e6b8b7c888734b0d45551324c5b2bf9222ef0df1"
 metafile = true
 
 [[files]]
 file = "mods/chat-up.pw.toml"
-hash = "f2d6d0bf07893bd248bce474400e63f83d0a6c151733bf1fdb59fe8f003c25da"
+hash = "4c05ceb703b5846b7448fcb04c1e4d430a3dd99ff2c1fb0d507f414550107c72"
 metafile = true
 
 [[files]]
@@ -501,7 +501,7 @@ metafile = true
 
 [[files]]
 file = "mods/worldedit.pw.toml"
-hash = "719da66ac6adbf00ace4a021f1bfcd6aca271b16caa40629de9e73a79b844905"
+hash = "83cd3310ed9a39489dde5bc6f28cf3ddbdd9f1edc723c5e3c35fcac58bd4fc57"
 metafile = true
 
 [[files]]

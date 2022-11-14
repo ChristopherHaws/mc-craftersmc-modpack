@@ -11,3 +11,8 @@ hash = "7bd52695e82b1ddd1fdb3320154b68bf48dfff37"
 [update.modrinth]
 mod-id = "EsAfCjCV"
 version = "pIFVoWvG"
+
+[option]
+optional = true
+default = true
+description = "Shows more info about hunger in the HUD"

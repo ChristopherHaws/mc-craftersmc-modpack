@@ -1,6 +1,6 @@
 name = "Cache My Enderchest"
 filename = "cachemyenderchest-1.0.2.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"
@@ -11,3 +11,8 @@ mode = "metadata:curseforge"
 [update.curseforge]
 file-id = 3921305
 project-id = 629366
+
+[option]
+optional = true
+default = true
+description = "Caches your enderchest so other mods can see its contents"
