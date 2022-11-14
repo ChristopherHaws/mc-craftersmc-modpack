@@ -136,6 +136,11 @@ hash = "c6bc086f111ee90dd9534f0d2e28f62fc0039fc1e1c1f06ff5c3c17d0b24f728"
 metafile = true
 
 [[files]]
+file = "mods/commandaliases.pw.toml"
+hash = "45fced48eeee4c106a603cda6cde968af553dccb211af0dbd07f8b453d08a6cf"
+metafile = true
+
+[[files]]
 file = "mods/continuity.pw.toml"
 hash = "3cbe3d523b39667928fcc34f71651b0e581e5c541dd5ecf17228464770466bc5"
 metafile = true

@@ -7,7 +7,7 @@
 1. Click *Add Instance*
 1. Set the instance name (for example `CraftersMC`)
 1. Click *Import from zip*
-1. Set the URL to `https://github.com/ChristopherHaws/minecraft-craftersmc-modpack/releases/download/v1.0.0/craftersmc.zip`
+1. Set the URL to `https://modpack.craftersmc.com/instance/craftersmc.zip`
 1. Click *OK*
 
 ## Mods
