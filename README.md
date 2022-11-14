@@ -134,7 +134,6 @@ mixin-conflict-helper
 styledplayerlist
 styled-chat
 ledger
-expanded-axe-enchanting
 litematica-server-paster
 crops-love-rain
 invview
@@ -156,7 +155,6 @@ image2map
 syncmatica
 suggestion-tweaker
 entity-view-distance
-dimthread
 lmd (let me despawn)
 player-pronouns
 headindex
@@ -183,6 +181,10 @@ creative-one-punch
 [slumber - freeze the server when no one is online](https://modrinth.com/mod/slumber)
 [dynamic-view-fabric - if servercore render view settings arent working](https://www.curseforge.com/minecraft/mc-mods/dynamic-view-fabric)
 [friends-and-foes - adds missing mobs from mob votes](https://www.curseforge.com/minecraft/mc-mods/friends-and-foes)
+[vote-command - reminds and shows people how to vote](https://modrinth.com/mod/vote-command)
+
+# Vote Rewards
+[Votifier - lib to handle vote site webhooks](https://github.com/DrexHD/Fabric-Votifier)
 
 
 # References

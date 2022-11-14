@@ -470,11 +470,6 @@ hash = "741381be667a7b124ce60ba17fca9207369bd6ead4e58ce64fa140aff95f8159"
 metafile = true
 
 [[files]]
-file = "mods/no-chat-reports.pw.toml"
-hash = "1aa7510ec1a3994273a20f8b341f676583b9ede2eaea3badd46deb7178d92a6c"
-metafile = true
-
-[[files]]
 file = "mods/no-sneaking-over-magma.pw.toml"
 hash = "7bafa291ff3e6df97ce603d20fb07bc2427411210cbf67b43fdce9ffcbed3ed9"
 metafile = true
