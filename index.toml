@@ -290,6 +290,11 @@ hash = "2d6dd083a7b01b1035a52c09a088137b930ea6f0f8f28ae3e0ba23f05937e3ef"
 metafile = true
 
 [[files]]
+file = "mods/fabrication.pw.toml"
+hash = "59628b18128c790714d60e37589f20adf0c7499c518a31852c7d5c4bdd37923b"
+metafile = true
+
+[[files]]
 file = "mods/fabricproxy-lite.pw.toml"
 hash = "92c92ffb7a6ee49e51bf3a34537c9829351e7f702d83c3340843d2095f8f6ad5"
 metafile = true
