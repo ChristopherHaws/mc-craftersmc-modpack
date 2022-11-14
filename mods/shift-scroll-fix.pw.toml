@@ -1,6 +1,6 @@
 name = "Shift-Scroll Fix for macOS [Fabric]"
 filename = "shift-scroll-fix-1.0.1.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"
@@ -11,3 +11,8 @@ mode = "metadata:curseforge"
 [update.curseforge]
 file-id = 3343722
 project-id = 437526
+
+[option]
+optional = true
+default = false
+description = "Only needed on MacOS clients"

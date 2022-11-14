@@ -311,7 +311,7 @@ metafile = true
 
 [[files]]
 file = "mods/macos-input-fixes.pw.toml"
-hash = "2805e1533e3dfbb212986a9eaa22d9febad3e2a43a81db0ef4fb246847040705"
+hash = "01d8b4f759b0dfa2acdfd22a79b0b45541ba3cca23fd23f946490b26c106b20c"
 metafile = true
 
 [[files]]
@@ -401,7 +401,7 @@ metafile = true
 
 [[files]]
 file = "mods/shift-scroll-fix.pw.toml"
-hash = "b8eb0d751fc02619a09926eb262b82fc4a27b5da68474a59a7c083abe137d47f"
+hash = "5abf718edb3b058fc6d10c93f7a158417b10d5e31344008d12b8ddbee248bb03"
 metafile = true
 
 [[files]]

@@ -1,6 +1,6 @@
 name = "MacOS Input Fixes"
 filename = "macos-input-fixes-1.1.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"
@@ -11,3 +11,8 @@ mode = "metadata:curseforge"
 [update.curseforge]
 file-id = 4014644
 project-id = 678691
+
+[option]
+optional = true
+default = false
+description = "Only needed on MacOS clients"
