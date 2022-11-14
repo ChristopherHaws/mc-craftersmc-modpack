@@ -1,0 +1,13 @@
+name = "Head Index"
+filename = "headindex-1.0.9.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/mEPmyd7J/versions/1.0.9/headindex-1.0.9.jar"
+hash-format = "sha1"
+hash = "7c28e7cdeab696b54ce1e729004c00b2f1508449"
+
+[update]
+[update.modrinth]
+mod-id = "mEPmyd7J"
+version = "ZY175Qjg"

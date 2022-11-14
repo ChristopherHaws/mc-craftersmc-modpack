@@ -142,3 +142,44 @@ leaves-us-in-peace
 deepslatecutting
 carpet
 servercore
+
+
+anti-xray
+enchantment-lore
+keepheadnames
+taterzens + tradernpcs
+server-hats
+servertick
+styled-nicknames
+advancements-debug
+image2map
+syncmatica
+suggestion-tweaker
+entity-view-distance
+dimthread
+lmd (let me despawn)
+player-pronouns
+headindex
+no-sneaking-over-magma
+improved-signs
+creative-one-punch
+[audioplayer - custom music disks and goat horns](https://modrinth.com/mod/audioplayer)
+
+
+
+# Possible Alternatives
+[couplings - double doors/gates/trapdoors + redstone](https://modrinth.com/mod/couplings)
+[worldspecificviewdistance](https://modrinth.com/mod/worldspecificviewdistance)
+[automodpack - alternative to packwiz](https://modrinth.com/mod/automodpack)
+[mcdiscordchat](https://modrinth.com/mod/mcdiscordchat)
+[fabrication - lots of fixes and useful features](https://modrinth.com/mod/fabrication)
+[bettersleeping-revived - another sleeping mod](https://modrinth.com/mod/bettersleeping-revived)
+[gravel_carts - faster minecarts on gravel](https://modrinth.com/mod/gravel_carts)
+[infinity_fix - mending+infinity and infinity is more like fortune/unbreaking](https://modrinth.com/mod/infinity_fix)
+[polydex - more vinalla like wthit](https://modrinth.com/mod/polydex)
+[renameit - rename items/blocks and add lore to them](https://modrinth.com/mod/renameit)
+[cyan - has a command to remove items on ground](https://modrinth.com/mod/cyan)
+[server-chat-history - sends players chat history on join](https://modrinth.com/mod/server-chat-history)
+
+# References
+[Carpet Config Settings](https://github.com/gnembon/fabric-carpet/wiki/Current-Available-Settings)
