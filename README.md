@@ -180,6 +180,9 @@ creative-one-punch
 [renameit - rename items/blocks and add lore to them](https://modrinth.com/mod/renameit)
 [cyan - has a command to remove items on ground](https://modrinth.com/mod/cyan)
 [server-chat-history - sends players chat history on join](https://modrinth.com/mod/server-chat-history)
+[slumber - freeze the server when no one is online](https://modrinth.com/mod/slumber)
+[dynamic-view-fabric - if servercore render view settings arent working](https://www.curseforge.com/minecraft/mc-mods/dynamic-view-fabric)
+
 
 # References
 [Carpet Config Settings](https://github.com/gnembon/fabric-carpet/wiki/Current-Available-Settings)
