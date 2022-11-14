@@ -465,11 +465,6 @@ hash = "da5ef6d6ea7ab0a7b0691bb54091dddeb4bf462258756aec1f479ab9f6e62466"
 metafile = true
 
 [[files]]
-file = "mods/text-utilities.pw.toml"
-hash = "d5c59153a5750404e6459ff9ebc575de19cd95a8289fc808b9a2a272b06b4efa"
-metafile = true
-
-[[files]]
 file = "mods/the-one-probe-fabric.pw.toml"
 hash = "4c8c5af55b5736d6a681f77f6ffa8cd7a5bf64c1fc6965d0017aa8b2e2da1b00"
 metafile = true
