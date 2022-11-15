@@ -1,6 +1,6 @@
 name = "Vanilla Permissions"
 filename = "vanilla-permissions-0.1.2.jar"
-side = "both"
+side = "server" # Breaks client side =(
 
 [download]
 url = "https://cdn.modrinth.com/data/fdZkP5Bb/versions/MrqZQm5v/vanilla-permissions-0.1.2.jar"

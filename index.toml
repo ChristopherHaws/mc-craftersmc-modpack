@@ -724,7 +724,7 @@ metafile = true
 
 [[files]]
 file = "mods/vanilla-permissions.pw.toml"
-hash = "aa012045c37df9abaa3d2639a52f24aa126727cd40e85bff56f2ab9a05b8ca32"
+hash = "4764993039ae48923f337ca2ebdb48a0911042817fd8b3952a7166538c349572"
 metafile = true
 
 [[files]]

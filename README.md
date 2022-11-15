@@ -134,6 +134,7 @@ YetAnotherConfigLib
 [coord-finder](https://modrinth.com/mod/coord-finder)
 [rules](https://modrinth.com/mod/rules)
 [login-protection](https://www.curseforge.com/minecraft/mc-mods/login-protection)
+[spawn-protection-tweaks](https://modrinth.com/mod/spawn-protection-tweaks)
 
 # Testing
 axes-are-weapons
