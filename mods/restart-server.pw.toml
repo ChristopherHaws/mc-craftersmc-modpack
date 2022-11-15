@@ -1,0 +1,13 @@
+name = "Restart Server"
+filename = "restart-server-1.0.0.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/zG0Bb7gw/versions/PbSBlDLS/restart-server-1.0.0.jar"
+hash-format = "sha1"
+hash = "90ae9f8cc98b55466e54ef68bc72cf2b927b67ca"
+
+[update]
+[update.modrinth]
+mod-id = "zG0Bb7gw"
+version = "PbSBlDLS"

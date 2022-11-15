@@ -1,0 +1,13 @@
+name = "Coord Finder"
+filename = "coordfinder-1.19.2-1.0.1.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/kPkTtp4N/versions/pnhazOtN/coordfinder-1.19.2-1.0.1.jar"
+hash-format = "sha1"
+hash = "b904b6fbd235443f49eee9ad7ac33c66e7076eb9"
+
+[update]
+[update.modrinth]
+mod-id = "kPkTtp4N"
+version = "pnhazOtN"

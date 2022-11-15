@@ -60,6 +60,11 @@ hash = "63edbd012db544d0590a1cd2563a4973c0316b8033370b41a48c05b0e8e667e5"
 metafile = true
 
 [[files]]
+file = "mods/balm.pw.toml"
+hash = "7c5c3e69f7d2abcde972efc46603be697818d834f28e94bbdb4fd5ee565c1c9a"
+metafile = true
+
+[[files]]
 file = "mods/banhammer.pw.toml"
 hash = "8a15a15995f5f85a47943e82233dfb00533faff337ebf2f9d42836583becdfc1"
 metafile = true
@@ -182,6 +187,11 @@ metafile = true
 [[files]]
 file = "mods/continuity.pw.toml"
 hash = "3cbe3d523b39667928fcc34f71651b0e581e5c541dd5ecf17228464770466bc5"
+metafile = true
+
+[[files]]
+file = "mods/coord-finder.pw.toml"
+hash = "e31451036bc092daa6a9f299ab5293eaec239af7ebbcc6bb7a698b59e95b3262"
 metafile = true
 
 [[files]]
@@ -359,6 +369,11 @@ hash = "e8168531c092676d47cac3657bfc525f096f11ff5372ce6e322ad57778b81635"
 metafile = true
 
 [[files]]
+file = "mods/inventory-essentials.pw.toml"
+hash = "8de7f74e3a6d02adb946023afc2810c74dbcb14c4c1fda96671f2726cf492bf8"
+metafile = true
+
+[[files]]
 file = "mods/inventory-profiles-next.pw.toml"
 hash = "062d354fabaae323636133840dac6cc3d3bbe52fc09af5e11cba0954a118e319"
 metafile = true
@@ -431,6 +446,11 @@ metafile = true
 [[files]]
 file = "mods/lmd.pw.toml"
 hash = "c038a6ea641541af0aee754c41df71ccb662245863cecb43d64c202baf561291"
+metafile = true
+
+[[files]]
+file = "mods/login-protection.pw.toml"
+hash = "932351d8b57cddc7176d663b37d8f5550bef1cdbcffe626a634b1a5c6cbdb007"
 metafile = true
 
 [[files]]
@@ -528,8 +548,18 @@ hash = "1c6d01b013b9e8c6dd921046adc7c7768814c17a0fde45cbe695c8e2de40f8be"
 metafile = true
 
 [[files]]
+file = "mods/restart-server.pw.toml"
+hash = "88c73275e033259e9fcf460461e544090924a9f4607bae86f408054123e345c6"
+metafile = true
+
+[[files]]
 file = "mods/roughly-enough-items.pw.toml"
 hash = "29d1cea9913dd854ba5b411fc632290f1b07cd1178b0309aee487fc2c8aa4e36"
+metafile = true
+
+[[files]]
+file = "mods/rules.pw.toml"
+hash = "22b5e2a61c91f411cb9ad3466fe57b8d2a5dc6f25868fe73ec8293ada008b0d2"
 metafile = true
 
 [[files]]
@@ -690,6 +720,11 @@ metafile = true
 [[files]]
 file = "mods/tweakeroo.pw.toml"
 hash = "c5edf1f8114b808f9a63134f2973745b3e4172478b7f0aec5c9359f1325f37da"
+metafile = true
+
+[[files]]
+file = "mods/vanilla-permissions.pw.toml"
+hash = "aa012045c37df9abaa3d2639a52f24aa126727cd40e85bff56f2ab9a05b8ca32"
 metafile = true
 
 [[files]]

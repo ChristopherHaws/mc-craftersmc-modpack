@@ -1,0 +1,13 @@
+name = "Rules"
+filename = "rules-1.0.0+1.19.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/4a1Rhkhp/versions/BuD9pX2q/rules-1.0.0%2B1.19.jar"
+hash-format = "sha1"
+hash = "2fab9efb817f527c62a45acdc9578531dd72a90b"
+
+[update]
+[update.modrinth]
+mod-id = "4a1Rhkhp"
+version = "BuD9pX2q"
