@@ -134,7 +134,7 @@ YetAnotherConfigLib
 [coord-finder](https://modrinth.com/mod/coord-finder)
 [rules](https://modrinth.com/mod/rules)
 [login-protection](https://www.curseforge.com/minecraft/mc-mods/login-protection)
-[spawn-protection-tweaks](https://modrinth.com/mod/spawn-protection-tweaks)
+[mcdiscordchat](https://modrinth.com/mod/mcdiscordchat)
 
 # Testing
 axes-are-weapons
@@ -199,6 +199,15 @@ creative-one-punch
 
 # Look into more
 - [autowhitelist](https://modrinth.com/mod/autowhitelist)
+- [spawn-protection-tweaks](https://modrinth.com/mod/spawn-protection-tweaks)
 
 # References
 - [Carpet Config Settings](https://github.com/gnembon/fabric-carpet/wiki/Current-Available-Settings)
+
+
+
+
+# Tweaks
+fabrication - weird_tweaks.use_items_while_ridin
+fabrication - fixes.use_player_list_name_in_tag
+fabrication - fixes.open_inventories_in_nether_portal
