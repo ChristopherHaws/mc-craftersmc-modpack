@@ -102,6 +102,8 @@
 - Zoomify
 - [inventory-essentials](https://modrinth.com/mod/inventory-essentials) + [balm](https://modrinth.com/mod/balm)
 - [couplings - double doors/gates/trapdoors + redstone](https://modrinth.com/mod/couplings)
+- [snowyleavesplus](https://modrinth.com/mod/snowyleavesplus)
+- [leaves-be-gone](https://modrinth.com/mod/leaves-be-gone)
 
 ### OptiFine Replacement
 - CITResewn
@@ -149,7 +151,6 @@
 - litematica-server-paster
 - crops-love-rain
 - invview
-- leaves-us-in-peace
 - deepslatecutting
 - carpet
 - servercore

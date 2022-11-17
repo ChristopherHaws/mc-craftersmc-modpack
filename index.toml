@@ -414,8 +414,8 @@ hash = "b4ca05b39b85c27cd97ccb65d5fb832f5e9fd7ee5710542a3e69dfa30a97ea7d"
 metafile = true
 
 [[files]]
-file = "mods/leaves-us-in-peace.pw.toml"
-hash = "fec1221e797b3ed8390543fbde976327cdf5cdc3ace62e58e1ef49f76d8133f5"
+file = "mods/leaves-be-gone.pw.toml"
+hash = "86d765832b919524cb7c08c515469801bd457f9901dcd2e0a576ad542e5e3cc3"
 metafile = true
 
 [[files]]
@@ -625,6 +625,11 @@ metafile = true
 [[files]]
 file = "mods/smoothboot-fabric.pw.toml"
 hash = "971e8b0bef16bd6ce88c7f940b30fdc1debff7b715058f4d331d54beb58a4314"
+metafile = true
+
+[[files]]
+file = "mods/snowyleavesplus.pw.toml"
+hash = "6e5bb6f625f33fcb89780cc7635d98a68f0a804bbd2cedcd80a8c89356d1d93c"
 metafile = true
 
 [[files]]
