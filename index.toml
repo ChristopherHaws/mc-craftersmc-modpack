@@ -628,11 +628,6 @@ hash = "971e8b0bef16bd6ce88c7f940b30fdc1debff7b715058f4d331d54beb58a4314"
 metafile = true
 
 [[files]]
-file = "mods/snowyleavesplus.pw.toml"
-hash = "6e5bb6f625f33fcb89780cc7635d98a68f0a804bbd2cedcd80a8c89356d1d93c"
-metafile = true
-
-[[files]]
 file = "mods/sodium-extra.pw.toml"
 hash = "e31f409ab01c4df8b9b678cb533722b852c38d1563f6ead0ef40f282b17c45ff"
 metafile = true
