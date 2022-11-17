@@ -195,6 +195,11 @@ hash = "e31451036bc092daa6a9f299ab5293eaec239af7ebbcc6bb7a698b59e95b3262"
 metafile = true
 
 [[files]]
+file = "mods/couplings.pw.toml"
+hash = "e9959b342401ffdb0ddae4e9fd151b97a9cb94624d4658daafdac0c17d8bc262"
+metafile = true
+
+[[files]]
 file = "mods/create-fabric-1.19.2-0.5.0f-758.jar"
 hash = "61da2a7b7685ba284ba1775bd1f6d333ad9564307d00337cf1c19dc08ce4102c"
 
@@ -236,11 +241,6 @@ metafile = true
 [[files]]
 file = "mods/deepslatecutting.pw.toml"
 hash = "0479206225a4fe784aa2866d422a0f9bad857a8c1ade89179d6626f812c4fbb8"
-metafile = true
-
-[[files]]
-file = "mods/double-doors.pw.toml"
-hash = "4ff24faa444f234e880e563eea284e6bf910d84ce501d08cde706e20490617e0"
 metafile = true
 
 [[files]]

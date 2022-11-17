@@ -12,173 +12,172 @@
 
 ## Mods
 ### Main Mods
-create-fabric
-enchantedshulkers
-enderchests-fabric
-inventorytotem-fabric
-oh-the-biomes-youll-go-fabric
-roughly-enough-items
-simplevoicechat-fabric
+- create-fabric
+- enchantedshulkers
+- enderchests-fabric
+- inventorytotem-fabric
+- oh-the-biomes-youll-go-fabric
+- roughly-enough-items
+- simplevoicechat-fabric
 
 ### Decoration Mods
-ArmorStatues
+- ArmorStatues
 
 ### Optimization Mods
-alternate-current
-badpackets-fabric
-betterbeds
-c2me-fabric
-cachemyenderchest
-chunky
-cull-less-leaves
-dashloader
-dynamic-fps
-entityculling-fabric
-Fastload
-ferritecore
-forgetmechunk
-indium
-iris
-krypton
-lazydfu
-lithium-fabric
-memoryleakfix
-moreculling
-smoothboot-fabric
-sodium-extra
-sodium-fabric
-spark
-starlight
-tabtps-fabric
-thorium
+- alternate-current
+- badpackets-fabric
+- betterbeds
+- c2me-fabric
+- cachemyenderchest
+- chunky
+- cull-less-leaves
+- dashloader
+- dynamic-fps
+- entityculling-fabric
+- Fastload
+- ferritecore
+- forgetmechunk
+- indium
+- iris
+- krypton
+- lazydfu
+- lithium-fabric
+- memoryleakfix
+- moreculling
+- smoothboot-fabric
+- sodium-extra
+- sodium-fabric
+- spark
+- starlight
+- tabtps-fabric
+- thorium
 
 ### Utility Mods
-accurate-block-placement
-advancedtooltips
-appleskin-fabric
-auto-clicker-fabric
-beenfo
-better-dark-mode
-BetterAdvancements-Fabric
-BetterF3
-better-third-person
-blockmeter
-bobby
-borderless-mining
-brb
-chat-up
-cyclepaintings-fabric
-doubledoors-fabric
-easiervillagertrading
-horse-stats-vanilla
-hotbarcycle
-inventory-profiles-next
-litematica-fabric
-macos-input-fixes
-minihud-fabric
-mixintrace
-modmenu
-morechathistory
-notenoughcrashes
-observable
-rebind-all-the-keys
-reeses_sodium_options
-screenshot-to-clipboard
-sheep-consistency
-shift-scroll-fix
-shulkerboxtooltip-fabric
-skin-swapper-fabric
-statuseffecttimer
-text-utilities-fabric
-the-one-probe-fabric
-ToolStats
-tooltipfix
-tweakeroo-fabric
-vt-downloader
-whereisit
-worldedit-mod
-worldeditcui-fabric
-xaeros-minimap
-xaeros-world-map
-Zoomify
-[inventory-essentials](https://modrinth.com/mod/inventory-essentials) + [balm](https://modrinth.com/mod/balm)
+- accurate-block-placement
+- advancedtooltips
+- appleskin-fabric
+- auto-clicker-fabric
+- beenfo
+- better-dark-mode
+- BetterAdvancements-Fabric
+- BetterF3
+- better-third-person
+- blockmeter
+- bobby
+- borderless-mining
+- brb
+- chat-up
+- cyclepaintings-fabric
+- easiervillagertrading
+- horse-stats-vanilla
+- hotbarcycle
+- inventory-profiles-next
+- litematica-fabric
+- macos-input-fixes
+- minihud-fabric
+- mixintrace
+- modmenu
+- morechathistory
+- notenoughcrashes
+- observable
+- rebind-all-the-keys
+- reeses_sodium_options
+- screenshot-to-clipboard
+- sheep-consistency
+- shift-scroll-fix
+- shulkerboxtooltip-fabric
+- skin-swapper-fabric
+- statuseffecttimer
+- text-utilities-fabric
+- the-one-probe-fabric
+- ToolStats
+- tooltipfix
+- tweakeroo-fabric
+- vt-downloader
+- whereisit
+- worldedit-mod
+- worldeditcui-fabric
+- xaeros-minimap
+- xaeros-world-map
+- Zoomify
+- [inventory-essentials](https://modrinth.com/mod/inventory-essentials) + [balm](https://modrinth.com/mod/balm)
+- [couplings - double doors/gates/trapdoors + redstone](https://modrinth.com/mod/couplings)
 
 ### OptiFine Replacement
-CITResewn
-continuity
-entity_texture_features_fabric
-lambdynamiclights
-sodium-shadowy-path-blocks
+- CITResewn
+- continuity
+- entity_texture_features_fabric
+- lambdynamiclights
+- sodium-shadowy-path-blocks
 
 ### Library Mod
-architectury
-Bookshelf-Fabric
-collective-fabric
-Controlling-fabric
-fabric-api
-fabric-language-kotlin
-libIPN-fabric
-malilib-fabric
-owo-lib
-PuzzlesLib
-shetiphiancore-fabric
-TerraBlender-fabric
-YetAnotherConfigLib
-[PlaceholderApi Fabric](https://github.com/Patbox/TextPlaceholderAPI)
-[LuckPerms](https://modrinth.com/mod/luckperms)
-[LuckPerms Placeholders](https://github.com/LuckPerms/placeholders)
+- architectury
+- Bookshelf-Fabric
+- collective-fabric
+- Controlling-fabric
+- fabric-api
+- fabric-language-kotlin
+- libIPN-fabric
+- malilib-fabric
+- owo-lib
+- PuzzlesLib
+- shetiphiancore-fabric
+- TerraBlender-fabric
+- YetAnotherConfigLib
+- [PlaceholderApi Fabric](https://github.com/Patbox/TextPlaceholderAPI)
+- [LuckPerms](https://modrinth.com/mod/luckperms)
+- [LuckPerms Placeholders](https://github.com/LuckPerms/placeholders)
 
 # Server Management Mods
-[restart-server](https://modrinth.com/mod/restart-server)
-[vanilla-permissions](https://modrinth.com/mod/vanilla-permissions)
-[coord-finder](https://modrinth.com/mod/coord-finder)
-[rules](https://modrinth.com/mod/rules)
-[login-protection](https://www.curseforge.com/minecraft/mc-mods/login-protection)
-[mcdiscordchat](https://modrinth.com/mod/mcdiscordchat)
+- [restart-server](https://modrinth.com/mod/restart-server)
+- [vanilla-permissions](https://modrinth.com/mod/vanilla-permissions)
+- [coord-finder](https://modrinth.com/mod/coord-finder)
+- [rules](https://modrinth.com/mod/rules)
+- [login-protection](https://www.curseforge.com/minecraft/mc-mods/login-protection)
+- [mcdiscordchat](https://modrinth.com/mod/mcdiscordchat)
 
 # Testing
-axes-are-weapons
-blanket
-carpet-fixes
-deathlog
-fabrictailor
-mixin-conflict-helper
-styledplayerlist
-styled-chat
-ledger
-litematica-server-paster
-crops-love-rain
-invview
-leaves-us-in-peace
-deepslatecutting
-carpet
-servercore
+- axes-are-weapons
+- blanket
+- carpet-fixes
+- deathlog
+- fabrictailor
+- mixin-conflict-helper
+- styledplayerlist
+- styled-chat
+- ledger
+- litematica-server-paster
+- crops-love-rain
+- invview
+- leaves-us-in-peace
+- deepslatecutting
+- carpet
+- servercore
 
 
-anti-xray
-enchantment-lore
-keepheadnames
-taterzens + tradernpcs
-server-hats
-servertick
-styled-nicknames
-advancements-debug
-image2map
-syncmatica
-suggestion-tweaker
-entity-view-distance
-lmd (let me despawn)
-player-pronouns
-headindex
-no-sneaking-over-magma
-improved-signs
-creative-one-punch
-[audioplayer - custom music disks and goat horns](https://modrinth.com/mod/audioplayer)
+- anti-xray
+- enchantment-lore
+- keepheadnames
+- taterzens + tradernpcs
+- server-hats
+- servertick
+- styled-nicknames
+- advancements-debug
+- image2map
+- syncmatica
+- suggestion-tweaker
+- entity-view-distance
+- lmd (let me despawn)
+- player-pronouns
+- headindex
+- no-sneaking-over-magma
+- improved-signs
+- creative-one-punch
+- [audioplayer - custom music disks and goat horns](https://modrinth.com/mod/audioplayer)
 
 
 
 # Possible Alternatives
-- [couplings - double doors/gates/trapdoors + redstone](https://modrinth.com/mod/couplings)
 - [worldspecificviewdistance](https://modrinth.com/mod/worldspecificviewdistance)
 - [automodpack - alternative to packwiz](https://modrinth.com/mod/automodpack)
 - [mcdiscordchat](https://modrinth.com/mod/mcdiscordchat)
