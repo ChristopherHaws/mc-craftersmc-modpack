@@ -1,18 +1,18 @@
 name = "Accurate Block Placement"
-filename = "accurate-block-placement-1.0.14.jar"
+filename = "accurate-block-placement-1.0.15.jar"
 side = "client"
 
 [download]
 hash-format = "sha1"
-hash = "aa4a458befd518bf408a5f0ff34b000a79418075"
+hash = "9b9ec6fb9e979e41ebc8a20eeed589f0a67b2587"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 3942020
+file-id = 4092716
 project-id = 323316
 
 [option]
 optional = true
-default = true
 description = "Allows you to place blocks easier"
+default = true

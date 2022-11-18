@@ -6,7 +6,7 @@ hash = "87e49eea3a73f9eb779fae72d0e17d384d523c7a3a22d410727134ce3c916b59"
 
 [[files]]
 file = "mods/accurate-block-placement.pw.toml"
-hash = "7d6f565c72e8bd0c10c48333f749b41399ed0562ad643fbaa3cb7e1de6dc061a"
+hash = "cb3394b02570f4493129e95f342c0d9cd6087c9dddcb27b13edfd14918dbc404"
 metafile = true
 
 [[files]]
@@ -400,7 +400,7 @@ metafile = true
 
 [[files]]
 file = "mods/iris.pw.toml"
-hash = "3d195b45c6dff7ee5a52dcb9e57a4172c91ec8d5c9d17c97305ee674fc22a357"
+hash = "fbac113e15515eaea7aed9e995cc92dcb9741845c95c695654e3caf1e0e677fa"
 metafile = true
 
 [[files]]
