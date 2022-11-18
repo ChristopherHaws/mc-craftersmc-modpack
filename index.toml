@@ -204,6 +204,11 @@ file = "mods/create-fabric-1.19.2-0.5.0f-758.jar"
 hash = "61da2a7b7685ba284ba1775bd1f6d333ad9564307d00337cf1c19dc08ce4102c"
 
 [[files]]
+file = "mods/create-fabric.pw.toml"
+hash = "ffb9c644759bb685dfe39112e2dec00469fdb48f7baf6fd37a51f0e384c26513"
+metafile = true
+
+[[files]]
 file = "mods/creative-one-punch.pw.toml"
 hash = "72afe23fdbf6bb3d8d0e1aaee3d2a55d5d441181f702eac056d00b33d76c8edf"
 metafile = true
@@ -295,7 +300,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "a5f47659fcd7300b84571ef6461d0461b8a1556642fa845b8955902aeaf59c9b"
+hash = "bb8660a03707dd2e0f3a44cebe34d73d06cf68c45353de35caa0d917c5c8fc59"
 metafile = true
 
 [[files]]
@@ -326,6 +331,11 @@ metafile = true
 [[files]]
 file = "mods/ferrite-core.pw.toml"
 hash = "1d87f8c04eeed21a9544cfad7f64afee6de58b5249a70b0367ba8522273a4816"
+metafile = true
+
+[[files]]
+file = "mods/forge-config-api-port-fabric.pw.toml"
+hash = "bd0b18cb35442cf039162687e5b2999a1e8c77686678ea5a5fd9d964dad08140"
 metafile = true
 
 [[files]]
@@ -526,6 +536,16 @@ metafile = true
 [[files]]
 file = "mods/oh-the-biomes-youll-go-fabric.pw.toml"
 hash = "9e538cf089ca697fdd2e932f36857651d392e6f00debf8cce24508f3ce744b63"
+metafile = true
+
+[[files]]
+file = "mods/opac-fabric-create-support.pw.toml"
+hash = "8a0c36740bb23fa90e22fb69a5d36a76dfdd1cac6a28bb7207b3675fcf88781a"
+metafile = true
+
+[[files]]
+file = "mods/open-parties-and-claims.pw.toml"
+hash = "8a85d7c644d7fd6bf1d033514b92262949b0f651f673cc0f84b9af2c28accc78"
 metafile = true
 
 [[files]]
