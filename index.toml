@@ -40,7 +40,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "651bb1998c83a40530d6cb95d40bd13e2f0f8ab064e0efdd3630f648cbe7f4ed"
+hash = "be7cd5bb98612bff05b734b897003c56dca3d943901fc4d59f2b1a86a5ee0771"
 metafile = true
 
 [[files]]
@@ -520,6 +520,11 @@ metafile = true
 [[files]]
 file = "mods/morechathistory.pw.toml"
 hash = "d1558ff187abe468110fef11eee834aa3c03df732e706ac16e221425b538da4d"
+metafile = true
+
+[[files]]
+file = "mods/morecommands.pw.toml"
+hash = "ded300a23d3470bce3303cc4a5803bee247b9b0901eae00a7db825af27e0e07d"
 metafile = true
 
 [[files]]
