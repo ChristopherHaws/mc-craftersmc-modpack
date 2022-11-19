@@ -400,7 +400,7 @@ metafile = true
 
 [[files]]
 file = "mods/iris.pw.toml"
-hash = "fbac113e15515eaea7aed9e995cc92dcb9741845c95c695654e3caf1e0e677fa"
+hash = "0bb13d0459be9af19faf40ea8e83b8bf29922b378dcbe9e430fc7de11d98dac3"
 metafile = true
 
 [[files]]
@@ -584,7 +584,7 @@ metafile = true
 
 [[files]]
 file = "mods/rules.pw.toml"
-hash = "22b5e2a61c91f411cb9ad3466fe57b8d2a5dc6f25868fe73ec8293ada008b0d2"
+hash = "9af8df32148789d0a5c4f30cdcf4fc3d1f7bf0ed88161ed96c3110796113ab86"
 metafile = true
 
 [[files]]
@@ -714,7 +714,7 @@ metafile = true
 
 [[files]]
 file = "mods/terrablender-fabric.pw.toml"
-hash = "da5ef6d6ea7ab0a7b0691bb54091dddeb4bf462258756aec1f479ab9f6e62466"
+hash = "199bf931e17458fa299e16fc5f761241dde9ff1f9e62fe33e52acdcc1fcc2aa0"
 metafile = true
 
 [[files]]
