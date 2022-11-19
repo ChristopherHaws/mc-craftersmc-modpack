@@ -116,7 +116,7 @@ metafile = true
 
 [[files]]
 file = "mods/bobby.pw.toml"
-hash = "f06d2023edfd505850b00538fad3e4963fd0b88e8385e1610a3cbe258a806d75"
+hash = "33d8e4f2b5e3546f8dd4df0aadcc374b2b1e811f456bdea741dc53b94ac22f11"
 metafile = true
 
 [[files]]
@@ -186,7 +186,7 @@ metafile = true
 
 [[files]]
 file = "mods/commandaliases.pw.toml"
-hash = "45fced48eeee4c106a603cda6cde968af553dccb211af0dbd07f8b453d08a6cf"
+hash = "a85fd26fa00d790d063fde5772846be305295612ad4e2dc35a775f43e671eec3"
 metafile = true
 
 [[files]]
@@ -445,7 +445,7 @@ metafile = true
 
 [[files]]
 file = "mods/libipn.pw.toml"
-hash = "431d07740e83adbc9f8dbeaf6485eeb510554308a9956c3ae509d70df8a96cf3"
+hash = "850a3a1a62871fee66e0d87cc330b58ea05632569791abd9e5f3e69457d4d63c"
 metafile = true
 
 [[files]]
