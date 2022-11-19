@@ -1,0 +1,13 @@
+name = "AutoWhitelist"
+filename = "autowhitelist-1.1.2.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/2tvyop0z/versions/1.1.2/autowhitelist-1.1.2.jar"
+hash-format = "sha1"
+hash = "2da896568ceb0a3b3322644daf375a644174671b"
+
+[update]
+[update.modrinth]
+mod-id = "2tvyop0z"
+version = "Y4QGkvYz"

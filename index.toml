@@ -50,6 +50,11 @@ hash = "9d7146e7881d716e56e4533dc83e361ae37fb322d0c6e27bce93ca942ca28465"
 metafile = true
 
 [[files]]
+file = "mods/autowhitelist.pw.toml"
+hash = "d799d75bd10b5452b24fcbbc9c4303e2d12fd47b8d5d3068d0732d9e20d4208d"
+metafile = true
+
+[[files]]
 file = "mods/axes-are-weapons.pw.toml"
 hash = "17286bf8c9bcbb1aae16dca55cd42d139bb034e11bca5a5284808284330b0d98"
 metafile = true
