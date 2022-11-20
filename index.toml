@@ -523,11 +523,6 @@ hash = "d1558ff187abe468110fef11eee834aa3c03df732e706ac16e221425b538da4d"
 metafile = true
 
 [[files]]
-file = "mods/morecommands.pw.toml"
-hash = "ded300a23d3470bce3303cc4a5803bee247b9b0901eae00a7db825af27e0e07d"
-metafile = true
-
-[[files]]
 file = "mods/moreculling.pw.toml"
 hash = "741381be667a7b124ce60ba17fca9207369bd6ead4e58ce64fa140aff95f8159"
 metafile = true
@@ -555,11 +550,6 @@ metafile = true
 [[files]]
 file = "mods/opac-fabric-create-support.pw.toml"
 hash = "8a0c36740bb23fa90e22fb69a5d36a76dfdd1cac6a28bb7207b3675fcf88781a"
-metafile = true
-
-[[files]]
-file = "mods/open-parties-and-claims.pw.toml"
-hash = "8a85d7c644d7fd6bf1d033514b92262949b0f651f673cc0f84b9af2c28accc78"
 metafile = true
 
 [[files]]
