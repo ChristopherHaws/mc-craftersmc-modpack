@@ -171,6 +171,11 @@ hash = "213cad77d46ff46fe20780b01856cb1a8812747e9c3564203669bf3905e646e2"
 metafile = true
 
 [[files]]
+file = "mods/collective-fabric.pw.toml"
+hash = "0d4802c22c9e6029aab9fdb3841d91decd58e26a015b85d13f06a1b746df32d7"
+metafile = true
+
+[[files]]
 file = "mods/collective.pw.toml"
 hash = "c6bc086f111ee90dd9534f0d2e28f62fc0039fc1e1c1f06ff5c3c17d0b24f728"
 metafile = true
@@ -658,6 +663,11 @@ metafile = true
 [[files]]
 file = "mods/spark.pw.toml"
 hash = "79870ab97caf526e6599d2d429ef778848935bbaf2c7020948e203afbb3f32bc"
+metafile = true
+
+[[files]]
+file = "mods/stack-refill-fabric.pw.toml"
+hash = "daca1cdeb75d8da9919f390d3a8b2738b83093c0aed08cd57eec9a11b2269e82"
 metafile = true
 
 [[files]]

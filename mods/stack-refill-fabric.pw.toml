@@ -1,0 +1,13 @@
+name = "Stack Refill (Fabric)"
+filename = "stackrefill-fabric_1.19.2-3.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e52cde59f9dc625631e27259557c0114055a3baf"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4021706
+project-id = 580682
