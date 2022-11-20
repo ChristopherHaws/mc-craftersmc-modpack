@@ -46,6 +46,11 @@ hash = "9d7146e7881d716e56e4533dc83e361ae37fb322d0c6e27bce93ca942ca28465"
 metafile = true
 
 [[files]]
+file = "mods/automodpack.pw.toml"
+hash = "0da7bb67ac634edb028398e020a120496bfc10093a057f69a09ca5c9c3de3ea4"
+metafile = true
+
+[[files]]
 file = "mods/autowhitelist.pw.toml"
 hash = "a8b67c1918c5a4c01bbd1e810ae0629e45c49c59a0198adcb9405bb2f272e924"
 metafile = true
