@@ -676,11 +676,6 @@ hash = "26b3e4ca90196024b0cdc02fb3591af480e03bde037ffb3e800499dc2c45167e"
 metafile = true
 
 [[files]]
-file = "mods/styled-chat.pw.toml"
-hash = "16fffbf1137fe74a3c1a75a27af130b2de3c4c9b4eccbc1f95e737a624db88f4"
-metafile = true
-
-[[files]]
 file = "mods/styled-nicknames.pw.toml"
 hash = "8ce6dae0860f63a4ef43525815e9d992efe5e1e7735d0e2202894df44b649bdd"
 metafile = true
