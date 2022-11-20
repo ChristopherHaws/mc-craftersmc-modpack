@@ -476,11 +476,6 @@ hash = "e0da679f53c6aca232296659def738666696cae1de4b7125753f3eb9cf2fd504"
 metafile = true
 
 [[files]]
-file = "mods/macos-input-fixes.pw.toml"
-hash = "01d8b4f759b0dfa2acdfd22a79b0b45541ba3cca23fd23f946490b26c106b20c"
-metafile = true
-
-[[files]]
 file = "mods/malilib.pw.toml"
 hash = "3926d859126491c673d921c3f3f93316766689ff0694f83d82255ec4776d3c74"
 metafile = true
@@ -608,11 +603,6 @@ metafile = true
 [[files]]
 file = "mods/shetiphiancore-fabric.pw.toml"
 hash = "7ed8ccc2ab1e984da37776df01c1d03be14fc6479e53c061ae2aaa1ad78c830e"
-metafile = true
-
-[[files]]
-file = "mods/shift-scroll-fix.pw.toml"
-hash = "5abf718edb3b058fc6d10c93f7a158417b10d5e31344008d12b8ddbee248bb03"
 metafile = true
 
 [[files]]
