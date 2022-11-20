@@ -548,11 +548,6 @@ hash = "9e538cf089ca697fdd2e932f36857651d392e6f00debf8cce24508f3ce744b63"
 metafile = true
 
 [[files]]
-file = "mods/opac-fabric-create-support.pw.toml"
-hash = "8a0c36740bb23fa90e22fb69a5d36a76dfdd1cac6a28bb7207b3675fcf88781a"
-metafile = true
-
-[[files]]
 file = "mods/placeholder-api-2.0.0-pre.1+1.19.2.jar"
 hash = "f31f5ac5b52a7f2dcacf6c902fdf3f2ac0703d18ba699aeb0960329904b35fc2"
 
