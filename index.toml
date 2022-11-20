@@ -1,10 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "MODS.md"
-hash = "cd8ec3a660379c133c7832f674226c6c73b6ceeec73f71221464f419f7fcd618"
-
-[[files]]
 file = "mods/LuckPerms-Fabric-PlaceholderAPI-Hook-build4.jar"
 hash = "87e49eea3a73f9eb779fae72d0e17d384d523c7a3a22d410727134ce3c916b59"
 
