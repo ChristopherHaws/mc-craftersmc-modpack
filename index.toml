@@ -50,9 +50,8 @@ hash = "9d7146e7881d716e56e4533dc83e361ae37fb322d0c6e27bce93ca942ca28465"
 metafile = true
 
 [[files]]
-file = "mods/autowhitelist.pw.toml"
-hash = "d799d75bd10b5452b24fcbbc9c4303e2d12fd47b8d5d3068d0732d9e20d4208d"
-metafile = true
+file = "mods/autowhitelist-1.1.2-compat-dcintegration.2.4.7.jar"
+hash = "d57ef58f6c7851baf63a1cd394714f1d873032b82e0e702501f04528a58d64bd"
 
 [[files]]
 file = "mods/axes-are-weapons.pw.toml"
