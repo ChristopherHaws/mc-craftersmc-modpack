@@ -1,0 +1,13 @@
+name = "AutoWhitelist"
+filename = "autowhitelist-1.1.2-compat-dcintegration.2.4.7.jar"
+side = "server"
+
+[download]
+url = "https://modpack.craftersmc.com/mods/autowhitelist-1.1.2-compat-dcintegration.2.4.7.jar"
+hash-format = "sha1"
+hash = "56c287bf2f82a805048753034d71a72eae00e66e"
+
+# [update]
+# [update.modrinth]
+# mod-id = "2tvyop0z"
+# version = "Y4QGkvYz"

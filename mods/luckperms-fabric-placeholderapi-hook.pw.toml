@@ -1,0 +1,8 @@
+name = "LuckPerms"
+filename = "LuckPerms-Fabric-5.4.46.jar"
+side = "server"
+
+[download]
+url = "https://modpack.craftersmc.com/mods/LuckPerms-Fabric-PlaceholderAPI-Hook-build4.jar"
+hash-format = "sha1"
+hash = "5395604ac118f49ec87065b8bf1b097e4458a7d9"

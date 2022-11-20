@@ -1,10 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "mods/LuckPerms-Fabric-PlaceholderAPI-Hook-build4.jar"
-hash = "87e49eea3a73f9eb779fae72d0e17d384d523c7a3a22d410727134ce3c916b59"
-
-[[files]]
 file = "mods/accurate-block-placement.pw.toml"
 hash = "cb3394b02570f4493129e95f342c0d9cd6087c9dddcb27b13edfd14918dbc404"
 metafile = true
@@ -50,8 +46,9 @@ hash = "9d7146e7881d716e56e4533dc83e361ae37fb322d0c6e27bce93ca942ca28465"
 metafile = true
 
 [[files]]
-file = "mods/autowhitelist-1.1.2-compat-dcintegration.2.4.7.jar"
-hash = "d57ef58f6c7851baf63a1cd394714f1d873032b82e0e702501f04528a58d64bd"
+file = "mods/autowhitelist.pw.toml"
+hash = "a8b67c1918c5a4c01bbd1e810ae0629e45c49c59a0198adcb9405bb2f272e924"
+metafile = true
 
 [[files]]
 file = "mods/axes-are-weapons.pw.toml"
@@ -90,7 +87,7 @@ metafile = true
 
 [[files]]
 file = "mods/better-third-person.pw.toml"
-hash = "4abdbfe570394a8cdd1e1874a2f89757f0d137a7c03612611b89c38b6249ea2e"
+hash = "780839be0102ffcf076a4261e581fe68e9b4fcb73e767cae3ced55f1d8489ca1"
 metafile = true
 
 [[files]]
@@ -165,7 +162,7 @@ metafile = true
 
 [[files]]
 file = "mods/chunky.pw.toml"
-hash = "b52cd1f4295d855882a41b5f164385e2ba460d7766a2e2e6183ef56c00c824ab"
+hash = "7ed22be52dd112450b1770ef41d05768a4c44fa04442ffe244dd94fe2de35038"
 metafile = true
 
 [[files]]
@@ -185,7 +182,7 @@ metafile = true
 
 [[files]]
 file = "mods/commandaliases.pw.toml"
-hash = "a85fd26fa00d790d063fde5772846be305295612ad4e2dc35a775f43e671eec3"
+hash = "0bed78914f915674ce89ec63c7ac86d8aeabd046d79257bb6041499606f7f36c"
 metafile = true
 
 [[files]]
@@ -304,8 +301,8 @@ hash = "2d6dd083a7b01b1035a52c09a088137b930ea6f0f8f28ae3e0ba23f05937e3ef"
 metafile = true
 
 [[files]]
-file = "mods/fabric-votifier-1.1.3.jar"
-hash = "818f77e4f290c6d371ee1a4da6c1533e21f490ddf2d2ab9085aea440d60a68f3"
+file = "mods/fabric-votifier.toml"
+hash = "e042e6fa4176e427f23ac767867875cbcde489b157886858a27593232bd76e35"
 
 [[files]]
 file = "mods/fabrication.pw.toml"
@@ -468,8 +465,13 @@ hash = "932351d8b57cddc7176d663b37d8f5550bef1cdbcffe626a634b1a5c6cbdb007"
 metafile = true
 
 [[files]]
+file = "mods/luckperms-fabric-placeholderapi-hook.pw.toml"
+hash = "5dc37894d6e3d1a4c59ecd2df067f4cf055e2b706842a38a93f710736568ebad"
+metafile = true
+
+[[files]]
 file = "mods/luckperms.pw.toml"
-hash = "0cccc3f572cda0003a3fdcd1e69caff25dca302db09653ce5c3ca2f7e44be4f2"
+hash = "e0da679f53c6aca232296659def738666696cae1de4b7125753f3eb9cf2fd504"
 metafile = true
 
 [[files]]
@@ -543,8 +545,9 @@ hash = "9e538cf089ca697fdd2e932f36857651d392e6f00debf8cce24508f3ce744b63"
 metafile = true
 
 [[files]]
-file = "mods/placeholder-api-2.0.0-pre.1+1.19.2.jar"
-hash = "f31f5ac5b52a7f2dcacf6c902fdf3f2ac0703d18ba699aeb0960329904b35fc2"
+file = "mods/placeholder-api.pw.toml"
+hash = "bb2d4f04a4a953a36dd1c34c9b670f7fc6a7b29c26a7222ebd7401afd696efbf"
+metafile = true
 
 [[files]]
 file = "mods/player-pronouns.pw.toml"
@@ -593,7 +596,7 @@ metafile = true
 
 [[files]]
 file = "mods/servercore.pw.toml"
-hash = "94d8491cd39504b6faa3fb1c3da6233dfc0dbf5d854798a53079fb3f7c5fdfd0"
+hash = "7ffcb13b8f899184ddc68559a5ead83e5598918eb67268c9e3f4af70cea6af8c"
 metafile = true
 
 [[files]]
@@ -673,12 +676,12 @@ metafile = true
 
 [[files]]
 file = "mods/styled-chat.pw.toml"
-hash = "b54a2d0cdb07a011d353462037ee68dfa2108767be8485c58f65fea4986cb934"
+hash = "16fffbf1137fe74a3c1a75a27af130b2de3c4c9b4eccbc1f95e737a624db88f4"
 metafile = true
 
 [[files]]
 file = "mods/styled-nicknames.pw.toml"
-hash = "d0cd4b1f936b73cbe367ccc74c325688bb5aa1e87e41f571124a22c3b361c2c1"
+hash = "8ce6dae0860f63a4ef43525815e9d992efe5e1e7735d0e2202894df44b649bdd"
 metafile = true
 
 [[files]]
@@ -699,11 +702,6 @@ metafile = true
 [[files]]
 file = "mods/tabtps.pw.toml"
 hash = "689bf94d0ad4ba52a7cfab340152abbf1bdc14151c22fc882b9f1cded48e0048"
-metafile = true
-
-[[files]]
-file = "mods/taterzens.pw.toml"
-hash = "debad28abf86d1c0d562765fab394569469719e3cc3ad362b9f503ac06c1cf57"
 metafile = true
 
 [[files]]
@@ -732,11 +730,6 @@ hash = "379fc2a0bb704376335fa0ab301c3ed606d6bbdd520fa2bca1aeb86763d42b76"
 metafile = true
 
 [[files]]
-file = "mods/tradernpcs.pw.toml"
-hash = "96636fef112c7ebfb79948ad4023d9874c20d2707a7f295e0b7e79b923b0a6ac"
-metafile = true
-
-[[files]]
 file = "mods/tweakeroo.pw.toml"
 hash = "c5edf1f8114b808f9a63134f2973745b3e4172478b7f0aec5c9359f1325f37da"
 metafile = true
@@ -758,7 +751,7 @@ metafile = true
 
 [[files]]
 file = "mods/worldeditcui-fabric.pw.toml"
-hash = "9e86144c0543f6bcfa735d71451e93d3b101c94bd7956079c080e9e2a4f90f60"
+hash = "d169757ed261a9c56058036f6765e0253d3a21270fdcd9ef55e3aa5d47562a36"
 metafile = true
 
 [[files]]

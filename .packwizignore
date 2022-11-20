@@ -2,6 +2,7 @@
 # See https://git-scm.com/docs/gitignore
 
 /instance
+/mods/*.jar
 .gitattributes
 .gitignore
 .nojekyll

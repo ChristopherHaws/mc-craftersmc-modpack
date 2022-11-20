@@ -1,0 +1,8 @@
+name = "Placeholder API"
+filename = "placeholder-api-2.0.0-pre.1+1.19.2.jar"
+side = "server"
+
+[download]
+url = "https://modpack.craftersmc.com/mods/placeholder-api-2.0.0-pre.1+1.19.2.jar"
+hash-format = "sha1"
+hash = "da8ea81658dfd33f10f489bae77d3a2202ca75fd"
