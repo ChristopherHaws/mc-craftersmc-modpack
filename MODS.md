@@ -188,6 +188,7 @@
 - [autowhitelist](https://modrinth.com/mod/autowhitelist)
 - [spawn-protection-tweaks](https://modrinth.com/mod/spawn-protection-tweaks)
 - [morecommands](https://www.curseforge.com/minecraft/mc-mods/morecommands)
+- [leukocyte](https://github.com/NucleoidMC/leukocyte) - WorldGuard for Fabric
 
 # References
 - [Carpet Config Settings](https://github.com/gnembon/fabric-carpet/wiki/Current-Available-Settings)
