@@ -1,0 +1,13 @@
+name = "Simple Discord Link Bot [Forge/Fabric]"
+filename = "SimpleDiscordLink-fabric-1.19.1-2.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "72dae24a26255d646085b46a4be75fa9b9f190ba"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4067993
+project-id = 541320

@@ -486,11 +486,6 @@ hash = "3926d859126491c673d921c3f3f93316766689ff0694f83d82255ec4776d3c74"
 metafile = true
 
 [[files]]
-file = "mods/mcdiscordchat.pw.toml"
-hash = "75899f5e221d068d54a3c531fa7c7b035cc05ca20e98b484cffaaf2df1032ebb"
-metafile = true
-
-[[files]]
 file = "mods/memoryleakfix.pw.toml"
 hash = "4716789e4a806c1cabcef27e67150215edb4c3d737e9a87d90f2f615d6c196cd"
 metafile = true
@@ -623,6 +618,11 @@ metafile = true
 [[files]]
 file = "mods/shulkerboxtooltip.pw.toml"
 hash = "1aae05e6f09e1883875e38bb77479d049fbc64d60a2215133fa747ed512205b2"
+metafile = true
+
+[[files]]
+file = "mods/simple-discord-link-bot-forge-fabric-spigot.pw.toml"
+hash = "1de13c0d9b417cbf3ec3af5f82456c3b4debc1f0211392c3ce2078aa88a00431"
 metafile = true
 
 [[files]]
