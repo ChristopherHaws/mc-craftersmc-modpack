@@ -406,6 +406,11 @@ hash = "e8168531c092676d47cac3657bfc525f096f11ff5372ce6e322ad57778b81635"
 metafile = true
 
 [[files]]
+file = "mods/interdimensional-map-markers.pw.toml"
+hash = "4918bf6c8eb54c7aade9a9c3010d426892ca8b766f37a80231c782eb3c4ceb3f"
+metafile = true
+
+[[files]]
 file = "mods/inventory-essentials.pw.toml"
 hash = "8de7f74e3a6d02adb946023afc2810c74dbcb14c4c1fda96671f2726cf492bf8"
 metafile = true
@@ -718,6 +723,11 @@ metafile = true
 [[files]]
 file = "mods/spark.pw.toml"
 hash = "79870ab97caf526e6599d2d429ef778848935bbaf2c7020948e203afbb3f32bc"
+metafile = true
+
+[[files]]
+file = "mods/squaremap.pw.toml"
+hash = "15608b16b79ac129ce44d8310eb20617313dda52f3e7fa2eef43ba5b8622980b"
 metafile = true
 
 [[files]]

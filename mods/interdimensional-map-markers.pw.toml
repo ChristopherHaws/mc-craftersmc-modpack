@@ -1,0 +1,13 @@
+name = " Interdimensional Map Markers"
+filename = "interdimensional-map-markers-1.0.2.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/oiCuHwqj/versions/48LiUaxB/interdimensional-map-markers-1.0.2.jar"
+hash-format = "sha1"
+hash = "808c6bdf4acfdfe3b5920c3f9564dbd865edbc15"
+
+[update]
+[update.modrinth]
+mod-id = "oiCuHwqj"
+version = "48LiUaxB"
