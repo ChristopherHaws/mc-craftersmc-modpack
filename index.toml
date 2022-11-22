@@ -16,6 +16,11 @@ hash = "f6620ab34805ef3a7c88b8a83c044e69f15c2034af90bd55820041469e8357fa"
 metafile = true
 
 [[files]]
+file = "mods/afkdisplay.pw.toml"
+hash = "91229bf98b6441b7ef3b4c0329f50e15d00e2c8a03eb51bcc225b81629aa0c1e"
+metafile = true
+
+[[files]]
 file = "mods/alternate-current.pw.toml"
 hash = "fda319290cfe268fdc7c6c6ca8dcad24e51c1de98442f23f2a41d657b26fc8d0"
 metafile = true
@@ -186,6 +191,11 @@ hash = "0bed78914f915674ce89ec63c7ac86d8aeabd046d79257bb6041499606f7f36c"
 metafile = true
 
 [[files]]
+file = "mods/consistencyplus.pw.toml"
+hash = "0a82c23063612bf1baf43934323d8fca8dd23ddc2dc0a3db968f72d14b99e887"
+metafile = true
+
+[[files]]
 file = "mods/continuity.pw.toml"
 hash = "3cbe3d523b39667928fcc34f71651b0e581e5c541dd5ecf17228464770466bc5"
 metafile = true
@@ -241,6 +251,11 @@ hash = "0479206225a4fe784aa2866d422a0f9bad857a8c1ade89179d6626f812c4fbb8"
 metafile = true
 
 [[files]]
+file = "mods/discontinuous-beacon-beams.pw.toml"
+hash = "81c1cbe44277c2d396c0292980da1873816c5850755d95cae6cf24a78dfc636e"
+metafile = true
+
+[[files]]
 file = "mods/dynamic-fps.pw.toml"
 hash = "0ada4f3b91ee6a4cd40c8e9bcb69a3d59c24ff3940762efca9253b269af1eb25"
 metafile = true
@@ -248,6 +263,11 @@ metafile = true
 [[files]]
 file = "mods/easiervillagertrading.pw.toml"
 hash = "06614c130009ac62167aa8e192875f8677570d24c0937f37f24265b3dd23fb80"
+metafile = true
+
+[[files]]
+file = "mods/enchanted-vertical-slabs.pw.toml"
+hash = "f60402c6b67b79bbc4a5b9e5b41640a5fecc1d9fde65a735185c8923461ee370"
 metafile = true
 
 [[files]]
@@ -421,6 +441,11 @@ hash = "575bdefe476d24d7d50f7ac66bd80bf8c770d108bf4683a2e7d772c3dabb4fb1"
 metafile = true
 
 [[files]]
+file = "mods/lanterns-bow.pw.toml"
+hash = "4dcbc0c13835a68f1c58e75216beed433609e4565800f22342279f7934f7044b"
+metafile = true
+
+[[files]]
 file = "mods/lapis-reserve.pw.toml"
 hash = "24bba80c1c319fa238373f9d2211c27b491fd27f3969b451311dedf62ec08ba0"
 metafile = true
@@ -516,6 +541,11 @@ hash = "7358029830c4246e9039d12156bb5a0b7aecd128155330783ca8bdb57a12333c"
 metafile = true
 
 [[files]]
+file = "mods/more-music-discs.pw.toml"
+hash = "a664ded599f595f18489be426b59e26e3c6877ac9970ef2f46652f2f6b7cdb97"
+metafile = true
+
+[[files]]
 file = "mods/morechathistory.pw.toml"
 hash = "d1558ff187abe468110fef11eee834aa3c03df732e706ac16e221425b538da4d"
 metafile = true
@@ -603,6 +633,11 @@ metafile = true
 [[files]]
 file = "mods/servertick.pw.toml"
 hash = "4ad1f4d5630879670b010035610eb35e8fb3eec45b1d908f6a68b4a91ecbe843"
+metafile = true
+
+[[files]]
+file = "mods/shards.pw.toml"
+hash = "6d284a273a0e837276f5af1fe2e81439f956220f89efb61a4e57c9a8bac2d831"
 metafile = true
 
 [[files]]
