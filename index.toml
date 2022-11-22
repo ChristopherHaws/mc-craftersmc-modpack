@@ -156,6 +156,11 @@ hash = "ddf117ef72dcb95c5bc3b5a9ac2e591b8a6857b64fbac9ce455537437fe4df58"
 metafile = true
 
 [[files]]
+file = "mods/chat-heads.pw.toml"
+hash = "8440097630bb5576edaf891db7490fe9e6a6c996670e6d25b6bd027712db6050"
+metafile = true
+
+[[files]]
 file = "mods/chat-up.pw.toml"
 hash = "4c05ceb703b5846b7448fcb04c1e4d430a3dd99ff2c1fb0d507f414550107c72"
 metafile = true
