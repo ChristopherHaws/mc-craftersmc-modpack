@@ -1,0 +1,13 @@
+name = "Set World Spawn Point"
+filename = "setworldspawnpoint-fabric_1.19.2-2.7.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/EL8fq1gi/versions/mAixLlP9/setworldspawnpoint-fabric_1.19.2-2.7.jar"
+hash-format = "sha1"
+hash = "d29ae2e1b25571e7f1c533a4820624589ed3750b"
+
+[update]
+[update.modrinth]
+mod-id = "EL8fq1gi"
+version = "mAixLlP9"

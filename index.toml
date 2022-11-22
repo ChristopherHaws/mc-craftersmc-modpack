@@ -151,6 +151,11 @@ hash = "3d89448c7689702ee772d9d1a5119dc7f47facdf8adf0d780804fda257d6671a"
 metafile = true
 
 [[files]]
+file = "mods/carrier.pw.toml"
+hash = "ddf117ef72dcb95c5bc3b5a9ac2e591b8a6857b64fbac9ce455537437fe4df58"
+metafile = true
+
+[[files]]
 file = "mods/chat-up.pw.toml"
 hash = "4c05ceb703b5846b7448fcb04c1e4d430a3dd99ff2c1fb0d507f414550107c72"
 metafile = true
@@ -317,7 +322,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
-hash = "2d6dd083a7b01b1035a52c09a088137b930ea6f0f8f28ae3e0ba23f05937e3ef"
+hash = "5e0fb026c7bfa446e3398b6297ff4a7223f8b423a829a8543d78174b83063edf"
 metafile = true
 
 [[files]]
@@ -531,6 +536,11 @@ hash = "b89656eaf7e4404d8d2c5b1e1155aae85a839939f83cab6d1b5e791412ad5f86"
 metafile = true
 
 [[files]]
+file = "mods/mob-filter.pw.toml"
+hash = "63e4b1f7a01d000343d04ccd5fc5765b5912e827be6b3f2898ef306e7e0193dd"
+metafile = true
+
+[[files]]
 file = "mods/modmenu.pw.toml"
 hash = "7358029830c4246e9039d12156bb5a0b7aecd128155330783ca8bdb57a12333c"
 metafile = true
@@ -628,6 +638,11 @@ metafile = true
 [[files]]
 file = "mods/servertick.pw.toml"
 hash = "4ad1f4d5630879670b010035610eb35e8fb3eec45b1d908f6a68b4a91ecbe843"
+metafile = true
+
+[[files]]
+file = "mods/set-world-spawn-point.pw.toml"
+hash = "e9b6deeb64fbf5d07423cc9bf7aa27ccd22d24be29d54d3e91b99d386d6d47d9"
 metafile = true
 
 [[files]]

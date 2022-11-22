@@ -1,0 +1,13 @@
+name = "MobFilter"
+filename = "mobfilter-0.0.5+1.19.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5c1f522f92c34e3e4b5d7a8695fa18a091c7a0a1"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3935006
+project-id = 569765
