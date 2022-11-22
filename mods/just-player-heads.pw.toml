@@ -1,0 +1,13 @@
+name = "Just Player Heads"
+filename = "justplayerheads-fabric_1.19.2-2.5.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/YdVBZMNR/versions/yY06BM5c/justplayerheads-fabric_1.19.2-2.5.jar"
+hash-format = "sha1"
+hash = "944f8e12a1d9cc2411821d012b4338a015592186"
+
+[update]
+[update.modrinth]
+mod-id = "YdVBZMNR"
+version = "yY06BM5c"

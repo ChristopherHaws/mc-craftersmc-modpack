@@ -401,6 +401,11 @@ hash = "0bb13d0459be9af19faf40ea8e83b8bf29922b378dcbe9e430fc7de11d98dac3"
 metafile = true
 
 [[files]]
+file = "mods/just-player-heads.pw.toml"
+hash = "c427f15b9f8105783236077e0d6e91d514a9868881d918325786119e302b9421"
+metafile = true
+
+[[files]]
 file = "mods/keepheadnames.pw.toml"
 hash = "7e1a3a881192e77c3b6df591bcf683791dc43d7cb4351799e22089446d81db70"
 metafile = true
@@ -703,6 +708,11 @@ metafile = true
 [[files]]
 file = "mods/terrablender-fabric.pw.toml"
 hash = "199bf931e17458fa299e16fc5f761241dde9ff1f9e62fe33e52acdcc1fcc2aa0"
+metafile = true
+
+[[files]]
+file = "mods/text-utilities.pw.toml"
+hash = "17000758bbe12a0b11373f8913f1000b47f611ee3de91eb4c7c80cc4f381c0f2"
 metafile = true
 
 [[files]]

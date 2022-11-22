@@ -1,0 +1,18 @@
+name = "Text Utilities"
+filename = "text-utilities-fabric-1.19.2-1.0.0.jar"
+side = "client" # Need to fix server side
+
+[download]
+url = "https://cdn.modrinth.com/data/1bHGioWI/versions/5I9FaK9J/text-utilities-fabric-1.19.2-1.0.0.jar"
+hash-format = "sha1"
+hash = "76865488b9408576bb354e9e766a360898c293c0"
+
+[update]
+[update.modrinth]
+mod-id = "1bHGioWI"
+version = "5I9FaK9J"
+
+[option]
+optional = true
+description = "Easier sign, book, and anvil formatting. Optional because it is very beta still."
+default = false
