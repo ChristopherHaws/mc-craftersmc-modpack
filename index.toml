@@ -271,6 +271,11 @@ hash = "0ada4f3b91ee6a4cd40c8e9bcb69a3d59c24ff3940762efca9253b269af1eb25"
 metafile = true
 
 [[files]]
+file = "mods/dynmapforge.pw.toml"
+hash = "3e78410fbe155fb7f3d90ab9ff35cccf1b39efe3fa5bf19159003e32240d1184"
+metafile = true
+
+[[files]]
 file = "mods/easiervillagertrading.pw.toml"
 hash = "06614c130009ac62167aa8e192875f8677570d24c0937f37f24265b3dd23fb80"
 metafile = true
@@ -723,11 +728,6 @@ metafile = true
 [[files]]
 file = "mods/spark.pw.toml"
 hash = "79870ab97caf526e6599d2d429ef778848935bbaf2c7020948e203afbb3f32bc"
-metafile = true
-
-[[files]]
-file = "mods/squaremap.pw.toml"
-hash = "15608b16b79ac129ce44d8310eb20617313dda52f3e7fa2eef43ba5b8622980b"
 metafile = true
 
 [[files]]
