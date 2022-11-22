@@ -272,7 +272,7 @@ metafile = true
 
 [[files]]
 file = "mods/dynmapforge.pw.toml"
-hash = "3e78410fbe155fb7f3d90ab9ff35cccf1b39efe3fa5bf19159003e32240d1184"
+hash = "e74878eb2e93e53bf1b141fea99da463c3a0082af670dc8fa21239f0f08a18f4"
 metafile = true
 
 [[files]]
@@ -692,7 +692,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "03a67b5a9074e8c4936c8a2eb44dc43ca6e0bfe7e32194e85112a9c9aa19ebb2"
+hash = "01ef5744e243eece8a7cdb7853270a3dc3fae0d435205ef5eebd70577488504d"
 metafile = true
 
 [[files]]

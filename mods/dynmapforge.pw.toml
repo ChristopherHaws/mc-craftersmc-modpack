@@ -1,6 +1,6 @@
 name = "Dynmap-Forge/Fabric"
 filename = "Dynmap-3.4-fabric-1.19.1.jar"
-side = "both"
+side = "server"
 
 [download]
 hash-format = "sha1"
