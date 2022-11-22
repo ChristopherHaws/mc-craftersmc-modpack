@@ -666,6 +666,11 @@ hash = "7ed8ccc2ab1e984da37776df01c1d03be14fc6479e53c061ae2aaa1ad78c830e"
 metafile = true
 
 [[files]]
+file = "mods/shift-scroll-fix.pw.toml"
+hash = "b8eb0d751fc02619a09926eb262b82fc4a27b5da68474a59a7c083abe137d47f"
+metafile = true
+
+[[files]]
 file = "mods/shulkerboxtooltip.pw.toml"
 hash = "1aae05e6f09e1883875e38bb77479d049fbc64d60a2215133fa747ed512205b2"
 metafile = true
