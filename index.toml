@@ -466,11 +466,6 @@ hash = "cbd6b97dfc49090b18480f43eeef4401144006ed406110f32fb1126d47a21f11"
 metafile = true
 
 [[files]]
-file = "mods/leukocyte.pw.toml"
-hash = "e60c80b9ce997d2c31938d8458ff256431d12e21935e979efb6f2751a33e1c48"
-metafile = true
-
-[[files]]
 file = "mods/libipn.pw.toml"
 hash = "850a3a1a62871fee66e0d87cc330b58ea05632569791abd9e5f3e69457d4d63c"
 metafile = true
