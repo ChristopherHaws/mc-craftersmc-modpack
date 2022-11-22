@@ -542,7 +542,7 @@ metafile = true
 
 [[files]]
 file = "mods/mob-filter.pw.toml"
-hash = "63e4b1f7a01d000343d04ccd5fc5765b5912e827be6b3f2898ef306e7e0193dd"
+hash = "40f6e7f86b9cb3a6f8afdeefd94b5a25ebf7bf6c9d2374c0a60dee54d9254eeb"
 metafile = true
 
 [[files]]

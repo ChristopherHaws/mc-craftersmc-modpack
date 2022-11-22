@@ -1,6 +1,6 @@
 name = "MobFilter"
 filename = "mobfilter-0.0.5+1.19.2.jar"
-side = "both"
+side = "server"
 
 [download]
 hash-format = "sha1"
