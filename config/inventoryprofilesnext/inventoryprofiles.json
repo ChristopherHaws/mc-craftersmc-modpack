@@ -1,0 +1,61 @@
+{
+    "ModSettings": {
+        "highlight_foused_items": {
+            "value": false
+        },
+        "highlight_foused_items_foreground": false,
+        "enable_profiles": {
+            "value": false
+        },
+        "enable_auto_refill": {
+            "value": false
+        },
+        "restock_hotbar": {
+            "value": false
+        },
+        "first_run": false
+    },
+    "GuiSettings": {
+        "enable_profiles_ui": {
+            "value": false
+        },
+        "show_continuous_crafting_checkbox": {
+            "value": false
+        },
+        "continuous_crafting_saved_value": false
+    },
+    "LockedSlotsSettings": {
+        "locked_slots_disable_quick_move_throw": false,
+        "locked_slots_disable_throw_for_non_stackable": false,
+        "locked_slots_allow_pickup_into_empty": {
+            "value": true
+        },
+        "locked_slots_empty_hotbar_as_semi_locked": {
+            "value": false
+        },
+        "show_locked_slots_foreground": {
+            "value": false
+        }
+    },
+    "AutoRefillSettings": {
+        "refill_before_tool_break": {
+            "value": false
+        },
+        "tool_damage_threshold": 5,
+        "allow_break_for_non_enchanted": {
+            "value": true
+        }
+    },
+    "EditProfiles": {
+        "quick_slot_1_profile": "Profile 1",
+        "quick_slot_2_profile": "Profile 2",
+        "quick_slot_3_profile": "Profile 3"
+    },
+    "Hotkeys": {
+        "move_all_items": {
+            "main": {
+                "keys": "T"
+            }
+        }
+    }
+}

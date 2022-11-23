@@ -1,0 +1,11 @@
+{
+  "beam_hiding_blocks": [
+    "minecraft:glass",
+    "minecraft:glass_pane"
+  ],
+  "hiding_blocks_toggle_beams": false,
+  "remember_color_when_hiding_blocks_enable_beams": true,
+  "stainable_blocks_enable_beams": false,
+  "remember_color_when_stainable_blocks_enable_beams": true,
+  "enable_beacon_beams": true
+}

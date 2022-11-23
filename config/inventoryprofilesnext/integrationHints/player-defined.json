@@ -1,0 +1,9 @@
+{
+    "net.minecraft.class_476": {
+        "buttonHints": {
+            "MOVE_TO_CONTAINER": {
+                "horizontalOffset": 75
+            }
+        }
+    }
+}

@@ -21,7 +21,17 @@ config/byg/backups/**
 config/chunky/tasks/minecraft/**
 config/TabTPS/userdata/**
 dynmap/ids-by-ip.txt
+config/bclib/cache.json
+config/voicechat/username-cache.json
+config/voicechat/voicechat-client.properties
+config/voicechat/voicechat-volumes.properties
+config/worldedit/.archive-unpack/**
+config/worldedit/sessions/**
+config/localrecipes.zip
+config/loomrecipes.zip
+
 
 # Exclude config files that contain secrets
 config/FabricProxy-Lite.toml
 config/simple-discord-bot.toml
+config/NoChatReports/NCR-Encryption.json
