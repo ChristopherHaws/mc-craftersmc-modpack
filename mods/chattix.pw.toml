@@ -1,0 +1,13 @@
+name = "Chattix"
+filename = "Chattix-1.0.1_1.19.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b504f6b8e3959a7eef98af9de585fb2d36854d41"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4009591
+project-id = 682023
