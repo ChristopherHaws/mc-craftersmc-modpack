@@ -1038,7 +1038,7 @@ hash = "52922ee421dedce57a69490007b367e1ec86c34d1475879300c32cecba3a1157"
 
 [[files]]
 file = "dynmap/worlds.txt"
-hash = "b6c8b1a6f62c8ec2469b7cbee995938670a146914849f7d24b19c0e4054ebd9d"
+hash = "91ff20b10680b426746ac84d7afa30fa27122a3d916154cffc56ffad6febb47e"
 
 [[files]]
 file = "mods/accurate-block-placement.pw.toml"
