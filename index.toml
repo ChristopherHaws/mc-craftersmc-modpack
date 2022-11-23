@@ -261,6 +261,10 @@ file = "config/chat_heads.json5"
 hash = "ec0ea3b472c5ca01df52cf14e5fe3184999cbdf060ec95d6e1b4ac287dc816ee"
 
 [[files]]
+file = "config/chattix/config.hjson"
+hash = "508624e11ca164a78d58de2005444281c95c2ab6ad2a329945e3162bccb98ff8"
+
+[[files]]
 file = "config/chesttracker.json5"
 hash = "bbc1396b801923bcc1f7e4b88df2c3affbe3e01a1bc943f909bd9c83e35e6c00"
 
@@ -502,7 +506,7 @@ hash = "34063953980be13e1241bbc7d21d7879435f51fde5c5f1c602c85bf7efa7066c"
 
 [[files]]
 file = "config/luckperms/luckperms.conf"
-hash = "83d72a0573e523b82f9d6ea268edff5a25c9c61e1efa58a787033db47ee69051"
+hash = "6e5a14651488c18ad5b39ec57796119f6a715bb3362f63fa3f84a0873933e291"
 
 [[files]]
 file = "config/luckperms/translations/repository/ar_SA.properties"
@@ -1363,6 +1367,11 @@ metafile = true
 [[files]]
 file = "mods/entitytexturefeatures.pw.toml"
 hash = "1a249012c4371ea18605087edaf1d72eee3d60674d62376232e7b271b98c699b"
+metafile = true
+
+[[files]]
+file = "mods/essential-commands.pw.toml"
+hash = "77dec3bf6788c780cde79736d3eef09368b9e01c68dc4a38a5db0060440c1852"
 metafile = true
 
 [[files]]
