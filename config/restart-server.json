@@ -1,0 +1,9 @@
+{
+  "restartScriptLinux": "start-server.sh",
+  "restartScriptMacOS": "start-server.sh",
+  "restartScriptWindows": "start-server.bat",
+  "restartMessage": "Restarting server... (eta: ~2m)",
+  "restartInterval": 0,
+  "restartIfNoPlayersHaveBeenOnline": false,
+  "noPlayersWaitTime": 7200
+}

@@ -7,7 +7,7 @@
 !/XaeroWorldMap/**/*.zip
 
 # Exclude exported Modrinth modpacks
-*.mrpack
+*.mrpackI
 
 # Exclude config files that shouldn't be in source control
 config/.puzzle_cache/**
@@ -15,3 +15,11 @@ config/headindex-cache/**
 config/inventoryprofilesnext/**/lockSlots.txt
 config/litematica/**
 config/minihud/**
+config/byg/backups/**
+config/chunky/tasks/minecraft/**
+config/TabTPS/userdata/**
+dynmap/ids-by-ip.txt
+
+# Exclude config files that contain secrets
+config/FabricProxy-Lite.toml
+config/simple-discord-bot.toml

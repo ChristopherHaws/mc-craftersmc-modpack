@@ -1,0 +1,18 @@
+{
+  //==== Signs ===
+  "disableSignEditOnPlace": false,
+  "enableSignEdit": true,
+  "enableSignPassthrough": true,
+  "enableSignRetain": true,
+  "enableSignCopy": true,
+  //This option will copy the target sign's color and glow. 
+  //Disabled by default because it's technically duping dyes.
+  "retainDyeOnSignCopy": true,
+  //==== Item Frames ===
+  "enableFramePassthrough": true,
+  "enableInvisibleFrames": true,
+  //Choose what item turns frames invisible. Supported Items:
+  //	AMETHYST_SHARD
+  //	GLASS_PANE
+  "invisibleFrameItem": "GLASS_PANE"
+}

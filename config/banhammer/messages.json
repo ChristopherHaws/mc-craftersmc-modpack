@@ -1,0 +1,99 @@
+{
+  "banChatMessage": [
+    "Player <red>${banned}</red> has been banned by <gold>${operator}</gold>!",
+    "Reason: <yellow>${reason}</yellow>"
+  ],
+  "tempBanChatMessage": [
+    "Player <red>${banned}</red> has been banned by <gold>${operator}</gold>!",
+    "Reason: <yellow>${reason}</yellow>. Expires in: <yellow>${expiration_time}</yellow>"
+  ],
+  "ipBanChatMessage": [
+    "Player <red>${banned}</red> has been banned by <gold>${operator}</gold>!",
+    "Reason: <yellow>${reason}</yellow>"
+  ],
+  "tempIpBanChatMessage": [
+    "Player <red>${banned}</red> has been banned by <gold>${operator}</gold>!",
+    "Reason: <yellow>${reason}</yellow>. Expires in: <yellow>${expiration_time}</yellow>"
+  ],
+  "muteChatMessage": [
+    "Player <red>${banned}</red> has been muted by <gold>${operator}</gold>!",
+    "Reason: <yellow>${reason}</yellow>"
+  ],
+  "tempMuteChatMessage": [
+    "Player <red>${banned}</red> has been muted by <gold>${operator}</gold>!",
+    "Reason: <yellow>${reason}</yellow>. Expires in: <yellow>${expiration_time}</yellow>"
+  ],
+  "kickChatMessage": [
+    "Player <red>${banned}</red> has been kicked by <gold>${operator}</gold>!",
+    "Reason: <yellow>${reason}</yellow>"
+  ],
+  "warnChatMessage": [
+    "Player <red>${banned}</red> has been warned by <gold>${operator}</gold>!",
+    "Reason: <yellow>${reason}</yellow>"
+  ],
+  "tempWarnChatMessage": [
+    "Player <red>${banned}</red> has been warned by <gold>${operator}</gold>!",
+    "Reason: <yellow>${reason}</yellow>. Expires in: <yellow>${expiration_time}</yellow>"
+  ],
+  "unbanChatMessage": [
+    "Player <red>${banned}</red> has been unbanned by <gold>${operator}</gold>!",
+    "Reason: <yellow>${reason}</yellow>"
+  ],
+  "ipUnbanChatMessage": [
+    "Player <red>${banned}</red> has been unbanned by <gold>${operator}</gold>!",
+    "Reason: <yellow>${reason}</yellow>"
+  ],
+  "unmuteChatMessage": [
+    "Player <red>${banned}</red> has been unmuted by <gold>${operator}</gold>!",
+    "Reason: <yellow>${reason}</yellow>"
+  ],
+  "unwarnChatMessage": [
+    "Player <red>${banned}</red>'s warnings has been removed by <gold>${operator}</gold>!",
+    "Reason: <yellow>${reason}</yellow>"
+  ],
+  "pardonChatMessage": [
+    "Punishments of player <red>${banned}</red> has been redeemed by <gold>${operator}</gold>!",
+    "Reason: <yellow>${reason}</yellow>"
+  ],
+  "banScreen": [
+    "<red><bold>You are banned</bold></red>",
+    "<gray>Reason: </gray><yellow>${reason}</yellow>",
+    "<gray>By: </gray><yellow>${operator}</yellow>"
+  ],
+  "tempBanScreen": [
+    "<red><bold>You are banned</bold></red>",
+    "<gray>Reason: </gray><yellow>${reason}</yellow>",
+    "<gray>Expires in: </gray><yellow>${expiration_time}</yellow>",
+    "<gray>By: </gray><yellow>${operator}</yellow>"
+  ],
+  "ipBanScreen": [
+    "<red><bold>You are banned</bold></red>",
+    "<gray>Reason: </gray><yellow>${reason}</yellow>",
+    "<gray>By: </gray><yellow>${operator}</yellow>"
+  ],
+  "tempIpBanScreen": [
+    "<red><bold>You are banned</bold></red>",
+    "<gray>Reason: </gray><yellow>${reason}</yellow>",
+    "<gray>Expires in: </gray><yellow>${expiration_time}</yellow>",
+    "<gray>By: </gray><yellow>${operator}</yellow>"
+  ],
+  "kickScreen": [
+    "<red><bold>You has been kicked!</bold></red>",
+    "<gray>Reason: </gray><yellow>${reason}</yellow>",
+    "<gray>By: </gray><yellow>${operator}</yellow>"
+  ],
+  "mutedText": [
+    "<red>You are muted by ${operator}. Reason: ${reason}</red>"
+  ],
+  "tempMutedText": [
+    "<red>You are muted for ${expiration_time} by ${operator}. Reason: ${reason}</red>"
+  ],
+  "defaultReason": "Unknown reason",
+  "dateFormat": "dd.MM.YYYY HH:mm",
+  "neverExpiresText": "Never",
+  "yearsText": " year(s) ",
+  "daysText": " day(s) ",
+  "hoursText": " hour(s) ",
+  "minutesText": " minute(s) ",
+  "secondsText": " second(s)"
+}

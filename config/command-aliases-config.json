@@ -1,0 +1,7 @@
+{
+  "debug_settings": {
+    "debug_mode": false,
+    "show_processing_time": false,
+    "broadcast_to_ops": false
+  }
+}
