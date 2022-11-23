@@ -262,7 +262,7 @@ hash = "ec0ea3b472c5ca01df52cf14e5fe3184999cbdf060ec95d6e1b4ac287dc816ee"
 
 [[files]]
 file = "config/chattix/config.hjson"
-hash = "508624e11ca164a78d58de2005444281c95c2ab6ad2a329945e3162bccb98ff8"
+hash = "e1927bbbcf3278d1ed95234d6ad4548aac6c7664366796dd9899fe377bcafc09"
 
 [[files]]
 file = "config/chesttracker.json5"

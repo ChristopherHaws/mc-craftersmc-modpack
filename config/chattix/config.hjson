@@ -9,7 +9,7 @@
     enabled: true // Whether the chat formatting feature should be enabled.
     // The format to default to when there's no specific format.
     // Have a look at https://chattix.ptsmods.com to see what placeholders you can use here.
-    format: "<color:gold><b>%luckperms_prefix%</b></color>%displayname%%luckperms_suffix% <gray>></gray> %message%"
+    format: "<color:gold><b>%luckperms_prefix%</b></color>%displayname%%luckperms_suffix% <gray>⏵</gray> %message%"
 
     // Formats can be ordered by group. A player is considered a member of a group if they have the
     // chattix.group.<group> permission. The first group in this list a player is a member of is the group that will be used.
