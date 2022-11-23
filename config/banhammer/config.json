@@ -1,0 +1,40 @@
+{
+  "CONFIG_VERSION_DONT_TOUCH_THIS": 1,
+  "punishmentsAreSilent": false,
+  "storeAllPunishmentsInHistory": true,
+  "muteBlockedCommands": [
+    "me",
+    "msg",
+    "tell",
+    "w",
+    "teammsg"
+  ],
+  "defaultTempPunishmentDurationLimit": "-1",
+  "permissionTempLimit": {
+    "example": "31d"
+  },
+  "warnActions": [
+    {
+      "count": 5,
+      "execute": [
+        "tempban ${uuid} ${count}h -s You have received too many warns! ${reason}"
+      ]
+    }
+  ],
+  "standardBanPlayersWithBannedIps": false,
+  "autoBansFromIpBansAreSilent": true,
+  "defaultOpPermissionLevel": 3,
+  "discordWebhookUrls": [],
+  "databaseType": "sqlite",
+  "sqliteDatabaseLocation": "banhammer-sqlite.db",
+  "mysqlDatabaseAddress": "",
+  "mysqlDatabaseName": "",
+  "mysqlDatabaseUsername": "",
+  "mysqlDatabasePassword": "",
+  "mysqlDatabaseArgs": {
+    "useUnicode": "true",
+    "autoReconnect": "true"
+  },
+  "databasePrefix": "",
+  "blockPunishments": []
+}

@@ -1,0 +1,26 @@
+%YAML 1.1
+---
+worlds:
+-   sealevel: 63
+    nether: false
+    miny: -64
+    name: world
+    the_end: false
+    title: overworld
+    height: 384
+-   sealevel: 63
+    nether: true
+    miny: 0
+    name: DIM-1
+    the_end: false
+    title: the_nether
+    height: 256
+-   sealevel: 63
+    nether: false
+    miny: 0
+    name: DIM1
+    the_end: true
+    title: the_end
+    height: 256
+useSaveFolderAsName: true
+maxWorldHeight: 320

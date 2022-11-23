@@ -1,0 +1,7 @@
+{
+  "sneaking_protects_from_magma": false,
+  "frost_walker_protects_from_magma": true,
+  "magma_damages_non_living_entities": false,
+  "magma_sets_fire_to_entities": false,
+  "fetch_translation_updates": true
+}

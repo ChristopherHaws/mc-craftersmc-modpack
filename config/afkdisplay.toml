@@ -1,0 +1,5 @@
+timeoutSeconds = 180
+resetOnMovement = false
+resetOnLook = false
+afkColor = "gray"
+afkPrefix = "[AFK] "

@@ -1,0 +1,6 @@
+commandMode: COMMAND_CUSTOM
+customCommand:
+  parent: tpsbar
+  actions:
+    - command: tabtps toggle bossbar
+      commandType: CLIENT

@@ -1,0 +1,10 @@
+{
+    "rules_header": "",
+    "rule_schema": "${rule_description}",
+    "rules": [
+        {
+            "title": "Rule Title",
+            "description": "This server does not have a configured rules.json file yet!\n<gray>Learn how to create one <underline><blue><url:'https://docs.lilydev.com/docs/Mods/Rules'>here</url></blue></underline>.</gray>"
+        }
+    ]
+}

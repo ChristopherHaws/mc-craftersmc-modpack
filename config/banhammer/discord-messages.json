@@ -1,0 +1,272 @@
+{
+  "sendBanMessage": true,
+  "banMessage": {
+    "embed": true,
+    "message": [],
+    "avatar": "",
+    "name": "",
+    "embedTitle": "",
+    "embedTitleUrl": "",
+    "embedColor": "red",
+    "embedImage": "",
+    "embedThumbnail": "",
+    "embedMessage": [
+      "${banned} has been banned!",
+      "",
+      "**Reason**: ${reason}",
+      "**By**: ${operator}"
+    ],
+    "embedFields": []
+  },
+  "sendTempBanMessage": true,
+  "tempBanMessage": {
+    "embed": true,
+    "message": [],
+    "avatar": "",
+    "name": "",
+    "embedTitle": "",
+    "embedTitleUrl": "",
+    "embedColor": "red",
+    "embedImage": "",
+    "embedThumbnail": "",
+    "embedMessage": [
+      "${banned} has been banned!",
+      "",
+      "**Reason**: ${reason}",
+      "**Expires in**: ${expiration_time}",
+      "**By**: ${operator}"
+    ],
+    "embedFields": []
+  },
+  "sendBanIpMessage": true,
+  "banIpMessage": {
+    "embed": true,
+    "message": [],
+    "avatar": "",
+    "name": "",
+    "embedTitle": "",
+    "embedTitleUrl": "",
+    "embedColor": "red",
+    "embedImage": "",
+    "embedThumbnail": "",
+    "embedMessage": [
+      "${banned} has been banned!",
+      "",
+      "**Reason**: ${reason}",
+      "**By**: ${operator}"
+    ],
+    "embedFields": []
+  },
+  "sendTempBanIpMessage": true,
+  "tempBanIpMessage": {
+    "embed": true,
+    "message": [],
+    "avatar": "",
+    "name": "",
+    "embedTitle": "",
+    "embedTitleUrl": "",
+    "embedColor": "red",
+    "embedImage": "",
+    "embedThumbnail": "",
+    "embedMessage": [
+      "${banned} has been banned!",
+      "",
+      "**Reason**: ${reason}",
+      "**Expires in**: ${expiration_time}",
+      "**By**: ${operator}"
+    ],
+    "embedFields": []
+  },
+  "sendMuteMessage": true,
+  "muteMessage": {
+    "embed": true,
+    "message": [],
+    "avatar": "",
+    "name": "",
+    "embedTitle": "",
+    "embedTitleUrl": "",
+    "embedColor": "red",
+    "embedImage": "",
+    "embedThumbnail": "",
+    "embedMessage": [
+      "${banned} has been muted!",
+      "",
+      "**Reason**: ${reason}",
+      "**By**: ${operator}"
+    ],
+    "embedFields": []
+  },
+  "sendTempMuteMessage": true,
+  "tempMuteMessage": {
+    "embed": true,
+    "message": [],
+    "avatar": "",
+    "name": "",
+    "embedTitle": "",
+    "embedTitleUrl": "",
+    "embedColor": "red",
+    "embedImage": "",
+    "embedThumbnail": "",
+    "embedMessage": [
+      "${banned} has been muted!",
+      "",
+      "**Reason**: ${reason}",
+      "**Expires in**: ${expiration_time}",
+      "**By**: ${operator}"
+    ],
+    "embedFields": []
+  },
+  "sendKickMessage": true,
+  "kickMessage": {
+    "embed": true,
+    "message": [],
+    "avatar": "",
+    "name": "",
+    "embedTitle": "",
+    "embedTitleUrl": "",
+    "embedColor": "orange",
+    "embedImage": "",
+    "embedThumbnail": "",
+    "embedMessage": [
+      "${banned} has been kicked!",
+      "",
+      "**Reason**: ${reason}",
+      "**By**: ${operator}"
+    ],
+    "embedFields": []
+  },
+  "sendWarnMessage": true,
+  "warnMessage": {
+    "embed": true,
+    "message": [],
+    "avatar": "",
+    "name": "",
+    "embedTitle": "",
+    "embedTitleUrl": "",
+    "embedColor": "red",
+    "embedImage": "",
+    "embedThumbnail": "",
+    "embedMessage": [
+      "${banned} has been warned!",
+      "",
+      "**Reason**: ${reason}",
+      "**By**: ${operator}"
+    ],
+    "embedFields": []
+  },
+  "sendTempWarnMessage": true,
+  "tempWarnMessage": {
+    "embed": true,
+    "message": [],
+    "avatar": "",
+    "name": "",
+    "embedTitle": "",
+    "embedTitleUrl": "",
+    "embedColor": "red",
+    "embedImage": "",
+    "embedThumbnail": "",
+    "embedMessage": [
+      "${banned} has been warned!",
+      "",
+      "**Reason**: ${reason}",
+      "**Expires in**: ${expiration_time}",
+      "**By**: ${operator}"
+    ],
+    "embedFields": []
+  },
+  "sendUnbanMessage": true,
+  "unbanMessage": {
+    "embed": true,
+    "message": [],
+    "avatar": "",
+    "name": "",
+    "embedTitle": "",
+    "embedTitleUrl": "",
+    "embedColor": "green",
+    "embedImage": "",
+    "embedThumbnail": "",
+    "embedMessage": [
+      "${banned} has been unbanned!",
+      "",
+      "**Reason**: ${reason}",
+      "**By**: ${operator}"
+    ],
+    "embedFields": []
+  },
+  "sendUnbanIpMessage": true,
+  "unBanIpMessage": {
+    "embed": true,
+    "message": [],
+    "avatar": "",
+    "name": "",
+    "embedTitle": "",
+    "embedTitleUrl": "",
+    "embedColor": "green",
+    "embedImage": "",
+    "embedThumbnail": "",
+    "embedMessage": [
+      "${banned} has been unbanned!",
+      "",
+      "**Reason**: ${reason}",
+      "**By**: ${operator}"
+    ],
+    "embedFields": []
+  },
+  "sendUnmuteMessage": true,
+  "unmuteMessage": {
+    "embed": true,
+    "message": [],
+    "avatar": "",
+    "name": "",
+    "embedTitle": "",
+    "embedTitleUrl": "",
+    "embedColor": "green",
+    "embedImage": "",
+    "embedThumbnail": "",
+    "embedMessage": [
+      "${banned} has been unmuted!",
+      "",
+      "**Reason**: ${reason}",
+      "**By**: ${operator}"
+    ],
+    "embedFields": []
+  },
+  "sendUnwarnMessage": true,
+  "unwarnMessage": {
+    "embed": true,
+    "message": [],
+    "avatar": "",
+    "name": "",
+    "embedTitle": "",
+    "embedTitleUrl": "",
+    "embedColor": "green",
+    "embedImage": "",
+    "embedThumbnail": "",
+    "embedMessage": [
+      "${banned}'s warnings has been removed!",
+      "",
+      "**Reason**: ${reason}",
+      "**By**: ${operator}"
+    ],
+    "embedFields": []
+  },
+  "sendPardonMessage": true,
+  "pardonMessage": {
+    "embed": true,
+    "message": [],
+    "avatar": "",
+    "name": "",
+    "embedTitle": "",
+    "embedTitleUrl": "",
+    "embedColor": "green",
+    "embedImage": "",
+    "embedThumbnail": "",
+    "embedMessage": [
+      "Punishments of player ${banned} has been redeemed!",
+      "",
+      "**Reason**: ${reason}",
+      "**By**: ${operator}"
+    ],
+    "embedFields": []
+  }
+}
