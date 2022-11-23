@@ -2,5 +2,7 @@
   "CONFIG_VERSION_DONT_TOUCH_THIS": 1,
   "_comment": "Before changing anything, see https://github.com/Patbox/EntityViewDistance#configuration",
   "mode": "both",
-  "entityViewDistance": {}
+  "entityViewDistance": {
+    "minecraft:item_frame": 256
+  }
 }

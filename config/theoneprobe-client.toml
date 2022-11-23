@@ -11,7 +11,7 @@ waitingForServerTimeout = 2000
 maxPacketToServer = 20000
 #Distance at which the probe works
 #Range: 0.1 ~ 200.0
-probeDistance = 6.0
+probeDistance = 4.0
 #The fluid unit that will be displayed when viewing fluids
 #Example: 1000 mB or 81000 Droplets
 #Allowed Values: DROPLETS, MILIBUCKETS
@@ -52,10 +52,10 @@ showHorseStatSetting = "EXTENDED"
 showSilverfish = "NOT"
 #The distance to the left side of the screen. Use -1 if you don't want to set this
 #Range: -1 ~ 10000
-boxLeftX = 5
+boxLeftX = -1
 #The distance to the right side of the screen. Use -1 if you don't want to set this
 #Range: -1 ~ 10000
-boxRightX = -1
+boxRightX = 5
 #The distance to the top side of the screen. Use -1 if you don't want to set this
 #Range: -1 ~ 10000
 boxTopY = 5
@@ -93,13 +93,13 @@ harvestStyleVanilla = true
 	#Text style. Use a comma delimited list with colors like: 'red', 'green', 'blue', ... or style codes like 'underline', 'bold', 'italic', 'strikethrough', ..."
 	High = "gold"
 	#Text style. Use a comma delimited list with colors like: 'red', 'green', 'blue', ... or style codes like 'underline', 'bold', 'italic', 'strikethrough', ..."
+	Warning = "yellow"
+	#Text style. Use a comma delimited list with colors like: 'red', 'green', 'blue', ... or style codes like 'underline', 'bold', 'italic', 'strikethrough', ..."
 	Progress = "white"
 	#Text style. Use a comma delimited list with colors like: 'red', 'green', 'blue', ... or style codes like 'underline', 'bold', 'italic', 'strikethrough', ..."
 	ModName = "blue,italic"
 	#Text style. Use a comma delimited list with colors like: 'red', 'green', 'blue', ... or style codes like 'underline', 'bold', 'italic', 'strikethrough', ..."
 	Obsolete = "gray,strikethrough"
-	#Text style. Use a comma delimited list with colors like: 'red', 'green', 'blue', ... or style codes like 'underline', 'bold', 'italic', 'strikethrough', ..."
-	Warning = "yellow"
 	#Text style. Use a comma delimited list with colors like: 'red', 'green', 'blue', ... or style codes like 'underline', 'bold', 'italic', 'strikethrough', ..."
 	Label = "gray"
 	#Text style. Use a comma delimited list with colors like: 'red', 'green', 'blue', ... or style codes like 'underline', 'bold', 'italic', 'strikethrough', ..."
@@ -107,9 +107,9 @@ harvestStyleVanilla = true
 	#Text style. Use a comma delimited list with colors like: 'red', 'green', 'blue', ... or style codes like 'underline', 'bold', 'italic', 'strikethrough', ..."
 	Error = "red,bold"
 	#Text style. Use a comma delimited list with colors like: 'red', 'green', 'blue', ... or style codes like 'underline', 'bold', 'italic', 'strikethrough', ..."
-	Info = "white"
-	#Text style. Use a comma delimited list with colors like: 'red', 'green', 'blue', ... or style codes like 'underline', 'bold', 'italic', 'strikethrough', ..."
 	Ok = "green"
+	#Text style. Use a comma delimited list with colors like: 'red', 'green', 'blue', ... or style codes like 'underline', 'bold', 'italic', 'strikethrough', ..."
+	Info = "white"
 	#Text style. Use a comma delimited list with colors like: 'red', 'green', 'blue', ... or style codes like 'underline', 'bold', 'italic', 'strikethrough', ..."
 	Name = "white"
 

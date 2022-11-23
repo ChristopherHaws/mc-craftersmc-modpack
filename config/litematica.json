@@ -1,0 +1,351 @@
+{
+  "Colors": {
+    "areaSelectionBoxSideColor": "#30FFFFFF",
+    "hightlightBlockInInventoryColor": "#30FF30FF",
+    "materialListHudItemCountsColor": "#FFFFAA00",
+    "schematicRebuildBreakPlaceOverlayColor": "#4C33CC33",
+    "schematicRebuildBreakExceptPlaceOverlayColor": "#4CF03030",
+    "schematicRebuildReplaceOverlayColor": "#4CF0A010",
+    "schematicOverlayColorExtra": "#44DC8A2F",
+    "schematicOverlayColorMissing": "#13C3FF00",
+    "schematicOverlayColorWrongBlock": "#4CFF3333",
+    "schematicOverlayColorWrongState": "#4CFF9010"
+  },
+  "Generic": {
+    "areaSelectionsPerWorld": true,
+    "changeSelectedCornerOnMove": true,
+    "cloneAtOriginalPosition": false,
+    "commandDisableFeedback": true,
+    "commandFillNoChunkClamp": false,
+    "commandUseWorldEdit": false,
+    "customSchematicBaseDirectoryEnabled": false,
+    "debugLogging": false,
+    "easyPlaceFirst": true,
+    "easyPlaceHoldEnabled": true,
+    "easyPlaceMode": false,
+    "easyPlaceSinglePlayerHandling": true,
+    "easyPlaceProtocolVersion": "auto",
+    "easyPlaceVanillaReach": false,
+    "executeRequireHoldingTool": true,
+    "fixRailRotation": true,
+    "generateLowercaseNames": false,
+    "highlightBlockInInventory": false,
+    "itemUsePacketCheckBypass": true,
+    "layerModeFollowsPlayer": false,
+    "pasteAlwaysUseFill": false,
+    "pasteIgnoreBlockEntitiesEntirely": false,
+    "pasteIgnoreBlockEntitiesFromFill": true,
+    "pasteIgnoreCommandLimitWithNbtRestore": true,
+    "pasteIgnoreEntities": false,
+    "pasteIgnoreInventories": false,
+    "pasteNbtRestoreBehavior": "none",
+    "pasteToMcFunctionFiles": false,
+    "pasteUseFillCommand": true,
+    "pickBlockAvoidDamageable": true,
+    "pickBlockAvoidTools": false,
+    "pickBlockEnabled": true,
+    "pickBlockShulkers": false,
+    "placementRestriction": false,
+    "placementRestrictionWarn": "actionbar",
+    "renderMaterialListInGuis": true,
+    "renderThreadNoTimeout": true,
+    "signTextPaste": true,
+    "toolItemEnabled": true,
+    "unhideSchematicVCS": false,
+    "pasteReplaceBehavior": "none",
+    "selectionCornersMode": "corners",
+    "commandFillMaxVolume": 32768,
+    "commandLimitPerTick": 1,
+    "commandNameClone": "clone",
+    "commandNameFill": "fill",
+    "commandNameSetblock": "setblock",
+    "commandNameSummon": "summon",
+    "commandTaskInterval": 3,
+    "customSchematicBaseDirectory": "/Users/chaws/Library/Application Support/ManyMC/instances/1.18.2/.minecraft/schematics",
+    "easyPlaceSwapInterval": 200,
+    "pickBlockableSlots": "6,7,8",
+    "toolItem": "minecraft:stick"
+  },
+  "Hotkeys": {
+    "addSelectionBox": {
+      "keys": "LEFT_CONTROL,N"
+    },
+    "cloneSelection": {
+      "keys": "LEFT_CONTROL,D"
+    },
+    "deleteSelectionBox": {
+      "keys": "DELETE"
+    },
+    "easyPlaceUseKey": {
+      "keys": "BUTTON_1"
+    },
+    "easyPlaceToggle": {
+      "keys": "LEFT_CONTROL,E"
+    },
+    "executeOperation": {
+      "keys": "LEFT_CONTROL,V"
+    },
+    "invertGhostBlockRenderState": {
+      "keys": ""
+    },
+    "invertOverlayRenderState": {
+      "keys": ""
+    },
+    "layerModeNext": {
+      "keys": "LEFT_CONTROL,RIGHT_BRACKET"
+    },
+    "layerModePrevious": {
+      "keys": "LEFT_CONTROL,LEFT_BRACKET"
+    },
+    "layerNext": {
+      "keys": "RIGHT_BRACKET"
+    },
+    "layerPrevious": {
+      "keys": "LEFT_BRACKET"
+    },
+    "layerSetHere": {
+      "keys": "LEFT_CONTROL,H"
+    },
+    "nudgeSelectionNegative": {
+      "keys": ""
+    },
+    "nudgeSelectionPositive": {
+      "keys": ""
+    },
+    "moveEntireSelection": {
+      "keys": ""
+    },
+    "openGuiAreaSettings": {
+      "keys": "KP_MULTIPLY"
+    },
+    "openGuiLoadedSchematics": {
+      "keys": ""
+    },
+    "openGuiMainMenu": {
+      "keys": "M"
+    },
+    "openGuiMaterialList": {
+      "keys": "M,L"
+    },
+    "openGuiPlacementSettings": {
+      "keys": "LEFT_CONTROL,P"
+    },
+    "openGuiSchematicPlacements": {
+      "keys": "LEFT_CONTROL,LEFT_SHIFT,P"
+    },
+    "openGuiSchematicProjects": {
+      "keys": ""
+    },
+    "openGuiSchematicVerifier": {
+      "keys": "LEFT_CONTROL,LEFT_SHIFT,V"
+    },
+    "openGuiSelectionManager": {
+      "keys": "LEFT_CONTROL,LEFT_SHIFT,S"
+    },
+    "openGuiSettings": {
+      "keys": "M,C"
+    },
+    "operationModeChangeModifier": {
+      "keys": "LEFT_CONTROL"
+    },
+    "pickBlockFirst": {
+      "keys": "BUTTON_3"
+    },
+    "pickBlockLast": {
+      "keys": "LEFT_CONTROL,BUTTON_3"
+    },
+    "pickBlockToggle": {
+      "keys": "LEFT_CONTROL,B"
+    },
+    "renderInfoOverlay": {
+      "keys": "I"
+    },
+    "renderOverlayThroughBlocks": {
+      "keys": "BUTTON_5"
+    },
+    "rerenderSchematic": {
+      "keys": "F3,M"
+    },
+    "saveAreaAsInMemorySchematic": {
+      "keys": "LEFT_CONTROL,C"
+    },
+    "saveAreaAsSchematicToFile": {
+      "keys": "LEFT_CONTROL,S"
+    },
+    "schematicEditBreakPlaceAll": {
+      "keys": ""
+    },
+    "schematicEditBreakAllExcept": {
+      "keys": ""
+    },
+    "schematicEditBreakPlaceDirection": {
+      "keys": ""
+    },
+    "schematicEditReplaceAll": {
+      "keys": ""
+    },
+    "schematicEditReplaceBlock": {
+      "keys": ""
+    },
+    "schematicEditReplaceDirection": {
+      "keys": ""
+    },
+    "schematicVersionCycleModifier": {
+      "keys": ""
+    },
+    "schematicVersionCycleNext": {
+      "keys": ""
+    },
+    "schematicVersionCyclePrevious": {
+      "keys": ""
+    },
+    "selectionGrabModifier": {
+      "keys": ""
+    },
+    "selectionGrow": {
+      "keys": ""
+    },
+    "selectionGrowModifier": {
+      "keys": "LEFT_CONTROL,G"
+    },
+    "selectionNudgeModifier": {
+      "keys": "LEFT_ALT"
+    },
+    "selectionModeCycle": {
+      "keys": "LEFT_CONTROL,M"
+    },
+    "selectionShrink": {
+      "keys": ""
+    },
+    "setAreaOrigin": {
+      "keys": "LEFT_CONTROL,O"
+    },
+    "setSelectionBoxPosition1": {
+      "keys": "LEFT_CONTROL,1"
+    },
+    "setSelectionBoxPosition2": {
+      "keys": "LEFT_CONTROL,2"
+    },
+    "toggleAllRendering": {
+      "keys": "LEFT_CONTROL,R"
+    },
+    "toggleAreaSelectionBoxesRendering": {
+      "keys": ""
+    },
+    "toggleInfoOverlayRendering": {
+      "keys": ""
+    },
+    "toggleOverlayRendering": {
+      "keys": "M,O"
+    },
+    "toggleOverlayOutlineRendering": {
+      "keys": ""
+    },
+    "toggleOverlaySideRendering": {
+      "keys": ""
+    },
+    "togglePlacementBoxesRendering": {
+      "keys": ""
+    },
+    "togglePlacementRestriction": {
+      "keys": ""
+    },
+    "toggleSchematicBlockRendering": {
+      "keys": ""
+    },
+    "toggleSchematicRendering": {
+      "keys": "M,G"
+    },
+    "toggleSignTextPaste": {
+      "keys": "LEFT_CONTROL,S,P"
+    },
+    "toggleTranslucentRendering": {
+      "keys": "LEFT_CONTROL,T"
+    },
+    "toggleVerifierOverlayRendering": {
+      "keys": ""
+    },
+    "toolEnabledToggle": {
+      "keys": ""
+    },
+    "toolPlaceCorner1": {
+      "keys": "BUTTON_1"
+    },
+    "toolPlaceCorner2": {
+      "keys": "BUTTON_2"
+    },
+    "toolSelectElements": {
+      "keys": "BUTTON_3"
+    },
+    "toolSelectModifierBlock1": {
+      "keys": "LEFT_ALT"
+    },
+    "toolSelectModifierBlock2": {
+      "keys": "LEFT_CONTROL,LEFT_ALT"
+    },
+    "unloadCurrentSchematic": {
+      "keys": "LEFT_CONTROL,U"
+    }
+  },
+  "InfoOverlays": {
+    "blockInfoLinesEnabled": true,
+    "blockInfoOverlayEnabled": true,
+    "infoOverlaysTargetFluids": false,
+    "statusInfoHud": false,
+    "statusInfoHudAuto": true,
+    "verifierOverlayEnabled": true,
+    "warnDisabledRendering": true,
+    "blockInfoLinesAlignment": "top_right",
+    "blockInfoOverlayAlignment": "center",
+    "infoHudAlignment": "bottom_right",
+    "toolHudAlignment": "bottom_left",
+    "blockInfoLinesOffsetX": 4,
+    "blockInfoLinesOffsetY": 4,
+    "blockInfoLinesFontScale": 1.0,
+    "blockInfoOverlayOffsetY": 6,
+    "infoHudMaxLines": 10,
+    "infoHudOffsetX": 1,
+    "infoHudOffsetY": 1,
+    "infoHudScale": 1.0,
+    "materialListHudMaxLines": 20,
+    "materialListHudScale": 0.6,
+    "toolHudOffsetX": 1,
+    "toolHudOffsetY": 1,
+    "toolHudScale": 1.0,
+    "verifierErrorHilightAlpha": 0.2,
+    "verifierErrorHilightMaxPositions": 1000
+  },
+  "Visuals": {
+    "enableRendering": false,
+    "enableSchematicRendering": true,
+    "enableAreaSelectionBoxesRendering": true,
+    "enablePlacementBoxesRendering": true,
+    "enableSchematicBlocksRendering": true,
+    "enableSchematicOverlay": true,
+    "ignoreExistingFluids": false,
+    "overlayReducedInnerSides": true,
+    "renderAreaSelectionBoxSides": true,
+    "renderBlocksAsTranslucent": true,
+    "renderCollidingSchematicBlocks": false,
+    "renderErrorMarkerConnections": false,
+    "renderErrorMarkerSides": true,
+    "renderPlacementBoxSides": false,
+    "renderPlacementEnclosingBox": true,
+    "renderPlacementEnclosingBoxSides": false,
+    "renderTranslucentBlockInnerSides": false,
+    "schematicOverlayEnableOutlines": false,
+    "schematicOverlayEnableSides": true,
+    "schematicOverlayModelOutline": true,
+    "schematicOverlayModelSides": true,
+    "schematicOverlayRenderThroughBlocks": false,
+    "schematicOverlayTypeExtra": true,
+    "schematicOverlayTypeMissing": true,
+    "schematicOverlayTypeWrongBlock": true,
+    "schematicOverlayTypeWrongState": false,
+    "schematicVerifierUseBlockModels": false,
+    "ghostBlockAlpha": 0.55,
+    "placementBoxSideAlpha": 0.2,
+    "schematicOverlayOutlineWidth": 0.0,
+    "schematicOverlayOutlineWidthThrough": 0.0
+  }
+}
