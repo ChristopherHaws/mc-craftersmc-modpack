@@ -1,9 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = ".github/workflows/publish.yaml"
-
-[[files]]
 file = "config/TabTPS/display-configs/default.conf"
 
 [[files]]
