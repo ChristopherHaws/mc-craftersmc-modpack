@@ -27,6 +27,12 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+      - name: Setup Go
+        uses: actions/setup-go@v3
+      - name: Setup Packwiz
+        run: go install github.com/packwiz/packwiz@latest
+      - name: Packwiz Build
+        run: packwiz refresh --build
       - name: Setup Pages
         uses: actions/configure-pages@v2
       - name: Build with Jekyll
