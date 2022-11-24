@@ -1081,7 +1081,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "be7cd5bb98612bff05b734b897003c56dca3d943901fc4d59f2b1a86a5ee0771"
+hash = "335b6f0ea36f58f469be5238172a3b05512c0030ea47e9f01567bdb482ef5a03"
 metafile = true
 
 [[files]]
@@ -1271,7 +1271,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-fabric.pw.toml"
-hash = "ffb9c644759bb685dfe39112e2dec00469fdb48f7baf6fd37a51f0e384c26513"
+hash = "03fdbd0d3a51a96381ede2b1434e0ba5f16fb3af741ad5d36e75e502abc16ac6"
 metafile = true
 
 [[files]]
@@ -1381,7 +1381,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "4b0f375326fb7bf9b4f2cce24896a06bb61b423ab76695e024d8085852fa2d78"
+hash = "3437c4c19f6484284790bc1b1d4b7071022cf956177e4b8f9daf87588222cc1e"
 metafile = true
 
 [[files]]
@@ -1411,7 +1411,7 @@ metafile = true
 
 [[files]]
 file = "mods/fastload.pw.toml"
-hash = "69a1b873db6d2dc35048481fc9e2b563ec6508276edfbda220a80301d665acce"
+hash = "d0835439ed4f894b919fbc595a8a28cc61aee802ff873d1c6bc6b883b9666a12"
 metafile = true
 
 [[files]]
@@ -1421,12 +1421,12 @@ metafile = true
 
 [[files]]
 file = "mods/forge-config-api-port-fabric.pw.toml"
-hash = "bd0b18cb35442cf039162687e5b2999a1e8c77686678ea5a5fd9d964dad08140"
+hash = "de031c77aa7723baf787b0fbaa898a709b54c11e895047ab53ba03d7e349e2d7"
 metafile = true
 
 [[files]]
 file = "mods/forge-config-api-port.pw.toml"
-hash = "215fb8df4474c3893d7ef048065ec87aa02b9e956ce2b8b6f0306ad8943da8b1"
+hash = "4d7ecd93d92bab7af57de8b71aa52676dc93df2b92991702af582b026f256448"
 metafile = true
 
 [[files]]
