@@ -904,10 +904,6 @@ file = "mods/carpet.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/carrier.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/chat-heads.pw.toml"
 metafile = true
 
