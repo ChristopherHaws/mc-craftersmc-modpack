@@ -892,6 +892,10 @@ file = "mods/c2me-fabric.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/c3h6n6o6.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/cachemyenderchest.pw.toml"
 metafile = true
 
@@ -1024,6 +1028,10 @@ file = "mods/enderchests-fabric.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/entity-collision-fps-fix.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/entity-texture-features-fabric.pw.toml"
 metafile = true
 
@@ -1065,6 +1073,10 @@ metafile = true
 
 [[files]]
 file = "mods/fabricproxy-lite.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/fastanim.pw.toml"
 metafile = true
 
 [[files]]
@@ -1141,6 +1153,10 @@ metafile = true
 
 [[files]]
 file = "mods/keepheadnames.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/koroworld-lib.pw.toml"
 metafile = true
 
 [[files]]
@@ -1280,6 +1296,10 @@ file = "mods/rebind-all-the-keys.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/recipe-cache.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/reeses-sodium-options.pw.toml"
 metafile = true
 
@@ -1349,6 +1369,10 @@ metafile = true
 
 [[files]]
 file = "mods/sleep-warp.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/smooth-chunk-save.pw.toml"
 metafile = true
 
 [[files]]

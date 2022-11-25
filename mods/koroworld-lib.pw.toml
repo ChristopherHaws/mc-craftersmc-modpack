@@ -1,0 +1,13 @@
+name = "KoroWorld-Lib"
+filename = "koroworld-lib-2.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/viTMf4AE/versions/2.0.1/koroworld-lib-2.0.1.jar"
+hash-format = "sha1"
+hash = "7297823ca054ebcb517babe8dc6572dbf18a5fbd"
+
+[update]
+[update.modrinth]
+mod-id = "viTMf4AE"
+version = "f01d94UU"
