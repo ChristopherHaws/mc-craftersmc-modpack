@@ -892,10 +892,6 @@ file = "mods/c2me-fabric.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/c3h6n6o6.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/cachemyenderchest.pw.toml"
 metafile = true
 
