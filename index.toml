@@ -1068,10 +1068,6 @@ file = "mods/fabricproxy-lite.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/fabrictailor.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/fastload.pw.toml"
 metafile = true
 
