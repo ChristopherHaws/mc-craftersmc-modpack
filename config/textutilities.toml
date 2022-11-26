@@ -1,2 +1,4 @@
-enabled = true
+signFormattingEnabled = true
+bookFormattingEnabled = true
+anvilFormattingEnabled = true
 formattingCodePrefix = "§"
