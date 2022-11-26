@@ -1,0 +1,246 @@
+version: '3'
+
+# rclone sync ./mc-crafters ./craftersmc/servers/survival --multi-thread-streams=16 --progress --exclude 'dynmap/web/tiles/'
+# rclone sync ./mc-crafters-creative ./craftersmc/servers/creative --multi-thread-streams=16 --progress --exclude 'dynmap/web/tiles/'
+# rclone sync ./mc-proxy ./craftersmc/proxy --multi-thread-streams=16 --progress
+# rclone sync ./rcon-web-admin ./craftersmc/rcon --multi-thread-streams=16 --progress
+
+services:
+  proxy:
+    image: itzg/bungeecord:java17
+    container_name: craftersmc-proxy
+    restart: on-failure:3 # 3 retries
+    depends_on:
+      - survival
+    ports:
+      - 25565:25577
+    volumes:
+      - /mnt/user/appdata/craftersmc/proxy/server:/server
+      - /mnt/user/appdata/craftersmc/proxy/plugins:/plugins
+      - /mnt/user/appdata/craftersmc/proxy/config:/config
+    environment:
+      TYPE: VELOCITY
+      MEMORY: 512m
+
+  survival:
+    image: itzg/minecraft-server:latest
+    container_name: craftersmc-survival
+    restart: on-failure:3 # 3 retries
+    ports:
+      - 25568:25565       # Server: https://survival.craftersmc.com
+      - 8125:8080         # Map: https://map.craftersmc.com
+      - 24454:24454/udp   # SimpleVoiceChat
+      - 25575:25575       # RCON
+    volumes:
+      - /mnt/user/appdata/craftersmc/servers/survival:/data
+    environment:
+      #DEBUG: true
+      EULA: true
+      TYPE: FABRIC
+      INIT_MEMORY: 6G
+      MAX_MEMORY: 6G
+      PACKWIZ_URL: https://modpack.craftersmc.com/pack.toml
+      UID: ${PUID}
+      GID: ${PGID}
+      TZ: America/Los_Angeles
+      JVM_XX_OPTS: >-
+        -XX:+UseG1GC
+        -XX:MaxGCPauseMillis=130
+        -XX:+UnlockExperimentalVMOptions
+        -XX:+UseTransparentHugePages
+        -XX:+DisableExplicitGC
+        -XX:+AlwaysPreTouch
+        -XX:G1NewSizePercent=28
+        -XX:G1HeapRegionSize=16M
+        -XX:G1ReservePercent=20
+        -XX:G1MixedGCCountTarget=3
+        -XX:InitiatingHeapOccupancyPercent=10
+        -XX:G1MixedGCLiveThresholdPercent=90
+        -XX:G1RSetUpdatingPauseTimePercent=0
+        -XX:SurvivorRatio=32
+        -XX:MaxTenuringThreshold=1
+        -XX:G1SATBBufferEnqueueingThresholdPercent=30
+        -XX:G1ConcMarkStepDurationMillis=5
+        -XX:G1ConcRSHotCardLimit=16
+        -XX:G1ConcRefinementServiceIntervalMillis=150
+
+      ####################################################################
+      #                       Minecraft Game Options                     #
+      #                                                                  #
+      # List any game options you want to define here. A full list can   #
+      # be found on the readme.md page on github.                        #
+      ####################################################################
+      OVERRIDE_SERVER_PROPERTIES: true
+      MOTD: CraftersMC
+      LEVEL_TYPE: normal
+      MAX_WORLD_SIZE: 30000
+      SPAWN_PROTECTION: 30000
+      DIFFICULTY: hard
+      VIEW_DISTANCE: 14
+      SIMULATION_DISTANCE: 6
+      MAX_PLAYERS: 50
+      OPS: Chaws
+      ENFORCE_WHITELIST: true
+      ENABLE_WHITELIST: true
+      USE_NATIVE_TRANSPORT: true
+      MAX_TICK_TIME: -1
+      ENABLE_RCON: true
+      RCON_PASSWORD: ${RCON_PASSWORD}
+      FABRIC_PROXY_SECRET: ${VELOCITY_FORWARDING_SECRET}
+      STOP_SERVER_ANNOUNCE_DELAY: 5
+      SNOOPER_ENABLED: false
+
+      ####################################################################
+      #                       Minecraft RCON Options                     #
+      ####################################################################
+      RCON_CMDS_STARTUP:  |-
+        /gamerule doFireTick false
+
+  creative:
+    image: itzg/minecraft-server:latest
+    container_name: craftersmc-creative
+    restart: on-failure:3 # 3 retries
+    ports:
+      - 25569:25565       # Server: https://creative.craftersmc.com
+      - 8126:8080         # Map
+      - 24455:24454/udp   # SimpleVoiceChat
+      - 25576:25575       # RCON
+    volumes:
+      - /mnt/user/appdata/craftersmc/servers/creative:/data
+    environment:
+      #DEBUG: true
+      EULA: true
+      TYPE: FABRIC
+      INIT_MEMORY: 4G
+      MAX_MEMORY: 4G
+      VERSION: LATEST
+      PACKWIZ_URL: https://modpack.craftersmc.com/pack.toml
+      UID: ${PUID}
+      GID: ${PGID}
+      TZ: America/Los_Angeles
+      JVM_XX_OPTS: >-
+        -XX:+UseG1GC
+        -XX:MaxGCPauseMillis=130
+        -XX:+UnlockExperimentalVMOptions
+        -XX:+UseTransparentHugePages
+        -XX:+DisableExplicitGC
+        -XX:+AlwaysPreTouch
+        -XX:G1NewSizePercent=28
+        -XX:G1HeapRegionSize=16M
+        -XX:G1ReservePercent=20
+        -XX:G1MixedGCCountTarget=3
+        -XX:InitiatingHeapOccupancyPercent=10
+        -XX:G1MixedGCLiveThresholdPercent=90
+        -XX:G1RSetUpdatingPauseTimePercent=0
+        -XX:SurvivorRatio=32
+        -XX:MaxTenuringThreshold=1
+        -XX:G1SATBBufferEnqueueingThresholdPercent=30
+        -XX:G1ConcMarkStepDurationMillis=5
+        -XX:G1ConcRSHotCardLimit=16
+        -XX:G1ConcRefinementServiceIntervalMillis=150
+
+      ####################################################################
+      #                       Minecraft Game Options                     #
+      #                                                                  #
+      # List any game options you want to define here. A full list can   #
+      # be found on the readme.md page on github.                        #
+      ####################################################################
+      OVERRIDE_SERVER_PROPERTIES: true
+      MOTD: CraftersMC Creative
+      LEVEL_TYPE: flat
+      MAX_WORLD_SIZE: 30000
+      SPAWN_PROTECTION: 30000
+      DIFFICULTY: peaceful
+      VIEW_DISTANCE: 10
+      SIMULATION_DISTANCE: 6
+      MAX_PLAYERS: 50
+      OPS: Chaws
+      ENFORCE_WHITELIST: true
+      ENABLE_WHITELIST: true
+      USE_NATIVE_TRANSPORT: true
+      MAX_TICK_TIME: -1
+      ENABLE_RCON: true
+      RCON_PASSWORD: ${RCON_PASSWORD}
+      FABRIC_PROXY_SECRET: ${VELOCITY_FORWARDING_SECRET}
+      STOP_SERVER_ANNOUNCE_DELAY: 5
+      SNOOPER_ENABLED: false
+      ALLOW_FLIGHT: true
+      SPAWN_NPCS: false
+      SPAWN_MONSTERS: false
+      SPAWN_ANIMALS: false
+      ANNOUNCE_PLAYER_ACHIEVEMENTS: false
+      ALLOW_NETHER: false
+      GENERATOR_SETTINGS: >-
+        {
+          "flat_world_options": "bedrock,62*dirt,1grass_block;plains"
+        }
+
+      ####################################################################
+      #                       Minecraft RCON Options                     #
+      ####################################################################
+      RCON_CMDS_STARTUP:  |-
+        /gamerule doFireTick false
+
+  stats:
+    image: jeromelabidurie/minecraftstats
+    container_name: craftersmc-survival-stats
+    restart: on-failure:3 # 3 retries
+    depends_on:
+      - survival
+    ports:
+      - 8890:8000   # https://stats.craftersmc.com
+    volumes:
+      - /mnt/user/appdata/craftersmc/servers/survival:/minecraft
+      - /mnt/user/appdata/craftersmc/servers/survival/stats:/config
+    environment:
+      MS_UPDATE_FREQ: 1   # delay (in minutes) between updates of MinecraftStats database
+
+  db:
+    image: mariadb:latest
+    container_name: craftersmc-db
+    restart: on-failure:3 # 3 retries
+    volumes:
+      - /mnt/user/appdata/craftersmc/sql:/var/lib/mysql
+    environment:
+      MARIADB_USER: ${SQL_USER}
+      MARIADB_PASSWORD: ${SQL_PASSWORD}
+      MARIADB_ROOT_PASSWORD: ${SQL_ROOT_PASSWORD}
+      MARIADB_DATABASE: craftersmc
+      MARIADB_AUTO_UPGRADE: true
+
+  dbgui:
+    image: dbeaver/cloudbeaver:latest
+    container_name: craftersmc-db-gui
+    restart: on-failure:3 # 3 retries
+    depends_on:
+      - db
+    ports:
+      - 8978:8978
+
+  cache:
+    image: redis/redis-stack:latest
+    container_name: craftersmc-cache
+    restart: on-failure:3 # 3 retries
+    ports:
+      - 6379:6379   # Redis
+      - 8001:8001   # RedisInsight: http://localhost:8001
+    volumes:
+      - /mnt/user/appdata/craftersmc/cache:/data
+
+  rcon:
+    image: itzg/rcon
+    container_name: craftersmc-rcon
+    restart: on-failure:3 # 3 retries
+    depends_on:
+      - survival
+      - creative
+    ports:
+      - 4326:4326 # WebUI: https://rcon.craftersmc.com
+      - 4327:4327 # WebSocket
+    volumes:
+      - /mnt/user/appdata/craftersmc/rcon:/opt/rcon-web-admin/db
+    environment:
+      RWA_ADMIN: true
+      RWA_USERNAME: chaws
+      RWA_PASSWORD: ${RCON_PASSWORD}
+      RWA_ENV: false

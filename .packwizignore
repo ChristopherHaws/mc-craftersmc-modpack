@@ -11,6 +11,7 @@
 CNAME
 README.md
 MODS.md
+docker-compose.yml
 
 # Exclude config files that shouldn't be in source control
 config/.puzzle_cache/**
