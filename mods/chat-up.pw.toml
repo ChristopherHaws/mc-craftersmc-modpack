@@ -11,3 +11,8 @@ mode = "metadata:curseforge"
 [update.curseforge]
 file-id = 3939764
 project-id = 367561
+
+[option]
+optional = true
+default = true
+description = "Moves the chat hud up a few pixels so it doesnt overlap your hud"

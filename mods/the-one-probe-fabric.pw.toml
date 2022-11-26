@@ -11,3 +11,8 @@ mode = "metadata:curseforge"
 [update.curseforge]
 file-id = 4062215
 project-id = 581847
+
+[option]
+optional = true
+default = true
+description = "Adds a tooltop describing what your are looking at (supports create mod)"

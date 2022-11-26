@@ -11,3 +11,8 @@ hash = "2a1096d1062eb113f83fe9f9ab7c902633e3da1e"
 [update.modrinth]
 mod-id = "oGU9LXKC"
 version = "JEMRlxY2"
+
+[option]
+optional = true
+default = true
+description = "Used to visually measure the distance between two points"

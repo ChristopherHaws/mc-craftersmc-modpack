@@ -11,3 +11,8 @@ hash = "ed03ad25fb8cbfae4637edd5a4dd6386d9a6231e"
 [update.modrinth]
 mod-id = "vRXn3MrA"
 version = "yX5SANL7"
+
+[option]
+optional = true
+default = true
+description = "Fixes cross-chunk stuttering at the expense of additional RAM usage"

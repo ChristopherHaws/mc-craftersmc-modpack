@@ -11,3 +11,8 @@ mode = "metadata:curseforge"
 [update.curseforge]
 file-id = 4083243
 project-id = 402098
+
+[option]
+optional = true
+default = true
+description = "Shows you what is selected when using WorldEdit"

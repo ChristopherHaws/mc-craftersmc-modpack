@@ -892,10 +892,6 @@ file = "mods/c2me-fabric.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/cachemyenderchest.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/carpet-fixes.pw.toml"
 metafile = true
 
@@ -1112,10 +1108,6 @@ file = "mods/image2map.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/improved-signs.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/indium.pw.toml"
 metafile = true
 
@@ -1297,10 +1289,6 @@ metafile = true
 
 [[files]]
 file = "mods/reeses-sodium-options.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/restart-server.pw.toml"
 metafile = true
 
 [[files]]

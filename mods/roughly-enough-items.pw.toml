@@ -11,3 +11,8 @@ hash = "7439c3ae3f2135843eb839cd81e40d7d6f52465e"
 [update.modrinth]
 mod-id = "nfn13YXA"
 version = "qgg4feCN"
+
+[option]
+optional = true
+default = true
+description = "Displays items, recipies, usages, etc for items from Minecraft and all of the installed mods."

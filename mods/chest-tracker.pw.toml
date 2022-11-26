@@ -11,3 +11,8 @@ hash = "6a7e026b2da4d596f73e19312d34b014c35baedc"
 [update.modrinth]
 mod-id = "ni4SrKmq"
 version = "2ZXKiOSh"
+
+[option]
+optional = true
+default = true
+description = "Allows you to easily find an item within the chests around you"
