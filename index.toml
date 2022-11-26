@@ -1448,6 +1448,10 @@ file = "mods/tooltipfix.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/trinkets.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/tweakeroo.pw.toml"
 metafile = true
 
@@ -1501,6 +1505,7 @@ file = "resourcepacks/Xaero's+Minimap+-+Mod+Icons.zip"
 
 [[files]]
 file = "server.properties"
+preserve = true
 
 [[files]]
 file = "shaderpacks/ComplementaryReimagined_r1.3.2.zip"
