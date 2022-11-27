@@ -183,7 +183,7 @@ services:
 
   stats:
     image: jeromelabidurie/minecraftstats
-    container_name: craftersmc-survival-stats
+    container_name: craftersmc-stats
     restart: on-failure:3 # 3 retries
     depends_on:
       - survival
@@ -199,6 +199,8 @@ services:
     image: mariadb:latest
     container_name: craftersmc-db
     restart: on-failure:3 # 3 retries
+    ports:
+      - 3306:3306
     volumes:
       - /mnt/user/appdata/craftersmc/sql:/var/lib/mysql
     environment:

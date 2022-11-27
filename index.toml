@@ -1172,6 +1172,10 @@ file = "mods/leaves-be-gone.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/ledger-databases.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/ledger.pw.toml"
 metafile = true
 
