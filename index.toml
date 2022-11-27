@@ -1295,10 +1295,6 @@ file = "mods/no-sneaking-over-magma.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/notenoughcrashes.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/observable.pw.toml"
 metafile = true
 
