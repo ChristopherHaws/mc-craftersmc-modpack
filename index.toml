@@ -1343,10 +1343,6 @@ file = "mods/rules.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/sbm-jukebox.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/screenshot-to-clipboard.pw.toml"
 metafile = true
 
