@@ -89,6 +89,24 @@ services:
       FABRIC_PROXY_SECRET: ${VELOCITY_FORWARDING_SECRET}
       STOP_SERVER_ANNOUNCE_DELAY: 5
       SNOOPER_ENABLED: false
+      
+      ####################################################################
+      #                       LuckPerms Options                          #
+      ####################################################################
+      LUCKPERMS_SERVER: survival
+      LUCKPERMS_STORAGE_METHOD: mysql
+      LUCKPERMS_DATA_ADDRESS: db
+      LUCKPERMS_DATA_DATABASE: craftersmc-luckperms
+      LUCKPERMS_DATA_USERNAME: ${SQL_USER}
+      LUCKPERMS_DATA_PASSWORD: ${SQL_PASSWORD}
+      
+      ####################################################################
+      #                       Ledger Options                             #
+      ####################################################################
+      DATABASE_EXTENSIONS_DATABASE: mysql
+      DATABASE_EXTENSIONS_URL: db/craftersmc-survival-ledger
+      DATABASE_EXTENSIONS_USERNAME: ${SQL_USER}
+      DATABASE_EXTENSIONS_PASSWORD: ${SQL_PASSWORD}
 
       ####################################################################
       #                       Minecraft RCON Options                     #
@@ -174,6 +192,24 @@ services:
         {
           "flat_world_options": "bedrock,62*dirt,1grass_block;plains"
         }
+      
+      ####################################################################
+      #                       LuckPerms Options                          #
+      ####################################################################
+      LUCKPERMS_SERVER: creative
+      LUCKPERMS_STORAGE_METHOD: mysql
+      LUCKPERMS_DATA_ADDRESS: db
+      LUCKPERMS_DATA_DATABASE: craftersmc-luckperms
+      LUCKPERMS_DATA_USERNAME: ${SQL_USER}
+      LUCKPERMS_DATA_PASSWORD: ${SQL_PASSWORD}
+      
+      ####################################################################
+      #                       Ledger Options                             #
+      ####################################################################
+      DATABASE_EXTENSIONS_DATABASE: mysql
+      DATABASE_EXTENSIONS_URL: db/craftersmc-creative-ledger
+      DATABASE_EXTENSIONS_USERNAME: ${SQL_USER}
+      DATABASE_EXTENSIONS_PASSWORD: ${SQL_PASSWORD}
 
       ####################################################################
       #                       Minecraft RCON Options                     #

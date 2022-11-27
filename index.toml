@@ -1256,6 +1256,10 @@ file = "mods/moreculling.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/mysql-jdbc.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/no-sneaking-over-magma.pw.toml"
 metafile = true
 

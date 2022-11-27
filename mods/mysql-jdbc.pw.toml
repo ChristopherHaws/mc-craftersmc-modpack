@@ -1,0 +1,13 @@
+name = "MySQL JDBC (Fabric/Forge)"
+filename = "mysql-jdbc-8.0.28+20220312-all.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d84e118f9a0166ec98b2bcd0b6267610d2b29666"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3685108
+project-id = 561280
