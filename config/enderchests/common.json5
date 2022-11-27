@@ -48,7 +48,7 @@
 		/* Enables the creation of team chests, if disabled chests can not be set team. 
 		   Does not effect chests that are already set as team
 		*/
-		"team_chests": true,
+		"team_chests": false,
 		// Enables the usage of public bags, if disabled bags must be linked to an upgraded chest before use
 		"public_bags": true,
 		/* Enables the linking of bags to personal chests. 
@@ -58,7 +58,7 @@
 		/* Enables the linking of bags to team chests. 
 		   Does not effect bags that are already linked to team chests
 		*/
-		"team_bags": true,
+		"team_bags": false,
 		// Public chests can be used with automation.
 		"public_automation": true,
 		// Personal chests can be used with automation.

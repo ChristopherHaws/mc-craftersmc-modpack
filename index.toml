@@ -16,9 +16,6 @@ file = "config/advancedtooltips.json5"
 file = "config/advancementinfo.json5"
 
 [[files]]
-file = "config/afkdisplay.toml"
-
-[[files]]
 file = "config/antixray.toml"
 
 [[files]]
@@ -29,6 +26,7 @@ file = "config/axesareweapons.json5"
 
 [[files]]
 file = "config/banhammer/config.json"
+preserve = true
 
 [[files]]
 file = "config/banhammer/discord-messages.json"
@@ -368,6 +366,7 @@ file = "config/leaves_us_in_peace.json"
 
 [[files]]
 file = "config/ledger.toml"
+preserve = true
 
 [[files]]
 file = "config/litematica.json"

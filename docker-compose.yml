@@ -254,6 +254,8 @@ services:
       - db
     ports:
       - 8978:8978
+    volumes:
+      - /mnt/user/appdata/craftersmc/sql/cloudbeaver:/opt/cloudbeaver/workspace
 
   cache:
     image: redis/redis-stack:latest
