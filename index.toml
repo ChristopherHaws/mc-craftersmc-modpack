@@ -851,6 +851,10 @@ file = "mods/armored-elytra.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/audioplayer.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/auto-clicker-fabric.pw.toml"
 metafile = true
 
@@ -1416,6 +1420,10 @@ metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/sound-physics-remastered.pw.toml"
 metafile = true
 
 [[files]]
