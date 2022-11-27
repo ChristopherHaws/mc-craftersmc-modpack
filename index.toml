@@ -679,6 +679,7 @@ file = "dynmap/colorschemes/standard.txt"
 
 [[files]]
 file = "dynmap/configuration.txt"
+preserve = true
 
 [[files]]
 file = "dynmap/custom-lightings.txt"
