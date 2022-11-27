@@ -1276,6 +1276,10 @@ file = "mods/oh-the-biomes-youll-go-fabric.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/pick-block-pro.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/placeholder-api.pw.toml"
 metafile = true
 
@@ -1305,6 +1309,10 @@ metafile = true
 
 [[files]]
 file = "mods/rules.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/sbm-jukebox.pw.toml"
 metafile = true
 
 [[files]]
