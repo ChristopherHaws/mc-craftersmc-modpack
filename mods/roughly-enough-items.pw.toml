@@ -1,18 +1,18 @@
 name = "Roughly Enough Items (REI)"
-filename = "RoughlyEnoughItems-9.1.572.jar"
+filename = "RoughlyEnoughItems-9.1.574.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/nfn13YXA/versions/qgg4feCN/RoughlyEnoughItems-9.1.572.jar"
+url = "https://cdn.modrinth.com/data/nfn13YXA/versions/bcrCOgMt/RoughlyEnoughItems-9.1.574.jar"
 hash-format = "sha1"
-hash = "7439c3ae3f2135843eb839cd81e40d7d6f52465e"
+hash = "c614213111b1cc2d8c20a9148d3202dd836a395e"
 
 [update]
 [update.modrinth]
 mod-id = "nfn13YXA"
-version = "qgg4feCN"
+version = "bcrCOgMt"
 
 [option]
 optional = true
-default = true
 description = "Displays items, recipies, usages, etc for items from Minecraft and all of the installed mods."
+default = true
