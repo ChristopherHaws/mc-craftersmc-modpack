@@ -87,7 +87,7 @@ services:
       ENABLE_RCON: true
       RCON_PASSWORD: ${RCON_PASSWORD}
       FABRIC_PROXY_SECRET: ${VELOCITY_FORWARDING_SECRET}
-      STOP_SERVER_ANNOUNCE_DELAY: 5
+      STOP_SERVER_ANNOUNCE_DELAY: 15
       SNOOPER_ENABLED: false
       
       ####################################################################
@@ -180,7 +180,7 @@ services:
       ENABLE_RCON: true
       RCON_PASSWORD: ${RCON_PASSWORD}
       FABRIC_PROXY_SECRET: ${VELOCITY_FORWARDING_SECRET}
-      STOP_SERVER_ANNOUNCE_DELAY: 5
+      STOP_SERVER_ANNOUNCE_DELAY: 15
       SNOOPER_ENABLED: false
       ALLOW_FLIGHT: true
       SPAWN_NPCS: false
