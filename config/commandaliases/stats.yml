@@ -1,0 +1,8 @@
+commandMode: COMMAND_CUSTOM
+customCommand:
+  parent: stats
+  actions:
+    - command: spark healthreport
+      commandType: CLIENT
+    - command: servercore status
+      commandType: CLIENT

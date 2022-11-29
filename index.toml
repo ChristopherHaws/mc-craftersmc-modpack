@@ -218,6 +218,9 @@ file = "config/collective-fabric.json5"
 file = "config/command-aliases-config.json"
 
 [[files]]
+file = "config/commandaliases/stats.yml"
+
+[[files]]
 file = "config/commandaliases/tpsbar.yml"
 
 [[files]]
@@ -1080,6 +1083,10 @@ metafile = true
 
 [[files]]
 file = "mods/expanded-axe-enchanting.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/fabric-acb.pw.toml"
 metafile = true
 
 [[files]]
