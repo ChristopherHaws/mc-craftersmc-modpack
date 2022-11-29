@@ -1463,6 +1463,10 @@ file = "mods/text-utilities.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/textile_backup.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/the-one-probe-fabric.pw.toml"
 metafile = true
 
