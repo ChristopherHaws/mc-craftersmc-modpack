@@ -1086,10 +1086,6 @@ file = "mods/expanded-axe-enchanting.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/fabric-acb.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/fabric-api.pw.toml"
 metafile = true
 
