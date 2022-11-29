@@ -1,10 +1,5 @@
 version: '3'
 
-# rclone sync ./mc-crafters ./craftersmc/servers/survival --multi-thread-streams=16 --progress --exclude 'dynmap/web/tiles/'
-# rclone sync ./mc-crafters-creative ./craftersmc/servers/creative --multi-thread-streams=16 --progress --exclude 'dynmap/web/tiles/'
-# rclone sync ./mc-proxy ./craftersmc/proxy --multi-thread-streams=16 --progress
-# rclone sync ./rcon-web-admin ./craftersmc/rcon --multi-thread-streams=16 --progress
-
 services:
   proxy:
     image: itzg/bungeecord:java17
@@ -15,9 +10,9 @@ services:
     ports:
       - 25565:25577
     volumes:
-      - /mnt/user/appdata/craftersmc/proxy/server:/server
-      - /mnt/user/appdata/craftersmc/proxy/plugins:/plugins
-      - /mnt/user/appdata/craftersmc/proxy/config:/config
+      - /mnt/nvme/appdata/craftersmc/proxy/server:/server
+      - /mnt/nvme/appdata/craftersmc/proxy/plugins:/plugins
+      - /mnt/nvme/appdata/craftersmc/proxy/config:/config
     environment:
       TYPE: VELOCITY
       MEMORY: 512m
@@ -32,7 +27,7 @@ services:
       - 24454:24454/udp   # SimpleVoiceChat
       - 25575:25575       # RCON
     volumes:
-      - /mnt/user/appdata/craftersmc/servers/survival:/data
+      - /mnt/nvme/appdata/craftersmc/servers/survival:/data
     environment:
       #DEBUG: true
       EULA: true
@@ -124,7 +119,7 @@ services:
       - 24455:24454/udp   # SimpleVoiceChat
       - 25576:25575       # RCON
     volumes:
-      - /mnt/user/appdata/craftersmc/servers/creative:/data
+      - /mnt/nvme/appdata/craftersmc/servers/creative:/data
     environment:
       #DEBUG: true
       EULA: true
@@ -226,8 +221,8 @@ services:
     ports:
       - 8890:8000   # https://stats.craftersmc.com
     volumes:
-      - /mnt/user/appdata/craftersmc/servers/survival:/minecraft
-      - /mnt/user/appdata/craftersmc/servers/survival/stats:/config
+      - /mnt/nvme/appdata/craftersmc/servers/survival:/minecraft
+      - /mnt/nvme/appdata/craftersmc/servers/survival/stats:/config
     environment:
       MS_UPDATE_FREQ: 1   # delay (in minutes) between updates of MinecraftStats database
 
@@ -238,7 +233,7 @@ services:
     ports:
       - 3306:3306
     volumes:
-      - /mnt/user/appdata/craftersmc/sql:/var/lib/mysql
+      - /mnt/nvme/appdata/craftersmc/sql:/var/lib/mysql
     environment:
       MARIADB_USER: ${SQL_USER}
       MARIADB_PASSWORD: ${SQL_PASSWORD}
@@ -255,7 +250,7 @@ services:
     ports:
       - 8978:8978
     volumes:
-      - /mnt/user/appdata/craftersmc/sql/cloudbeaver:/opt/cloudbeaver/workspace
+      - /mnt/nvme/appdata/craftersmc/sql/cloudbeaver:/opt/cloudbeaver/workspace
 
   cache:
     image: redis/redis-stack:latest
@@ -265,7 +260,7 @@ services:
       - 6379:6379   # Redis
       - 8001:8001   # RedisInsight: http://localhost:8001
     volumes:
-      - /mnt/user/appdata/craftersmc/cache:/data
+      - /mnt/nvme/appdata/craftersmc/cache:/data
 
   rcon:
     image: itzg/rcon
@@ -278,7 +273,7 @@ services:
       - 4326:4326 # WebUI: https://rcon.craftersmc.com
       - 4327:4327 # WebSocket
     volumes:
-      - /mnt/user/appdata/craftersmc/rcon:/opt/rcon-web-admin/db
+      - /mnt/nvme/appdata/craftersmc/rcon:/opt/rcon-web-admin/db
     environment:
       RWA_ADMIN: true
       RWA_USERNAME: chaws
