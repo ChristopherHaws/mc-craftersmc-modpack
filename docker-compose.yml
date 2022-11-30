@@ -44,26 +44,27 @@ services:
       #                                                                  #
       # Works On: All versions of java                                   #
       ####################################################################
-      JVM_XX_OPTS: >-
-        -XX:+UseG1GC
-        -XX:MaxGCPauseMillis=130
-        -XX:+UnlockExperimentalVMOptions
-        -XX:+UseTransparentHugePages
-        -XX:+DisableExplicitGC
-        -XX:+AlwaysPreTouch
-        -XX:G1NewSizePercent=28
-        -XX:G1HeapRegionSize=16M
-        -XX:G1ReservePercent=20
-        -XX:G1MixedGCCountTarget=3
-        -XX:InitiatingHeapOccupancyPercent=10
-        -XX:G1MixedGCLiveThresholdPercent=90
-        -XX:G1RSetUpdatingPauseTimePercent=0
-        -XX:SurvivorRatio=32
-        -XX:MaxTenuringThreshold=1
-        -XX:G1SATBBufferEnqueueingThresholdPercent=30
-        -XX:G1ConcMarkStepDurationMillis=5
-        -XX:G1ConcRSHotCardLimit=16
-        -XX:G1ConcRefinementServiceIntervalMillis=150
+      # https://github.com/brucethemoose/Minecraft-Performance-Flags-Benchmarks
+      # JVM_XX_OPTS: >-
+      #   -XX:+UseG1GC
+      #   -XX:MaxGCPauseMillis=130
+      #   -XX:+UnlockExperimentalVMOptions
+      #   -XX:+UseTransparentHugePages
+      #   -XX:+DisableExplicitGC
+      #   -XX:+AlwaysPreTouch
+      #   -XX:G1NewSizePercent=28
+      #   -XX:G1HeapRegionSize=16M
+      #   -XX:G1ReservePercent=20
+      #   -XX:G1MixedGCCountTarget=3
+      #   -XX:InitiatingHeapOccupancyPercent=10
+      #   -XX:G1MixedGCLiveThresholdPercent=90
+      #   -XX:G1RSetUpdatingPauseTimePercent=0
+      #   -XX:SurvivorRatio=32
+      #   -XX:MaxTenuringThreshold=1
+      #   -XX:G1SATBBufferEnqueueingThresholdPercent=30
+      #   -XX:G1ConcMarkStepDurationMillis=5
+      #   -XX:G1ConcRSHotCardLimit=16
+      #   -XX:G1ConcRefinementServiceIntervalMillis=150
       
       ####################################################################
       #                       Shenandoah Garbage Collection              #
@@ -71,16 +72,16 @@ services:
       # Works On: Temurin (https://adoptium.net/)                        #
       ####################################################################
       # https://www.reddit.com/r/feedthebeast/comments/r24zg4/upgrade_your_java_to_one_that_has_the_shenandoah/
-      # JVM_XX_OPTS: >-
-      #   -XX:+UseShenandoahGC
-      #   -XX:+UnlockExperimentalVMOptions
-      #   -XX:+AlwaysPreTouch
-      #   -XX:+UseStringDeduplication
-      #   -Dfml.ignorePatchDiscrepancies=true
-      #   -Dfml.ignoreInvalidMinecraftCertificates=true
-      #   -XX:-OmitStackTraceInFastThrow
-      #   -XX:+OptimizeStringConcat
-      #   -Dfml.readTimeout=180
+      JVM_XX_OPTS: >-
+        -XX:+UseShenandoahGC
+        -XX:+UnlockExperimentalVMOptions
+        -XX:+AlwaysPreTouch
+        -XX:+UseStringDeduplication
+        -Dfml.ignorePatchDiscrepancies=true
+        -Dfml.ignoreInvalidMinecraftCertificates=true
+        -XX:-OmitStackTraceInFastThrow
+        -XX:+OptimizeStringConcat
+        -Dfml.readTimeout=180
 
       ####################################################################
       #                       Minecraft Game Options                     #
@@ -136,6 +137,9 @@ services:
     image: itzg/minecraft-server:latest
     container_name: craftersmc-creative
     restart: on-failure:3 # 3 retries
+    depends_on:
+      # Loading both servers at the same time slows down restarts
+      - survival
     ports:
       - 25569:25565       # Server: https://creative.craftersmc.com
       - 8126:8080         # Map
