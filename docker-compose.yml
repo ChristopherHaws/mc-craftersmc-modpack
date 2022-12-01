@@ -40,6 +40,14 @@ services:
       TZ: America/Los_Angeles
       
       ####################################################################
+      #                Aikars Flags - Garbage Collection                 #
+      #                                                                  #
+      # Works On: All versions of java                                   #
+      ####################################################################
+      # https://aikar.co/2018/07/02/tuning-the-jvm-g1gc-garbage-collector-flags-for-minecraft/
+      USE_AIKAR_FLAGS: true
+
+      ####################################################################
       #                       G1GC Garbage Collection                    #
       #                                                                  #
       # Works On: All versions of java                                   #
@@ -72,16 +80,16 @@ services:
       # Works On: Temurin (https://adoptium.net/)                        #
       ####################################################################
       # https://www.reddit.com/r/feedthebeast/comments/r24zg4/upgrade_your_java_to_one_that_has_the_shenandoah/
-      JVM_XX_OPTS: >-
-        -XX:+UseShenandoahGC
-        -XX:+UnlockExperimentalVMOptions
-        -XX:+AlwaysPreTouch
-        -XX:+UseStringDeduplication
-        -Dfml.ignorePatchDiscrepancies=true
-        -Dfml.ignoreInvalidMinecraftCertificates=true
-        -XX:-OmitStackTraceInFastThrow
-        -XX:+OptimizeStringConcat
-        -Dfml.readTimeout=180
+      # JVM_XX_OPTS: >-
+      #   -XX:+UseShenandoahGC
+      #   -XX:+UnlockExperimentalVMOptions
+      #   -XX:+AlwaysPreTouch
+      #   -XX:+UseStringDeduplication
+      #   -Dfml.ignorePatchDiscrepancies=true
+      #   -Dfml.ignoreInvalidMinecraftCertificates=true
+      #   -XX:-OmitStackTraceInFastThrow
+      #   -XX:+OptimizeStringConcat
+      #   -Dfml.readTimeout=180
 
       ####################################################################
       #                       Minecraft Game Options                     #
@@ -158,6 +166,14 @@ services:
       UID: ${PUID}
       GID: ${PGID}
       TZ: America/Los_Angeles
+      
+      ####################################################################
+      #                Aikars Flags - Garbage Collection                 #
+      #                                                                  #
+      # Works On: All versions of java                                   #
+      ####################################################################
+      # https://aikar.co/2018/07/02/tuning-the-jvm-g1gc-garbage-collector-flags-for-minecraft/
+      USE_AIKAR_FLAGS: true
 
       ####################################################################
       #                       G1GC Garbage Collection                    #
@@ -191,16 +207,16 @@ services:
       # Works On: Temurin (https://adoptium.net/)                        #
       ####################################################################
       # https://www.reddit.com/r/feedthebeast/comments/r24zg4/upgrade_your_java_to_one_that_has_the_shenandoah/
-      JVM_XX_OPTS: >-
-        -XX:+UseShenandoahGC
-        -XX:+UnlockExperimentalVMOptions
-        -XX:+AlwaysPreTouch
-        -XX:+UseStringDeduplication
-        -Dfml.ignorePatchDiscrepancies=true
-        -Dfml.ignoreInvalidMinecraftCertificates=true
-        -XX:-OmitStackTraceInFastThrow
-        -XX:+OptimizeStringConcat
-        -Dfml.readTimeout=180
+      # JVM_XX_OPTS: >-
+      #   -XX:+UseShenandoahGC
+      #   -XX:+UnlockExperimentalVMOptions
+      #   -XX:+AlwaysPreTouch
+      #   -XX:+UseStringDeduplication
+      #   -Dfml.ignorePatchDiscrepancies=true
+      #   -Dfml.ignoreInvalidMinecraftCertificates=true
+      #   -XX:-OmitStackTraceInFastThrow
+      #   -XX:+OptimizeStringConcat
+      #   -Dfml.readTimeout=180
 
       ####################################################################
       #                       Minecraft Game Options                     #
