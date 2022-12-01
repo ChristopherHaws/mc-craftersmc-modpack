@@ -1,4 +1,149 @@
-version: '3'
+version: '3.7'
+
+####################################################################
+#                   Garbage Collection Options                     #
+####################################################################
+x-velocity-gc-g1gc: &velocity-gc-g1gc
+  # https://docs.papermc.io/velocity/tuning#tune-your-startup-flags
+  JVM_OPTS: >-
+    -XX:+UseG1GC
+    -XX:G1HeapRegionSize=4M
+    -XX:+UnlockExperimentalVMOptions
+    -XX:+ParallelRefProcEnabled
+    -XX:+AlwaysPreTouch
+    -XX:MaxInlineLevel=15
+
+x-velocity-gc-zgc: &velocity-gc-zgc
+  # https://krusic22.com/2020/03/25/higher-performance-crafting-using-jdk11-and-zgc/
+  # https://kstefanj.github.io/2021/05/19/large-pages-and-java.html
+  JVM_OPTS: >-
+    -XX:+UseG1GC
+    -XX:G1HeapRegionSize=4M
+    -XX:+UnlockExperimentalVMOptions
+    -XX:+ParallelRefProcEnabled
+    -XX:+AlwaysPreTouch
+    -XX:MaxInlineLevel=15
+
+x-minecraft-gc-aikars: &minecraft-gc-aikars
+  # https://aikar.co/2018/07/02/tuning-the-jvm-g1gc-garbage-collector-flags-for-minecraft/
+  USE_AIKAR_FLAGS: true
+  # https://kstefanj.github.io/2021/05/19/large-pages-and-java.html
+  JVM_XX_OPTS: >-
+    -Xlog:gc+init
+    -Xlog:pagesize
+    -XX:+UseTransparentHugePages
+
+x-minecraft-gc-g1gc: &minecraft-gc-g1gc
+  # https://github.com/brucethemoose/Minecraft-Performance-Flags-Benchmarks
+  JVM_XX_OPTS: >-
+    -XX:+UseG1GC
+    -XX:MaxGCPauseMillis=130
+    -XX:+UnlockExperimentalVMOptions
+    -XX:+UseTransparentHugePages
+    -XX:+DisableExplicitGC
+    -XX:+AlwaysPreTouch
+    -XX:G1NewSizePercent=28
+    -XX:G1HeapRegionSize=16M
+    -XX:G1ReservePercent=20
+    -XX:G1MixedGCCountTarget=3
+    -XX:InitiatingHeapOccupancyPercent=10
+    -XX:G1MixedGCLiveThresholdPercent=90
+    -XX:G1RSetUpdatingPauseTimePercent=0
+    -XX:SurvivorRatio=32
+    -XX:MaxTenuringThreshold=1
+    -XX:G1SATBBufferEnqueueingThresholdPercent=30
+    -XX:G1ConcMarkStepDurationMillis=5
+    -XX:G1ConcRSHotCardLimit=16
+    -XX:G1ConcRefinementServiceIntervalMillis=150
+
+x-minecraft-gc-shenandoah: &minecraft-gc-shenandoah
+  # https://www.reddit.com/r/feedthebeast/comments/r24zg4/upgrade_your_java_to_one_that_has_the_shenandoah/
+  JVM_XX_OPTS: >-
+    -XX:+UseShenandoahGC
+    -XX:+UnlockExperimentalVMOptions
+    -XX:+AlwaysPreTouch
+    -XX:+UseStringDeduplication
+    -Dfml.ignorePatchDiscrepancies=true
+    -Dfml.ignoreInvalidMinecraftCertificates=true
+    -XX:-OmitStackTraceInFastThrow
+    -XX:+OptimizeStringConcat
+    -Dfml.readTimeout=180
+
+x-minecraft-gc-zgc: &minecraft-gc-zgc
+  # https://krusic22.com/2020/03/25/higher-performance-crafting-using-jdk11-and-zgc/
+  # https://kstefanj.github.io/2021/05/19/large-pages-and-java.html
+  JVM_XX_OPTS: >-
+    -XX:+UnlockExperimentalVMOptions
+    -XX:+DisableExplicitGC
+    -XX:-UseParallelGC
+    -XX:-UseG1GC
+    -XX:+UseZGC
+    -Xlog:gc+init
+    -Xlog:pagesize
+    -XX:+UseTransparentHugePages
+    -XX:+AlwaysPreTouch
+
+####################################################################
+#                   Minecraft Options                              #
+####################################################################
+x-minecraft-options: &minecraft-options
+  #DEBUG: true
+  EULA: true
+
+  # https://github.com/itzg/docker-minecraft-server/blob/master/README.md#replacing-variables-inside-configs
+  REPLACE_ENV_IN_PLACE: true
+  REPLACE_ENV_DURING_SYNC: true
+  REPLACE_ENV_VARIABLE_PREFIX: CRAFTERSMC_
+  
+  # Server Options
+  TYPE: FABRIC
+  PACKWIZ_URL: https://modpack.craftersmc.com/pack.toml
+  UID: ${PUID}
+  GID: ${PGID}
+  TZ: America/Los_Angeles
+
+  # server.properties overrides
+  OVERRIDE_SERVER_PROPERTIES: true
+  MOTD: CraftersMC
+  LEVEL_TYPE: normal
+  MAX_WORLD_SIZE: 30000
+  SPAWN_PROTECTION: 30000
+  DIFFICULTY: hard
+  VIEW_DISTANCE: 14
+  SIMULATION_DISTANCE: 6
+  MAX_PLAYERS: 50
+  OPS: Chaws
+  ENFORCE_WHITELIST: true
+  ENABLE_WHITELIST: true
+  USE_NATIVE_TRANSPORT: true
+  MAX_TICK_TIME: -1
+  ENABLE_RCON: true
+  RCON_PASSWORD: ${RCON_PASSWORD}
+  FABRIC_PROXY_SECRET: ${VELOCITY_FORWARDING_SECRET}
+  STOP_SERVER_ANNOUNCE_DELAY: 15
+  SNOOPER_ENABLED: false
+
+  # Garbage Collection
+  # <<: *minecraft-gc-aikars
+  # <<: *minecraft-gc-g1gc
+  # <<: *minecraft-gc-shenandoah
+  <<: *minecraft-gc-zgc
+
+  # LuckPerms
+  LUCKPERMS_STORAGE_METHOD: mysql
+  LUCKPERMS_DATA_ADDRESS: db
+  LUCKPERMS_DATA_DATABASE: craftersmc-luckperms
+  LUCKPERMS_DATA_USERNAME: ${SQL_USER}
+  LUCKPERMS_DATA_PASSWORD: ${SQL_PASSWORD}
+  
+  # Ledger
+  LEDGER_DATABASE_EXTENSIONS_DATABASE: mysql
+  LEDGER_DATABASE_EXTENSIONS_USERNAME: ${SQL_USER}
+  LEDGER_DATABASE_EXTENSIONS_PASSWORD: ${SQL_PASSWORD}
+
+  # RCON
+  RCON_CMDS_STARTUP:  |-
+    /gamerule doFireTick false
 
 services:
   proxy:
@@ -16,178 +161,30 @@ services:
     environment:
       TYPE: VELOCITY
       MEMORY: 512m
-      ####################################################################
-      #                       G1GC Garbage Collection                    #
-      ####################################################################
-      # https://docs.papermc.io/velocity/tuning#tune-your-startup-flags
-      # JVM_OPTS: >-
-      #   -XX:+UseG1GC
-      #   -XX:G1HeapRegionSize=4M
-      #   -XX:+UnlockExperimentalVMOptions
-      #   -XX:+ParallelRefProcEnabled
-      #   -XX:+AlwaysPreTouch
-      #   -XX:MaxInlineLevel=15
-
-      ####################################################################
-      #                       ZGC Garbage Collection                     #
-      ####################################################################
-      # https://krusic22.com/2020/03/25/higher-performance-crafting-using-jdk11-and-zgc/
-      # https://kstefanj.github.io/2021/05/19/large-pages-and-java.html
-      JVM_OPTS: >-
-        -XX:+UnlockExperimentalVMOptions
-        -XX:+DisableExplicitGC
-        -XX:-UseParallelGC
-        -XX:-UseG1GC
-        -XX:+UseZGC
-        -Xlog:gc+init
-        -Xlog:pagesize
-        -XX:+UseTransparentHugePages
-        -XX:+AlwaysPreTouch
+      # <<: *velocity-gc-g1gc
+      <<: *velocity-gc-zgc
 
   survival:
     image: itzg/minecraft-server:latest
     container_name: craftersmc-survival
     restart: on-failure:3 # 3 retries
     ports:
-      - 25568:25565       # Server: https://survival.craftersmc.com
+      - 25568:25565       # Server: survival.craftersmc.com
       - 8125:8080         # Map: https://map.craftersmc.com
       - 24454:24454/udp   # SimpleVoiceChat
       - 25575:25575       # RCON
     volumes:
       - /mnt/nvme/appdata/craftersmc/servers/survival:/data
     environment:
-      #DEBUG: true
-      EULA: true
-      TYPE: FABRIC
+      <<: *minecraft-options
       INIT_MEMORY: 8G
       MAX_MEMORY: 8G
-      PACKWIZ_URL: https://modpack.craftersmc.com/pack.toml
-      UID: ${PUID}
-      GID: ${PGID}
-      TZ: America/Los_Angeles
 
-      # https://github.com/itzg/docker-minecraft-server/blob/master/README.md#replacing-variables-inside-configs
-      REPLACE_ENV_IN_PLACE: true
-      REPLACE_ENV_DURING_SYNC: true
-      REPLACE_ENV_VARIABLE_PREFIX: CRAFTERSMC_
-      
-      ####################################################################
-      #                Aikars Flags - Garbage Collection                 #
-      ####################################################################
-      # https://aikar.co/2018/07/02/tuning-the-jvm-g1gc-garbage-collector-flags-for-minecraft/
-      # USE_AIKAR_FLAGS: true
-
-      # https://kstefanj.github.io/2021/05/19/large-pages-and-java.html
-      # JVM_XX_OPTS: >-
-      #   -Xlog:gc+init
-      #   -Xlog:pagesize
-      #   -XX:+UseTransparentHugePages
-
-      ####################################################################
-      #                       G1GC Garbage Collection                    #
-      ####################################################################
-      # https://github.com/brucethemoose/Minecraft-Performance-Flags-Benchmarks
-      # JVM_XX_OPTS: >-
-      #   -XX:+UseG1GC
-      #   -XX:MaxGCPauseMillis=130
-      #   -XX:+UnlockExperimentalVMOptions
-      #   -XX:+UseTransparentHugePages
-      #   -XX:+DisableExplicitGC
-      #   -XX:+AlwaysPreTouch
-      #   -XX:G1NewSizePercent=28
-      #   -XX:G1HeapRegionSize=16M
-      #   -XX:G1ReservePercent=20
-      #   -XX:G1MixedGCCountTarget=3
-      #   -XX:InitiatingHeapOccupancyPercent=10
-      #   -XX:G1MixedGCLiveThresholdPercent=90
-      #   -XX:G1RSetUpdatingPauseTimePercent=0
-      #   -XX:SurvivorRatio=32
-      #   -XX:MaxTenuringThreshold=1
-      #   -XX:G1SATBBufferEnqueueingThresholdPercent=30
-      #   -XX:G1ConcMarkStepDurationMillis=5
-      #   -XX:G1ConcRSHotCardLimit=16
-      #   -XX:G1ConcRefinementServiceIntervalMillis=150
-      
-      ####################################################################
-      #                       Shenandoah Garbage Collection              #
-      ####################################################################
-      # https://www.reddit.com/r/feedthebeast/comments/r24zg4/upgrade_your_java_to_one_that_has_the_shenandoah/
-      # JVM_XX_OPTS: >-
-      #   -XX:+UseShenandoahGC
-      #   -XX:+UnlockExperimentalVMOptions
-      #   -XX:+AlwaysPreTouch
-      #   -XX:+UseStringDeduplication
-      #   -Dfml.ignorePatchDiscrepancies=true
-      #   -Dfml.ignoreInvalidMinecraftCertificates=true
-      #   -XX:-OmitStackTraceInFastThrow
-      #   -XX:+OptimizeStringConcat
-      #   -Dfml.readTimeout=180
-
-      ####################################################################
-      #                       ZGC Garbage Collection                     #
-      ####################################################################
-      # https://krusic22.com/2020/03/25/higher-performance-crafting-using-jdk11-and-zgc/
-      # https://kstefanj.github.io/2021/05/19/large-pages-and-java.html
-      JVM_XX_OPTS: >-
-        -XX:+UnlockExperimentalVMOptions
-        -XX:+DisableExplicitGC
-        -XX:-UseParallelGC
-        -XX:-UseG1GC
-        -XX:+UseZGC
-        -Xlog:gc+init
-        -Xlog:pagesize
-        -XX:+UseTransparentHugePages
-        -XX:+AlwaysPreTouch
-
-      ####################################################################
-      #                       Minecraft Game Options                     #
-      #                                                                  #
-      # List any game options you want to define here. A full list can   #
-      # be found on the readme.md page on github.                        #
-      ####################################################################
-      OVERRIDE_SERVER_PROPERTIES: true
-      MOTD: CraftersMC
-      LEVEL_TYPE: normal
-      MAX_WORLD_SIZE: 30000
-      SPAWN_PROTECTION: 30000
-      DIFFICULTY: hard
-      VIEW_DISTANCE: 14
-      SIMULATION_DISTANCE: 6
-      MAX_PLAYERS: 50
-      OPS: Chaws
-      ENFORCE_WHITELIST: true
-      ENABLE_WHITELIST: true
-      USE_NATIVE_TRANSPORT: true
-      MAX_TICK_TIME: -1
-      ENABLE_RCON: true
-      RCON_PASSWORD: ${RCON_PASSWORD}
-      FABRIC_PROXY_SECRET: ${VELOCITY_FORWARDING_SECRET}
-      STOP_SERVER_ANNOUNCE_DELAY: 15
-      SNOOPER_ENABLED: false
-      
-      ####################################################################
-      #                       LuckPerms Options                          #
-      ####################################################################
+      # LuckPerms
       LUCKPERMS_SERVER: survival
-      LUCKPERMS_STORAGE_METHOD: mysql
-      LUCKPERMS_DATA_ADDRESS: db
-      LUCKPERMS_DATA_DATABASE: craftersmc-luckperms
-      LUCKPERMS_DATA_USERNAME: ${SQL_USER}
-      LUCKPERMS_DATA_PASSWORD: ${SQL_PASSWORD}
       
-      ####################################################################
-      #                       Ledger Options                             #
-      ####################################################################
-      DATABASE_EXTENSIONS_DATABASE: mysql
-      DATABASE_EXTENSIONS_URL: db/craftersmc-survival-ledger
-      DATABASE_EXTENSIONS_USERNAME: ${SQL_USER}
-      DATABASE_EXTENSIONS_PASSWORD: ${SQL_PASSWORD}
-
-      ####################################################################
-      #                       Minecraft RCON Options                     #
-      ####################################################################
-      RCON_CMDS_STARTUP:  |-
-        /gamerule doFireTick false
+      # Ledger
+      LEDGER_DATABASE_EXTENSIONS_URL: db/craftersmc-survival-ledger
 
   creative:
     image: itzg/minecraft-server:latest
@@ -197,121 +194,21 @@ services:
       # Loading both servers at the same time slows down restarts
       - survival
     ports:
-      - 25569:25565       # Server: https://creative.craftersmc.com
+      - 25569:25565       # Server: creative.craftersmc.com
       - 8126:8080         # Map
       - 24455:24454/udp   # SimpleVoiceChat
       - 25576:25575       # RCON
     volumes:
       - /mnt/nvme/appdata/craftersmc/servers/creative:/data
     environment:
-      #DEBUG: true
-      EULA: true
-      TYPE: FABRIC
+      <<: *minecraft-options
       INIT_MEMORY: 4G
       MAX_MEMORY: 4G
-      VERSION: LATEST
-      PACKWIZ_URL: https://modpack.craftersmc.com/pack.toml
-      UID: ${PUID}
-      GID: ${PGID}
-      TZ: America/Los_Angeles
 
-      # https://github.com/itzg/docker-minecraft-server/blob/master/README.md#replacing-variables-inside-configs
-      REPLACE_ENV_IN_PLACE: true
-      REPLACE_ENV_DURING_SYNC: true
-      REPLACE_ENV_VARIABLE_PREFIX: CRAFTERSMC_
-      
-      ####################################################################
-      #                Aikars Flags - Garbage Collection                 #
-      ####################################################################
-      # https://aikar.co/2018/07/02/tuning-the-jvm-g1gc-garbage-collector-flags-for-minecraft/
-      # USE_AIKAR_FLAGS: true
-
-      # https://kstefanj.github.io/2021/05/19/large-pages-and-java.html
-      # JVM_XX_OPTS: >-
-      #   -Xlog:gc+init
-      #   -Xlog:pagesize
-      #   -XX:+UseTransparentHugePages
-
-      ####################################################################
-      #                       G1GC Garbage Collection                    #
-      ####################################################################
-      # JVM_XX_OPTS: >-
-      #   -XX:+UseG1GC
-      #   -XX:MaxGCPauseMillis=130
-      #   -XX:+UnlockExperimentalVMOptions
-      #   -XX:+UseTransparentHugePages
-      #   -XX:+DisableExplicitGC
-      #   -XX:+AlwaysPreTouch
-      #   -XX:G1NewSizePercent=28
-      #   -XX:G1HeapRegionSize=16M
-      #   -XX:G1ReservePercent=20
-      #   -XX:G1MixedGCCountTarget=3
-      #   -XX:InitiatingHeapOccupancyPercent=10
-      #   -XX:G1MixedGCLiveThresholdPercent=90
-      #   -XX:G1RSetUpdatingPauseTimePercent=0
-      #   -XX:SurvivorRatio=32
-      #   -XX:MaxTenuringThreshold=1
-      #   -XX:G1SATBBufferEnqueueingThresholdPercent=30
-      #   -XX:G1ConcMarkStepDurationMillis=5
-      #   -XX:G1ConcRSHotCardLimit=16
-      #   -XX:G1ConcRefinementServiceIntervalMillis=150
-      
-      ####################################################################
-      #                       Shenandoah Garbage Collection              #
-      ####################################################################
-      # https://www.reddit.com/r/feedthebeast/comments/r24zg4/upgrade_your_java_to_one_that_has_the_shenandoah/
-      # JVM_XX_OPTS: >-
-      #   -XX:+UseShenandoahGC
-      #   -XX:+UnlockExperimentalVMOptions
-      #   -XX:+AlwaysPreTouch
-      #   -XX:+UseStringDeduplication
-      #   -Dfml.ignorePatchDiscrepancies=true
-      #   -Dfml.ignoreInvalidMinecraftCertificates=true
-      #   -XX:-OmitStackTraceInFastThrow
-      #   -XX:+OptimizeStringConcat
-      #   -Dfml.readTimeout=180
-
-      ####################################################################
-      #                       ZGC Garbage Collection                     #
-      ####################################################################
-      # https://krusic22.com/2020/03/25/higher-performance-crafting-using-jdk11-and-zgc/
-      # https://kstefanj.github.io/2021/05/19/large-pages-and-java.html
-      JVM_XX_OPTS: >-
-        -XX:+UnlockExperimentalVMOptions
-        -XX:+DisableExplicitGC
-        -XX:-UseParallelGC
-        -XX:-UseG1GC
-        -XX:+UseZGC
-        -Xlog:gc+init
-        -Xlog:pagesize
-        -XX:+UseTransparentHugePages
-        -XX:+AlwaysPreTouch
-
-      ####################################################################
-      #                       Minecraft Game Options                     #
-      #                                                                  #
-      # List any game options you want to define here. A full list can   #
-      # be found on the readme.md page on github.                        #
-      ####################################################################
-      OVERRIDE_SERVER_PROPERTIES: true
+      # server.properties overrides
       MOTD: CraftersMC Creative
       LEVEL_TYPE: flat
-      MAX_WORLD_SIZE: 30000
-      SPAWN_PROTECTION: 30000
       DIFFICULTY: peaceful
-      VIEW_DISTANCE: 10
-      SIMULATION_DISTANCE: 6
-      MAX_PLAYERS: 50
-      OPS: Chaws
-      ENFORCE_WHITELIST: true
-      ENABLE_WHITELIST: true
-      USE_NATIVE_TRANSPORT: true
-      MAX_TICK_TIME: -1
-      ENABLE_RCON: true
-      RCON_PASSWORD: ${RCON_PASSWORD}
-      FABRIC_PROXY_SECRET: ${VELOCITY_FORWARDING_SECRET}
-      STOP_SERVER_ANNOUNCE_DELAY: 15
-      SNOOPER_ENABLED: false
       ALLOW_FLIGHT: true
       SPAWN_NPCS: false
       SPAWN_MONSTERS: false
@@ -323,29 +220,11 @@ services:
           "flat_world_options": "bedrock,62*dirt,1grass_block;plains"
         }
       
-      ####################################################################
-      #                       LuckPerms Options                          #
-      ####################################################################
+      # LuckPerms
       LUCKPERMS_SERVER: creative
-      LUCKPERMS_STORAGE_METHOD: mysql
-      LUCKPERMS_DATA_ADDRESS: db
-      LUCKPERMS_DATA_DATABASE: craftersmc-luckperms
-      LUCKPERMS_DATA_USERNAME: ${SQL_USER}
-      LUCKPERMS_DATA_PASSWORD: ${SQL_PASSWORD}
       
-      ####################################################################
-      #                       Ledger Options                             #
-      ####################################################################
-      DATABASE_EXTENSIONS_DATABASE: mysql
-      DATABASE_EXTENSIONS_URL: db/craftersmc-creative-ledger
-      DATABASE_EXTENSIONS_USERNAME: ${SQL_USER}
-      DATABASE_EXTENSIONS_PASSWORD: ${SQL_PASSWORD}
-
-      ####################################################################
-      #                       Minecraft RCON Options                     #
-      ####################################################################
-      RCON_CMDS_STARTUP:  |-
-        /gamerule doFireTick false
+      # Ledger
+      LEDGER_DATABASE_EXTENSIONS_URL: db/craftersmc-creative-ledger
 
   stats:
     image: jeromelabidurie/minecraftstats
