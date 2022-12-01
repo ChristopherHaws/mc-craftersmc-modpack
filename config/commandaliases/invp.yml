@@ -1,0 +1,4 @@
+commandMode: COMMAND_REDIRECT_NOARG
+redirectCommand:
+  command: invp
+  redirectTo: view inv @p

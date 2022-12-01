@@ -15,8 +15,9 @@
     "",
     "<color:#555555><strikethrough>                          </strikethrough></color>",
     "",
-    "<gray>TPS: %server:tps_colored% <dark_gray>|</dark_gray> <gray>Ping: <color:#ffba26>%player:ping%</color>",
-    "",
+    "<gray>TPS:</gray> %server:tps_colored% <dark_gray>|</dark_gray> <gray>MSPT:</gray> %server:mspt_colored% <dark_gray>|</dark_gray> <gray>Ping: <color:#ffba26>%player:ping%</color>",
+    "<gray>View Dist:</gray> <gold>%servercore:view_distance%</gold>",
+    "<gray>Simu Dist:</gray> <gold>%servercore:simulation_distance%</gold>",
     "",
     "",
     ""

@@ -1,0 +1,16 @@
+commandMode: COMMAND_CUSTOM
+customCommand:
+  parent: health
+  actions:
+    - command: servercore status
+      commandType: CLIENT
+    - command: statistics entities byType
+      commandType: CLIENT
+    - command: statistics block-entities byType
+      commandType: CLIENT
+    - command: statistics entities byPlayer
+      commandType: CLIENT
+    - command: statistics block-entities byPlayer
+      commandType: CLIENT
+    - command: spark healthreport
+      commandType: CLIENT

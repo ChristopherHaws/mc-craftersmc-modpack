@@ -1,0 +1,4 @@
+commandMode: COMMAND_REDIRECT
+redirectCommand:
+  command: inv
+  redirectTo: view inv
