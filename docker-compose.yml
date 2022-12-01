@@ -65,6 +65,11 @@ services:
       UID: ${PUID}
       GID: ${PGID}
       TZ: America/Los_Angeles
+
+      # https://github.com/itzg/docker-minecraft-server/blob/master/README.md#replacing-variables-inside-configs
+      REPLACE_ENV_IN_PLACE: true
+      REPLACE_ENV_DURING_SYNC: true
+      REPLACE_ENV_VARIABLE_PREFIX: CRAFTERSMC_
       
       ####################################################################
       #                Aikars Flags - Garbage Collection                 #
@@ -209,6 +214,11 @@ services:
       UID: ${PUID}
       GID: ${PGID}
       TZ: America/Los_Angeles
+
+      # https://github.com/itzg/docker-minecraft-server/blob/master/README.md#replacing-variables-inside-configs
+      REPLACE_ENV_IN_PLACE: true
+      REPLACE_ENV_DURING_SYNC: true
+      REPLACE_ENV_VARIABLE_PREFIX: CRAFTERSMC_
       
       ####################################################################
       #                Aikars Flags - Garbage Collection                 #
