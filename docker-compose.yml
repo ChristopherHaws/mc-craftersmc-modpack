@@ -16,6 +16,33 @@ services:
     environment:
       TYPE: VELOCITY
       MEMORY: 512m
+      ####################################################################
+      #                       G1GC Garbage Collection                    #
+      ####################################################################
+      # https://docs.papermc.io/velocity/tuning#tune-your-startup-flags
+      # JVM_OPTS: >-
+      #   -XX:+UseG1GC
+      #   -XX:G1HeapRegionSize=4M
+      #   -XX:+UnlockExperimentalVMOptions
+      #   -XX:+ParallelRefProcEnabled
+      #   -XX:+AlwaysPreTouch
+      #   -XX:MaxInlineLevel=15
+
+      ####################################################################
+      #                       ZGC Garbage Collection                     #
+      ####################################################################
+      # https://krusic22.com/2020/03/25/higher-performance-crafting-using-jdk11-and-zgc/
+      # https://kstefanj.github.io/2021/05/19/large-pages-and-java.html
+      JVM_OPTS: >-
+        -XX:+UnlockExperimentalVMOptions
+        -XX:+DisableExplicitGC
+        -XX:-UseParallelGC
+        -XX:-UseG1GC
+        -XX:+UseZGC
+        -Xlog:gc+init
+        -Xlog:pagesize
+        -XX:+UseTransparentHugePages
+        -XX:+AlwaysPreTouch
 
   survival:
     image: itzg/minecraft-server:latest
@@ -41,22 +68,18 @@ services:
       
       ####################################################################
       #                Aikars Flags - Garbage Collection                 #
-      #                                                                  #
-      # Works On: All versions of java                                   #
       ####################################################################
       # https://aikar.co/2018/07/02/tuning-the-jvm-g1gc-garbage-collector-flags-for-minecraft/
-      USE_AIKAR_FLAGS: true
+      # USE_AIKAR_FLAGS: true
 
       # https://kstefanj.github.io/2021/05/19/large-pages-and-java.html
-      JVM_XX_OPTS: >-
-        -Xlog:gc+init
-        -Xlog:pagesize
-        -XX:+UseTransparentHugePages
+      # JVM_XX_OPTS: >-
+      #   -Xlog:gc+init
+      #   -Xlog:pagesize
+      #   -XX:+UseTransparentHugePages
 
       ####################################################################
       #                       G1GC Garbage Collection                    #
-      #                                                                  #
-      # Works On: All versions of java                                   #
       ####################################################################
       # https://github.com/brucethemoose/Minecraft-Performance-Flags-Benchmarks
       # JVM_XX_OPTS: >-
@@ -82,8 +105,6 @@ services:
       
       ####################################################################
       #                       Shenandoah Garbage Collection              #
-      #                                                                  #
-      # Works On: Temurin (https://adoptium.net/)                        #
       ####################################################################
       # https://www.reddit.com/r/feedthebeast/comments/r24zg4/upgrade_your_java_to_one_that_has_the_shenandoah/
       # JVM_XX_OPTS: >-
@@ -96,6 +117,22 @@ services:
       #   -XX:-OmitStackTraceInFastThrow
       #   -XX:+OptimizeStringConcat
       #   -Dfml.readTimeout=180
+
+      ####################################################################
+      #                       ZGC Garbage Collection                     #
+      ####################################################################
+      # https://krusic22.com/2020/03/25/higher-performance-crafting-using-jdk11-and-zgc/
+      # https://kstefanj.github.io/2021/05/19/large-pages-and-java.html
+      JVM_XX_OPTS: >-
+        -XX:+UnlockExperimentalVMOptions
+        -XX:+DisableExplicitGC
+        -XX:-UseParallelGC
+        -XX:-UseG1GC
+        -XX:+UseZGC
+        -Xlog:gc+init
+        -Xlog:pagesize
+        -XX:+UseTransparentHugePages
+        -XX:+AlwaysPreTouch
 
       ####################################################################
       #                       Minecraft Game Options                     #
@@ -175,22 +212,18 @@ services:
       
       ####################################################################
       #                Aikars Flags - Garbage Collection                 #
-      #                                                                  #
-      # Works On: All versions of java                                   #
       ####################################################################
       # https://aikar.co/2018/07/02/tuning-the-jvm-g1gc-garbage-collector-flags-for-minecraft/
-      USE_AIKAR_FLAGS: true
+      # USE_AIKAR_FLAGS: true
 
       # https://kstefanj.github.io/2021/05/19/large-pages-and-java.html
-      JVM_XX_OPTS: >-
-        -Xlog:gc+init
-        -Xlog:pagesize
-        -XX:+UseTransparentHugePages
+      # JVM_XX_OPTS: >-
+      #   -Xlog:gc+init
+      #   -Xlog:pagesize
+      #   -XX:+UseTransparentHugePages
 
       ####################################################################
       #                       G1GC Garbage Collection                    #
-      #                                                                  #
-      # Works On: All versions of java                                   #
       ####################################################################
       # JVM_XX_OPTS: >-
       #   -XX:+UseG1GC
@@ -215,8 +248,6 @@ services:
       
       ####################################################################
       #                       Shenandoah Garbage Collection              #
-      #                                                                  #
-      # Works On: Temurin (https://adoptium.net/)                        #
       ####################################################################
       # https://www.reddit.com/r/feedthebeast/comments/r24zg4/upgrade_your_java_to_one_that_has_the_shenandoah/
       # JVM_XX_OPTS: >-
@@ -229,6 +260,22 @@ services:
       #   -XX:-OmitStackTraceInFastThrow
       #   -XX:+OptimizeStringConcat
       #   -Dfml.readTimeout=180
+
+      ####################################################################
+      #                       ZGC Garbage Collection                     #
+      ####################################################################
+      # https://krusic22.com/2020/03/25/higher-performance-crafting-using-jdk11-and-zgc/
+      # https://kstefanj.github.io/2021/05/19/large-pages-and-java.html
+      JVM_XX_OPTS: >-
+        -XX:+UnlockExperimentalVMOptions
+        -XX:+DisableExplicitGC
+        -XX:-UseParallelGC
+        -XX:-UseG1GC
+        -XX:+UseZGC
+        -Xlog:gc+init
+        -Xlog:pagesize
+        -XX:+UseTransparentHugePages
+        -XX:+AlwaysPreTouch
 
       ####################################################################
       #                       Minecraft Game Options                     #
