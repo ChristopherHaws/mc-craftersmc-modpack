@@ -47,6 +47,12 @@ services:
       # https://aikar.co/2018/07/02/tuning-the-jvm-g1gc-garbage-collector-flags-for-minecraft/
       USE_AIKAR_FLAGS: true
 
+      # https://kstefanj.github.io/2021/05/19/large-pages-and-java.html
+      JVM_XX_OPTS: >-
+        -Xlog:gc+init
+        -Xlog:pagesize
+        -XX:+UseTransparentHugePages
+
       ####################################################################
       #                       G1GC Garbage Collection                    #
       #                                                                  #
@@ -174,6 +180,12 @@ services:
       ####################################################################
       # https://aikar.co/2018/07/02/tuning-the-jvm-g1gc-garbage-collector-flags-for-minecraft/
       USE_AIKAR_FLAGS: true
+
+      # https://kstefanj.github.io/2021/05/19/large-pages-and-java.html
+      JVM_XX_OPTS: >-
+        -Xlog:gc+init
+        -Xlog:pagesize
+        -XX:+UseTransparentHugePages
 
       ####################################################################
       #                       G1GC Garbage Collection                    #
