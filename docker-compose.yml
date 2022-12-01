@@ -14,24 +14,29 @@ x-velocity-gc-g1gc: &velocity-gc-g1gc
     -XX:MaxInlineLevel=15
 
 x-velocity-gc-zgc: &velocity-gc-zgc
-  # https://krusic22.com/2020/03/25/higher-performance-crafting-using-jdk11-and-zgc/
-  # https://kstefanj.github.io/2021/05/19/large-pages-and-java.html
-  JVM_OPTS: >-
-    -XX:+UseG1GC
-    -XX:G1HeapRegionSize=4M
+  # https://krusic22.com/2020/03/25/higher-performance-crafting-using-jdk11-and-zgc
+  JVM_OPTS: >-    
     -XX:+UnlockExperimentalVMOptions
+    -XX:-UseG1GC
+    -XX:+UseZGC
+    -XX:+DisableExplicitGC
+    -XX:-UseParallelGC
     -XX:+ParallelRefProcEnabled
-    -XX:+AlwaysPreTouch
     -XX:MaxInlineLevel=15
+    -XX:+AlwaysPreTouch
+  # https://kstefanj.github.io/2021/05/19/large-pages-and-java.html
+  # -Xlog:gc+init
+  # -Xlog:pagesize
+  # -XX:+UseTransparentHugePages
 
 x-minecraft-gc-aikars: &minecraft-gc-aikars
   # https://aikar.co/2018/07/02/tuning-the-jvm-g1gc-garbage-collector-flags-for-minecraft/
   USE_AIKAR_FLAGS: true
   # https://kstefanj.github.io/2021/05/19/large-pages-and-java.html
-  JVM_XX_OPTS: >-
-    -Xlog:gc+init
-    -Xlog:pagesize
-    -XX:+UseTransparentHugePages
+  #JVM_XX_OPTS: >-
+  #  -Xlog:gc+init
+  #  -Xlog:pagesize
+  #  -XX:+UseTransparentHugePages
 
 x-minecraft-gc-g1gc: &minecraft-gc-g1gc
   # https://github.com/brucethemoose/Minecraft-Performance-Flags-Benchmarks
@@ -39,9 +44,7 @@ x-minecraft-gc-g1gc: &minecraft-gc-g1gc
     -XX:+UseG1GC
     -XX:MaxGCPauseMillis=130
     -XX:+UnlockExperimentalVMOptions
-    -XX:+UseTransparentHugePages
     -XX:+DisableExplicitGC
-    -XX:+AlwaysPreTouch
     -XX:G1NewSizePercent=28
     -XX:G1HeapRegionSize=16M
     -XX:G1ReservePercent=20
@@ -55,33 +58,24 @@ x-minecraft-gc-g1gc: &minecraft-gc-g1gc
     -XX:G1ConcMarkStepDurationMillis=5
     -XX:G1ConcRSHotCardLimit=16
     -XX:G1ConcRefinementServiceIntervalMillis=150
-
-x-minecraft-gc-shenandoah: &minecraft-gc-shenandoah
-  # https://www.reddit.com/r/feedthebeast/comments/r24zg4/upgrade_your_java_to_one_that_has_the_shenandoah/
-  JVM_XX_OPTS: >-
-    -XX:+UseShenandoahGC
-    -XX:+UnlockExperimentalVMOptions
-    -XX:+AlwaysPreTouch
-    -XX:+UseStringDeduplication
-    -Dfml.ignorePatchDiscrepancies=true
-    -Dfml.ignoreInvalidMinecraftCertificates=true
-    -XX:-OmitStackTraceInFastThrow
-    -XX:+OptimizeStringConcat
-    -Dfml.readTimeout=180
+  # -Xlog:gc+init
+  # -Xlog:pagesize
+  # -XX:+AlwaysPreTouch
+  # -XX:+UseTransparentHugePages
 
 x-minecraft-gc-zgc: &minecraft-gc-zgc
   # https://krusic22.com/2020/03/25/higher-performance-crafting-using-jdk11-and-zgc/
-  # https://kstefanj.github.io/2021/05/19/large-pages-and-java.html
   JVM_XX_OPTS: >-
     -XX:+UnlockExperimentalVMOptions
     -XX:+DisableExplicitGC
     -XX:-UseParallelGC
     -XX:-UseG1GC
     -XX:+UseZGC
-    -Xlog:gc+init
-    -Xlog:pagesize
-    -XX:+UseTransparentHugePages
-    -XX:+AlwaysPreTouch
+  # https://kstefanj.github.io/2021/05/19/large-pages-and-java.html
+  # -Xlog:gc+init
+  # -Xlog:pagesize
+  # -XX:+AlwaysPreTouch
+  # -XX:+UseTransparentHugePages
 
 ####################################################################
 #                   Minecraft Options                              #
