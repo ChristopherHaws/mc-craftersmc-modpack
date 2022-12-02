@@ -27,7 +27,7 @@
 	update_rate = 15
 	# (Default = 150) The amount of seconds between dynamic viewdistance updates.
 	# This value is separate from the other checks because it makes all clients reload their chunks.
-	view_distance_update_rate = 30
+	view_distance_update_rate = 150
 	# (Default = [Max: 10, Min: 2, Increment: 1]) Distance in which random ticks and mobspawning can happen.
 	max_chunk_tick_distance = 10
 	min_chunk_tick_distance = 2
@@ -37,9 +37,9 @@
 	min_simulation_distance = 2
 	simulation_distance_increment = 1
 	# (Default = [Max: 10, Min: 2, Increment: 1]) Distance in which the world will render.
-	max_view_distance = 32
-	min_view_distance = 8
-	view_distance_increment = 2
+	max_view_distance = 16
+	min_view_distance = 6
+	view_distance_increment = 1
 	# (Default = [Max: 1.0, Min: 0.3, Increment: 0.1]) Global multiplier that decides the percentage of the mobcap to be used.
 	max_mobcap = 1.0
 	min_mobcap = 0.3
