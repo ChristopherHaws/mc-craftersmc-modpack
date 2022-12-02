@@ -963,6 +963,10 @@ file = "mods/chat-heads.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/chat-signing-hider.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/chat-up.pw.toml"
 metafile = true
 
