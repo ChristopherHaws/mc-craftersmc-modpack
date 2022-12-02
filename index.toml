@@ -1135,10 +1135,6 @@ file = "mods/fastanim.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/fastload.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/ferrite-core.pw.toml"
 metafile = true
 
@@ -1532,6 +1528,10 @@ metafile = true
 
 [[files]]
 file = "mods/vanilla-permissions.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/vmp-fabric.pw.toml"
 metafile = true
 
 [[files]]
