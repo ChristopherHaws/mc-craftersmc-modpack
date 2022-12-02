@@ -287,3 +287,22 @@ services:
       RWA_USERNAME: chaws
       RWA_PASSWORD: ${RCON_PASSWORD}
       RWA_ENV: false
+
+  amp:
+    # https://forums.unraid.net/topic/98290-support-amp-application-management-panel-corneliousjd-repo/
+    image: mitchtalmadge/amp-dockerized:latest
+    container_name: craftersmc-amp
+    restart: on-failure:3 # 3 retries
+    mac_address: 02:42:AC:03:14:90
+    ports:
+      - 8989:8080   # Web UI
+    volumes:
+      - /mnt/nvme/appdata/craftersmc/amp/data:/home/amp/.ampdata
+      - /mnt/nvme/appdata/craftersmc/amp/scripts:/home/amp/scripts
+    environment:
+      MODULE: ADS
+      LICENCE: ${AMP_LICENSE}
+      UID: ${PUID}
+      GID: ${PGID}
+      TZ: America/Los_Angeles
+    
