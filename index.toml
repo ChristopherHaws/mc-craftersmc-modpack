@@ -1135,6 +1135,10 @@ file = "mods/fastanim.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/fastback.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/ferrite-core.pw.toml"
 metafile = true
 
@@ -1496,10 +1500,6 @@ metafile = true
 
 [[files]]
 file = "mods/text-utilities.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/textile_backup.pw.toml"
 metafile = true
 
 [[files]]
