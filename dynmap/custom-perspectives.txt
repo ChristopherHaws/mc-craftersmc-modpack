@@ -1,3 +1,19 @@
 # The user is free to add new and custom perspectives here, including replacements for standard ones
 # Dynmap's install will not overwrite it
 perspectives:
+  # Nether Roof
+  - class: org.dynmap.hdmap.IsoHDPerspective 
+    name: iso_S_90_medres_nether_roof
+    azimuth: 180
+    inclination: 90
+    scale: 4
+    maximumheight: 256
+    minimumheight: 129
+    
+  - class: org.dynmap.hdmap.IsoHDPerspective 
+    name: iso_S_90_hires_nether_roof
+    azimuth: 180
+    inclination: 90
+    scale: 16
+    maximumheight: 256
+    minimumheight: 129

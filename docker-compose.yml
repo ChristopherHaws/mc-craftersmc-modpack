@@ -147,7 +147,7 @@ services:
     depends_on:
       - survival
     ports:
-      - 25565:25577
+      - "25565:25577"
     volumes:
       - /mnt/nvme/appdata/craftersmc/proxy/server:/server
       - /mnt/nvme/appdata/craftersmc/proxy/plugins:/plugins
@@ -163,10 +163,10 @@ services:
     container_name: craftersmc-survival
     restart: on-failure:3 # 3 retries
     ports:
-      - 25568:25565       # Server: survival.craftersmc.com
-      - 8125:8080         # Map: https://map.craftersmc.com
-      - 24454:24454/udp   # SimpleVoiceChat
-      - 25575:25575       # RCON
+      - "25568:25565"       # Server: survival.craftersmc.com
+      - "8125:8080"         # Map: https://map.craftersmc.com
+      - "24454:24454/udp"   # SimpleVoiceChat
+      - "25575:25575"       # RCON
     volumes:
       - /mnt/nvme/appdata/craftersmc/servers/survival:/data
     environment:
@@ -188,10 +188,10 @@ services:
       # Loading both servers at the same time slows down restarts
       - survival
     ports:
-      - 25569:25565       # Server: creative.craftersmc.com
-      - 8126:8080         # Map
-      - 24455:24454/udp   # SimpleVoiceChat
-      - 25576:25575       # RCON
+      - "25569:25565"       # Server: creative.craftersmc.com
+      - "8126:8080"         # Map
+      - "24455:24454/udp"   # SimpleVoiceChat
+      - "25576:25575"       # RCON
     volumes:
       - /mnt/nvme/appdata/craftersmc/servers/creative:/data
     environment:
@@ -227,7 +227,7 @@ services:
     depends_on:
       - survival
     ports:
-      - 8890:8000   # https://stats.craftersmc.com
+      - "8890:8000"   # https://stats.craftersmc.com
     volumes:
       - /mnt/nvme/appdata/craftersmc/servers/survival:/minecraft
       - /mnt/nvme/appdata/craftersmc/servers/survival/stats:/config
@@ -239,7 +239,7 @@ services:
     container_name: craftersmc-db
     restart: on-failure:3 # 3 retries
     ports:
-      - 3306:3306
+      - "3306:3306"
     volumes:
       - /mnt/nvme/appdata/craftersmc/sql:/var/lib/mysql
     environment:
@@ -256,7 +256,7 @@ services:
     depends_on:
       - db
     ports:
-      - 8978:8978
+      - "8978:8978"
     volumes:
       - /mnt/nvme/appdata/craftersmc/sql/cloudbeaver:/opt/cloudbeaver/workspace
 
@@ -265,8 +265,8 @@ services:
     container_name: craftersmc-cache
     restart: on-failure:3 # 3 retries
     ports:
-      - 6379:6379   # Redis
-      - 8001:8001   # RedisInsight: http://localhost:8001
+      - "6379:6379"   # Redis
+      - "8001:8001"   # RedisInsight: http://localhost:8001
     volumes:
       - /mnt/nvme/appdata/craftersmc/cache:/data
 
@@ -278,8 +278,8 @@ services:
       - survival
       - creative
     ports:
-      - 4326:4326 # WebUI: https://rcon.craftersmc.com
-      - 4327:4327 # WebSocket
+      - "4326:4326"   # WebUI: https://rcon.craftersmc.com
+      - "4327:4327"   # WebSocket
     volumes:
       - /mnt/nvme/appdata/craftersmc/rcon:/opt/rcon-web-admin/db
     environment:
@@ -295,7 +295,7 @@ services:
     restart: on-failure:3 # 3 retries
     mac_address: 02:42:AC:03:14:90
     ports:
-      - 8989:8080   # Web UI
+      - "8989:8080"   # Web UI
     volumes:
       - /mnt/nvme/appdata/craftersmc/amp/data:/home/amp/.ampdata
       - /mnt/nvme/appdata/craftersmc/amp/scripts:/home/amp/scripts

@@ -763,6 +763,15 @@ file = "dynmap/renderdata/README"
 file = "dynmap/shaders.txt"
 
 [[files]]
+file = "dynmap/templates/custom-nether-hires.txt"
+
+[[files]]
+file = "dynmap/templates/custom-normal-hires.txt"
+
+[[files]]
+file = "dynmap/templates/custom-the_end-hires.txt"
+
+[[files]]
 file = "dynmap/templates/nether-hi_boost_vhi.txt"
 
 [[files]]
@@ -833,6 +842,7 @@ file = "dynmap/version.txt"
 
 [[files]]
 file = "dynmap/worlds.txt"
+preserve = true
 
 [[files]]
 file = "mods/accurate-block-placement.pw.toml"
