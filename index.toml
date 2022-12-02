@@ -1199,6 +1199,10 @@ file = "mods/iris.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/jamlib.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/just-player-heads.pw.toml"
 metafile = true
 
@@ -1240,6 +1244,10 @@ metafile = true
 
 [[files]]
 file = "mods/ledger.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/libertyvillagers.pw.toml"
 metafile = true
 
 [[files]]
@@ -1360,6 +1368,10 @@ metafile = true
 
 [[files]]
 file = "mods/reeses-sodium-options.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/rightclickharvest.pw.toml"
 metafile = true
 
 [[files]]
