@@ -8,7 +8,7 @@ perspectives:
     inclination: 90
     scale: 4
     maximumheight: 256
-    minimumheight: 129
+    minimumheight: 128
     
   - class: org.dynmap.hdmap.IsoHDPerspective 
     name: iso_S_90_hires_nether_roof

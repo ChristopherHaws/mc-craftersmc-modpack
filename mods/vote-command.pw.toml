@@ -1,0 +1,13 @@
+name = "Vote Command"
+filename = "votecommand-fabric_1.19.2-2.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/k1ztTaVt/versions/P5zRDZdo/votecommand-fabric_1.19.2-2.3.jar"
+hash-format = "sha1"
+hash = "d3314800ecb8cbc5a662761ce60496f02540229d"
+
+[update]
+[update.modrinth]
+mod-id = "k1ztTaVt"
+version = "P5zRDZdo"

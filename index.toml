@@ -1497,10 +1497,6 @@ file = "mods/styledplayerlist.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/suggestion-tweaker.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/syncmatica.pw.toml"
 metafile = true
 
@@ -1542,6 +1538,10 @@ metafile = true
 
 [[files]]
 file = "mods/vmp-fabric.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/vote-command.pw.toml"
 metafile = true
 
 [[files]]
