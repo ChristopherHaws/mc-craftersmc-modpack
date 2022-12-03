@@ -16,4 +16,4 @@ perspectives:
     inclination: 90
     scale: 16
     maximumheight: 256
-    minimumheight: 129
+    minimumheight: 128
