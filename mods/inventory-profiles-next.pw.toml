@@ -1,18 +1,18 @@
 name = "Inventory Profiles Next"
-filename = "InventoryProfilesNext-fabric-1.19-1.8.5.jar"
+filename = "InventoryProfilesNext-fabric-1.19-1.8.6.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "60f0f0b7587849e9bfb60c71cd16e87967fe5f0a"
+hash = "51e46ae3666cdfb5a3d9f40c91a54c59a2f2c2a2"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4082903
+file-id = 4131943
 project-id = 495267
 
 [option]
 optional = true
-default = true
 description = "Hotbar refill, inventory sorting, chest sorting, armor profiles, etc."
+default = true
