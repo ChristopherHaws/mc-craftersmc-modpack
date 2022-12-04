@@ -125,7 +125,7 @@ key_blanket-client-tweaks.keys.rotateMinecartKey:key.keyboard.unknown
 key_key.blockmeter.assign:key.keyboard.r
 key_key.blockmeter.menu:key.keyboard.unknown
 key_cmec.kb.openmenu:key.keyboard.y
-key_key.chesttracker.opengui:key.keyboard.unknown
+key_key.chesttracker.opengui:key.keyboard.i
 key_create.keyinfo.toolmenu:key.keyboard.left.alt
 key_create.keyinfo.toolbelt:key.keyboard.left.alt
 key_key.deathlog.death_screen:key.keyboard.end
@@ -172,7 +172,6 @@ key_key.voice_chat_settings:key.keyboard.unknown
 key_key.voice_chat_group:key.keyboard.unknown
 key_key.voice_chat_toggle_recording:key.keyboard.unknown
 key_key.voice_chat_adjust_volumes:key.keyboard.unknown
-key_key.whereisit.finditem:key.keyboard.i
 key_gui.xaero_switch_waypoint_set:key.keyboard.u
 key_gui.xaero_instant_waypoint:key.keyboard.unknown
 key_gui.xaero_toggle_slime:key.keyboard.unknown
