@@ -15,7 +15,7 @@ x-velocity-gc-g1gc: &velocity-gc-g1gc
 
 x-velocity-gc-zgc: &velocity-gc-zgc
   # https://krusic22.com/2020/03/25/higher-performance-crafting-using-jdk11-and-zgc
-  JVM_OPTS: >-    
+  JVM_OPTS: >-
     -XX:+UnlockExperimentalVMOptions
     -XX:-UseG1GC
     -XX:+UseZGC

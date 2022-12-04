@@ -34,7 +34,7 @@
 
   // Only send messages to either close players, or players in the same world.
   vicinity_chat: {
-    enabled: true
+    enabled: false
     radius: 256 // If set to 0 or less while vicinity chat is enabled, messages will be sent to everyone in the same world.
   },
 
