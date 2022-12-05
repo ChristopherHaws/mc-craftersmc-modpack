@@ -1,5 +1,6 @@
 enableSodiumMenu = true
-useBlockStateCulling = true
+# https://github.com/Fabricators-of-Create/Create/issues/649
+useBlockStateCulling = false
 useCustomItemFrameRenderer = true
 useItemFrameLOD = true
 itemFrameLODRange = 384
