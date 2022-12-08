@@ -91,6 +91,7 @@ x-minecraft-options: &minecraft-options
   
   # Server Options
   TYPE: FABRIC
+  VERSION: 1.19.2
   PACKWIZ_URL: https://modpack.craftersmc.com/pack.toml
   UID: ${PUID}
   GID: ${PGID}
@@ -260,15 +261,15 @@ services:
     volumes:
       - /mnt/nvme/appdata/craftersmc/sql/cloudbeaver:/opt/cloudbeaver/workspace
 
-  cache:
-    image: redis/redis-stack:latest
-    container_name: craftersmc-cache
-    restart: on-failure:3 # 3 retries
-    ports:
-      - "6379:6379"   # Redis
-      - "8001:8001"   # RedisInsight: http://localhost:8001
-    volumes:
-      - /mnt/nvme/appdata/craftersmc/cache:/data
+  # cache:
+  #   image: redis/redis-stack:latest
+  #   container_name: craftersmc-cache
+  #   restart: on-failure:3 # 3 retries
+  #   ports:
+  #     - "6379:6379"   # Redis
+  #     - "8001:8001"   # RedisInsight: http://localhost:8001
+  #   volumes:
+  #     - /mnt/nvme/appdata/craftersmc/cache:/data
 
   rcon:
     image: itzg/rcon
@@ -287,22 +288,4 @@ services:
       RWA_USERNAME: chaws
       RWA_PASSWORD: ${RCON_PASSWORD}
       RWA_ENV: false
-
-  amp:
-    # https://forums.unraid.net/topic/98290-support-amp-application-management-panel-corneliousjd-repo/
-    image: mitchtalmadge/amp-dockerized:latest
-    container_name: craftersmc-amp
-    restart: on-failure:3 # 3 retries
-    mac_address: 02:42:AC:03:14:90
-    ports:
-      - "8989:8080"   # Web UI
-    volumes:
-      - /mnt/nvme/appdata/craftersmc/amp/data:/home/amp/.ampdata
-      - /mnt/nvme/appdata/craftersmc/amp/scripts:/home/amp/scripts
-    environment:
-      MODULE: ADS
-      LICENCE: ${AMP_LICENSE}
-      UID: ${PUID}
-      GID: ${PGID}
-      TZ: America/Los_Angeles
     
