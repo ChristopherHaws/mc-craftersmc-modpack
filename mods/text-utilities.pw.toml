@@ -3,9 +3,9 @@ filename = "text-utilities-fabric-1.19.2-1.2.0.jar"
 side = "both"
 
 [download]
+url = "https://cdn.modrinth.com/data/1bHGioWI/versions/OgSDxJjD/text-utilities-fabric-1.19.2-1.2.0.jar"
 hash-format = "sha1"
 hash = "707e772edb70cf5ffd9696e2865568e996e25b2b"
-mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
@@ -13,7 +13,4 @@ file-id = 4135119
 project-id = 700684
 [update.modrinth]
 mod-id = "1bHGioWI"
-version = "1V0H1q7y"
-
-
-
+version = "OgSDxJjD"
