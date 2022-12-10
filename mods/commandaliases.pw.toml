@@ -1,13 +1,13 @@
 name = "Command Aliases"
-filename = "commandaliases-0.9.4+mc1.19.2-build.54.jar"
+filename = "commandaliases-1.0.0+mc1.19.2-build.58.jar"
 side = "server"
 
 [download]
-url = "https://cdn.modrinth.com/data/dHTBnV1v/versions/Zl2CDtOy/commandaliases-0.9.4%2Bmc1.19.2-build.54.jar"
+url = "https://cdn.modrinth.com/data/dHTBnV1v/versions/81sGlY8w/commandaliases-1.0.0%2Bmc1.19.2-build.58.jar"
 hash-format = "sha1"
-hash = "365c83625b5f0d3433d0c15c2775a04408be910b"
+hash = "2eeb38d633c99948befa8468c9f6dd297c0c37ac"
 
 [update]
 [update.modrinth]
 mod-id = "dHTBnV1v"
-version = "Zl2CDtOy"
+version = "81sGlY8w"
