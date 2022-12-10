@@ -218,6 +218,9 @@ file = "config/collective-fabric.json5"
 file = "config/command-aliases-config.json"
 
 [[files]]
+file = "config/commandaliases/citizen.yml"
+
+[[files]]
 file = "config/commandaliases/ec.yml"
 
 [[files]]

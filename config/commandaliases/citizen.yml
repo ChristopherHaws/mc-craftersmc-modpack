@@ -1,0 +1,16 @@
+commandMode: COMMAND_CUSTOM
+customCommand:
+  parent: citizen
+  permission: 3
+  actions:
+    - message: This command is used to promote a visitor to a citizen.
+  children:
+    - child: player
+      type: argument
+      permission: 3
+      argumentType: minecraft:player
+      actions:
+        - command: lp user {{player}} permission set group.citizen true
+          commandType: SERVER
+          successfulMessage: Successfully promoted {{player}} to citizen.
+          unsuccessfulMessage: Failed to promot {{player}} to citizen.
