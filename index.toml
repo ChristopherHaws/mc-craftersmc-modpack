@@ -338,9 +338,6 @@ file = "config/fabrication/yeet_recipes.ini"
 file = "config/fabrictailor.json"
 
 [[files]]
-file = "config/fastload.properties"
-
-[[files]]
 file = "config/ferritecore.mixin.properties"
 
 [[files]]
