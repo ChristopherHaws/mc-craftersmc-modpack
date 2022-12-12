@@ -1200,6 +1200,10 @@ file = "mods/iris.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/iron-chests-for-fabric.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/jamlib.pw.toml"
 metafile = true
 
