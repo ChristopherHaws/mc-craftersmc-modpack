@@ -1112,6 +1112,10 @@ file = "mods/expanded-axe-enchanting.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/expanded-storage.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/fabric-api.pw.toml"
 metafile = true
 
@@ -1197,10 +1201,6 @@ metafile = true
 
 [[files]]
 file = "mods/iris.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/iron-chests-for-fabric.pw.toml"
 metafile = true
 
 [[files]]
