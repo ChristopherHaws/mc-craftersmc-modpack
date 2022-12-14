@@ -1,4 +1,5 @@
 # CraftersMC Modpack
+[![publish](https://github.com/ChristopherHaws/mc-craftersmc-modpack/actions/workflows/publish.yaml/badge.svg)](https://github.com/ChristopherHaws/mc-craftersmc-modpack/actions/workflows/publish.yaml)
 
 ## Setup PrismLauncher Instance
 1. Download and install [PrismLauncher](https://prismlauncher.org/)
