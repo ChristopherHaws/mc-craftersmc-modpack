@@ -1,0 +1,11 @@
+{
+  "mainSettings": {
+    "enableGraves": true,
+    "enableGraveLooting": true,
+    "sendGraveCoordinates": true,
+    "minimumOpLevelToLoot": 3,
+    "retrievalType": "ON_USE",
+    "dropType": "PUT_IN_INVENTORY",
+    "xpPercentage": 0.75
+  }
+}
