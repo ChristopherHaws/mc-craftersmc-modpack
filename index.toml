@@ -1216,10 +1216,6 @@ file = "mods/jamlib.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/just-player-heads.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/keepheadnames.pw.toml"
 metafile = true
 
