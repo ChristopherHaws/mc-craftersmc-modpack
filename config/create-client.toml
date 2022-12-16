@@ -79,7 +79,7 @@
 	[client.ponder]
 		#.
 		#Show additional info in the ponder view and reload scene scripts more frequently.
-		editingMode = false
+		editingMode = true
 		#.
 		#Slow down a ponder scene whenever there is text on screen.
 		comfyReading = false
@@ -136,5 +136,5 @@
 		#What indicator should be used when showing where the assisted placement ends up relative to your crosshair
 		#Choose 'NONE' to disable the Indicator altogether
 		#Allowed Values: TEXTURE, TRIANGLE, NONE
-		indicatorType = "TEXTURE"
+		indicatorType = "TRIANGLE"
 

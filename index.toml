@@ -1164,6 +1164,10 @@ file = "mods/forgetmechunk.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/gravestones.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/headindex.pw.toml"
 metafile = true
 
