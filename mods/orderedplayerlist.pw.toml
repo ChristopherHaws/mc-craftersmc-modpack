@@ -1,0 +1,9 @@
+name = "Ordered Player List"
+filename = "orderedplayerlist-0.1.0.jar"
+side = "server"
+
+# https://github.com/DrexHD/OrderedPlayerList
+[download]
+url = "https://modpack.craftersmc.com/mods/orderedplayerlist-0.1.0.jar"
+hash-format = "sha1"
+hash = "c27acac9dc4716918c643d1aba76e649a4808e82"

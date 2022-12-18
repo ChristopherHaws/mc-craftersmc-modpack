@@ -104,7 +104,7 @@ x-minecraft-options: &minecraft-options
   MAX_WORLD_SIZE: 30000
   SPAWN_PROTECTION: 30000
   DIFFICULTY: hard
-  VIEW_DISTANCE: 14
+  VIEW_DISTANCE: 16
   SIMULATION_DISTANCE: 6
   MAX_PLAYERS: 50
   OPS: Chaws
@@ -115,7 +115,7 @@ x-minecraft-options: &minecraft-options
   ENABLE_RCON: true
   RCON_PASSWORD: ${RCON_PASSWORD}
   FABRIC_PROXY_SECRET: ${VELOCITY_FORWARDING_SECRET}
-  STOP_SERVER_ANNOUNCE_DELAY: 15
+  #STOP_SERVER_ANNOUNCE_DELAY: 5
   SNOOPER_ENABLED: false
 
   # Garbage Collection
@@ -155,7 +155,7 @@ services:
       - /mnt/nvme/appdata/craftersmc/proxy/config:/config
     environment:
       TYPE: VELOCITY
-      MEMORY: 512m
+      MEMORY: 4G
       # <<: *velocity-gc-g1gc
       <<: *velocity-gc-zgc
 
@@ -172,8 +172,8 @@ services:
       - /mnt/nvme/appdata/craftersmc/servers/survival:/data
     environment:
       <<: *minecraft-options
-      INIT_MEMORY: 8G
-      MAX_MEMORY: 8G
+      INIT_MEMORY: 12G
+      MAX_MEMORY: 12G
 
       # LuckPerms
       LUCKPERMS_SERVER: survival
@@ -197,8 +197,8 @@ services:
       - /mnt/nvme/appdata/craftersmc/servers/creative:/data
     environment:
       <<: *minecraft-options
-      INIT_MEMORY: 4G
-      MAX_MEMORY: 4G
+      INIT_MEMORY: 8G
+      MAX_MEMORY: 8G
 
       # server.properties overrides
       MOTD: CraftersMC Creative

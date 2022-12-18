@@ -185,10 +185,10 @@ file = "config/c2me.toml"
 file = "config/cardinal-components-api.properties"
 
 [[files]]
-file = "config/carpet/default_carpet-fixes.conf"
+file = "config/carpet/carpet-fixes.conf"
 
 [[files]]
-file = "config/carpet/default_carpet.conf"
+file = "config/carpet/carpet.conf"
 
 [[files]]
 file = "config/carrier.json"
@@ -1358,6 +1358,10 @@ metafile = true
 
 [[files]]
 file = "mods/oh-the-biomes-youll-go-fabric.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/orderedplayerlist.pw.toml"
 metafile = true
 
 [[files]]
