@@ -531,6 +531,9 @@ file = "config/notenoughcrashes.json"
 file = "config/observable.json"
 
 [[files]]
+file = "config/ordered-playerlist.json"
+
+[[files]]
 file = "config/player-pronouns.json"
 
 [[files]]

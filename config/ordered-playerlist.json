@@ -1,0 +1,17 @@
+{
+  "updateRate": 5,
+  "order": [
+    {
+      "key": "weight",
+      "reversed": true,
+      "mode": "integer",
+      "type": "metadata"
+    },
+    {
+      "placeholder": "player:name",
+      "reversed": false,
+      "mode": "string",
+      "type": "placeholder"
+    }
+  ]
+}
