@@ -1,0 +1,22 @@
+# yaml-language-server: $schema=../../.schemas/command-alias.schema.json
+schemaVersion: 1
+commandMode: COMMAND_CUSTOM
+command: crafters
+actions:
+  - message: These are custom commands, just for CraftersMC!
+children:
+  - child: health
+    type: literal
+    actions:
+      - command: servercore status
+        commandType: CLIENT
+      - command: statistics entities byType
+        commandType: CLIENT
+      - command: statistics block-entities byType
+        commandType: CLIENT
+      - command: statistics entities byPlayer
+        commandType: CLIENT
+      - command: statistics block-entities byPlayer
+        commandType: CLIENT
+      - command: spark healthreport
+        commandType: CLIENT

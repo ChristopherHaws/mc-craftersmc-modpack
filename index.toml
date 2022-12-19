@@ -224,10 +224,10 @@ file = "config/command-aliases-config.json"
 file = "config/commandaliases/citizen.yml"
 
 [[files]]
-file = "config/commandaliases/ec.yml"
+file = "config/commandaliases/crafters.yml"
 
 [[files]]
-file = "config/commandaliases/health.yml"
+file = "config/commandaliases/ec.yml"
 
 [[files]]
 file = "config/commandaliases/inv.yml"

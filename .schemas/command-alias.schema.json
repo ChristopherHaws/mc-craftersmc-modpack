@@ -1,0 +1,352 @@
+{
+	"$id": "https://github.com/FlashyReese/CommandAliases/command-alias.schema.json",
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"title": "Command Alias",
+	"type": "object",
+	"required": [
+		"schemaVersion",
+		"commandMode"
+	],
+	"properties": {
+		"schemaVersion": {
+			"type": "integer",
+			"default": 1,
+			"minimum": 1
+		},
+		"commandMode": {
+			"type": "string",
+			"description": "The type of command.",
+			"oneOf": [
+				{
+					"const": "COMMAND_CUSTOM"
+				},
+				{
+					"const": "COMMAND_REDIRECT"
+				},
+				{
+					"const": "COMMAND_REDIRECT_NOARG"
+				}
+			]
+		}
+	},
+	"allOf": [
+		{
+			"if": {
+				"properties": {
+					"commandMode": {
+						"const": "COMMAND_CUSTOM"
+					}
+				}
+			},
+			"then": {
+				"allOf": [
+					{
+						"$ref": "#/definitions/customCommand"
+					}
+				]
+			}
+		},
+		{
+			"if": {
+				"properties": {
+					"commandMode": {
+						"const": "COMMAND_REDIRECT"
+					}
+				}
+			},
+			"then": {
+				"allOf": [
+					{
+						"$ref": "#/definitions/redirectCommand"
+					}
+				]
+			}
+		},
+		{
+			"if": {
+				"properties": {
+					"commandMode": {
+						"const": "COMMAND_REDIRECT_NOARG"
+					}
+				}
+			},
+			"then": {
+				"allOf": [
+					{
+						"$ref": "#/definitions/redirectCommand"
+					}
+				]
+			}
+		}
+	],
+	"definitions": {
+		"customCommand": {
+			"type": "object",
+			"required": [
+				"command"
+			],
+			"properties": {
+				"command": {
+					"type": "string",
+					"description": "The main command"
+				},
+				"permission": {
+					"type": "integer",
+					"description": "TODO"
+				},
+				"message": {
+					"type": "string",
+					"description": "TODO"
+				},
+				"children": {
+					"type": "array",
+					"items": {
+						"$ref": "#/definitions/subCommand"
+					}
+				},
+				"actions": {
+					"type": "array",
+					"items": {
+						"oneOf": [
+							{
+								"$ref": "#/definitions/action"
+							},
+							{
+								"type": "object",
+								"properties": {
+									"message": {
+										"type": "string"
+									}
+								}
+							}
+						]
+					}
+				}
+			}
+		},
+		"subCommand": {
+			"type": "object",
+			"required": [
+				"child",
+				"type"
+			],
+			"properties": {
+				"child": {
+					"type": "string",
+					"description": "The sub-command"
+				},
+				"type": {
+					"type": "string",
+					"enum": [
+						"argument",
+						"literal"
+					]
+				},
+				"argumentType": {
+					"type": "string",
+					"enum": [
+						"minecraft:word",
+						"minecraft:string",
+						"minecraft:greedy_string",
+						"minecraft:entity",
+						"minecraft:entities",
+						"minecraft:player",
+						"minecraft:players",
+						"minecraft:score_holder",
+						"minecraft:score_holders",
+						"minecraft:game_profile",
+						"minecraft:block_pos",
+						"minecraft:column_pos",
+						"minecraft:vec3",
+						"minecraft:vec2",
+						"minecraft:block_state",
+						"minecraft:block_predicate",
+						"minecraft:item_stack",
+						"minecraft:item_predicate",
+						"minecraft:color",
+						"minecraft:component",
+						"minecraft:message",
+						"minecraft:nbt_compound_tag",
+						"minecraft:nbt_tag",
+						"minecraft:nbt_path",
+						"minecraft:objective",
+						"minecraft:objective_criteria",
+						"minecraft:operation",
+						"minecraft:particle",
+						"minecraft:angle",
+						"minecraft:rotation",
+						"minecraft:scoreboard_slot",
+						"minecraft:swizzle",
+						"minecraft:team",
+						"minecraft:item_slot",
+						"minecraft:resource_location",
+						"minecraft:function",
+						"minecraft:entity_anchor",
+						"minecraft:int_range",
+						"minecraft:float_range",
+						"minecraft:dimension",
+						"minecraft:gamemode",
+						"minecraft:time",
+						"minecraft:entry.attribute_key",
+						"minecraft:entry.status_effect_key",
+						"minecraft:entry.enchantment_type",
+						"minecraft:entry.biome_key",
+						"minecraft:entry.entity_type_key",
+						"minecraft:entry_predicate.biome_key",
+						"minecraft:entry_predicate.poi_type_key",
+						"minecraft:predicate.structure_key",
+						"minecraft:key.configured_feature_key",
+						"minecraft:key.template_pool_key",
+						"minecraft:key.structure_key",
+						"minecraft:template_mirror",
+						"minecraft:template_rotation",
+						"minecraft:test_argument",
+						"minecraft:test_class",
+						"minecraft:uuid",
+						"brigadier:bool",
+						"brigadier:float",
+						"brigadier:double",
+						"brigadier:integer",
+						"brigadier:long",
+						"brigadier:string"
+					]
+				},
+				"suggestionProvider": {
+					"type": "object",
+					"required": [
+						"suggestionMode",
+						"suggestion"
+					],
+					"properties": {
+						"suggestionMode": {
+							"type": "string",
+							"enum": [
+								"DATABASE_STARTS_WITH",
+								"DATABASE_CONTAINS",
+								"DATABASE_ENDS_WITH",
+								"JSON_LIST",
+								"COMMAND_LIST_LOOKUP"
+							],
+							"meta:enum": {
+								"DATABASE_STARTS_WITH": "Fetches a list of keys that starts with the suggestion, list key's value as a suggestion provider.",
+								"DATABASE_CONTAINS": "Fetches a list of keys that contains the suggestion, list key's value as a suggestion provider.",
+								"DATABASE_ENDS_WITH": "Fetches a list of keys that ends with the suggestion, list key's value as a suggestion provider.",
+								"JSON_LIST": "Uses suggestion as JSON string list as a suggestion provider.",
+								"COMMAND_LIST_LOOKUP": "Asks the server using a command as a suggestion. Requires using the vanilla command tree."
+							}
+						},
+						"suggestion": {
+							"type": "string",
+							"examples": [
+								"$executor_name().home.suggestions"
+							]
+						}
+					}
+				},
+				"permission": {
+					"type": "integer",
+					"default": 0,
+					"minimum": 0,
+					"maximum": 4,
+					"description": "If LuckPerms is not installed will fallback to these permission level"
+				},
+				"message": {
+					"type": "string"
+				},
+				"children": {
+					"type": "array",
+					"items": {
+						"$ref": "#/definitions/subCommand"
+					}
+				}
+			},
+			"if": {
+				"required": [
+					"type"
+				],
+				"properties": {
+					"type": {
+						"const": "argument"
+					}
+				}
+			},
+			"then": {
+				"required": [
+					"argumentType"
+				]
+			}
+		},
+		"action": {
+			"type": "object",
+			"required": [
+				"child",
+				"type",
+				"argumentType"
+			],
+			"properties": {
+				"id": {
+					"type": "string"
+				},
+				"triggerTime": {
+					"type": "integer",
+					"default": 0,
+					"minimum": 0,
+					"description": "How many miliseconds to wait before executing the action."
+				},
+				"command": {
+					"type": "string"
+				},
+				"commandType": {
+					"type": "string",
+					"enum": [
+						"SERVER",
+						"CLIENT"
+					]
+				},
+				"message": {
+					"type": "string"
+				},
+				"successfulMessage": {
+					"type": "string"
+				},
+				"unsuccessfulMessage": {
+					"type": "string"
+				},
+				"requireSuccess": {
+					"type": "boolean"
+				},
+				"sleep": {
+					"type": "integer",
+					"default": 0,
+					"minimum": 0,
+					"description": "How many miliseconds to sleep after executing the action before moving on to the next action."
+				},
+				"unsuccesfulActions": {
+					"type": "array",
+					"description": "Actions to execute if the command fails.",
+					"items": {
+						"$ref": "#/definitions/action"
+					}
+				},
+				"succesfulActions": {
+					"type": "array",
+					"description": "Actions to execute if the command succeeds.",
+					"items": {
+						"$ref": "#/definitions/action"
+					}
+				}
+			}
+		},
+		"redirectCommand": {
+			"type": "object",
+			"properties": {
+				"command": {
+					"type": "string"
+				},
+				"redirectTo": {
+					"type": "string"
+				}
+			}
+		}
+	}
+}

@@ -1,4 +1,5 @@
+# yaml-language-server: $schema=../../.schemas/command-alias.schema.json
+schemaVersion: 1
 commandMode: COMMAND_REDIRECT_NOARG
-redirectCommand:
-  command: invp
-  redirectTo: view inv @p
+command: invp
+redirectTo: view inv @p
