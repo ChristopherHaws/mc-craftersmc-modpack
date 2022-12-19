@@ -1,12 +1,9 @@
 {
-	"$id": "https://github.com/FlashyReese/CommandAliases/command-alias.schema.json",
+	"$id": "https://github.com/flashyreese/commandaliases/schemas/commandalias",
 	"$schema": "http://json-schema.org/draft-07/schema#",
 	"title": "Command Alias",
 	"type": "object",
-	"required": [
-		"schemaVersion",
-		"commandMode"
-	],
+	"required": ["schemaVersion", "commandMode"],
 	"properties": {
 		"schemaVersion": {
 			"type": "integer",
@@ -82,9 +79,7 @@
 	"definitions": {
 		"customCommand": {
 			"type": "object",
-			"required": [
-				"command"
-			],
+			"required": ["command"],
 			"properties": {
 				"command": {
 					"type": "string",
@@ -126,10 +121,7 @@
 		},
 		"subCommand": {
 			"type": "object",
-			"required": [
-				"child",
-				"type"
-			],
+			"required": ["child", "type"],
 			"properties": {
 				"child": {
 					"type": "string",
@@ -137,10 +129,7 @@
 				},
 				"type": {
 					"type": "string",
-					"enum": [
-						"argument",
-						"literal"
-					]
+					"enum": ["argument", "literal"]
 				},
 				"argumentType": {
 					"type": "string",
@@ -213,10 +202,7 @@
 				},
 				"suggestionProvider": {
 					"type": "object",
-					"required": [
-						"suggestionMode",
-						"suggestion"
-					],
+					"required": ["suggestionMode", "suggestion"],
 					"properties": {
 						"suggestionMode": {
 							"type": "string",
@@ -237,9 +223,7 @@
 						},
 						"suggestion": {
 							"type": "string",
-							"examples": [
-								"$executor_name().home.suggestions"
-							]
+							"examples": ["$executor_name().home.suggestions"]
 						}
 					}
 				},
@@ -261,9 +245,7 @@
 				}
 			},
 			"if": {
-				"required": [
-					"type"
-				],
+				"required": ["type"],
 				"properties": {
 					"type": {
 						"const": "argument"
@@ -271,18 +253,12 @@
 				}
 			},
 			"then": {
-				"required": [
-					"argumentType"
-				]
+				"required": ["argumentType"]
 			}
 		},
 		"action": {
 			"type": "object",
-			"required": [
-				"child",
-				"type",
-				"argumentType"
-			],
+			"required": ["child", "type", "argumentType"],
 			"properties": {
 				"id": {
 					"type": "string"
@@ -298,10 +274,7 @@
 				},
 				"commandType": {
 					"type": "string",
-					"enum": [
-						"SERVER",
-						"CLIENT"
-					]
+					"enum": ["SERVER", "CLIENT"]
 				},
 				"message": {
 					"type": "string"

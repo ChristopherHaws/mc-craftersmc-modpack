@@ -1,7 +1,10 @@
-printWidth: 85
+printWidth: 120
+useTabs: true
+tabWidth: 4
+semi: true
 overrides:
   - files: "config/commandaliases/*.yml"
     options:
-      tabWidth: 4
-      useTabs: true
       parser: yaml
+      useTabs: false
+      tabWidth: 2

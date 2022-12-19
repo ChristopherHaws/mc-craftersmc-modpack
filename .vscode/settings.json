@@ -1,6 +1,9 @@
 {
-	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"files.associations": {
-		"**/dynmap/**/*.txt": "yaml"
+		"**/dynmap/**/*.txt": "yaml",
+		".packwizignore": "ignore"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	}
 }
