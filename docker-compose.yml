@@ -92,7 +92,7 @@ x-minecraft-options: &minecraft-options
   # Server Options
   TYPE: FABRIC
   VERSION: 1.19.2
-  PACKWIZ_URL: https://modpack.craftersmc.com/pack.toml
+  PACKWIZ_URL: ${PACKWIZ_URL:-https://modpack.craftersmc.com/pack.toml}
   UID: ${PUID}
   GID: ${PGID}
   TZ: America/Los_Angeles
@@ -104,7 +104,7 @@ x-minecraft-options: &minecraft-options
   MAX_WORLD_SIZE: 30000
   SPAWN_PROTECTION: 30000
   DIFFICULTY: hard
-  VIEW_DISTANCE: 16
+  VIEW_DISTANCE: 8
   SIMULATION_DISTANCE: 6
   MAX_PLAYERS: 50
   OPS: Chaws
@@ -117,6 +117,9 @@ x-minecraft-options: &minecraft-options
   FABRIC_PROXY_SECRET: ${VELOCITY_FORWARDING_SECRET}
   #STOP_SERVER_ANNOUNCE_DELAY: 5
   SNOOPER_ENABLED: false
+  # Disable network compression between the MC server and the proxy.
+  # The proxy will handle the compression.
+  NETWORK_COMPRESSION_THRESHOLD: -1
 
   # Garbage Collection
   # <<: *minecraft-gc-aikars
@@ -147,15 +150,17 @@ services:
     restart: on-failure:3 # 3 retries
     depends_on:
       - survival
+      - creative
     ports:
       - "25565:25577"
     volumes:
-      - /mnt/nvme/appdata/craftersmc/proxy/server:/server
-      - /mnt/nvme/appdata/craftersmc/proxy/plugins:/plugins
-      - /mnt/nvme/appdata/craftersmc/proxy/config:/config
+      - ${ROOT_PATH}/proxy/server:/server
+      - ${ROOT_PATH}/proxy/plugins:/plugins
+      - ${ROOT_PATH}/proxy/config:/config
     environment:
       TYPE: VELOCITY
-      MEMORY: 4G
+      MEMORY: ${PROXY_MEMORY:-2G}
+      VELOCITY_FORWARDING_SECRET: ${VELOCITY_FORWARDING_SECRET}
       # <<: *velocity-gc-g1gc
       <<: *velocity-gc-zgc
 
@@ -169,11 +174,10 @@ services:
       - "24454:24454/udp"   # SimpleVoiceChat
       - "25575:25575"       # RCON
     volumes:
-      - /mnt/nvme/appdata/craftersmc/servers/survival:/data
+      - ${ROOT_PATH}/servers/survival:/data
     environment:
       <<: *minecraft-options
-      INIT_MEMORY: 12G
-      MAX_MEMORY: 12G
+      MEMORY: ${SURVIVAL_MEMORY:-12G}
 
       # LuckPerms
       LUCKPERMS_SERVER: survival
@@ -194,11 +198,10 @@ services:
       - "24455:24454/udp"   # SimpleVoiceChat
       - "25576:25575"       # RCON
     volumes:
-      - /mnt/nvme/appdata/craftersmc/servers/creative:/data
+      - ${ROOT_PATH}/servers/creative:/data
     environment:
       <<: *minecraft-options
-      INIT_MEMORY: 8G
-      MAX_MEMORY: 8G
+      MEMORY: ${CREATIVE_MEMORY:-6G}
 
       # server.properties overrides
       MOTD: CraftersMC Creative
@@ -230,8 +233,8 @@ services:
     ports:
       - "8890:8000"   # https://stats.craftersmc.com
     volumes:
-      - /mnt/nvme/appdata/craftersmc/servers/survival:/minecraft
-      - /mnt/nvme/appdata/craftersmc/servers/survival/stats:/config
+      - ${ROOT_PATH}/servers/survival:/minecraft
+      - ${ROOT_PATH}/servers/survival/stats:/config
     environment:
       MS_UPDATE_FREQ: 1   # delay (in minutes) between updates of MinecraftStats database
 
@@ -242,7 +245,7 @@ services:
     ports:
       - "3306:3306"
     volumes:
-      - /mnt/nvme/appdata/craftersmc/sql:/var/lib/mysql
+      - ${ROOT_PATH}/sql:/var/lib/mysql
     environment:
       MARIADB_USER: ${SQL_USER}
       MARIADB_PASSWORD: ${SQL_PASSWORD}
@@ -259,7 +262,7 @@ services:
     ports:
       - "8978:8978"
     volumes:
-      - /mnt/nvme/appdata/craftersmc/sql/cloudbeaver:/opt/cloudbeaver/workspace
+      - ${ROOT_PATH}/sql/cloudbeaver:/opt/cloudbeaver/workspace
 
   # cache:
   #   image: redis/redis-stack:latest
@@ -269,7 +272,7 @@ services:
   #     - "6379:6379"   # Redis
   #     - "8001:8001"   # RedisInsight: http://localhost:8001
   #   volumes:
-  #     - /mnt/nvme/appdata/craftersmc/cache:/data
+  #     - ${ROOT_PATH}/cache:/data
 
   rcon:
     image: itzg/rcon
@@ -282,10 +285,10 @@ services:
       - "4326:4326"   # WebUI: https://rcon.craftersmc.com
       - "4327:4327"   # WebSocket
     volumes:
-      - /mnt/nvme/appdata/craftersmc/rcon:/opt/rcon-web-admin/db
+      - ${ROOT_PATH}/rcon:/opt/rcon-web-admin/db
     environment:
       RWA_ADMIN: true
-      RWA_USERNAME: chaws
+      RWA_USERNAME: ${RCON_USERNAME}
       RWA_PASSWORD: ${RCON_PASSWORD}
       RWA_ENV: false
     
