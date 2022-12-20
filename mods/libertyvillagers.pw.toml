@@ -1,13 +1,13 @@
 name = "Liberty's Villagers"
-filename = "liberty-villagers-mod-1.0.6+1.19.2.jar"
+filename = "liberty-villagers-mod-1.0.8+1.19.2.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/264clomZ/versions/Thp0HFqt/liberty-villagers-mod-1.0.6%2B1.19.2.jar"
+url = "https://cdn.modrinth.com/data/264clomZ/versions/MBPb1VOi/liberty-villagers-mod-1.0.8%2B1.19.2.jar"
 hash-format = "sha1"
-hash = "ad414f39bb2b4d18a7df0964cc83a3fccfc8be5f"
+hash = "4ed2071d95b1ac2ef00064ee7a2482f8b6b8f72a"
 
 [update]
 [update.modrinth]
 mod-id = "264clomZ"
-version = "Thp0HFqt"
+version = "MBPb1VOi"

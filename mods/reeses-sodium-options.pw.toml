@@ -11,3 +11,8 @@ hash = "3b48ed460ce30c38e6058fdd0c3d6a221913e4e4"
 [update.modrinth]
 mod-id = "Bh37bMuy"
 version = "hkSQ9RqT"
+
+[option]
+optional = true
+description = "Testing TipTheScales"
+default = true

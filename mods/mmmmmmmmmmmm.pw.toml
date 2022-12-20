@@ -1,0 +1,13 @@
+name = "MmmMmmMmmMmm (Target Dummy)"
+filename = "MmmMmmMmmMmm-FABRIC-1.18-1.5.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0a1197ced48bc44e6d91eb510c8864f7e497c101"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3843103
+project-id = 225738
