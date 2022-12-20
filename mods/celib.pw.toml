@@ -1,0 +1,13 @@
+name = "Celib (FABRIC)"
+filename = "celib-1.1.0+1.19.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "fbbddbc9ea02a30410396b3ac1c8a661144eb5a2"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3898938
+project-id = 414232

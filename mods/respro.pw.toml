@@ -1,0 +1,13 @@
+name = "Resource Provider Library (FABRIC)"
+filename = "respro-0.2.2+1.19.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ab70cf521b1ee17f2f6308daa3d341ee9110f9aa"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3888746
+project-id = 528020
