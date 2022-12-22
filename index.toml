@@ -281,6 +281,12 @@ file = "config/easiercrafting.json"
 file = "config/easiervillagertrading.json"
 
 [[files]]
+file = "config/emotecraft.json"
+
+[[files]]
+file = "config/emotecraft_emote_map.json"
+
+[[files]]
 file = "config/enchantedshulkers.toml"
 
 [[files]]
@@ -303,6 +309,12 @@ file = "config/entity_texture_features.json"
 
 [[files]]
 file = "config/entityculling.json"
+
+[[files]]
+file = "config/everycomp-common.json"
+
+[[files]]
+file = "config/everycomp-wood_types.json"
 
 [[files]]
 file = "config/expanded_axe_enchanting.json"
@@ -1090,11 +1102,19 @@ file = "mods/deathlog.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/decorative-blocks.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/deepslatecutting.pw.toml"
 metafile = true
 
 [[files]]
 file = "mods/discontinuous-beacon-beams.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/dramatic-doors.pw.toml"
 metafile = true
 
 [[files]]
@@ -1107,6 +1127,10 @@ metafile = true
 
 [[files]]
 file = "mods/easiervillagertrading.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/emotecraft.pw.toml"
 metafile = true
 
 [[files]]
@@ -1378,10 +1402,6 @@ file = "mods/mmmmmmmmmmmm.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/mob-filter.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/modern-glass-doors.pw.toml"
 metafile = true
 
@@ -1422,7 +1442,19 @@ file = "mods/oh-the-biomes-youll-go-fabric.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/opac-fabric-create-support.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/open-parties-and-claims.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/orderedplayerlist.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/organized-tabs.pw.toml"
 metafile = true
 
 [[files]]
@@ -1694,3 +1726,24 @@ file = "shaderpacks/SEUS PTGI HRR 3.zip"
 
 [[files]]
 file = "shaderpacks/SEUS PTGI HRR 3.zip.txt"
+
+[[files]]
+file = "world/serverconfig/create-server.toml"
+
+[[files]]
+file = "world/serverconfig/leavesbegone-server.toml"
+
+[[files]]
+file = "world/serverconfig/openpartiesandclaims-default-player-config.toml"
+
+[[files]]
+file = "world/serverconfig/openpartiesandclaims-expired-claim-config.toml"
+
+[[files]]
+file = "world/serverconfig/openpartiesandclaims-server-claim-config.toml"
+
+[[files]]
+file = "world/serverconfig/openpartiesandclaims-server.toml"
+
+[[files]]
+file = "world/serverconfig/openpartiesandclaims-wilderness-config.toml"
