@@ -866,6 +866,18 @@ file = "dynmap/worlds.txt"
 preserve = true
 
 [[files]]
+file = "kubejs/README.txt"
+
+[[files]]
+file = "kubejs/config/common.properties"
+
+[[files]]
+file = "kubejs/server_scripts/script.js"
+
+[[files]]
+file = "kubejs/startup_scripts/script.js"
+
+[[files]]
 file = "mods/accurate-block-placement.pw.toml"
 metafile = true
 
