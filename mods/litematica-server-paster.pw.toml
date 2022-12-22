@@ -11,3 +11,8 @@ hash = "3c75bc9800db29c22b40681df922ca9a9258610c"
 [update.modrinth]
 mod-id = "HCbarMw6"
 version = "Yjapp34B"
+
+[option]
+optional = true
+default = false
+description = "Allows you to share schematics with players on the server. Only needed if you are using litematica. Create mod has a better version of this with schematic cannon."

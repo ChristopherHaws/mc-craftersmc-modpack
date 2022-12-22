@@ -14,4 +14,6 @@ project-id = 308892
 
 [option]
 optional = true
-default = true
+default = false
+description = "Only needed if you want to paste schematics into creative. Create mod has the schematic cannon which works better than litematica and is more vanilla."
+
