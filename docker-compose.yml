@@ -85,27 +85,27 @@ x-minecraft-options: &minecraft-options
   EULA: true
 
   # https://github.com/itzg/docker-minecraft-server/blob/master/README.md#replacing-variables-inside-configs
-  #REPLACE_ENV_IN_PLACE: false
-  #REPLACE_ENV_DURING_SYNC: true
-  #REPLACE_ENV_SUFFIXES: yml,yaml,txt,cfg,conf,properties,hjson,json,tml,toml
-  #REPLACE_ENV_VARIABLES_EXCLUDES 
-  #REPLACE_ENV_VARIABLES_EXCLUDE_PATHS:
-  REPLACE_ENV_VARIABLES: true
-  REPLACE_ENV_VARIABLE_PREFIX: CRAFTERSMC_
-  REPLACE_ENV_VARIABLES_EXCLUDE_PATHS: >-
-    /data/.cache
-    /data/.fabric
-    /data/audioplayer_uploads
-    /data/crash-reports
-    /data/datapacks
-    /data/dynmap/web
-    /data/libraries
-    /data/logs
-    /data/mods
-    /data/resourcepacks
-    /data/syncmatics
-    /data/versions
-    /data/world
+  # REPLACE_ENV_IN_PLACE: false
+  # REPLACE_ENV_DURING_SYNC: true
+  # REPLACE_ENV_SUFFIXES: yml,yaml,txt,cfg,conf,properties,hjson,json,tml,toml
+  # REPLACE_ENV_VARIABLES_EXCLUDES 
+  # REPLACE_ENV_VARIABLES_EXCLUDE_PATHS:
+  # REPLACE_ENV_VARIABLES: true
+  # REPLACE_ENV_VARIABLE_PREFIX: CRAFTERSMC_
+  # REPLACE_ENV_VARIABLES_EXCLUDE_PATHS: >-
+  #   /data/.cache
+  #   /data/.fabric
+  #   /data/audioplayer_uploads
+  #   /data/crash-reports
+  #   /data/datapacks
+  #   /data/dynmap/web
+  #   /data/libraries
+  #   /data/logs
+  #   /data/mods
+  #   /data/resourcepacks
+  #   /data/syncmatics
+  #   /data/versions
+  #   /data/world
 
   # https://github.com/itzg/docker-minecraft-server/blob/master/README.md#optional-plugins-mods-and-config-attach-points
   # REMOVE_OLD_MODS: true

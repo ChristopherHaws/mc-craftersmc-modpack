@@ -1350,6 +1350,10 @@ file = "mods/macaws-fences-and-walls.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/macaws-paths-and-pavings.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/malilib.pw.toml"
 metafile = true
 
