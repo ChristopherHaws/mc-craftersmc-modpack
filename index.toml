@@ -1258,6 +1258,10 @@ file = "mods/indium.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/ingredient-extension-api.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/interdimensional-map-markers.pw.toml"
 metafile = true
 
@@ -1295,6 +1299,10 @@ metafile = true
 
 [[files]]
 file = "mods/krypton.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/kubejs.pw.toml"
 metafile = true
 
 [[files]]
@@ -1382,10 +1390,6 @@ file = "mods/malilib.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/memoryleakfix.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/minihud.pw.toml"
 metafile = true
 
@@ -1470,6 +1474,10 @@ file = "mods/player-pronouns.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/ponder.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/puzzles-lib.pw.toml"
 metafile = true
 
@@ -1491,6 +1499,10 @@ metafile = true
 
 [[files]]
 file = "mods/respro.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/rhino.pw.toml"
 metafile = true
 
 [[files]]
@@ -1607,6 +1619,10 @@ metafile = true
 
 [[files]]
 file = "mods/styledplayerlist.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/superflat-world-no-slimes.pw.toml"
 metafile = true
 
 [[files]]
