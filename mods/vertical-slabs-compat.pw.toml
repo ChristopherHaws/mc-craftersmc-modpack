@@ -1,0 +1,13 @@
+name = "Vertical Slabs Compat"
+filename = "v_slab_compat-1.19.2-1.2-fabric.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5b5e8699d2a0109edfd55514b9cac46a2c82322c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4167452
+project-id = 724387

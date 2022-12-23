@@ -1,0 +1,18 @@
+name = "Held Item Info"
+filename = "held-item-info-1.4.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "868e2e751642fc8bfd410664fa7cdd19d6f13662"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4119585
+project-id = 365615
+
+[option]
+optional = true
+default = true
+description = "Shows info about the item in your hotbar when you switch to it. This is how it works in bedrock and I missed this feature in java."

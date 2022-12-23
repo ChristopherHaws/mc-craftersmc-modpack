@@ -1,0 +1,13 @@
+name = "Remember My Txt"
+filename = "remember-my-txt-1.0.0+MC1.19.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ad5412facc8ff697c84256564f912c18c1e14980"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3827374
+project-id = 632539

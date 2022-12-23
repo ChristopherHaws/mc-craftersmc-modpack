@@ -1,0 +1,13 @@
+name = "Bedspreads (Fabric)"
+filename = "bedspreads-fabric-6.0.0+1.19.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ba9bb3cd1adeee8731b00855915389440e88213e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3927638
+project-id = 400477

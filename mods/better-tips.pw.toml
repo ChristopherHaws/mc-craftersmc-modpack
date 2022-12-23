@@ -1,0 +1,18 @@
+name = "Better Tips"
+filename = "BetterTags-1.19.2-Fabric-v1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "7cee088aca6fa3baf4176e5445df737a91909092"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4012378
+project-id = 682363
+
+[option]
+optional = true
+default = false
+description = "Shows NBT Item and Block tags in tooltips. Requires a manual download so disabled by default."

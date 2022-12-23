@@ -898,6 +898,10 @@ file = "mods/alternate-current.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/amecs.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/anti-xray.pw.toml"
 metafile = true
 
@@ -918,11 +922,19 @@ file = "mods/armored-elytra.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/arrp.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/attributefix.pw.toml"
 metafile = true
 
 [[files]]
 file = "mods/audioplayer.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/auth-me.pw.toml"
 metafile = true
 
 [[files]]
@@ -938,11 +950,19 @@ file = "mods/badpackets.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/balm-fabric.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/balm.pw.toml"
 metafile = true
 
 [[files]]
 file = "mods/banhammer.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/bedspreads-fabric.pw.toml"
 metafile = true
 
 [[files]]
@@ -958,7 +978,15 @@ file = "mods/better-beds.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/better-ping-display-fabric.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/better-third-person.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/better-tips.pw.toml"
 metafile = true
 
 [[files]]
@@ -1042,6 +1070,14 @@ file = "mods/cit-resewn.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/client-tweaks-fabric.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/cloth-api.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/cloth-config.pw.toml"
 metafile = true
 
@@ -1110,6 +1146,10 @@ file = "mods/dark-paintings.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/death-knell.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/deathlog.pw.toml"
 metafile = true
 
@@ -1119,6 +1159,10 @@ metafile = true
 
 [[files]]
 file = "mods/deepslatecutting.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/default-options-fabric.pw.toml"
 metafile = true
 
 [[files]]
@@ -1254,6 +1298,10 @@ file = "mods/headindex.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/held-item-info.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/horsestatsvanilla.pw.toml"
 metafile = true
 
@@ -1303,6 +1351,10 @@ metafile = true
 
 [[files]]
 file = "mods/keepheadnames.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/kleeslabs-fabric.pw.toml"
 metafile = true
 
 [[files]]
@@ -1418,6 +1470,10 @@ file = "mods/mmmmmmmmmmmm.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/mo-glass.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/modern-glass-doors.pw.toml"
 metafile = true
 
@@ -1443,6 +1499,10 @@ metafile = true
 
 [[files]]
 file = "mods/naturalist.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/netherportalfix-fabric.pw.toml"
 metafile = true
 
 [[files]]
@@ -1507,6 +1567,10 @@ metafile = true
 
 [[files]]
 file = "mods/refabricated-slabs.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/remember-my-txt.pw.toml"
 metafile = true
 
 [[files]]
@@ -1590,7 +1654,15 @@ file = "mods/sleep-warp.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/slight-gui-modifications.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/smooth-chunk-save.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/smooth-scrolling-everywhere-fabric.pw.toml"
 metafile = true
 
 [[files]]
@@ -1634,6 +1706,10 @@ file = "mods/styledplayerlist.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/suggestion-tweaker.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/superflat-world-no-slimes.pw.toml"
 metafile = true
 
@@ -1666,6 +1742,10 @@ file = "mods/tipthescales.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/too-many-binds.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/tool-stats.pw.toml"
 metafile = true
 
@@ -1683,6 +1763,10 @@ metafile = true
 
 [[files]]
 file = "mods/vanilla-permissions.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/vertical-slabs-compat.pw.toml"
 metafile = true
 
 [[files]]
@@ -1711,6 +1795,10 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/xl-packets-fabric.pw.toml"
 metafile = true
 
 [[files]]

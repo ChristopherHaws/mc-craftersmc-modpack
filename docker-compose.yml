@@ -165,6 +165,7 @@ x-minecraft-options: &minecraft-options
   # RCON
   RCON_CMDS_STARTUP:  |-
     /gamerule doFireTick false
+    /lp user Chaws permission set luckperms.* true
 
 services:
   proxy:
