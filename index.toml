@@ -374,6 +374,12 @@ file = "config/improved-signs.json5"
 file = "config/indium-renderer.properties"
 
 [[files]]
+file = "config/inventorio.json"
+
+[[files]]
+file = "config/inventorio_shared.json"
+
+[[files]]
 file = "config/inventoryessentials.toml"
 
 [[files]]
@@ -589,6 +595,12 @@ file = "config/skinswapper.json"
 
 [[files]]
 file = "config/sleepwarp.properties"
+
+[[files]]
+file = "config/slightguimodifications/config.json5"
+
+[[files]]
+file = "config/slightguimodifications/cts.groovy"
 
 [[files]]
 file = "config/smoothboot.json"
@@ -1323,6 +1335,10 @@ metafile = true
 
 [[files]]
 file = "mods/interdimensional-map-markers.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/inventorio.pw.toml"
 metafile = true
 
 [[files]]
