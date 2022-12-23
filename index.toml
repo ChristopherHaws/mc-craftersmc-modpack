@@ -1778,6 +1778,10 @@ file = "mods/tweakeroo.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/unofficial-sodium-biome-blending-fix.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/vanilla-permissions.pw.toml"
 metafile = true
 

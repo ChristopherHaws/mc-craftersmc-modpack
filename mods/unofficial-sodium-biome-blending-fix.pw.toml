@@ -1,0 +1,13 @@
+name = "Unofficial Sodium Biome Blending Fix"
+filename = "unofficial-sodium-biome-blending-fix-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "480658a309a1559bc0b7d3aaf134355c39acd335"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3948174
+project-id = 635999
