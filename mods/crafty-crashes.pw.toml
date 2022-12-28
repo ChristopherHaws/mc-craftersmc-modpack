@@ -1,0 +1,8 @@
+name = "crafty-crashes"
+filename = "Crafty-Crashes-1.0.jar"
+side = "both"
+
+[download]
+url = "https://github.com/Chocohead/Crafty-Crashes/releases/download/v1.0/Crafty-Crashes-1.0.jar"
+hash-format = "sha1"
+hash = "61c39bc755e3a3e37c10cdb42c78e9800c9fd9db"

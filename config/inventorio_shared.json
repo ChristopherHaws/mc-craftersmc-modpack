@@ -3,9 +3,9 @@
 	"InfinityBowNeedsNoArrow": true,
 	"TotemFromUtilityBelt": true,
 	"AllowSwappedHands": true,
-	"ToolBeltMode": "ENABLED",
+	"ToolBeltMode": "DISABLED",
 	"UtilityBeltShortDefaultSize": true,
-	"DeepPocketsBookCraft": true,
-	"DeepPocketsInTrades": true,
-	"DeepPocketsInRandomSelection": true
+	"DeepPocketsBookCraft": false,
+	"DeepPocketsInTrades": false,
+	"DeepPocketsInRandomSelection": false
 }
