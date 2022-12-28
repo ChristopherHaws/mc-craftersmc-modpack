@@ -1,4 +1,8 @@
+formattingCodePrefix = "§"
 signFormattingEnabled = true
 bookFormattingEnabled = true
 anvilFormattingEnabled = true
-formattingCodePrefix = "§"
+signEditingEnabled = true
+signClickThroughEnabled = true
+itemFrameClickThroughEnabled = true
+additionalClickThroughIdentifiers = []
