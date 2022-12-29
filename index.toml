@@ -374,12 +374,6 @@ file = "config/improved-signs.json5"
 file = "config/indium-renderer.properties"
 
 [[files]]
-file = "config/inventorio.json"
-
-[[files]]
-file = "config/inventorio_shared.json"
-
-[[files]]
 file = "config/inventoryessentials.toml"
 
 [[files]]
@@ -595,15 +589,6 @@ file = "config/skinswapper.json"
 
 [[files]]
 file = "config/sleepwarp.properties"
-
-[[files]]
-file = "config/slightguimodifications/config.json5"
-
-[[files]]
-file = "config/slightguimodifications/cts.groovy"
-
-[[files]]
-file = "config/smoothboot.json"
 
 [[files]]
 file = "config/sodium-extra-options.json"
@@ -1346,10 +1331,6 @@ file = "mods/interdimensional-map-markers.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/inventorio.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/inventory-essentials.pw.toml"
 metafile = true
 
@@ -1678,19 +1659,11 @@ file = "mods/sleep-warp.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/slight-gui-modifications.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/smooth-chunk-save.pw.toml"
 metafile = true
 
 [[files]]
 file = "mods/smooth-scrolling-everywhere-fabric.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/smoothboot-fabric.pw.toml"
 metafile = true
 
 [[files]]
