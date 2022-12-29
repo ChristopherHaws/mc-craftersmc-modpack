@@ -1,13 +1,13 @@
 name = "Server Hats"
-filename = "server-hats-0.11.jar"
+filename = "server-hats-1.19-1.19.2-0.13.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/1VRzrrw9/versions/0.11/server-hats-0.11.jar"
+url = "https://cdn.modrinth.com/data/1VRzrrw9/versions/A4GNMsYc/server-hats-1.19-1.19.2-0.13.jar"
 hash-format = "sha1"
-hash = "da3de193cab7269baa59cf0ee4a93cc700467217"
+hash = "f04631f29463ed50a75f11dc373180bfd6a9825d"
 
 [update]
 [update.modrinth]
 mod-id = "1VRzrrw9"
-version = "gfblgCJ4"
+version = "A4GNMsYc"

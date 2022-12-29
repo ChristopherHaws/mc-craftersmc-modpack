@@ -1,18 +1,17 @@
 name = "Litematica Server Paster"
-filename = "litematica-server-paster-mc1.19.2-v1.1.0.jar"
+filename = "litematica-server-paster-mc1.19.2-v1.1.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/HCbarMw6/versions/mc1.19.2-v1.1.0/litematica-server-paster-mc1.19.2-v1.1.0.jar"
+url = "https://cdn.modrinth.com/data/HCbarMw6/versions/LUJbB0NN/litematica-server-paster-mc1.19.2-v1.1.1.jar"
 hash-format = "sha1"
-hash = "3c75bc9800db29c22b40681df922ca9a9258610c"
+hash = "6514a5cdb1de926cc80ab7cbc7e0dc346fd6fd82"
 
 [update]
 [update.modrinth]
 mod-id = "HCbarMw6"
-version = "Yjapp34B"
+version = "LUJbB0NN"
 
 [option]
 optional = true
-default = false
 description = "Allows you to share schematics with players on the server. Only needed if you are using litematica. Create mod has a better version of this with schematic cannon."

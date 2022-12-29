@@ -1487,6 +1487,10 @@ file = "mods/modmenu.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/moonlight-lib.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/more-music-discs.pw.toml"
 metafile = true
 
@@ -1600,10 +1604,6 @@ metafile = true
 
 [[files]]
 file = "mods/screenshot-to-clipboard.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/selene.pw.toml"
 metafile = true
 
 [[files]]
