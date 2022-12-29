@@ -1243,6 +1243,10 @@ file = "mods/expanded-axe-enchanting.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/expanded-enderchest.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/expanded-storage.pw.toml"
 metafile = true
 
