@@ -172,9 +172,6 @@ services:
     image: itzg/bungeecord:java17
     container_name: craftersmc-proxy
     restart: on-failure:3 # 3 retries
-    depends_on:
-      - survival
-      - creative
     ports:
       - "25565:25577"
     volumes:
@@ -192,6 +189,8 @@ services:
     image: itzg/minecraft-server:latest
     container_name: craftersmc-survival
     restart: on-failure:3 # 3 retries
+    depends_on:
+      - db
     ports:
       - "25568:25565"       # Server: survival.craftersmc.com
       - "8125:8080"         # Map: https://map.craftersmc.com
@@ -213,6 +212,8 @@ services:
     image: itzg/minecraft-server:latest
     container_name: craftersmc-creative
     restart: on-failure:3 # 3 retries
+    depends_on:
+      - db
     ports:
       - "25569:25565"       # Server: creative.craftersmc.com
       - "8126:8080"         # Map
