@@ -1,8 +1,10 @@
-name = "LuckPerms"
-filename = "LuckPerms-Fabric-5.4.46.jar"
+name = "LuckPerms Fabric PlaceholderAPI Hook"
+filename = "LuckPerms-Fabric-PlaceholderAPI-Hook.jar"
 side = "server"
 
+# https://luckperms.net/wiki/Placeholders#fabric-placeholderapi
+# https://ci.lucko.me/job/LuckPermsPlaceholders/
 [download]
-url = "https://modpack.craftersmc.com/mods/LuckPerms-Fabric-PlaceholderAPI-Hook-build4.jar"
+url = "https://ci.lucko.me/job/LuckPermsPlaceholders/lastSuccessfulBuild/artifact/fabric-placeholderapi/build/libs/LuckPerms-Fabric-PlaceholderAPI-Hook.jar"
 hash-format = "sha1"
-hash = "5395604ac118f49ec87065b8bf1b097e4458a7d9"
+hash = "45b76bf6c423efad426eb6ad9ebc15149dcdccf8"

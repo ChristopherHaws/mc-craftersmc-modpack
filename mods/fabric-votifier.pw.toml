@@ -2,7 +2,8 @@ name = "Fabric Votifier"
 filename = "fabric-votifier-1.1.3.jar"
 side = "server"
 
+# https://github.com/DrexHD/Fabric-Votifier
 [download]
-url = "https://modpack.craftersmc.com/mods/fabric-votifier-1.1.3.jar"
+url = "https://github.com/DrexHD/Fabric-Votifier/releases/download/v1.1.3/fabric-votifier-1.1.3.jar"
 hash-format = "sha1"
 hash = "cfafe8800c823faf700d1edd4ee088022b707365"
