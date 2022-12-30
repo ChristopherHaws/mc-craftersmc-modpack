@@ -1,0 +1,4 @@
+{
+	// The message which will be sent to players when they use the /vote command.
+	"voteCommandMessage": "This is an example /vote message. You can change it in the config."
+}

@@ -12,22 +12,27 @@
 
 # Exclude config files that shouldn't be in source control
 config/.puzzle_cache/**
+config/bclib/cache.json
+config/byg/backups/**
+config/chunky/tasks/minecraft/**
 config/headindex-cache/**
 config/inventoryprofilesnext/**/lockSlots.txt
 config/litematica/**
+config/luckperms/translations/**
 config/minihud/**
-config/byg/backups/**
-config/chunky/tasks/minecraft/**
+config/spark/tmp/**
+config/spark/activity.json
 config/TabTPS/userdata/**
-dynmap/ids-by-ip.txt
-config/bclib/cache.json
 config/voicechat/username-cache.json
 config/voicechat/voicechat-client.properties
 config/voicechat/voicechat-volumes.properties
 config/worldedit/.archive-unpack/**
 config/worldedit/sessions/**
+
 config/localrecipes.zip
 config/loomrecipes.zip
+
+dynmap/ids-by-ip.txt
 
 
 # Exclude config files that contain secrets

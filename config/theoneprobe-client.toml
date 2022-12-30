@@ -11,7 +11,7 @@ waitingForServerTimeout = 2000
 maxPacketToServer = 20000
 #Distance at which the probe works
 #Range: 0.1 ~ 200.0
-probeDistance = 4.0
+probeDistance = 6.0
 #The fluid unit that will be displayed when viewing fluids
 #Example: 1000 mB or 81000 Droplets
 #Allowed Values: DROPLETS, MILIBUCKETS

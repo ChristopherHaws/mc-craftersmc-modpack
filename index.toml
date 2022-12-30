@@ -1,6 +1,9 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/EssentialCommands.properties"
+
+[[files]]
 file = "config/LibertyVillagers.json"
 
 [[files]]
@@ -19,10 +22,19 @@ file = "config/advancedtooltips.json5"
 file = "config/advancementinfo.json5"
 
 [[files]]
+file = "config/afkdisplay.toml"
+
+[[files]]
 file = "config/antixray.toml"
 
 [[files]]
 file = "config/appleskin.json5"
+
+[[files]]
+file = "config/attributefix.json"
+
+[[files]]
+file = "config/audioplayer/audioplayer-server.properties"
 
 [[files]]
 file = "config/axesareweapons.json5"
@@ -239,6 +251,9 @@ file = "config/commandaliases/invp.yml"
 file = "config/commandaliases/tpsbar.yml"
 
 [[files]]
+file = "config/connectivity.json"
+
+[[files]]
 file = "config/continuity.json"
 
 [[files]]
@@ -264,6 +279,9 @@ file = "config/cyclepaintings-fabric.json5"
 
 [[files]]
 file = "config/deathlog.json"
+
+[[files]]
+file = "config/debugify.json"
 
 [[files]]
 file = "config/deepslatecutting.properties"
@@ -311,6 +329,9 @@ file = "config/entity_texture_features.json"
 file = "config/entityculling.json"
 
 [[files]]
+file = "config/essentialcommands/rules.txt"
+
+[[files]]
 file = "config/everycomp-common.json"
 
 [[files]]
@@ -318,6 +339,9 @@ file = "config/everycomp-wood_types.json"
 
 [[files]]
 file = "config/expanded_axe_enchanting.json"
+
+[[files]]
+file = "config/expandedenderchest.json5"
 
 [[files]]
 file = "config/fabrication/block_logo.ini"
@@ -390,6 +414,9 @@ file = "config/iris.properties"
 
 [[files]]
 file = "config/justplayerheads-fabric.json5"
+
+[[files]]
+file = "config/kleeslabs.toml"
 
 [[files]]
 file = "config/leaves_us_in_peace.json"
@@ -534,6 +561,9 @@ file = "config/modmenu.json"
 file = "config/moreculling.toml"
 
 [[files]]
+file = "config/naturalist.json"
+
+[[files]]
 file = "config/no_sneaking_over_magma.json"
 
 [[files]]
@@ -546,6 +576,9 @@ file = "config/observable.json"
 file = "config/ordered-playerlist.json"
 
 [[files]]
+file = "config/pal.properties"
+
+[[files]]
 file = "config/player-pronouns.json"
 
 [[files]]
@@ -556,6 +589,9 @@ file = "config/raised.json"
 
 [[files]]
 file = "config/restart-server.json"
+
+[[files]]
+file = "config/rightclickharvest.json"
 
 [[files]]
 file = "config/roughlyenoughitems/config.json5"
@@ -591,6 +627,9 @@ file = "config/skinswapper.json"
 file = "config/sleepwarp.properties"
 
 [[files]]
+file = "config/smoothchunk.json"
+
+[[files]]
 file = "config/sodium-extra-options.json"
 
 [[files]]
@@ -606,6 +645,90 @@ file = "config/sodium-options.json"
 file = "config/sodium-shadowy-path-blocks-options.json"
 
 [[files]]
+file = "config/spark/activity.json"
+
+[[files]]
+file = "config/spark/config.json"
+
+[[files]]
+file = "config/spark/tmp/about.txt"
+
+[[files]]
+file = "config/spark/tmp/spark-10865b23364ce-profile-data.jfr.tmp"
+
+[[files]]
+file = "config/spark/tmp/spark-108790af9f73e-libasyncProfiler.so.tmp"
+
+[[files]]
+file = "config/spark/tmp/spark-10a6ad4a4dbdf-profile-data.jfr.tmp"
+
+[[files]]
+file = "config/spark/tmp/spark-10a894f5b357f-libasyncProfiler.so.tmp"
+
+[[files]]
+file = "config/spark/tmp/spark-149ae005b2dee-libasyncProfiler.so.tmp"
+
+[[files]]
+file = "config/spark/tmp/spark-14bcfe6dbfde9-profile-data.jfr.tmp"
+
+[[files]]
+file = "config/spark/tmp/spark-14be5b4a76f21-libasyncProfiler.so.tmp"
+
+[[files]]
+file = "config/spark/tmp/spark-14c01b814ef31-profile-data.jfr.tmp"
+
+[[files]]
+file = "config/spark/tmp/spark-14c21e147935c-libasyncProfiler.so.tmp"
+
+[[files]]
+file = "config/spark/tmp/spark-15a36d7f84c95-profile-data.jfr.tmp"
+
+[[files]]
+file = "config/spark/tmp/spark-180690e6e89e2-profile-data.jfr.tmp"
+
+[[files]]
+file = "config/spark/tmp/spark-20caf039e695-profile-data.jfr.tmp"
+
+[[files]]
+file = "config/spark/tmp/spark-36dc660a6e-libasyncProfiler.so.tmp"
+
+[[files]]
+file = "config/spark/tmp/spark-4bcd53b0a502-libasyncProfiler.so.tmp"
+
+[[files]]
+file = "config/spark/tmp/spark-4d6d0c502f58-profile-data.jfr.tmp"
+
+[[files]]
+file = "config/spark/tmp/spark-8f24a3a15aaf-libasyncProfiler.so.tmp"
+
+[[files]]
+file = "config/spark/tmp/spark-b2169048bd7c-libasyncProfiler.so.tmp"
+
+[[files]]
+file = "config/spark/tmp/spark-b25c8171e8b5-profile-data.jfr.tmp"
+
+[[files]]
+file = "config/spark/tmp/spark-b27d57fc0624-libasyncProfiler.so.tmp"
+
+[[files]]
+file = "config/spark/tmp/spark-bb0eac161f83-profile-data.jfr.tmp"
+
+[[files]]
+file = "config/spark/tmp/spark-bb205d466077-libasyncProfiler.so.tmp"
+
+[[files]]
+file = "config/spark/tmp/spark-bbfff1d982ae-profile-data.jfr.tmp"
+
+[[files]]
+file = "config/spark/tmp/spark-bc15628302f1-libasyncProfiler.so.tmp"
+
+[[files]]
+file = "config/spark/tmp/spark-bc4d51d63a21-profile-data.jfr.tmp"
+
+[[files]]
+file = "config/spark/tmp/spark-bc61e8405fc7-libasyncProfiler.so.tmp"
+
+[[files]]
 file = "config/styled-chat.json"
 
 [[files]]
@@ -619,6 +742,15 @@ file = "config/styledplayerlist/styles/default.json"
 
 [[files]]
 file = "config/suggestion-tweaker.json5"
+
+[[files]]
+file = "config/supplementaries-client.json"
+
+[[files]]
+file = "config/supplementaries-common.json"
+
+[[files]]
+file = "config/supplementaries-registry.json"
 
 [[files]]
 file = "config/syncmatica/config.json"
@@ -651,7 +783,13 @@ file = "config/toolstats.json"
 file = "config/tweakeroo.json"
 
 [[files]]
+file = "config/vmp.properties"
+
+[[files]]
 file = "config/voicechat/voicechat-server.properties"
+
+[[files]]
+file = "config/votecommand-fabric.json5"
 
 [[files]]
 file = "config/whereisit.json"

@@ -1,17 +1,6 @@
 {
   "villagersGeneralConfig": {
-    "findPOIRange": 64,
-    "pathfindingMaxRange": 128,
-    "minimumPOISearchDistance": 2,
     "healOnWake": true,
-    "villagersAvoidCactus": true,
-    "villagersAvoidWater": true,
-    "villagersAvoidRail": true,
-    "villagerWanderingFix": true,
-    "walkTowardsTaskMaxRunTime": 2400,
-    "walkTowardsTaskMinCompletionRange": 3,
-    "villagersDontClimb": true,
-    "villagerSafeFallDistance": 2,
     "villagersDontBreed": false,
     "villagerBabiesRequireWorkstationAndBed": false,
     "villagersDontLookForWorkstationsAtNight": true,
@@ -24,6 +13,20 @@
     "allBabyVillagers": false,
     "foreverYoung": false
   },
+  "villagerPathfindingConfig": {
+    "findPOIRange": 64,
+    "pathfindingMaxRange": 128,
+    "minimumPOISearchDistance": 2,
+    "villagersAvoidCactus": true,
+    "villagersAvoidWater": true,
+    "villagersAvoidRail": true,
+    "villagersAvoidTrapdoor": true,
+    "villagersAvoidPowderedSnow": true,
+    "villagerWanderingFix": true,
+    "walkTowardsTaskMaxRunTime": 2400,
+    "villagersDontClimb": true,
+    "villagerSafeFallDistance": 2
+  },
   "villagersProfessionConfig": {
     "armorerHealsGolems": true,
     "armorerHealsGolemsRange": 32,
@@ -34,18 +37,36 @@
     "findCropRangeVertical": 3,
     "preferPlantSameCrop": true,
     "farmersHarvestMelons": true,
-    "farmersHarvestPumpkins": true
+    "farmersHarvestPumpkins": true,
+    "butchersFeedChickens": true,
+    "butchersFeedCows": true,
+    "butchersFeedPigs": true,
+    "butchersFeedRabbits": true,
+    "butchersFeedSheep": false,
+    "fletchersFeedChickens": true,
+    "leatherworkersFeedCows": true,
+    "shepherdsFeedSheep": false,
+    "feedAnimalsRange": 20,
+    "feedMaxAnimals": 30,
+    "librariansLookAtBooks": true
   },
   "golemsConfig": {
     "golemsAvoidCactus": true,
     "golemsAvoidWater": true,
     "golemsAvoidRail": true,
+    "golemsAvoidTrapdoor": true,
+    "golemsAvoidPowderedSnow": true,
     "golemsDontAttackPlayer": true,
     "golemsDontTrampleCrops": true,
     "villagersDontSummonGolems": false,
     "golemSpawnLimit": false,
     "golemSpawnLimitCount": 10,
-    "golemSpawnLimitRange": 128
+    "golemSpawnLimitRange": 128,
+    "golemStayNearBell": true,
+    "golemMaxBellRange": 128,
+    "golemMoveToShore": true,
+    "golemMoveToShoreRange": 10,
+    "golemsDontClimb": true
   },
   "catsConfig": {
     "catsSpawnLimit": false,
@@ -53,7 +74,10 @@
     "catsSpawnLimitRange": 128,
     "villageCatsDontDespawn": false,
     "blackCatsAtAnyTime": false,
-    "allBlackCats": false
+    "allBlackCats": false,
+    "catsStayNearBell": true,
+    "catsMaxBellRange": 128,
+    "catsDontClimb": true
   },
   "debugConfig": {
     "villagerStatRange": 256,
