@@ -1353,10 +1353,6 @@ file = "mods/entity-collision-fps-fix.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/entity-texture-features-fabric.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/entity-view-distance.pw.toml"
 metafile = true
 
