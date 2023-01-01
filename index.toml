@@ -401,6 +401,9 @@ file = "config/indium-renderer.properties"
 file = "config/inventoryessentials.toml"
 
 [[files]]
+file = "config/inventoryprofilesnext/integrationHints/enderchests.json"
+
+[[files]]
 file = "config/inventoryprofilesnext/integrationHints/exampleIntegrationHints.json"
 
 [[files]]

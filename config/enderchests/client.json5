@@ -4,7 +4,7 @@
 		/* EnderChest 
 		   #Allowed Values: DEFAULT, VANILLA
 		*/
-		"ender_chest": "DEFAULT"
+		"ender_chest": "VANILLA"
 	},
 	/* Color Values for Bands, 
 	   Format: Decimal Values (0 to 16,777,215) 

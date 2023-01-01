@@ -1,0 +1,33 @@
+{
+    "shetiphian.enderchests.client.gui.GuiEnderChest": {
+        "buttonHints": {
+            "SORT": {
+                "top": 118,
+                "bottom": 10
+            },
+            "SORT_COLUMNS": {
+                "top": 118,
+                "bottom": 10
+            },
+            "SORT_ROWS": {
+                "top": 118,
+                "bottom": 10
+            },
+            "MOVE_TO_CONTAINER": {
+                "horizontalOffset": 79,
+                "bottom": 8
+            },
+            "MOVE_TO_PLAYER": {
+                "top": 118
+            },
+            "SHOW_EDITOR": {
+                "horizontalOffset": -10,
+                "top": 26
+            }
+        },
+        "force": true
+    },
+    "shetiphian.enderchests.common.inventory.ContainerEnderChest": {
+        "force": true
+    }
+}
