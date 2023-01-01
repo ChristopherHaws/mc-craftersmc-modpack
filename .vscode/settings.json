@@ -1,9 +1,27 @@
 {
+	"json.schemas": [
+		{
+			"fileMatch": [
+				"*.pw.toml"
+			],
+			"url": "../.schemas/packwiz-mod.schema.json"
+		}
+	],
 	"files.associations": {
 		"**/dynmap/**/*.txt": "yaml",
 		".packwizignore": "ignore"
 	},
 	"[json]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	}
+	},
+	"evenBetterToml.schema.associations": {
+		"^.*\\.pw\\.toml$": "file:///C:/dev/chaws/mc/chaws-modpack/.schemas/packwiz-mod.schema.json"
+	},
+	// "evenBetterToml.taplo.environment": {
+	// 	"RUST_LOG": "trace"
+	// },
+	// "evenBetterToml.taplo.extraArgs": [
+	// 	"--log-spans",
+	// 	"--verbose"
+	// ],
 }
