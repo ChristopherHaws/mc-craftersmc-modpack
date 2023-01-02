@@ -1,12 +1,4 @@
 version:3120
-key_inventorio.keys.open_global_settings:key.keyboard.unknown
-key_inventorio.keys.use_utility:key.keyboard.unknown
-key_inventorio.keys.prev_utility:key.keyboard.unknown
-fullscreenResolution:1920x1200@144:24
-key_inventorio.keys.empty_utility:key.keyboard.unknown
-key_inventorio.keys.next_utility:key.mouse.5
-key_inventorio.keys.open_player_settings:key.keyboard.unknown
-key_inventorio.keys.rocket_boost:key.keyboard.right.alt
 doubleTapSprint:false
 autoJump:false
 autoSuggestions:true
@@ -37,9 +29,9 @@ darknessEffectScale:0.5023474178403756
 gamma:1.0
 renderDistance:12
 simulationDistance:8
-entityDistanceScaling:1.0
+entityDistanceScaling:5.0
 guiScale:3
-particles:0
+particles:1
 maxFps:60
 graphicsMode:1
 ao:2
@@ -54,7 +46,7 @@ soundDevice:""
 chatVisibility:0
 chatOpacity:1.0
 chatLineSpacing:0.0
-textBackgroundOpacity:0.807511737089202
+textBackgroundOpacity:0.6009389671361501
 backgroundForChatOnly:true
 hideServerAddress:false
 advancedItemTooltips:true
@@ -62,9 +54,9 @@ pauseOnLostFocus:false
 overrideWidth:0
 overrideHeight:0
 heldItemTooltips:true
-chatHeightFocused:0.7511737089201878
+chatHeightFocused:0.75
 chatDelay:0.0
-chatHeightUnfocused:0.4741784037558684
+chatHeightUnfocused:0.50
 chatScale:1.0
 chatWidth:1.0
 mipmapLevels:4
@@ -143,7 +135,7 @@ key_key.amecs.toggle_right_pants_leg:key.keyboard.unknown
 key_key.amecs.toggle_hat:key.keyboard.unknown
 key_key.cycleStatueTabs:key.keyboard.tab
 key_blanket-client-tweaks.keys.rotateMinecartKey:key.keyboard.unknown
-key_key.blockmeter.assign:key.keyboard.t
+key_key.blockmeter.assign:key.keyboard.m
 key_key.blockmeter.menu:key.keyboard.unknown
 key_key.chesttracker.opengui:key.keyboard.f
 key_key.clienttweaks.hideOffhandItem:key.keyboard.unknown
@@ -250,4 +242,3 @@ modelPart_right_sleeve:true
 modelPart_left_pants_leg:true
 modelPart_right_pants_leg:true
 modelPart_hat:true
-fullscreenResolution:1920x1200@144:24

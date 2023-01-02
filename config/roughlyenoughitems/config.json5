@@ -89,7 +89,7 @@
 		"hiddenFavorites": [],
 		"displayHistory": [],
 		// Declares whether cheating mode is on.
-		"cheating": true,
+		"cheating": "WHEN_CREATIVE",
 		"favoritesEnabled": true,
 		"keyBindings": {
 			"recipeKeybind": {
@@ -113,8 +113,8 @@
 				"modifier": 0
 			},
 			"focusSearchFieldKeybind": {
-				"keyCode": "key.keyboard.space",
-				"modifier": 0
+				"keyCode": "key.keyboard.f",
+				"modifier": 2
 			},
 			"copyRecipeIdentifierKeybind": {
 				"keyCode": "key.mouse.middle",
@@ -155,16 +155,15 @@
 			// Declares whether REI should append mod names to entries.
 			"appendModNames": true,
 			// Declares whether favorites tooltip should be displayed.
-			"displayFavoritesTooltip": true,
-			"displayIMEHints": true
+			"displayFavoritesTooltip": true
 		},
 		"layout": {
 			// The ordering of the items on the entry panel.
 			"entryPanelOrdering": "GROUPS_DESCENDING",
 			// Declares the maximum amount of recipes displayed in a page if possible.
-			"maxRecipesPerPage": 12,
+			"maxRecipesPerPage": 8,
 			// Declares the maximum amount of recipes displayed in a page if possible.
-			"maxRecipesPageHeight": 357,
+			"maxRecipesPageHeight": 300,
 			// Declares whether entry rendering time should be debugged.
 			"debugRenderTimeRequired": false,
 			// Merges displays with equal contents under 1 display.
@@ -172,7 +171,7 @@
 			"favoriteAddWidgetMode": "ALWAYS_VISIBLE"
 		},
 		"accessibility": {
-			"entrySize": 1.56,
+			"entrySize": 1.25,
 			// Declares the position of the entry panel.
 			"displayPanelLocation": "RIGHT",
 			// Declares how the scrollbar in composite screen should act.
