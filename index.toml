@@ -1,6 +1,9 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/BetterBeacons.conf"
+
+[[files]]
 file = "config/EssentialCommands.properties"
 
 [[files]]
@@ -25,16 +28,37 @@ file = "config/advancementinfo.json5"
 file = "config/afkdisplay.toml"
 
 [[files]]
+file = "config/animatica.properties"
+
+[[files]]
 file = "config/antixray.toml"
 
 [[files]]
 file = "config/appleskin.json5"
 
 [[files]]
+file = "config/armor-stand-editor/config.json"
+
+[[files]]
 file = "config/attributefix.json"
 
 [[files]]
 file = "config/audioplayer/audioplayer-server.properties"
+
+[[files]]
+file = "config/authme.json5"
+
+[[files]]
+file = "config/auto-clicker-fabric.json"
+
+[[files]]
+file = "config/autoswitch.cfg"
+
+[[files]]
+file = "config/autoswitchAttackAction.cfg"
+
+[[files]]
+file = "config/autoswitchUseAction.cfg"
 
 [[files]]
 file = "config/axesareweapons.json5"
@@ -56,7 +80,16 @@ file = "config/beenfo.json"
 file = "config/better-dark-mode.conf"
 
 [[files]]
+file = "config/betteranimalsplus-client.json5"
+
+[[files]]
 file = "config/betterf3.json"
+
+[[files]]
+file = "config/betterpingdisplay.json"
+
+[[files]]
+file = "config/bettertags.json"
 
 [[files]]
 file = "config/betterthirdperson.json5"
@@ -191,6 +224,9 @@ file = "config/byg/surface_rules/overworld_surface_rules.json5"
 file = "config/byg/trades.json5"
 
 [[files]]
+file = "config/c2me-compat.toml"
+
+[[files]]
 file = "config/c2me.toml"
 
 [[files]]
@@ -203,7 +239,16 @@ file = "config/carpet/carpet-fixes.conf"
 file = "config/carpet/carpet.conf"
 
 [[files]]
+file = "config/carpet/default_carpet-fixes.conf"
+
+[[files]]
+file = "config/carpet/default_carpet.conf"
+
+[[files]]
 file = "config/carrier.json"
+
+[[files]]
+file = "config/cem.conf"
 
 [[files]]
 file = "config/chat_heads.json5"
@@ -213,6 +258,9 @@ file = "config/chattix/config.hjson"
 
 [[files]]
 file = "config/chesttracker.json5"
+
+[[files]]
+file = "config/chickensshed.json5"
 
 [[files]]
 file = "config/chunky.json"
@@ -225,6 +273,9 @@ file = "config/citresewn-defaults.json"
 
 [[files]]
 file = "config/citresewn.json"
+
+[[files]]
+file = "config/clienttweaks.toml"
 
 [[files]]
 file = "config/collective-fabric.json5"
@@ -272,10 +323,19 @@ file = "config/crowdin.txt"
 file = "config/ctm.json"
 
 [[files]]
+file = "config/cull-less-leaves.json"
+
+[[files]]
 file = "config/cull-less-leaves.toml"
 
 [[files]]
 file = "config/cyclepaintings-fabric.json5"
+
+[[files]]
+file = "config/darkmodeeverywhere-client.toml"
+
+[[files]]
+file = "config/darkmodeeverywhereshaders.json"
 
 [[files]]
 file = "config/deathlog.json"
@@ -285,6 +345,21 @@ file = "config/debugify.json"
 
 [[files]]
 file = "config/deepslatecutting.properties"
+
+[[files]]
+file = "config/deepslatecutting.toml"
+
+[[files]]
+file = "config/defaultoptions.toml"
+
+[[files]]
+file = "config/defaultoptions/keybindings.txt"
+
+[[files]]
+file = "config/defaultoptions/options.txt"
+
+[[files]]
+file = "config/defaultoptions/servers.dat"
 
 [[files]]
 file = "config/discontinuous_beacon_beams.json"
@@ -344,6 +419,9 @@ file = "config/expanded_axe_enchanting.json"
 file = "config/expandedenderchest.json5"
 
 [[files]]
+file = "config/fabric/indigo-renderer.properties"
+
+[[files]]
 file = "config/fabrication/block_logo.ini"
 
 [[files]]
@@ -380,7 +458,13 @@ file = "config/fabrictailor.json"
 file = "config/ferritecore.mixin.properties"
 
 [[files]]
+file = "config/flywheel.json"
+
+[[files]]
 file = "config/gravestones.json"
+
+[[files]]
+file = "config/held-item-info.json"
 
 [[files]]
 file = "config/horsestatsvanilla.json5"
@@ -422,6 +506,9 @@ file = "config/justplayerheads-fabric.json5"
 file = "config/kleeslabs.toml"
 
 [[files]]
+file = "config/lambdynlights.toml"
+
+[[files]]
 file = "config/leaves_us_in_peace.json"
 
 [[files]]
@@ -439,111 +526,6 @@ file = "config/logprot.json"
 
 [[files]]
 file = "config/luckperms/luckperms.conf"
-
-[[files]]
-file = "config/luckperms/translations/repository/ar_SA.properties"
-
-[[files]]
-file = "config/luckperms/translations/repository/bg_BG.properties"
-
-[[files]]
-file = "config/luckperms/translations/repository/cs_CZ.properties"
-
-[[files]]
-file = "config/luckperms/translations/repository/da_DK.properties"
-
-[[files]]
-file = "config/luckperms/translations/repository/de_DE.properties"
-
-[[files]]
-file = "config/luckperms/translations/repository/el_GR.properties"
-
-[[files]]
-file = "config/luckperms/translations/repository/en_PT.properties"
-
-[[files]]
-file = "config/luckperms/translations/repository/es_ES.properties"
-
-[[files]]
-file = "config/luckperms/translations/repository/fa_IR.properties"
-
-[[files]]
-file = "config/luckperms/translations/repository/fi_FI.properties"
-
-[[files]]
-file = "config/luckperms/translations/repository/fil_PH.properties"
-
-[[files]]
-file = "config/luckperms/translations/repository/fr_FR.properties"
-
-[[files]]
-file = "config/luckperms/translations/repository/he_IL.properties"
-
-[[files]]
-file = "config/luckperms/translations/repository/hi_IN.properties"
-
-[[files]]
-file = "config/luckperms/translations/repository/hu_HU.properties"
-
-[[files]]
-file = "config/luckperms/translations/repository/id_ID.properties"
-
-[[files]]
-file = "config/luckperms/translations/repository/it_IT.properties"
-
-[[files]]
-file = "config/luckperms/translations/repository/ja_JP.properties"
-
-[[files]]
-file = "config/luckperms/translations/repository/ka_GE.properties"
-
-[[files]]
-file = "config/luckperms/translations/repository/ko_KR.properties"
-
-[[files]]
-file = "config/luckperms/translations/repository/nl_NL.properties"
-
-[[files]]
-file = "config/luckperms/translations/repository/no_NO.properties"
-
-[[files]]
-file = "config/luckperms/translations/repository/pl_PL.properties"
-
-[[files]]
-file = "config/luckperms/translations/repository/pt_BR.properties"
-
-[[files]]
-file = "config/luckperms/translations/repository/ro_RO.properties"
-
-[[files]]
-file = "config/luckperms/translations/repository/ru_RU.properties"
-
-[[files]]
-file = "config/luckperms/translations/repository/sk_SK.properties"
-
-[[files]]
-file = "config/luckperms/translations/repository/sr_CS.properties"
-
-[[files]]
-file = "config/luckperms/translations/repository/status.json"
-
-[[files]]
-file = "config/luckperms/translations/repository/sv_SE.properties"
-
-[[files]]
-file = "config/luckperms/translations/repository/tr_TR.properties"
-
-[[files]]
-file = "config/luckperms/translations/repository/uk_UA.properties"
-
-[[files]]
-file = "config/luckperms/translations/repository/vi_VN.properties"
-
-[[files]]
-file = "config/luckperms/translations/repository/zh_CN.properties"
-
-[[files]]
-file = "config/luckperms/translations/repository/zh_TW.properties"
 
 [[files]]
 file = "config/malilib.json"
@@ -570,6 +552,9 @@ file = "config/naturalist.json"
 file = "config/no_sneaking_over_magma.json"
 
 [[files]]
+file = "config/noindium.json"
+
+[[files]]
 file = "config/notenoughcrashes.json"
 
 [[files]]
@@ -582,6 +567,12 @@ file = "config/ordered-playerlist.json"
 file = "config/pal.properties"
 
 [[files]]
+file = "config/pickblockpro/config.json5"
+
+[[files]]
+file = "config/pickblockpro/overrides.json"
+
+[[files]]
 file = "config/player-pronouns.json"
 
 [[files]]
@@ -591,6 +582,12 @@ file = "config/puzzle.json"
 file = "config/raised.json"
 
 [[files]]
+file = "config/redstone_multimeter/hotkeys.txt"
+
+[[files]]
+file = "config/redstone_multimeter/options.txt"
+
+[[files]]
 file = "config/restart-server.json"
 
 [[files]]
@@ -598,6 +595,15 @@ file = "config/rightclickharvest.json"
 
 [[files]]
 file = "config/roughlyenoughitems/config.json5"
+
+[[files]]
+file = "config/roughlyenoughitems/hints.json"
+
+[[files]]
+file = "config/roughlyenoughitems/pinyin.properties"
+
+[[files]]
+file = "config/roughlyenoughitems/pinyin_double.properties"
 
 [[files]]
 file = "config/rules.json"
@@ -648,88 +654,7 @@ file = "config/sodium-options.json"
 file = "config/sodium-shadowy-path-blocks-options.json"
 
 [[files]]
-file = "config/spark/activity.json"
-
-[[files]]
 file = "config/spark/config.json"
-
-[[files]]
-file = "config/spark/tmp/about.txt"
-
-[[files]]
-file = "config/spark/tmp/spark-10865b23364ce-profile-data.jfr.tmp"
-
-[[files]]
-file = "config/spark/tmp/spark-108790af9f73e-libasyncProfiler.so.tmp"
-
-[[files]]
-file = "config/spark/tmp/spark-10a6ad4a4dbdf-profile-data.jfr.tmp"
-
-[[files]]
-file = "config/spark/tmp/spark-10a894f5b357f-libasyncProfiler.so.tmp"
-
-[[files]]
-file = "config/spark/tmp/spark-149ae005b2dee-libasyncProfiler.so.tmp"
-
-[[files]]
-file = "config/spark/tmp/spark-14bcfe6dbfde9-profile-data.jfr.tmp"
-
-[[files]]
-file = "config/spark/tmp/spark-14be5b4a76f21-libasyncProfiler.so.tmp"
-
-[[files]]
-file = "config/spark/tmp/spark-14c01b814ef31-profile-data.jfr.tmp"
-
-[[files]]
-file = "config/spark/tmp/spark-14c21e147935c-libasyncProfiler.so.tmp"
-
-[[files]]
-file = "config/spark/tmp/spark-15a36d7f84c95-profile-data.jfr.tmp"
-
-[[files]]
-file = "config/spark/tmp/spark-180690e6e89e2-profile-data.jfr.tmp"
-
-[[files]]
-file = "config/spark/tmp/spark-20caf039e695-profile-data.jfr.tmp"
-
-[[files]]
-file = "config/spark/tmp/spark-36dc660a6e-libasyncProfiler.so.tmp"
-
-[[files]]
-file = "config/spark/tmp/spark-4bcd53b0a502-libasyncProfiler.so.tmp"
-
-[[files]]
-file = "config/spark/tmp/spark-4d6d0c502f58-profile-data.jfr.tmp"
-
-[[files]]
-file = "config/spark/tmp/spark-8f24a3a15aaf-libasyncProfiler.so.tmp"
-
-[[files]]
-file = "config/spark/tmp/spark-b2169048bd7c-libasyncProfiler.so.tmp"
-
-[[files]]
-file = "config/spark/tmp/spark-b25c8171e8b5-profile-data.jfr.tmp"
-
-[[files]]
-file = "config/spark/tmp/spark-b27d57fc0624-libasyncProfiler.so.tmp"
-
-[[files]]
-file = "config/spark/tmp/spark-bb0eac161f83-profile-data.jfr.tmp"
-
-[[files]]
-file = "config/spark/tmp/spark-bb205d466077-libasyncProfiler.so.tmp"
-
-[[files]]
-file = "config/spark/tmp/spark-bbfff1d982ae-profile-data.jfr.tmp"
-
-[[files]]
-file = "config/spark/tmp/spark-bc15628302f1-libasyncProfiler.so.tmp"
-
-[[files]]
-file = "config/spark/tmp/spark-bc4d51d63a21-profile-data.jfr.tmp"
-
-[[files]]
-file = "config/spark/tmp/spark-bc61e8405fc7-libasyncProfiler.so.tmp"
 
 [[files]]
 file = "config/styled-chat.json"
@@ -783,7 +708,16 @@ file = "config/thorium/thorium.conf"
 file = "config/toolstats.json"
 
 [[files]]
+file = "config/toomanybinds.json5"
+
+[[files]]
+file = "config/tr7zwDonorSettings.json"
+
+[[files]]
 file = "config/tweakeroo.json"
+
+[[files]]
+file = "config/unofficial_sodium_biome_blending_fix.json"
 
 [[files]]
 file = "config/vmp.properties"
@@ -793,6 +727,9 @@ file = "config/voicechat/voicechat-server.properties"
 
 [[files]]
 file = "config/votecommand-fabric.json5"
+
+[[files]]
+file = "config/waig.config"
 
 [[files]]
 file = "config/whereisit.json"
@@ -805,6 +742,9 @@ file = "config/worldeditcui.config.json"
 
 [[files]]
 file = "config/xaerominimap.txt"
+
+[[files]]
+file = "config/xaerominimap_entities.json"
 
 [[files]]
 file = "config/xaeropatreon.txt"

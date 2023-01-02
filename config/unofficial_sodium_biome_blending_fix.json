@@ -1,0 +1,14 @@
+{
+  "block_class_whitelist": [
+    "net.minecraft.class_2397",
+    "net.minecraft.class_2372",
+    "net.minecraft.class_2523",
+    "net.minecraft.class_2261",
+    "net.minecraft.class_2541",
+    "net.minecraft.class_2258"
+  ],
+  "block_id_whitelist": [
+    "minecraft:water",
+    "minecraft:water_cauldron"
+  ]
+}

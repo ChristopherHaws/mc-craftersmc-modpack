@@ -4,19 +4,25 @@
             "value": false
         },
         "highlight_foused_items_foreground": false,
-        "enable_profiles": {
-            "value": false
-        },
         "enable_auto_refill": {
             "value": false
         },
-        "restock_hotbar": {
-            "value": false
-        },
+        "for_modpack_devs": true,
         "first_run": false
     },
     "GuiSettings": {
+        "enable_inventory_editor_button": {
+            "main": {
+                "keys": "R,O"
+            }
+        },
+        "enable_inventory_settings_button": {
+            "value": false
+        },
         "enable_profiles_ui": {
+            "main": {
+                "keys": "R,P"
+            },
             "value": false
         },
         "show_continuous_crafting_checkbox": {
@@ -30,6 +36,7 @@
         "locked_slots_allow_pickup_into_empty": {
             "value": true
         },
+        "locked_slots_delay_keeper_reinit_ticks": 250,
         "locked_slots_empty_hotbar_as_semi_locked": {
             "value": false
         },
@@ -52,9 +59,19 @@
         "quick_slot_3_profile": "Profile 3"
     },
     "Hotkeys": {
+        "sort_inventory": {
+            "main": {
+                "keys": "BUTTON_4"
+            }
+        },
         "move_all_items": {
             "main": {
-                "keys": "T"
+                "keys": ""
+            }
+        },
+        "throw_all_items": {
+            "main": {
+                "keys": "R,T"
             }
         }
     }

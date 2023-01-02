@@ -1,5 +1,6 @@
 {
   "allowIllegalTexturePaths": true,
+  "illegalPathSupportMode": "None",
   "enableCustomTextures": true,
   "enableCustomBlockEntities": true,
   "textureUpdateFrequency_V2": "Fast",
@@ -12,14 +13,12 @@
   "restrictMoonPhase": true,
   "enableEmissiveTextures": true,
   "enableEmissiveBlockEntities": true,
-  "fullBrightEmissives": false,
   "emissiveRenderMode": "DULL",
   "specialEmissiveShield": true,
   "alwaysCheckVanillaEmissiveSuffix": true,
   "skinFeaturesEnabled": true,
   "skinFeaturesEnableTransparency": true,
   "skinFeaturesEnableFullTransparency": false,
-  "skinFeaturesPrintETFReadySkin": false,
   "enableEnemyTeamPlayersSkinFeatures": true,
   "enableBlinking": true,
   "blinkFrequency": 150,
@@ -34,6 +33,8 @@
   "removePixelsUnderEmissivePlayers": true,
   "removePixelsUnderEmissiveMobs": true,
   "removePixelsUnderEmissiveBlockEntity": true,
+  "dontPatchPBRTextures": true,
+  "dontPatchAnimatedTextures": true,
   "ignoredConfigs": [],
   "hideConfigButton": false
 }

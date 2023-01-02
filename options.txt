@@ -1,4 +1,12 @@
 version:3120
+key_inventorio.keys.open_global_settings:key.keyboard.unknown
+key_inventorio.keys.use_utility:key.keyboard.unknown
+key_inventorio.keys.prev_utility:key.keyboard.unknown
+fullscreenResolution:1920x1200@144:24
+key_inventorio.keys.empty_utility:key.keyboard.unknown
+key_inventorio.keys.next_utility:key.mouse.5
+key_inventorio.keys.open_player_settings:key.keyboard.unknown
+key_inventorio.keys.rocket_boost:key.keyboard.right.alt
 doubleTapSprint:false
 autoJump:false
 autoSuggestions:true
@@ -26,17 +34,17 @@ fov:0.0
 screenEffectScale:0.16901408450704225
 fovEffectScale:9.312526174259877E-4
 darknessEffectScale:0.5023474178403756
-gamma:0.5
-renderDistance:16
+gamma:1.0
+renderDistance:12
 simulationDistance:8
-entityDistanceScaling:5.0
+entityDistanceScaling:1.0
 guiScale:3
 particles:0
 maxFps:60
 graphicsMode:1
 ao:2
 prioritizeChunkUpdates:0
-biomeBlendRadius:0
+biomeBlendRadius:7
 renderClouds:"false"
 resourcePacks:["vanilla","continuity/default","continuity/glass_pane_culling_fix","Fabric Mods","file/Better+Leaves+Addon+V2.9-1.19.zip","file/VanillaTweaks.zip","file/Remove Pop-up.zip","Fabrication","walllanterns/moddedlanternscompat"]
 incompatibleResourcePacks:["Fabrication"]
@@ -112,19 +120,35 @@ key_key.hotbar.6:key.keyboard.6
 key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
-key_keybinding.toggle-hold:key.keyboard.f9
-key_keybinding.open-gui:key.keyboard.f8
+key_keybinding.toggle-hold:key.keyboard.unknown
+key_keybinding.open-gui:key.keyboard.unknown
 key_key.dynamicfps.toggle_forced:key.keyboard.unknown
 key_key.dynamicfps.toggle_disabled:key.keyboard.unknown
+key_key.emotecraft.fastchoose:key.keyboard.b
+key_key.emotecraft.stop:key.keyboard.unknown
+key_key.toomanybinds.launcher:key.keyboard.p
+key_key.toomanybinds.favorite:key.keyboard.f4
 key_key.worldeditcui.toggle:key.keyboard.period
 key_key.worldeditcui.clear:key.keyboard.unknown
 key_key.worldeditcui.chunk:key.keyboard.unknown
 key_net.clayborn.accurateblockplacement.togglevanillaplacement:key.keyboard.f7
+key_key.amecs.alternative_escape:key.keyboard.unknown
+key_key.amecs.toggle_auto_jump:key.keyboard.unknown
+key_key.amecs.toggle_cape:key.keyboard.unknown
+key_key.amecs.toggle_jacket:key.keyboard.unknown
+key_key.amecs.toggle_left_sleeve:key.keyboard.unknown
+key_key.amecs.toggle_right_sleeve:key.keyboard.unknown
+key_key.amecs.toggle_left_pants_leg:key.keyboard.unknown
+key_key.amecs.toggle_right_pants_leg:key.keyboard.unknown
+key_key.amecs.toggle_hat:key.keyboard.unknown
 key_key.cycleStatueTabs:key.keyboard.tab
 key_blanket-client-tweaks.keys.rotateMinecartKey:key.keyboard.unknown
-key_key.blockmeter.assign:key.keyboard.m
+key_key.blockmeter.assign:key.keyboard.t
 key_key.blockmeter.menu:key.keyboard.unknown
-key_key.chesttracker.opengui:key.keyboard.i
+key_key.chesttracker.opengui:key.keyboard.f
+key_key.clienttweaks.hideOffhandItem:key.keyboard.unknown
+key_key.clienttweaks.disableStepAssist:key.keyboard.unknown
+key_key.clienttweaks.disableLogStripping:key.keyboard.unknown
 key_create.keyinfo.toolmenu:key.keyboard.left.alt
 key_create.keyinfo.toolbelt:key.keyboard.left.alt
 key_key.deathlog.death_screen:key.keyboard.end
@@ -134,6 +158,7 @@ key_key.hotbarcycle.cycle:key.mouse.4
 key_key.hotbarcycle.single_cycle:key.keyboard.unknown
 key_key.modmenu.open_menu:key.keyboard.unknown
 key_key.observable.profile:key.keyboard.f10
+key_gui.xaero_pac_key_open_menu:key.keyboard.apostrophe
 key_key.pick_block_pro.id_picker:key.keyboard.unknown
 key_key.pick_block_pro.tool_picker:key.keyboard.unknown
 key_rebind_all_the_keys.keybind.debug_key:key.keyboard.f3
@@ -153,7 +178,7 @@ key_rebind_all_the_keys.keybind.gamemode_switcher:key.keyboard.-293
 key_rebind_all_the_keys.keybind.intentional_crash:key.keyboard.-67
 key_rebind_all_the_keys.keybind.profiler:key.keyboard.-340
 key_rebind_all_the_keys.keybind.tps:key.keyboard.-342
-key_rebind_all_the_keys.keybind.quit:key.keyboard.unknown
+key_rebind_all_the_keys.keybind.quit:key.mouse.4
 key_rebind_all_the_keys.keybind.toggle_hud:key.keyboard.f1
 key_rebind_all_the_keys.keybind.toggle_narrator_override:key.keyboard.unknown
 key_rebind_all_the_keys.keybind.toggle_auto_jump:key.keyboard.unknown
@@ -185,7 +210,7 @@ key_gui.xaero_enlarge_map:key.keyboard.x
 key_gui.xaero_waypoints_key:key.keyboard.unknown
 key_gui.xaero_zoom_in:key.keyboard.equal
 key_gui.xaero_zoom_out:key.keyboard.minus
-key_gui.xaero_new_waypoint:key.keyboard.b
+key_gui.xaero_new_waypoint:key.keyboard.unknown
 key_gui.xaero_display_all_sets:key.keyboard.unknown
 key_gui.xaero_toggle_light_overlay:key.keyboard.unknown
 key_gui.xaero_toggle_entity_radar:key.keyboard.unknown
@@ -204,15 +229,15 @@ key_zoomify.key.zoom:key.keyboard.c
 key_zoomify.key.zoom.secondary:key.keyboard.f6
 key_iris.keybind.reload:key.keyboard.unknown
 key_iris.keybind.toggleShaders:key.keyboard.k
-key_iris.keybind.shaderPackSelection:key.keyboard.o
+key_iris.keybind.shaderPackSelection:key.keyboard.unknown
 key_[Fabrication] Toggle Stance:key.keyboard.unknown
 key_[Fabrication] Toggle/Hold Sprint:key.keyboard.unknown
 key_[Fabrication] Crawl:key.keyboard.unknown
-soundCategory_master:0.65562916
+soundCategory_master:0.5386313
 soundCategory_music:0.0
-soundCategory_record:0.08215962
+soundCategory_record:0.5046948
 soundCategory_weather:1.0
-soundCategory_block:1.0
+soundCategory_block:0.17840375
 soundCategory_hostile:0.5070422
 soundCategory_neutral:0.3556338
 soundCategory_player:1.0
@@ -225,3 +250,4 @@ modelPart_right_sleeve:true
 modelPart_left_pants_leg:true
 modelPart_right_pants_leg:true
 modelPart_hat:true
+fullscreenResolution:1920x1200@144:24

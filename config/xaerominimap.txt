@@ -12,7 +12,7 @@ minimap:true
 caveMaps:2
 caveZoom:1
 showWaypoints:true
-showIngameWaypoints:true
+showIngameWaypoints:false
 displayRedstone:true
 deathpoints:true
 oldDeathpoints:true
@@ -63,7 +63,7 @@ biomeColorsVanillaMode:false
 lookingAtAngle:10
 lookingAtAngleVertical:180
 centeredEnlarged:false
-zoomedOutEnlarged:true
+zoomOnEnlarged:0
 minimapTextAlign:0
 showAngles:false
 waypointsMutualEdit:true
@@ -101,10 +101,12 @@ manualCaveModeStartAuto:true
 manualCaveModeStart:-1
 chunkGridLineWidth:1
 temporaryWaypointsGlobal:true
-keepUnlockedWhenEnlarged:false
+keepUnlockedWhenEnlarged:true
 enlargedMinimapAToggle:true
 displayStainedGlass:true
 waypointOnMapScale:0
+switchToAutoOnDeath:true
+displayWeatherInfo:false
 displayPacPlayers:true
 displayClaims:true
 displayCurrentClaim:true
@@ -114,5 +116,5 @@ interface:dummy:0:36:true:false:false:false
 interface:dummy:0:10000:true:false:false:false
 interface:dummy:0:0:false:false:true:false
 interface:dummy:0:36:true:false:false:false
-interface:gui.xaero_minimap:0:10:false:false:false:false
+interface:gui.xaero_minimap:89:98:false:false:true:true
 #WAYPOINTS HAVE BEEN MOVED TO /XaeroWaypoints

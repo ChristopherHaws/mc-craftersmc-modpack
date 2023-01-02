@@ -5,5 +5,29 @@
                 "horizontalOffset": 75
             }
         }
+    },
+    "net.minecraft.class_481": {
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": -3,
+                "top": 30
+            },
+            "SETTINGS": {
+                "horizontalOffset": -3,
+                "top": 32
+            }
+        }
+    },
+    "net.minecraft.class_490": {
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": 258,
+                "top": -5
+            },
+            "SETTINGS": {
+                "horizontalOffset": 282,
+                "top": -20
+            }
+        }
     }
 }
