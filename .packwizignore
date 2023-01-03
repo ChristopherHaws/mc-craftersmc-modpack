@@ -45,5 +45,11 @@ config/FabricProxy-Lite.toml
 config/simple-discord-bot.toml
 config/NoChatReports/NCR-Encryption.json
 
+# KubeJS
+kubejs/exported/**
+kubejs/probe/**
+kubejs/*.tsconfig
+
+
 .hintrc
 .prettierrc.yml
