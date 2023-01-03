@@ -950,13 +950,370 @@ preserve = true
 file = "kubejs/README.txt"
 
 [[files]]
+file = "kubejs/client_scripts/script.js"
+
+[[files]]
+file = "kubejs/config/client.properties"
+
+[[files]]
 file = "kubejs/config/common.properties"
+
+[[files]]
+file = "kubejs/config/probejs.json"
+
+[[files]]
+file = "kubejs/exported/kubejs-server-export.json"
+
+[[files]]
+file = "kubejs/exported/tags/byg/blending_function.txt"
+
+[[files]]
+file = "kubejs/exported/tags/byg/villager_trades_item_listing.txt"
+
+[[files]]
+file = "kubejs/exported/tags/ingredient-extension-api/ingredient_serializers.txt"
+
+[[files]]
+file = "kubejs/exported/tags/minecraft/activity.txt"
+
+[[files]]
+file = "kubejs/exported/tags/minecraft/attribute.txt"
+
+[[files]]
+file = "kubejs/exported/tags/minecraft/banner_pattern.txt"
+
+[[files]]
+file = "kubejs/exported/tags/minecraft/block.txt"
+
+[[files]]
+file = "kubejs/exported/tags/minecraft/block_entity_type.txt"
+
+[[files]]
+file = "kubejs/exported/tags/minecraft/block_predicate_type.txt"
+
+[[files]]
+file = "kubejs/exported/tags/minecraft/cat_variant.txt"
+
+[[files]]
+file = "kubejs/exported/tags/minecraft/chat_type.txt"
+
+[[files]]
+file = "kubejs/exported/tags/minecraft/chunk_status.txt"
+
+[[files]]
+file = "kubejs/exported/tags/minecraft/command_argument_type.txt"
+
+[[files]]
+file = "kubejs/exported/tags/minecraft/custom_stat.txt"
+
+[[files]]
+file = "kubejs/exported/tags/minecraft/dimension_type.txt"
+
+[[files]]
+file = "kubejs/exported/tags/minecraft/enchantment.txt"
+
+[[files]]
+file = "kubejs/exported/tags/minecraft/entity_type.txt"
+
+[[files]]
+file = "kubejs/exported/tags/minecraft/float_provider_type.txt"
+
+[[files]]
+file = "kubejs/exported/tags/minecraft/fluid.txt"
+
+[[files]]
+file = "kubejs/exported/tags/minecraft/frog_variant.txt"
+
+[[files]]
+file = "kubejs/exported/tags/minecraft/game_event.txt"
+
+[[files]]
+file = "kubejs/exported/tags/minecraft/height_provider_type.txt"
+
+[[files]]
+file = "kubejs/exported/tags/minecraft/instrument.txt"
+
+[[files]]
+file = "kubejs/exported/tags/minecraft/int_provider_type.txt"
+
+[[files]]
+file = "kubejs/exported/tags/minecraft/item.txt"
+
+[[files]]
+file = "kubejs/exported/tags/minecraft/loot_condition_type.txt"
+
+[[files]]
+file = "kubejs/exported/tags/minecraft/loot_function_type.txt"
+
+[[files]]
+file = "kubejs/exported/tags/minecraft/loot_nbt_provider_type.txt"
+
+[[files]]
+file = "kubejs/exported/tags/minecraft/loot_number_provider_type.txt"
+
+[[files]]
+file = "kubejs/exported/tags/minecraft/loot_pool_entry_type.txt"
+
+[[files]]
+file = "kubejs/exported/tags/minecraft/loot_score_provider_type.txt"
+
+[[files]]
+file = "kubejs/exported/tags/minecraft/memory_module_type.txt"
+
+[[files]]
+file = "kubejs/exported/tags/minecraft/menu.txt"
+
+[[files]]
+file = "kubejs/exported/tags/minecraft/mob_effect.txt"
+
+[[files]]
+file = "kubejs/exported/tags/minecraft/painting_variant.txt"
+
+[[files]]
+file = "kubejs/exported/tags/minecraft/particle_type.txt"
+
+[[files]]
+file = "kubejs/exported/tags/minecraft/point_of_interest_type.txt"
+
+[[files]]
+file = "kubejs/exported/tags/minecraft/pos_rule_test.txt"
+
+[[files]]
+file = "kubejs/exported/tags/minecraft/position_source_type.txt"
+
+[[files]]
+file = "kubejs/exported/tags/minecraft/potion.txt"
+
+[[files]]
+file = "kubejs/exported/tags/minecraft/recipe_serializer.txt"
+
+[[files]]
+file = "kubejs/exported/tags/minecraft/recipe_type.txt"
+
+[[files]]
+file = "kubejs/exported/tags/minecraft/rule_test.txt"
+
+[[files]]
+file = "kubejs/exported/tags/minecraft/schedule.txt"
+
+[[files]]
+file = "kubejs/exported/tags/minecraft/sensor_type.txt"
+
+[[files]]
+file = "kubejs/exported/tags/minecraft/sound_event.txt"
+
+[[files]]
+file = "kubejs/exported/tags/minecraft/stat_type.txt"
+
+[[files]]
+file = "kubejs/exported/tags/minecraft/villager_profession.txt"
+
+[[files]]
+file = "kubejs/exported/tags/minecraft/villager_type.txt"
+
+[[files]]
+file = "kubejs/exported/tags/minecraft/worldgen/biome.txt"
+
+[[files]]
+file = "kubejs/exported/tags/minecraft/worldgen/biome_source.txt"
+
+[[files]]
+file = "kubejs/exported/tags/minecraft/worldgen/block_state_provider_type.txt"
+
+[[files]]
+file = "kubejs/exported/tags/minecraft/worldgen/carver.txt"
+
+[[files]]
+file = "kubejs/exported/tags/minecraft/worldgen/chunk_generator.txt"
+
+[[files]]
+file = "kubejs/exported/tags/minecraft/worldgen/configured_carver.txt"
+
+[[files]]
+file = "kubejs/exported/tags/minecraft/worldgen/configured_feature.txt"
+
+[[files]]
+file = "kubejs/exported/tags/minecraft/worldgen/density_function.txt"
+
+[[files]]
+file = "kubejs/exported/tags/minecraft/worldgen/density_function_type.txt"
+
+[[files]]
+file = "kubejs/exported/tags/minecraft/worldgen/feature.txt"
+
+[[files]]
+file = "kubejs/exported/tags/minecraft/worldgen/feature_size_type.txt"
+
+[[files]]
+file = "kubejs/exported/tags/minecraft/worldgen/flat_level_generator_preset.txt"
+
+[[files]]
+file = "kubejs/exported/tags/minecraft/worldgen/foliage_placer_type.txt"
+
+[[files]]
+file = "kubejs/exported/tags/minecraft/worldgen/material_condition.txt"
+
+[[files]]
+file = "kubejs/exported/tags/minecraft/worldgen/material_rule.txt"
+
+[[files]]
+file = "kubejs/exported/tags/minecraft/worldgen/noise.txt"
+
+[[files]]
+file = "kubejs/exported/tags/minecraft/worldgen/noise_settings.txt"
+
+[[files]]
+file = "kubejs/exported/tags/minecraft/worldgen/placed_feature.txt"
+
+[[files]]
+file = "kubejs/exported/tags/minecraft/worldgen/placement_modifier_type.txt"
+
+[[files]]
+file = "kubejs/exported/tags/minecraft/worldgen/processor_list.txt"
+
+[[files]]
+file = "kubejs/exported/tags/minecraft/worldgen/root_placer_type.txt"
+
+[[files]]
+file = "kubejs/exported/tags/minecraft/worldgen/structure.txt"
+
+[[files]]
+file = "kubejs/exported/tags/minecraft/worldgen/structure_piece.txt"
+
+[[files]]
+file = "kubejs/exported/tags/minecraft/worldgen/structure_placement.txt"
+
+[[files]]
+file = "kubejs/exported/tags/minecraft/worldgen/structure_pool_element.txt"
+
+[[files]]
+file = "kubejs/exported/tags/minecraft/worldgen/structure_processor.txt"
+
+[[files]]
+file = "kubejs/exported/tags/minecraft/worldgen/structure_set.txt"
+
+[[files]]
+file = "kubejs/exported/tags/minecraft/worldgen/structure_type.txt"
+
+[[files]]
+file = "kubejs/exported/tags/minecraft/worldgen/template_pool.txt"
+
+[[files]]
+file = "kubejs/exported/tags/minecraft/worldgen/tree_decorator_type.txt"
+
+[[files]]
+file = "kubejs/exported/tags/minecraft/worldgen/trunk_placer_type.txt"
+
+[[files]]
+file = "kubejs/exported/tags/minecraft/worldgen/world_preset.txt"
+
+[[files]]
+file = "kubejs/exported/tags/moonlight/moonlight/map_markers.txt"
+
+[[files]]
+file = "kubejs/exported/tags/moonlight/moonlight/soft_fluids.txt"
+
+[[files]]
+file = "kubejs/exported/tags/serialization_hooks/ingredient_deserializers.txt"
+
+[[files]]
+file = "kubejs/exported/tags/serialization_hooks/value_deserializers.txt"
+
+[[files]]
+file = "kubejs/probe/cache/cachedForgedEvents.json"
+
+[[files]]
+file = "kubejs/probe/cache/cachedJava.json"
+
+[[files]]
+file = "kubejs/probe/cache/docs/ars_nouveau.json"
+
+[[files]]
+file = "kubejs/probe/cache/docs/artisanworktables.json"
+
+[[files]]
+file = "kubejs/probe/cache/docs/botanypots.json"
+
+[[files]]
+file = "kubejs/probe/cache/docs/create.json"
+
+[[files]]
+file = "kubejs/probe/cache/docs/cucumber.json"
+
+[[files]]
+file = "kubejs/probe/cache/docs/dankstorage.json"
+
+[[files]]
+file = "kubejs/probe/cache/docs/events.json"
+
+[[files]]
+file = "kubejs/probe/cache/docs/extendedcrafting.json"
+
+[[files]]
+file = "kubejs/probe/cache/docs/immersiveengineering.json"
+
+[[files]]
+file = "kubejs/probe/cache/docs/integrateddynamics.json"
+
+[[files]]
+file = "kubejs/probe/cache/docs/kubejs.json"
+
+[[files]]
+file = "kubejs/probe/cache/docs/mekanism.json"
+
+[[files]]
+file = "kubejs/probe/cache/docs/minecraft.json"
+
+[[files]]
+file = "kubejs/probe/cache/docs/morejs.json"
+
+[[files]]
+file = "kubejs/probe/cache/docs/multiblocked.json"
+
+[[files]]
+file = "kubejs/probe/cache/docs/probe.json"
+
+[[files]]
+file = "kubejs/probe/cache/docs/registry.json"
+
+[[files]]
+file = "kubejs/probe/cache/docs/thermal.json"
+
+[[files]]
+file = "kubejs/probe/cache/docs/types.json"
+
+[[files]]
+file = "kubejs/probe/cache/javaClasses.json"
+
+[[files]]
+file = "kubejs/probe/cache/mergedClasses.json"
+
+[[files]]
+file = "kubejs/probe/generated/constants.d.ts"
+
+[[files]]
+file = "kubejs/probe/generated/events.d.ts"
+
+[[files]]
+file = "kubejs/probe/generated/globals.d.ts"
+
+[[files]]
+file = "kubejs/probe/generated/names.d.ts"
+
+[[files]]
+file = "kubejs/probe/generated/raw.d.ts"
+
+[[files]]
+file = "kubejs/probe/generated/registries.d.ts"
 
 [[files]]
 file = "kubejs/server_scripts/script.js"
 
 [[files]]
 file = "kubejs/startup_scripts/script.js"
+
+[[files]]
+file = "kubejs/tsconfig.json"
 
 [[files]]
 file = "mods/accurate-block-placement.pw.toml"

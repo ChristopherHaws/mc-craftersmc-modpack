@@ -45,4 +45,5 @@ config/FabricProxy-Lite.toml
 config/simple-discord-bot.toml
 config/NoChatReports/NCR-Encryption.json
 
+.hintrc
 .prettierrc.yml

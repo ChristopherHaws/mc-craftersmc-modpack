@@ -1,0 +1,47 @@
+To refresh this file, delete it and run /reload command again! Last updated: Jan 2, 2023, 3:23:45 AM
+
+#minecraft:lava
+- minecraft:lava (from Default)
+- minecraft:flowing_lava (from Default)
+
+#create:bottomless/deny
+
+#c:honey
+- create:flowing_honey (from Create)
+- create:honey (from Create)
+
+#minecraft:water
+- minecraft:water (from Default)
+- minecraft:flowing_water (from Default)
+- create:flowing_honey (from Create)
+- create:honey (from Create)
+- create:flowing_chocolate (from Create)
+- create:chocolate (from Create)
+- milk:flowing_milk? (from Milk Lib)
+- milk:still_milk? (from Milk Lib)
+
+#create:bottomless/allow
+- minecraft:water (from Create)
+- minecraft:lava (from Create)
+
+#decorative_blocks:thatch
+- decorative_blocks:thatch (from Decorative Blocks)
+- decorative_blocks:flowing_thatch (from Decorative Blocks)
+
+#c:chocolate
+- create:flowing_chocolate (from Create)
+- create:chocolate (from Create)
+
+#c:milk
+- milk:flowing_milk? (from Milk Lib)
+- milk:still_milk? (from Milk Lib)
+
+#c:tea
+- create:flowing_tea (from Create)
+- create:tea (from Create)
+
+#c:water
+- #minecraft:water? (from Fabric Convention Tags)
+
+#c:lava
+- #minecraft:lava? (from Fabric Convention Tags)
