@@ -1320,6 +1320,10 @@ file = "mods/accurate-block-placement.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/adaptive-tooltips.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/advanced-tooltips.pw.toml"
 metafile = true
 
@@ -2189,10 +2193,6 @@ metafile = true
 
 [[files]]
 file = "mods/tool-stats.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/tooltipfix.pw.toml"
 metafile = true
 
 [[files]]
