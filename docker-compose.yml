@@ -163,9 +163,25 @@ x-minecraft-options: &minecraft-options
   LEDGER_DATABASE_EXTENSIONS_PASSWORD: ${SQL_PASSWORD}
 
   # RCON
+  # https://pcal43.github.io/fastback/
   RCON_CMDS_STARTUP:  |-
+    /dynmap pause full
     /gamerule doFireTick false
     /lp user Chaws permission set luckperms.* true
+    /backup set-shutdown-action full-gc
+    /backup set-autoback-action local
+    /backup set-retention daily 3
+    /backup set-autoback-wait 30
+    /backup enable
+
+  # RCON_CMDS_FIRST_CONNECT: |-
+  #   /dynmap pause full
+
+  # RCON_CMDS_LAST_DISCONNECT: |-
+  #   /dynmap pause none
+
+  # RCON_CMDS_ON_CONNECT:  |-
+  #   team join New @a[team=]
 
 services:
   proxy:
@@ -275,16 +291,16 @@ services:
       MARIADB_DATABASE: craftersmc
       MARIADB_AUTO_UPGRADE: true
 
-  dbgui:
-    image: dbeaver/cloudbeaver:latest
-    container_name: craftersmc-db-gui
-    restart: on-failure:3 # 3 retries
-    depends_on:
-      - db
-    ports:
-      - "8978:8978"
-    volumes:
-      - ${ROOT_PATH}/sql/cloudbeaver:/opt/cloudbeaver/workspace
+  # dbgui:
+  #   image: dbeaver/cloudbeaver:latest
+  #   container_name: craftersmc-db-gui
+  #   restart: on-failure:3 # 3 retries
+  #   depends_on:
+  #     - db
+  #   ports:
+  #     - "8978:8978"
+  #   volumes:
+  #     - ${ROOT_PATH}/sql/cloudbeaver:/opt/cloudbeaver/workspace
 
   # cache:
   #   image: redis/redis-stack:latest
