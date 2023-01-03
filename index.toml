@@ -1816,10 +1816,6 @@ file = "mods/supplementaries.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/syncmatica.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/terrablender-fabric.pw.toml"
 metafile = true
 
