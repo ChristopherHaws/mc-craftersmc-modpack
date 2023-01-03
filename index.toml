@@ -1760,10 +1760,6 @@ file = "mods/sleep-warp.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/smooth-chunk-save.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/smooth-scrolling-everywhere-fabric.pw.toml"
 metafile = true
 
