@@ -1,24 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = ".idea/chaws-modpack.iml"
-
-[[files]]
-file = ".idea/codeStyles/Project.xml"
-
-[[files]]
-file = ".idea/codeStyles/codeStyleConfig.xml"
-
-[[files]]
-file = ".idea/modules.xml"
-
-[[files]]
-file = ".idea/vcs.xml"
-
-[[files]]
-file = ".idea/workspace.xml"
-
-[[files]]
 file = "config/BetterBeacons.conf"
 
 [[files]]
