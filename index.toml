@@ -1,6 +1,24 @@
 hash-format = "sha256"
 
 [[files]]
+file = ".idea/chaws-modpack.iml"
+
+[[files]]
+file = ".idea/codeStyles/Project.xml"
+
+[[files]]
+file = ".idea/codeStyles/codeStyleConfig.xml"
+
+[[files]]
+file = ".idea/modules.xml"
+
+[[files]]
+file = ".idea/vcs.xml"
+
+[[files]]
+file = ".idea/workspace.xml"
+
+[[files]]
 file = "config/BetterBeacons.conf"
 
 [[files]]
@@ -284,6 +302,9 @@ file = "config/collective-fabric.json5"
 file = "config/command-aliases-config.json"
 
 [[files]]
+file = "config/commandaliases/c.yml"
+
+[[files]]
 file = "config/commandaliases/citizen.yml"
 
 [[files]]
@@ -300,6 +321,9 @@ file = "config/commandaliases/invp.yml"
 
 [[files]]
 file = "config/commandaliases/tpsbar.yml"
+
+[[files]]
+file = "config/commandaliases/wb.yml"
 
 [[files]]
 file = "config/connectivity.json"

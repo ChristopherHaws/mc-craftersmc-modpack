@@ -1,4 +1,5 @@
 # yaml-language-server: $schema=../../.schemas/command-alias.schema.json
+# https://wiki.commandaliases.flashyreese.me/
 schemaVersion: 1
 commandMode: COMMAND_CUSTOM
 command: crafters
@@ -19,4 +20,18 @@ children:
       - command: statistics block-entities byPlayer
         commandType: CLIENT
       - command: spark healthreport
+        commandType: CLIENT
+  - child: hud
+    type: literal
+    actions:
+      - command: trigger ch_toggle
+        commandType: CLIENT
+  - child: map
+    type: literal
+    actions:
+      - message: 'You can view the map in a web browser at: http://map.craftersmc.com'
+  - child: create-items
+    type: literal
+    actions:
+      - command: create ponder
         commandType: CLIENT
