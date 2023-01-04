@@ -29,7 +29,7 @@ children:
   - child: map
     type: literal
     actions:
-      - message: 'You can view the map in a web browser at: http://map.craftersmc.com'
+      - message: 'You can view the map in a web browser at: https://map.craftersmc.com'
   - child: create-items
     type: literal
     actions:
