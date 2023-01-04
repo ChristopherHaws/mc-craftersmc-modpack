@@ -5,10 +5,10 @@
 !/shaderpacks/**/*.zip
 !/resourcepacks/**/*.zip
 !/XaeroWorldMap/**/*.zip
-!/datapacks/**/*.zip
+!/world/datapacks/**/*.zip
 
 # Exclude exported Modrinth modpacks
-*.mrpackI
+*.mrpack
 
 # Exclude config files that shouldn't be in source control
 config/.puzzle_cache/**

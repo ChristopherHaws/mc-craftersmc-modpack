@@ -759,42 +759,6 @@ file = "config/xaeroworldmap.txt"
 file = "config/zoomify.json"
 
 [[files]]
-file = "datapacks/CreatePlus-1.18.2-a5_1-datapack.zip"
-
-[[files]]
-file = "datapacks/anti enderman grief v1.1.3.zip"
-
-[[files]]
-file = "datapacks/bat membranes v1.0.4.zip"
-
-[[files]]
-file = "datapacks/coordinates hud v1.2.3.zip"
-
-[[files]]
-file = "datapacks/more mob heads v2.10.1.zip"
-
-[[files]]
-file = "datapacks/nether portal coords v1.1.3.zip"
-
-[[files]]
-file = "datapacks/player head drops v1.1.3.zip"
-
-[[files]]
-file = "datapacks/redstone rotation wrench v1.1.4.zip"
-
-[[files]]
-file = "datapacks/silence mobs v1.1.3.zip"
-
-[[files]]
-file = "datapacks/terracotta rotation wrench v1.1.4.zip"
-
-[[files]]
-file = "datapacks/unlock all recipes v2.0.4.zip"
-
-[[files]]
-file = "datapacks/villager death messages v1.2.4.zip"
-
-[[files]]
 file = "dynmap/colorschemes/amidst.txt"
 
 [[files]]
@@ -1937,6 +1901,42 @@ file = "shaderpacks/SEUS PTGI HRR 3.zip"
 
 [[files]]
 file = "shaderpacks/SEUS PTGI HRR 3.zip.txt"
+
+[[files]]
+file = "world/datapacks/CreatePlus-1.18.2-a5_1-datapack.zip"
+
+[[files]]
+file = "world/datapacks/anti enderman grief v1.1.3.zip"
+
+[[files]]
+file = "world/datapacks/bat membranes v1.0.4.zip"
+
+[[files]]
+file = "world/datapacks/coordinates hud v1.2.3.zip"
+
+[[files]]
+file = "world/datapacks/more mob heads v2.10.1.zip"
+
+[[files]]
+file = "world/datapacks/nether portal coords v1.1.3.zip"
+
+[[files]]
+file = "world/datapacks/player head drops v1.1.3.zip"
+
+[[files]]
+file = "world/datapacks/redstone rotation wrench v1.1.4.zip"
+
+[[files]]
+file = "world/datapacks/silence mobs v1.1.3.zip"
+
+[[files]]
+file = "world/datapacks/terracotta rotation wrench v1.1.4.zip"
+
+[[files]]
+file = "world/datapacks/unlock all recipes v2.0.4.zip"
+
+[[files]]
+file = "world/datapacks/villager death messages v1.2.4.zip"
 
 [[files]]
 file = "world/serverconfig/create-server.toml"
