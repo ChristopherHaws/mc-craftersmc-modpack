@@ -759,6 +759,9 @@ file = "config/xaeroworldmap.txt"
 file = "config/zoomify.json"
 
 [[files]]
+file = "datapacks/CreatePlus-1.18.2-a5_1-datapack.zip"
+
+[[files]]
 file = "datapacks/anti enderman grief v1.1.3.zip"
 
 [[files]]
