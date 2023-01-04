@@ -1467,10 +1467,6 @@ file = "mods/ledger.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/libertyvillagers.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/libipn.pw.toml"
 metafile = true
 
