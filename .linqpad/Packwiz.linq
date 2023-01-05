@@ -21,12 +21,19 @@ async Task Main() {
 	var mods = new List<ModInfo>();
 	
 	foreach (var modPath in modPaths) {
-		var file = await File.ReadAllTextAsync(modPath);
-		var mod = Toml.ToModel<Mod>(file);
-		mods.Add(ModInfo.FromPackwizMod(mod));
+		var mod = await PackwizMod.ReadFromFile(modPath);
+		var slug = Path.GetFileNameWithoutExtension(Path.GetFileNameWithoutExtension(modPath));
+		mods.Add(ModInfo.FromPackwizMod(slug, mod));
 	}
 
-	var markdown = ModListMarkdownFormatter.Format(mods);
+	var groupsFilePath = Path.Combine(modpackRootPath, "groups.toml");
+	var groups = await ModGroups.ReadFromFile(groupsFilePath);
+
+	var markdown = ModListMarkdownGenerator.GroupedByModGroupsAndRequired(groups, mods);
+	//var markdown = ModListMarkdownGenerator.GroupedByCategoryAndRequired(mods);
+
+	//var modsFilePath = Path.Combine(modpackRootPath, "MODS.md");
+	//await File.WriteAllTextAsync(modsFilePath, markdown);
 	
 	var pipeline = new MarkdownPipelineBuilder().UseAdvancedExtensions().Build();
 	var html = Markdown.ToHtml(markdown, pipeline);
@@ -56,58 +63,180 @@ private void GenerateSchema() {
 	var generator = new JSchemaGenerator();
 	generator.GenerationProviders.Add(new StringEnumGenerationProvider());
 
-	var schema = generator.Generate(typeof(Mod));
+	var schema = generator.Generate(typeof(PackwizMod));
 	schema.ToString().Dump();
 }
 
-public class ModListMarkdownFormatter {
-	private readonly StringBuilder sb = new();
+public static class ModListMarkdownGenerator {
+	public static string GroupedByCategoryAndRequired(IEnumerable<ModInfo> mods) {
+		var modList = new ModListMarkdownBuilder();
+		modList.AppendLine($"# CraftersMC Modpack Mods");
 
-	public static string Format(IEnumerable<ModInfo> mods) {
-		var formatter = new ModListMarkdownFormatter();
-		formatter.sb.AppendLine($"""
-		# CraftersMC Modpack Mods
-		""");
-		
-		formatter.AppendMods(mods);
-		
-		return formatter.sb.ToString();
+		foreach (var modsByCategory in mods.GroupBy(x => x.Category).OrderBy(x => x.Key)) {
+			modList.AppendLine($"## {modsByCategory.Key}");
+
+			foreach (var modsByRequired in modsByCategory.GroupBy(x => x.IsRequired).Reverse()) {
+				modList.AppendLine($"### {(modsByRequired.Key ? "Required" : "Optional")}");
+				modList.AppendMods(modsByRequired);
+			}
+		}
+
+		return modList.Build();
 	}
 
-	private void AppendMods(IEnumerable<ModInfo> mods) {
+	internal static string GroupedByModGroupsAndRequired(ModGroups groups, List<ModInfo> mods) {
+		var modList = new ModListMarkdownBuilder();
+		modList.AppendLine($"# CraftersMC Modpack Mods");
+
+		foreach (var modsByCategory in mods
+			.GroupBy(x => groups.GetByModSlug(x.Slug)?.Name ?? x.Category)
+			.OrderBy(x => {
+				var group = groups.Groups.SingleOrDefault(g => g.Name == x.Key);
+				if (group is null) {
+					return int.MaxValue;
+				}
+				
+				return groups.Groups.IndexOf(group);
+			})
+		) {
+			modList.AppendLine($"## {modsByCategory.Key}");
+
+			foreach (var modsByRequired in modsByCategory.GroupBy(x => x.IsRequired).Reverse()) {
+				modList.AppendLine($"### {(modsByRequired.Key ? "Required" : "Optional")}");
+				modList.AppendMods(modsByRequired);
+			}
+		}
+
+		return modList.Build();
+	}
+}
+
+public class MarkdownBuilder {
+	private readonly StringBuilder sb = new();
+
+	public void Append(string? markdown) {
+		this.sb.Append(markdown);
+	}
+
+	public void AppendLine(string? markdown = null) {
+		this.sb.AppendLine(markdown);
+	}
+
+	public void AppendLink(string? text, string url) {
+		this.Append($"[{text}]({url})");
+	}
+	
+	public string Build() {
+		return sb.ToString();
+	}
+}
+
+public class ModListMarkdownBuilder : MarkdownBuilder {
+	public void AppendMods(string title, IEnumerable<ModInfo> mods) {
+		this.AppendLine(title);
+		this.AppendMods(mods);
+		this.AppendLine();
+		this.AppendLine();
+	}
+
+	public void AppendMods(IEnumerable<ModInfo> mods) {
 		foreach (var mod in mods) {
 			this.AppendMod(mod);
 		}
 	}
 
-	private void AppendMod(ModInfo mod) {
-		this.sb.AppendLine($"""
-		## {mod.Name} {(mod.IsRequired ? "*(required)*" : "")}
-		""");
+	public void AppendMod(ModInfo mod) {
+		this.Append($"* {mod.Name}");
+
+		if (mod.IsRequired) {
+			this.Append($" *(required)*");
+		}
+
+		if (mod.ModrinthUrl is not null) {
+			this.AppendLink(" [modrinth]", mod.ModrinthUrl);
+		}
+
+		if (mod.CurseForgeUrl is not null) {
+			this.AppendLink(" [curseforge]", mod.CurseForgeUrl);
+		}
+
+		this.AppendLine();
 	}
 }
 
 public class ModInfo {
+	required public string Slug { get; init; }
 	required public string Side { get; init; }
 	required public string Name { get; init; }
 	required public bool IsRequired { get; init; }
-	public string? Category { get; init; }
-	public string? CurseForgeUrl { get; init; }
-	public string? ModrinthUrl { get; init; }
-	public string? License { get; init; }
+	required public string Category { get; init; }
+	public string? CurseForgeUrl { get; private set; }
+	public string? CurseForgeFileUrl { get; private set; }
+	public string? ModrinthUrl { get; private set; }
+	public string? ModrinthFileUrl { get; private set; }
+	public string? License { get; private set; }
 
-	public static ModInfo FromPackwizMod(Mod mod) {
-		return new() {
+	public static ModInfo FromPackwizMod(string slug, PackwizMod mod) {
+		var info = new ModInfo() {
+			Slug = slug,
 			Side = mod.Side,
 			Name = mod.Name,
 			IsRequired = mod.IsRequired,
-			ModrinthUrl = $"https://modrinth.com/mod/fabric-api/version/rcnGIuHL"
+			Category = "Unknown"
 		};
+
+		if (mod.Update?.CurseForge is not null) {
+			var cf = mod.Update.CurseForge;
+			info.CurseForgeUrl = @$"https://www.curseforge.com/minecraft/mc-mods/{cf.ProjectId}";
+			info.CurseForgeFileUrl = @$"https://www.curseforge.com/minecraft/mc-mods/{cf.ProjectId}/files/{cf.FileId}";
+		}
+
+		if (mod.Update?.Modrinth is not null) {
+			var mr = mod.Update.Modrinth;
+			info.ModrinthUrl = @$"https://modrinth.com/mod/{mr.ModId}";
+			info.ModrinthFileUrl = @$"https://modrinth.com/mod/{mr.ModId}/version/{mr.Version}";
+		}
+		
+		return info;
 	}
 }
 
+public class ModGroups {
+	[DataMember(Name = "groups")]
+	public List<ModGroup> Groups { get; set; } = new();
+	
+	public static async Task<ModGroups> ReadFromFile(string path) {
+		var toml = await File.ReadAllTextAsync(path);
+		return Toml.ToModel<ModGroups>(toml);
+	}
+	
+	public ModGroup? GetByModSlug(string slug) {
+		var groups = this.Groups.Where(x => x.Mods.Any(m => m == slug)).ToArray();
+		if (groups.Length <= 0) {
+			return null;
+		}
+		
+		if (groups.Length > 1) {
+			throw new("Found multiple groups");
+		}
+		
+		return groups.Single();
+	}
+
+	internal string? GetByModSlug(object slug) {
+		throw new NotImplementedException();
+	}
+}
+
+public class ModGroup {
+	[DataMember(Name = "name")]
+	public string Name { get; set; } = default!;
+	[DataMember(Name = "mods")]
+	public List<string> Mods { get; set; } = new();
+}
+
 // https://packwiz.infra.link/reference/pack-format/mod-toml/
-public class Mod {
+public class PackwizMod {
 	[DataMember(Name = "name")]
 	public string Name { get; set; } = default!;
 	[DataMember(Name = "filename")]
@@ -123,6 +252,12 @@ public class Mod {
 	public Option? Option { get; set; }
 	
 	public bool IsRequired => this.Option is null ? true : !this.Option.Optional;
+
+	public static async Task<PackwizMod> ReadFromFile(string path) {
+		var file = await File.ReadAllTextAsync(path);
+		var mod = Toml.ToModel<PackwizMod>(file);
+		return mod;
+	}
 }
 
 public class Download {
