@@ -29,6 +29,7 @@
 	"evenBetterToml.schema.associations": {
 		"^.*\\.pw\\.toml$": "file:///C:/dev/chaws/mc/chaws-modpack/.schemas/packwiz-mod.schema.json"
 	},
+	"editor.snippetSuggestions": "bottom",
 	// "evenBetterToml.taplo.environment": {
 	// 	"RUST_LOG": "trace"
 	// },

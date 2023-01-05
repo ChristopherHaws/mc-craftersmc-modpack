@@ -1,6 +1,7 @@
 {
 	"$id": "https://github.com/flashyreese/commandaliases/schemas/commandalias",
 	"$schema": "http://json-schema.org/draft-07/schema#",
+	"$comment": "Wiki: https://wiki.commandaliases.flashyreese.me/",
 	"title": "Command Alias",
 	"type": "object",
 	"required": ["schemaVersion", "commandMode"],
@@ -101,20 +102,9 @@
 				},
 				"actions": {
 					"type": "array",
+					"description": "TODO",
 					"items": {
-						"oneOf": [
-							{
-								"$ref": "#/definitions/action"
-							},
-							{
-								"type": "object",
-								"properties": {
-									"message": {
-										"type": "string"
-									}
-								}
-							}
-						]
+						"$ref": "#/definitions/action"
 					}
 				}
 			}
@@ -202,6 +192,7 @@
 				},
 				"suggestionProvider": {
 					"type": "object",
+					"description": "Docs: https://wiki.commandaliases.flashyreese.me/command-modes/custom/suggestion-provider-component",
 					"required": ["suggestionMode", "suggestion"],
 					"properties": {
 						"suggestionMode": {
@@ -237,6 +228,13 @@
 				"message": {
 					"type": "string"
 				},
+				"actions": {
+					"type": "array",
+					"description": "TODO",
+					"items": {
+						"$ref": "#/definitions/action"
+					}
+				},
 				"children": {
 					"type": "array",
 					"items": {
@@ -258,19 +256,24 @@
 		},
 		"action": {
 			"type": "object",
-			"required": ["child", "type", "argumentType"],
+			"required": [],
 			"properties": {
 				"id": {
-					"type": "string"
+					"type": "string",
+					"default": "generic"
 				},
-				"triggerTime": {
+				"startTime": {
 					"type": "integer",
 					"default": 0,
 					"minimum": 0,
 					"description": "How many miliseconds to wait before executing the action."
 				},
 				"command": {
-					"type": "string"
+					"type": "string",
+					"description": "For a list of functions, see: https://wiki.commandaliases.flashyreese.me/command-modes/custom/functions",
+					"examples": [
+						"say Hello {{name}}"
+					]
 				},
 				"commandType": {
 					"type": "string",
