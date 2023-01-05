@@ -1,4 +1,5 @@
 <Query Kind="Program">
+  <NuGetReference>Markdig</NuGetReference>
   <NuGetReference>Newtonsoft.Json</NuGetReference>
   <NuGetReference>Newtonsoft.Json.Schema</NuGetReference>
   <NuGetReference>RestSharp</NuGetReference>
@@ -9,16 +10,27 @@
   <Namespace>System.Text.Json</Namespace>
   <Namespace>System.Threading.Tasks</Namespace>
   <Namespace>Tomlyn</Namespace>
+  <Namespace>Markdig</Namespace>
 </Query>
 
 async Task Main() {
 	var modpackRootPath = GetModpackRootPath();
 	var modsPath = Path.Combine(modpackRootPath, "mods");
 	var modPaths = Directory.EnumerateFiles(modsPath, "*.pw.toml");
+
+	var mods = new List<ModInfo>();
+	
 	foreach (var modPath in modPaths) {
 		var file = await File.ReadAllTextAsync(modPath);
-		Toml.ToModel<Mod>(file).Dump();
+		var mod = Toml.ToModel<Mod>(file);
+		mods.Add(ModInfo.FromPackwizMod(mod));
 	}
+
+	var markdown = ModListMarkdownFormatter.Format(mods);
+	
+	var pipeline = new MarkdownPipelineBuilder().UseAdvancedExtensions().Build();
+	var html = Markdown.ToHtml(markdown, pipeline);
+	Util.RawHtml(html).Dump();
 }
 
 private string GetModpackRootPath() {
@@ -48,6 +60,52 @@ private void GenerateSchema() {
 	schema.ToString().Dump();
 }
 
+public class ModListMarkdownFormatter {
+	private readonly StringBuilder sb = new();
+
+	public static string Format(IEnumerable<ModInfo> mods) {
+		var formatter = new ModListMarkdownFormatter();
+		formatter.sb.AppendLine($"""
+		# CraftersMC Modpack Mods
+		""");
+		
+		formatter.AppendMods(mods);
+		
+		return formatter.sb.ToString();
+	}
+
+	private void AppendMods(IEnumerable<ModInfo> mods) {
+		foreach (var mod in mods) {
+			this.AppendMod(mod);
+		}
+	}
+
+	private void AppendMod(ModInfo mod) {
+		this.sb.AppendLine($"""
+		## {mod.Name} {(mod.IsRequired ? "*(required)*" : "")}
+		""");
+	}
+}
+
+public class ModInfo {
+	required public string Side { get; init; }
+	required public string Name { get; init; }
+	required public bool IsRequired { get; init; }
+	public string? Category { get; init; }
+	public string? CurseForgeUrl { get; init; }
+	public string? ModrinthUrl { get; init; }
+	public string? License { get; init; }
+
+	public static ModInfo FromPackwizMod(Mod mod) {
+		return new() {
+			Side = mod.Side,
+			Name = mod.Name,
+			IsRequired = mod.IsRequired,
+			ModrinthUrl = $"https://modrinth.com/mod/fabric-api/version/rcnGIuHL"
+		};
+	}
+}
+
 // https://packwiz.infra.link/reference/pack-format/mod-toml/
 public class Mod {
 	[DataMember(Name = "name")]
@@ -63,6 +121,8 @@ public class Mod {
 	public Update? Update { get; set; }
 	[DataMember(Name = "option")]
 	public Option? Option { get; set; }
+	
+	public bool IsRequired => this.Option is null ? true : !this.Option.Optional;
 }
 
 public class Download {
