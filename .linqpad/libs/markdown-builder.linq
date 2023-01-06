@@ -163,24 +163,33 @@ public static class CurseForgeShields {
 
 public static class ModrinthShields {
 	private static readonly string baseUrl = @"https://img.shields.io/modrinth/dt/";
-	// ![Modrinth Downloads](https://img.shields.io/modrinth/dt/text-utilities?label=downloads&logo=modrinth)
 
 	public static void AppendModrinthModShield(
 		this MarkdownBuilder md,
 		string modSlug,
 		string? modId,
 		string modUrl,
-		string? label,
+		string? label = null,
 		string? hoverText = null,
 		bool logo = true,
-		string? style = "flat"
+		string? style = "flat",
+		string? color = null,
+		string? logoColor = null
 	) {
 		var imageUrl = baseUrl;
 		imageUrl += modId;
 		imageUrl += "?label=" + (label ?? modSlug);
 
+		if (color is not null) {
+			imageUrl += "&color=" + color;
+		}
+		
 		if (logo) {
 			imageUrl += "&logo=modrinth";
+		}
+
+		if (logoColor is not null) {
+			imageUrl += "&logoColor=" + logoColor;
 		}
 
 		if (style is not null) {

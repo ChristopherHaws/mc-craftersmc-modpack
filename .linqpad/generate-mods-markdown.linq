@@ -51,24 +51,24 @@ async Task Main() {
 
 public static class ModListMarkdownGenerator {
 	public static string GroupedByCategoryAndRequired(IEnumerable<ModInfo> mods) {
-		var modList = new ModListMarkdownBuilder();
-		modList.AppendLine($"# CraftersMC Modpack Mods");
+		var md = new MarkdownBuilder();
+		md.AppendLine($"# CraftersMC Modpack Mods");
 
 		foreach (var modsByCategory in mods.GroupBy(x => x.Category).OrderBy(x => x.Key)) {
-			modList.AppendLine($"## {modsByCategory.Key}");
+			md.AppendLine($"## {modsByCategory.Key}");
 
 			foreach (var modsByRequired in modsByCategory.GroupBy(x => x.IsRequired).OrderByDescending(x => x.Key)) {
-				modList.AppendLine($"### {(modsByRequired.Key ? "Required" : "Optional")}");
-				modList.AppendMods(modsByRequired);
+				md.AppendLine($"### {(modsByRequired.Key ? "Required" : "Optional")}");
+				md.AppendMods(modsByRequired);
 			}
 		}
 
-		return modList.Build();
+		return md.Build();
 	}
 
 	internal static string GroupedByModGroupsAndRequired(ModGroupsFile groups, List<ModInfo> mods) {
-		var modList = new ModListMarkdownBuilder();
-		modList.AppendLine($"# CraftersMC Modpack Mods");
+		var md = new MarkdownBuilder();
+		md.AppendLine($"# CraftersMC Modpack Mods");
 
 		foreach (var modsByCategory in mods
 			.GroupBy(x => groups.GetByModSlug(x.Slug)?.Name ?? x.Category)
@@ -81,66 +81,67 @@ public static class ModListMarkdownGenerator {
 				return groups.Groups.IndexOf(group);
 			})
 		) {
-			modList.AppendLine($"## {modsByCategory.Key}");
+			md.AppendLine($"## {modsByCategory.Key}");
 
 			foreach (var modsByRequired in modsByCategory.GroupBy(x => x.IsRequired).OrderByDescending(x => x.Key)) {
-				modList.AppendMods($"**{(modsByRequired.Key ? "Required" : "Optional")}**", modsByRequired);
+				md.AppendMods($"**{(modsByRequired.Key ? "Required" : "Optional")}**", modsByRequired);
 			}
 		}
 
-		return modList.Build();
+		return md.Build();
 	}
 }
 
-public class ModListMarkdownBuilder : MarkdownBuilder {
-	public void AppendMods(string title, IEnumerable<ModInfo> mods) {
-		this.AppendLine(title);
-		this.AppendMods(mods);
-		this.AppendLine();
+public static class ModMarkdownBuilder {
+	public static void AppendMods(this MarkdownBuilder md, string title, IEnumerable<ModInfo> mods) {
+		md.AppendLine(title);
+		md.AppendMods(mods);
+		md.AppendLine();
 	}
 
-	public void AppendMods(IEnumerable<ModInfo> mods) {
+	public static void AppendMods(this MarkdownBuilder md, IEnumerable<ModInfo> mods) {
 		foreach (var mod in mods) {
-			this.AppendMod(mod);
+			md.AppendMod(mod);
 		}
 	}
 
-	public void AppendMod(ModInfo mod) {
-		this.Append($"* {mod.Name}");
+	public static void AppendMod(this MarkdownBuilder md, ModInfo mod) {
+		md.Append($"* {mod.Name}");
 
 		//if (mod.IsRequired) {
 		//	this.Append($" *(required)*");
 		//}
 
 		if (mod.Path is not null) {
-			this.AppendLink(
+			md.AppendLink(
 				url: "./" + mod.Path.Replace('\\', '/').TrimStart('/'),
 				text: " [packwiz]"
 			);
 		}
 
 		if (mod.ModrinthUrl is not null) {
-			this.AppendModrinthModShield(
+			md.AppendModrinthModShield(
 				modSlug: mod.Slug,
 				modId: mod.ModrinthId!,
 				modUrl: mod.ModrinthUrl,
-				label: "downloads",
+				label: "",
 				hoverText: "modrinth",
 				logo: true,
-				style: "flat"
+				style: "flat",
+				color: "26292f"
 			);
 		}
 
 		if (mod.CurseForgeUrl is not null) {
 			//this.AppendLink(" [curseforge]", mod.CurseForgeUrl);
-			this.AppendCurseForgeProjectShield(
+			md.AppendCurseForgeProjectShield(
 				projectSlug: mod.Slug,
 				projectId: mod.CurseForgeId,
 				projectUrl: mod.CurseForgeUrl
 			);
 		}
 
-		this.AppendLine();
+		md.AppendLine();
 	}
 }
 
