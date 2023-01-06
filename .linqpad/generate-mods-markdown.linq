@@ -99,7 +99,7 @@ public static class ModListMarkdownGenerator {
 			modList.AppendLine($"## {modsByCategory.Key}");
 
 			foreach (var modsByRequired in modsByCategory.GroupBy(x => x.IsRequired).OrderByDescending(x => x.Key)) {
-				modList.AppendMods($"### {(modsByRequired.Key ? "Required" : "Optional")}", modsByRequired);
+				modList.AppendMods($"**{(modsByRequired.Key ? "Required" : "Optional")}**", modsByRequired);
 			}
 		}
 

@@ -1,16 +1,16 @@
 # CraftersMC Modpack Mods
 ## Main Mods
-### Required
+**Required**
 * Create Fabric[ [packwiz]](./mods/create-fabric.pw.toml)[![create-fabric](https://cf.way2muchnoise.eu/624165.svg)](https://www.curseforge.com/minecraft/mc-mods/create-fabric)
 * EnchantedShulkers[ [packwiz]](./mods/enchantedshulkers.pw.toml)[![modrinth](https://img.shields.io/modrinth/dt/vUi6HFie?label=downloads&logo=modrinth&style=flat)](https://modrinth.com/mod/vUi6HFie)
 * EnderChests [Fabric][ [packwiz]](./mods/enderchests-fabric.pw.toml)[![enderchests-fabric](https://cf.way2muchnoise.eu/564584.svg)](https://www.curseforge.com/minecraft/mc-mods/enderchests-fabric)
 * Oh The Biomes You'll Go Refabricated[ [packwiz]](./mods/oh-the-biomes-youll-go-fabric.pw.toml)[![oh-the-biomes-youll-go-fabric](https://cf.way2muchnoise.eu/391378.svg)](https://www.curseforge.com/minecraft/mc-mods/oh-the-biomes-youll-go-fabric)
 
-### Optional
+**Optional**
 * Roughly Enough Items (REI)[ [packwiz]](./mods/roughly-enough-items.pw.toml)[![modrinth](https://img.shields.io/modrinth/dt/nfn13YXA?label=downloads&logo=modrinth&style=flat)](https://modrinth.com/mod/nfn13YXA)
 
 ## Optimization - Misc
-### Required
+**Required**
 * Concurrent Chunk Management Engine (Fabric)[ [packwiz]](./mods/c2me-fabric.pw.toml)[![modrinth](https://img.shields.io/modrinth/dt/VSNURh3q?label=downloads&logo=modrinth&style=flat)](https://modrinth.com/mod/VSNURh3q)
 * Chunky[ [packwiz]](./mods/chunky.pw.toml)[![modrinth](https://img.shields.io/modrinth/dt/fALzjamp?label=downloads&logo=modrinth&style=flat)](https://modrinth.com/mod/fALzjamp)
 * Cull Less Leaves[ [packwiz]](./mods/cull-less-leaves.pw.toml)[![modrinth](https://img.shields.io/modrinth/dt/iG6ZHsUV?label=downloads&logo=modrinth&style=flat)](https://modrinth.com/mod/iG6ZHsUV)
@@ -26,11 +26,11 @@
 * Recipe Cache[ [packwiz]](./mods/recipe-cache.pw.toml)[![recipe-cache](https://cf.way2muchnoise.eu/473492.svg)](https://www.curseforge.com/minecraft/mc-mods/recipe-cache)
 * thorium[ [packwiz]](./mods/thorium.pw.toml)[![modrinth](https://img.shields.io/modrinth/dt/ImUQFWcy?label=downloads&logo=modrinth&style=flat)](https://modrinth.com/mod/ImUQFWcy)
 
-### Optional
+**Optional**
 * ForgetMeChunk[ [packwiz]](./mods/forgetmechunk.pw.toml)[![modrinth](https://img.shields.io/modrinth/dt/vRXn3MrA?label=downloads&logo=modrinth&style=flat)](https://modrinth.com/mod/vRXn3MrA)
 
 ## Optimization - Rendering
-### Required
+**Required**
 * Better Beds[ [packwiz]](./mods/better-beds.pw.toml)[![modrinth](https://img.shields.io/modrinth/dt/kKwy3HU9?label=downloads&logo=modrinth&style=flat)](https://modrinth.com/mod/kKwy3HU9)
 * Better Biome Blend[ [packwiz]](./mods/better-biome-blend.pw.toml)[![better-biome-blend](https://cf.way2muchnoise.eu/446253.svg)](https://www.curseforge.com/minecraft/mc-mods/better-biome-blend)
 * Entity View Distance[ [packwiz]](./mods/entity-view-distance.pw.toml)[![modrinth](https://img.shields.io/modrinth/dt/ihnBJ6on?label=downloads&logo=modrinth&style=flat)](https://modrinth.com/mod/ihnBJ6on)
@@ -40,22 +40,22 @@
 * Sodium[ [packwiz]](./mods/sodium.pw.toml)[![modrinth](https://img.shields.io/modrinth/dt/AANobbMI?label=downloads&logo=modrinth&style=flat)](https://modrinth.com/mod/AANobbMI)[![sodium](https://cf.way2muchnoise.eu/394468.svg)](https://www.curseforge.com/minecraft/mc-mods/sodium)
 
 ## Optimization - Redstone
-### Required
+**Required**
 * Alternate Current[ [packwiz]](./mods/alternate-current.pw.toml)[![modrinth](https://img.shields.io/modrinth/dt/r0v8vy1s?label=downloads&logo=modrinth&style=flat)](https://modrinth.com/mod/r0v8vy1s)
 
 ## Optimization - Lighting
-### Required
+**Required**
 * Starlight (Fabric)[ [packwiz]](./mods/starlight.pw.toml)[![modrinth](https://img.shields.io/modrinth/dt/H8CaAYZC?label=downloads&logo=modrinth&style=flat)](https://modrinth.com/mod/H8CaAYZC)
 
 ## Optimization - Networking
-### Required
+**Required**
 * bad packets[ [packwiz]](./mods/badpackets.pw.toml)[![modrinth](https://img.shields.io/modrinth/dt/ftdbN0KK?label=downloads&logo=modrinth&style=flat)](https://modrinth.com/mod/ftdbN0KK)
 * Connectivity[Forge/Fabric][ [packwiz]](./mods/connectivity.pw.toml)[![connectivity](https://cf.way2muchnoise.eu/470193.svg)](https://www.curseforge.com/minecraft/mc-mods/connectivity)
 * FabricProxy-Lite[ [packwiz]](./mods/fabricproxy-lite.pw.toml)[![modrinth](https://img.shields.io/modrinth/dt/8dI2tmqs?label=downloads&logo=modrinth&style=flat)](https://modrinth.com/mod/8dI2tmqs)
 * XL Packets Fabric[ [packwiz]](./mods/xl-packets-fabric.pw.toml)[![xl-packets-fabric](https://cf.way2muchnoise.eu/390168.svg)](https://www.curseforge.com/minecraft/mc-mods/xl-packets-fabric)
 
 ## Keybinds and Config Mods
-### Required
+**Required**
 * Amecs (Fabric)[ [packwiz]](./mods/amecs.pw.toml)[![amecs](https://cf.way2muchnoise.eu/324564.svg)](https://www.curseforge.com/minecraft/mc-mods/amecs)
 * Default Options (Fabric Edition)[ [packwiz]](./mods/default-options-fabric.pw.toml)[![default-options-fabric](https://cf.way2muchnoise.eu/547694.svg)](https://www.curseforge.com/minecraft/mc-mods/default-options-fabric)
 * Mod Menu[ [packwiz]](./mods/modmenu.pw.toml)[![modrinth](https://img.shields.io/modrinth/dt/mOgUt4GM?label=downloads&logo=modrinth&style=flat)](https://modrinth.com/mod/mOgUt4GM)
@@ -66,12 +66,12 @@
 * Too Many Binds[ [packwiz]](./mods/too-many-binds.pw.toml)[![too-many-binds](https://cf.way2muchnoise.eu/412915.svg)](https://www.curseforge.com/minecraft/mc-mods/too-many-binds)
 * VTDownloader[ [packwiz]](./mods/vtdownloader.pw.toml)[![modrinth](https://img.shields.io/modrinth/dt/1E2sq1cp?label=downloads&logo=modrinth&style=flat)](https://modrinth.com/mod/1E2sq1cp)
 
-### Optional
+**Optional**
 * Reese's Sodium Options[ [packwiz]](./mods/reeses-sodium-options.pw.toml)[![modrinth](https://img.shields.io/modrinth/dt/Bh37bMuy?label=downloads&logo=modrinth&style=flat)](https://modrinth.com/mod/Bh37bMuy)
 * Smooth Scrolling Everywhere (Fabric)[ [packwiz]](./mods/smooth-scrolling-everywhere-fabric.pw.toml)[![smooth-scrolling-everywhere-fabric](https://cf.way2muchnoise.eu/325861.svg)](https://www.curseforge.com/minecraft/mc-mods/smooth-scrolling-everywhere-fabric)
 
 ## Decoration Mods
-### Required
+**Required**
 * Armor Statues[ [packwiz]](./mods/armor-statues.pw.toml)[![modrinth](https://img.shields.io/modrinth/dt/bbGCtEvb?label=downloads&logo=modrinth&style=flat)](https://modrinth.com/mod/bbGCtEvb)
 * Bedspreads (Fabric)[ [packwiz]](./mods/bedspreads-fabric.pw.toml)[![bedspreads-fabric](https://cf.way2muchnoise.eu/400477.svg)](https://www.curseforge.com/minecraft/mc-mods/bedspreads-fabric)
 * Consistency+[ [packwiz]](./mods/consistencyplus.pw.toml)[![modrinth](https://img.shields.io/modrinth/dt/nDHcEOt3?label=downloads&logo=modrinth&style=flat)](https://modrinth.com/mod/nDHcEOt3)
@@ -92,7 +92,7 @@
 * Supplementaries[ [packwiz]](./mods/supplementaries.pw.toml)[![supplementaries](https://cf.way2muchnoise.eu/412082.svg)](https://www.curseforge.com/minecraft/mc-mods/supplementaries)
 
 ## OptiFine Replacement
-### Required
+**Required**
 * CIT Resewn[ [packwiz]](./mods/cit-resewn.pw.toml)[![modrinth](https://img.shields.io/modrinth/dt/otVJckYQ?label=downloads&logo=modrinth&style=flat)](https://modrinth.com/mod/otVJckYQ)
 * Continuity[ [packwiz]](./mods/continuity.pw.toml)[![modrinth](https://img.shields.io/modrinth/dt/1IjD5062?label=downloads&logo=modrinth&style=flat)](https://modrinth.com/mod/1IjD5062)
 * Entity Texture Features[ [packwiz]](./mods/entitytexturefeatures.pw.toml)[![modrinth](https://img.shields.io/modrinth/dt/BVzZfTc1?label=downloads&logo=modrinth&style=flat)](https://modrinth.com/mod/BVzZfTc1)[![entitytexturefeatures](https://cf.way2muchnoise.eu/568563.svg)](https://www.curseforge.com/minecraft/mc-mods/entitytexturefeatures)
@@ -102,7 +102,7 @@
 * Unofficial Sodium Biome Blending Fix[ [packwiz]](./mods/unofficial-sodium-biome-blending-fix.pw.toml)[![unofficial-sodium-biome-blending-fix](https://cf.way2muchnoise.eu/635999.svg)](https://www.curseforge.com/minecraft/mc-mods/unofficial-sodium-biome-blending-fix)
 
 ## Utility Mods
-### Required
+**Required**
 * Adaptive Tooltips[ [packwiz]](./mods/adaptive-tooltips.pw.toml)[![modrinth](https://img.shields.io/modrinth/dt/wFv8yCxM?label=downloads&logo=modrinth&style=flat)](https://modrinth.com/mod/wFv8yCxM)
 * Advanced Tooltips[ [packwiz]](./mods/advanced-tooltips.pw.toml)[![modrinth](https://img.shields.io/modrinth/dt/hErQiboW?label=downloads&logo=modrinth&style=flat)](https://modrinth.com/mod/hErQiboW)
 * Beenfo[ [packwiz]](./mods/beenfo.pw.toml)[![modrinth](https://img.shields.io/modrinth/dt/Bta0Pt47?label=downloads&logo=modrinth&style=flat)](https://modrinth.com/mod/Bta0Pt47)
@@ -134,7 +134,7 @@
 * Tweakeroo[ [packwiz]](./mods/tweakeroo.pw.toml)[![tweakeroo](https://cf.way2muchnoise.eu/297344.svg)](https://www.curseforge.com/minecraft/mc-mods/tweakeroo)
 * Zoomify[ [packwiz]](./mods/zoomify.pw.toml)[![modrinth](https://img.shields.io/modrinth/dt/w7ThoJFB?label=downloads&logo=modrinth&style=flat)](https://modrinth.com/mod/w7ThoJFB)
 
-### Optional
+**Optional**
 * Accurate Block Placement[ [packwiz]](./mods/accurate-block-placement.pw.toml)[![accurate-block-placement](https://cf.way2muchnoise.eu/323316.svg)](https://www.curseforge.com/minecraft/mc-mods/accurate-block-placement)
 * AppleSkin[ [packwiz]](./mods/appleskin.pw.toml)[![modrinth](https://img.shields.io/modrinth/dt/EsAfCjCV?label=downloads&logo=modrinth&style=flat)](https://modrinth.com/mod/EsAfCjCV)
 * Auto Clicker (Fabric)[ [packwiz]](./mods/auto-clicker-fabric.pw.toml)[![auto-clicker-fabric](https://cf.way2muchnoise.eu/445095.svg)](https://www.curseforge.com/minecraft/mc-mods/auto-clicker-fabric)
@@ -154,7 +154,7 @@
 * Xaero's World Map[ [packwiz]](./mods/xaeros-world-map.pw.toml)[![xaeros-world-map](https://cf.way2muchnoise.eu/317780.svg)](https://www.curseforge.com/minecraft/mc-mods/xaeros-world-map)
 
 ## Chat and Discord
-### Required
+**Required**
 * Chat Heads[ [packwiz]](./mods/chat-heads.pw.toml)[![modrinth](https://img.shields.io/modrinth/dt/Wb5oqrBJ?label=downloads&logo=modrinth&style=flat)](https://modrinth.com/mod/Wb5oqrBJ)
 * Chat Signing Hider[ [packwiz]](./mods/chat-signing-hider.pw.toml)[![modrinth](https://img.shields.io/modrinth/dt/6KrNtW32?label=downloads&logo=modrinth&style=flat)](https://modrinth.com/mod/6KrNtW32)
 * Chattix[ [packwiz]](./mods/chattix.pw.toml)[![chattix](https://cf.way2muchnoise.eu/682023.svg)](https://www.curseforge.com/minecraft/mc-mods/chattix)
@@ -162,7 +162,7 @@
 * Simple Voice Chat[ [packwiz]](./mods/simple-voice-chat.pw.toml)[![modrinth](https://img.shields.io/modrinth/dt/9eGKb6K1?label=downloads&logo=modrinth&style=flat)](https://modrinth.com/mod/9eGKb6K1)
 
 ## Player List
-### Required
+**Required**
 * AfkDisplay[ [packwiz]](./mods/afkdisplay.pw.toml)[![modrinth](https://img.shields.io/modrinth/dt/kJwABmWp?label=downloads&logo=modrinth&style=flat)](https://modrinth.com/mod/kJwABmWp)
 * Better Ping Display [Fabric][ [packwiz]](./mods/better-ping-display-fabric.pw.toml)[![better-ping-display-fabric](https://cf.way2muchnoise.eu/406343.svg)](https://www.curseforge.com/minecraft/mc-mods/better-ping-display-fabric)
 * Ordered Player List[ [packwiz]](./mods/orderedplayerlist.pw.toml)
@@ -171,20 +171,20 @@
 * Styled Player List[ [packwiz]](./mods/styledplayerlist.pw.toml)[![modrinth](https://img.shields.io/modrinth/dt/DQIfKUHf?label=downloads&logo=modrinth&style=flat)](https://modrinth.com/mod/DQIfKUHf)
 
 ## Maps and Minimaps
-### Required
+**Required**
 * Dynmap-Forge/Fabric[ [packwiz]](./mods/dynmapforge.pw.toml)[![dynmapforge](https://cf.way2muchnoise.eu/59433.svg)](https://www.curseforge.com/minecraft/mc-mods/dynmapforge)
 * Create Support for Open Parties and Claims[ [packwiz]](./mods/opac-fabric-create-support.pw.toml)[![modrinth](https://img.shields.io/modrinth/dt/T4Cv5iZq?label=downloads&logo=modrinth&style=flat)](https://modrinth.com/mod/T4Cv5iZq)
 * Open Parties and Claims[ [packwiz]](./mods/open-parties-and-claims.pw.toml)[![modrinth](https://img.shields.io/modrinth/dt/gF3BGWvG?label=downloads&logo=modrinth&style=flat)](https://modrinth.com/mod/gF3BGWvG)
 
 ## Storage
-### Required
+**Required**
 * Expanded Enderchest[ [packwiz]](./mods/expanded-enderchest.pw.toml)[![modrinth](https://img.shields.io/modrinth/dt/Gx7FGKAH?label=downloads&logo=modrinth&style=flat)](https://modrinth.com/mod/Gx7FGKAH)
 * Expanded Storage[ [packwiz]](./mods/expanded-storage.pw.toml)[![expanded-storage](https://cf.way2muchnoise.eu/317856.svg)](https://www.curseforge.com/minecraft/mc-mods/expanded-storage)
 * Gravestones[ [packwiz]](./mods/gravestones.pw.toml)[![modrinth](https://img.shields.io/modrinth/dt/ssUbhMkL?label=downloads&logo=modrinth&style=flat)](https://modrinth.com/mod/ssUbhMkL)
 * Inv View[ [packwiz]](./mods/invview.pw.toml)[![modrinth](https://img.shields.io/modrinth/dt/jrDKjZP7?label=downloads&logo=modrinth&style=flat)](https://modrinth.com/mod/jrDKjZP7)
 
 ## Server QoL
-### Required
+**Required**
 * Armored Elytra[ [packwiz]](./mods/armored-elytra.pw.toml)[![modrinth](https://img.shields.io/modrinth/dt/sfhhS5yg?label=downloads&logo=modrinth&style=flat)](https://modrinth.com/mod/sfhhS5yg)
 * AttributeFix[ [packwiz]](./mods/attributefix.pw.toml)[![attributefix](https://cf.way2muchnoise.eu/280510.svg)](https://www.curseforge.com/minecraft/mc-mods/attributefix)
 * AudioPlayer[ [packwiz]](./mods/audioplayer.pw.toml)[![modrinth](https://img.shields.io/modrinth/dt/SRlzjEBS?label=downloads&logo=modrinth&style=flat)](https://modrinth.com/mod/SRlzjEBS)
@@ -212,11 +212,11 @@
 * Superflat World No Slimes[ [packwiz]](./mods/superflat-world-no-slimes.pw.toml)[![modrinth](https://img.shields.io/modrinth/dt/7lrBqj5C?label=downloads&logo=modrinth&style=flat)](https://modrinth.com/mod/7lrBqj5C)
 * WorldEdit[ [packwiz]](./mods/worldedit.pw.toml)[![worldedit](https://cf.way2muchnoise.eu/225608.svg)](https://www.curseforge.com/minecraft/mc-mods/worldedit)
 
-### Optional
+**Optional**
 * Litematica Server Paster[ [packwiz]](./mods/litematica-server-paster.pw.toml)[![modrinth](https://img.shields.io/modrinth/dt/HCbarMw6?label=downloads&logo=modrinth&style=flat)](https://modrinth.com/mod/HCbarMw6)
 
 ## Server Management
-### Required
+**Required**
 * AntiXray[ [packwiz]](./mods/anti-xray.pw.toml)[![modrinth](https://img.shields.io/modrinth/dt/sml2FMaA?label=downloads&logo=modrinth&style=flat)](https://modrinth.com/mod/sml2FMaA)
 * BanHammer[ [packwiz]](./mods/banhammer.pw.toml)[![modrinth](https://img.shields.io/modrinth/dt/Wpqg0ciI?label=downloads&logo=modrinth&style=flat)](https://modrinth.com/mod/Wpqg0ciI)
 * Command Aliases[ [packwiz]](./mods/commandaliases.pw.toml)[![modrinth](https://img.shields.io/modrinth/dt/dHTBnV1v?label=downloads&logo=modrinth&style=flat)](https://modrinth.com/mod/dHTBnV1v)
@@ -236,7 +236,7 @@
 * Vote Command[ [packwiz]](./mods/vote-command.pw.toml)[![modrinth](https://img.shields.io/modrinth/dt/k1ztTaVt?label=downloads&logo=modrinth&style=flat)](https://modrinth.com/mod/k1ztTaVt)
 
 ## Libraries
-### Required
+**Required**
 * Architectury API (Fabric/Forge)[ [packwiz]](./mods/architectury-api.pw.toml)[![architectury-api](https://cf.way2muchnoise.eu/419699.svg)](https://www.curseforge.com/minecraft/mc-mods/architectury-api)
 * ARRP[ [packwiz]](./mods/arrp.pw.toml)[![arrp](https://cf.way2muchnoise.eu/463113.svg)](https://www.curseforge.com/minecraft/mc-mods/arrp)
 * Balm (Fabric Edition)[ [packwiz]](./mods/balm-fabric.pw.toml)[![balm-fabric](https://cf.way2muchnoise.eu/500525.svg)](https://www.curseforge.com/minecraft/mc-mods/balm-fabric)
@@ -266,14 +266,14 @@
 * YetAnotherConfigLib[ [packwiz]](./mods/yacl.pw.toml)[![modrinth](https://img.shields.io/modrinth/dt/1eAoo2KR?label=downloads&logo=modrinth&style=flat)](https://modrinth.com/mod/1eAoo2KR)
 
 ## Compatibility Mods
-### Required
+**Required**
 * Every Compat (Wood Good)[ [packwiz]](./mods/every-compat.pw.toml)[![every-compat](https://cf.way2muchnoise.eu/628539.svg)](https://www.curseforge.com/minecraft/mc-mods/every-compat)
 * KleeSlabs (Fabric Edition)[ [packwiz]](./mods/kleeslabs-fabric.pw.toml)[![kleeslabs-fabric](https://cf.way2muchnoise.eu/547695.svg)](https://www.curseforge.com/minecraft/mc-mods/kleeslabs-fabric)
 * Refabricated Slabs (FABRIC)[ [packwiz]](./mods/refabricated-slabs.pw.toml)[![refabricated-slabs](https://cf.way2muchnoise.eu/429651.svg)](https://www.curseforge.com/minecraft/mc-mods/refabricated-slabs)
 * Vertical Slabs Compat[ [packwiz]](./mods/vertical-slabs-compat.pw.toml)[![vertical-slabs-compat](https://cf.way2muchnoise.eu/724387.svg)](https://www.curseforge.com/minecraft/mc-mods/vertical-slabs-compat)
 
 ## Debugging
-### Required
+**Required**
 * Advancements Debug[ [packwiz]](./mods/advancements-debug.pw.toml)[![modrinth](https://img.shields.io/modrinth/dt/rxMTwxyO?label=downloads&logo=modrinth&style=flat)](https://modrinth.com/mod/rxMTwxyO)
 * Auth Me[ [packwiz]](./mods/auth-me.pw.toml)[![auth-me](https://cf.way2muchnoise.eu/356643.svg)](https://www.curseforge.com/minecraft/mc-mods/auth-me)
 * crafty-crashes[ [packwiz]](./mods/crafty-crashes.pw.toml)
@@ -284,24 +284,24 @@
 * Ponder for KubeJS[ [packwiz]](./mods/ponder.pw.toml)[![ponder](https://cf.way2muchnoise.eu/622888.svg)](https://www.curseforge.com/minecraft/mc-mods/ponder)
 * spark[ [packwiz]](./mods/spark.pw.toml)[![modrinth](https://img.shields.io/modrinth/dt/l6YH9Als?label=downloads&logo=modrinth&style=flat)](https://modrinth.com/mod/l6YH9Als)
 
-### Optional
+**Optional**
 * Better Tips[ [packwiz]](./mods/better-tips.pw.toml)[![better-tips](https://cf.way2muchnoise.eu/682363.svg)](https://www.curseforge.com/minecraft/mc-mods/better-tips)
 * ProbeJS[ [packwiz]](./mods/probejs.pw.toml)[![probejs](https://cf.way2muchnoise.eu/585406.svg)](https://www.curseforge.com/minecraft/mc-mods/probejs)
 
 ## Bug Fixes / Many Feature
-### Required
+**Required**
 * Blanket[ [packwiz]](./mods/blanket.pw.toml)[![modrinth](https://img.shields.io/modrinth/dt/gxpkKtVH?label=downloads&logo=modrinth&style=flat)](https://modrinth.com/mod/gxpkKtVH)
 * Carpet-Fixes[ [packwiz]](./mods/carpet-fixes.pw.toml)[![modrinth](https://img.shields.io/modrinth/dt/7Jaxgqip?label=downloads&logo=modrinth&style=flat)](https://modrinth.com/mod/7Jaxgqip)
 * Carpet[ [packwiz]](./mods/carpet.pw.toml)[![carpet](https://cf.way2muchnoise.eu/349239.svg)](https://www.curseforge.com/minecraft/mc-mods/carpet)
 * Fabrication & Forgery[ [packwiz]](./mods/fabrication.pw.toml)[![modrinth](https://img.shields.io/modrinth/dt/B3Eg0WhA?label=downloads&logo=modrinth&style=flat)](https://modrinth.com/mod/B3Eg0WhA)
 
 ## Unknown
-### Required
+**Required**
 * CrossStitch[ [packwiz]](./mods/crossstitch.pw.toml)[![modrinth](https://img.shields.io/modrinth/dt/YkOyn1Pn?label=downloads&logo=modrinth&style=flat)](https://modrinth.com/mod/YkOyn1Pn)
 * Death Knell[ [packwiz]](./mods/death-knell.pw.toml)[![death-knell](https://cf.way2muchnoise.eu/538316.svg)](https://www.curseforge.com/minecraft/mc-mods/death-knell)
 * Enchantment Lore[ [packwiz]](./mods/enchantment-lore.pw.toml)[![modrinth](https://img.shields.io/modrinth/dt/YHdR6hMt?label=downloads&logo=modrinth&style=flat)](https://modrinth.com/mod/YHdR6hMt)
 * Interdimensional Map Markers[ [packwiz]](./mods/interdimensional-map-markers.pw.toml)[![modrinth](https://img.shields.io/modrinth/dt/oiCuHwqj?label=downloads&logo=modrinth&style=flat)](https://modrinth.com/mod/oiCuHwqj)
 
-### Optional
+**Optional**
 * Better Advancements[ [packwiz]](./mods/better-advancements.pw.toml)[![better-advancements](https://cf.way2muchnoise.eu/272515.svg)](https://www.curseforge.com/minecraft/mc-mods/better-advancements)
 
