@@ -8,6 +8,7 @@
 /.vscode
 /instance
 /mods/*.jar
+_config.yml
 .gitattributes
 .gitignore
 .nojekyll
