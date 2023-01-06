@@ -62,6 +62,8 @@ private string GetModpackRootPath() {
 	return modpackRootDirectoryPath.FullName;
 }
 
+#region Markdown
+
 public static class ModListMarkdownGenerator {
 	public static string GroupedByCategoryAndRequired(IEnumerable<ModInfo> mods) {
 		var modList = new ModListMarkdownBuilder();
@@ -116,19 +118,57 @@ public class MarkdownBuilder {
 		this.sb.AppendLine(markdown);
 	}
 
-	public void AppendLink(string? text, string url) {
-		if (text is null) {
-			text = url;
+	public void AppendLink(
+		string url,
+		string? text = null,
+		Action<MarkdownBuilder>? textBuilder = null
+	) {
+		this.Append($"[");
+
+		if (textBuilder is not null) {
+			textBuilder(this);
+		} else {
+			if (text?.StartsWith(' ') ?? false) {
+				text = text.TrimStart(' ');
+				this.Append(" ");
+			}
+			
+			this.Append(text ?? url);
 		}
 		
-		if (text.StartsWith(' ')) {
-			text = text.TrimStart(' ');
-			this.Append(" ");
-		}
-		
-		this.Append($"[{text}]({url})");
+		this.Append($"]");
+		this.Append($"(");
+		this.Append(url);
+		this.Append($")");
 	}
-	
+
+	public void AppendImage(
+		string imageUrl,
+		string? hoverText = null
+	) {
+		this.Append("!");
+		this.AppendLink(
+			url: imageUrl,
+			text: hoverText?.TrimStart(' ')
+		);
+	}
+
+	public void AppendImageLink(
+		string imageUrl,
+		string linkUrl,
+		string? hoverText = null
+	) {
+		this.AppendLink(
+			url: linkUrl,
+			textBuilder: builder => {
+				builder.AppendImage(
+					imageUrl: imageUrl,
+					hoverText: hoverText?.TrimStart(' ')
+				);
+			}
+		);
+	}
+
 	public string Build() {
 		return sb.ToString();
 	}
@@ -150,25 +190,146 @@ public class ModListMarkdownBuilder : MarkdownBuilder {
 	public void AppendMod(ModInfo mod) {
 		this.Append($"* {mod.Name}");
 
-		if (mod.IsRequired) {
-			this.Append($" *(required)*");
-		}
+		//if (mod.IsRequired) {
+		//	this.Append($" *(required)*");
+		//}
 
 		if (mod.Path is not null) {
-			this.AppendLink(" [packwiz]", "./" + mod.Path.Replace('\\', '/').TrimStart('/'));
+			this.AppendLink(
+				url: "./" + mod.Path.Replace('\\', '/').TrimStart('/'),
+				text: " [packwiz]"
+			);
 		}
 
 		if (mod.ModrinthUrl is not null) {
-			this.AppendLink(" [modrinth]", mod.ModrinthUrl);
+			this.AppendModrinthModShield(
+				modSlug: mod.Slug,
+				modId: mod.ModrinthId!,
+				modUrl: mod.ModrinthUrl,
+				label: "downloads",
+				hoverText: "modrinth",
+				logo: true,
+				style: "flat"
+			);
 		}
 
 		if (mod.CurseForgeUrl is not null) {
-			this.AppendLink(" [curseforge]", mod.CurseForgeUrl);
+			//this.AppendLink(" [curseforge]", mod.CurseForgeUrl);
+			this.AppendCurseForgeProjectShield(
+				projectSlug: mod.Slug,
+				projectId: mod.CurseForgeId,
+				projectUrl: mod.CurseForgeUrl
+			);
 		}
 
 		this.AppendLine();
 	}
 }
+
+public static class CurseForgeMarkdown {
+	private static readonly string baseUrl = @"https://cf.way2muchnoise.eu/";
+	
+	public static void AppendCurseForgeProjectShield(
+		this MarkdownBuilder md,
+		string projectSlug,
+		int? projectId,
+		string? title = null,
+		string? style = null,
+		string? extra = null,
+		string? badgeStyle = null,
+		string? projectUrl = null
+	) {
+		var imageUrl = baseUrl;
+		
+		if (style is not null) {
+			imageUrl += style + "_";
+		}
+
+		imageUrl += projectId?.ToString() ?? projectSlug;
+
+		if (extra is not null) {
+			imageUrl += "_" + extra;
+		}
+
+		imageUrl += ".svg";
+
+		if (badgeStyle is not null) {
+			imageUrl += "?badge_style=" + badgeStyle;
+		}
+
+		md.AppendImageLink(
+			imageUrl: imageUrl,
+			linkUrl: projectUrl,
+			hoverText: title ?? projectSlug
+		);
+	}
+
+	public static void AppendCurseForgeVersionsShield(
+		this MarkdownBuilder md,
+		string projectSlug,
+		int? projectId,
+		string? title = null,
+		string? style = null,
+		string? text = null,
+		string? badgeStyle = null
+	) {
+		var imageUrl = "https://cf.way2muchnoise.eu/versions/";
+
+		if (text is not null) {
+			imageUrl += text + "_";
+		}
+
+		imageUrl += projectId?.ToString() ?? projectSlug;
+
+		if (style is not null) {
+			imageUrl += "_" + style;
+		}
+
+		imageUrl += ".svg";
+		
+		if (badgeStyle is not null) {
+			imageUrl += "?badge_style=" + badgeStyle;
+		}
+
+		md.AppendImage(title ?? projectSlug, imageUrl);
+	}
+}
+
+public static class ModrinthMarkdown {
+	private static readonly string baseUrl = @"https://img.shields.io/modrinth/dt/";
+	// ![Modrinth Downloads](https://img.shields.io/modrinth/dt/text-utilities?label=downloads&logo=modrinth)
+
+	public static void AppendModrinthModShield(
+		this MarkdownBuilder md,
+		string modSlug,
+		string? modId,
+		string modUrl,
+		string? label,
+		string? hoverText = null,
+		bool logo = true,
+		string? style = "flat"
+	) {
+		var imageUrl = baseUrl;
+		imageUrl += modId;
+		imageUrl += "?label=" + (label ?? modSlug);
+
+		if (logo) {
+			imageUrl += "&logo=modrinth";
+		}
+		
+		if (style is not null) {
+			imageUrl += "&style=" + style;
+		}
+
+		md.AppendImageLink(
+			imageUrl: imageUrl,
+			linkUrl: modUrl,
+			hoverText: hoverText ?? label ?? modSlug
+		);
+	}
+}
+
+#endregion
 
 public class ModInfo {
 	required public string Path { get; init; }
@@ -177,8 +338,10 @@ public class ModInfo {
 	required public string Name { get; init; }
 	required public bool IsRequired { get; init; }
 	required public string Category { get; init; }
+	public int? CurseForgeId { get; private set; }
 	public string? CurseForgeUrl { get; private set; }
 	public string? CurseForgeFileUrl { get; private set; }
+	public string? ModrinthId { get; private set; }
 	public string? ModrinthUrl { get; private set; }
 	public string? ModrinthFileUrl { get; private set; }
 	public string? License { get; private set; }
@@ -195,19 +358,23 @@ public class ModInfo {
 
 		if (mod.Update?.CurseForge is not null) {
 			var cf = mod.Update.CurseForge;
+			info.CurseForgeId = cf.ProjectId;
 			info.CurseForgeUrl = @$"https://www.curseforge.com/minecraft/mc-mods/{slug}";
 			info.CurseForgeFileUrl = @$"https://www.curseforge.com/minecraft/mc-mods/{slug}/files/{cf.FileId}";
 		}
 
 		if (mod.Update?.Modrinth is not null) {
 			var mr = mod.Update.Modrinth;
+			info.ModrinthId = mr.ModId;
 			info.ModrinthUrl = @$"https://modrinth.com/mod/{mr.ModId}";
 			info.ModrinthFileUrl = @$"https://modrinth.com/mod/{mr.ModId}/version/{mr.Version}";
 		}
-		
+
 		return info;
 	}
 }
+
+#region ModGroup File
 
 public class ModGroupsFile : ITomlMetadataProvider {
 	private static TomlModelOptions tomlOptions = new() {
@@ -292,6 +459,10 @@ public class ModGroup : ITomlMetadataProvider {
 	TomlPropertiesMetadata? ITomlMetadataProvider.PropertiesMetadata { get; set; }
 }
 
+#endregion
+
+#region Packwiz
+
 // https://packwiz.infra.link/reference/pack-format/mod-toml/
 public class PackwizMod {
 	[DataMember(Name = "name")]
@@ -307,7 +478,7 @@ public class PackwizMod {
 	public Update? Update { get; set; }
 	[DataMember(Name = "option")]
 	public Option? Option { get; set; }
-	
+
 	public bool IsRequired => this.Option is null ? true : !this.Option.Optional;
 
 	public static async Task<PackwizMod> ReadFromFile(string path) {
@@ -337,11 +508,14 @@ public class Update {
 
 public class CurseForgeUpdate {
 	[DataMember(Name = "file-id")]
-	public string FileId { get; set; } = default!;
+	public int FileId { get; set; } = default!;
 	[DataMember(Name = "project-id")]
-	public string ProjectId { get; set; } = default!;
+	public int ProjectId { get; set; } = default!;
 	[DataMember(Name = "release-channel")]
 	public string? ReleaseChannel { get; set; }
+
+	public string CurseForgeUrl(string slug) => @$"https://www.curseforge.com/minecraft/mc-mods/{slug}";
+	public string CurseForgeFileUrl(string slug) => @$"{this.CurseForgeUrl(slug)}/files/{this.FileId}";
 }
 
 public class ModrinthUpdate {
@@ -349,6 +523,9 @@ public class ModrinthUpdate {
 	public string ModId { get; set; } = default!;
 	[DataMember(Name = "version")]
 	public string Version { get; set; } = default!;
+	
+	public string ModrinthUrl => @$"https://modrinth.com/mod/{this.ModId}";
+	public string ModrinthFileUrl => @$"https://modrinth.com/mod/{this.ModId}/version/{this.Version}";
 }
 
 public class Option {
@@ -359,3 +536,5 @@ public class Option {
 	[DataMember(Name = "description")]
 	public string? Description { get; set; }
 }
+
+#endregion
