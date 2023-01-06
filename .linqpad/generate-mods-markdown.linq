@@ -1,16 +1,14 @@
 <Query Kind="Program">
   <NuGetReference>Markdig</NuGetReference>
-  <NuGetReference>Newtonsoft.Json</NuGetReference>
-  <NuGetReference>Newtonsoft.Json.Schema</NuGetReference>
   <NuGetReference>RestSharp</NuGetReference>
   <NuGetReference>Tomlyn</NuGetReference>
-  <Namespace>Newtonsoft.Json</Namespace>
-  <Namespace>Newtonsoft.Json.Schema.Generation</Namespace>
+  <Namespace>Markdig</Namespace>
   <Namespace>System.Runtime.Serialization</Namespace>
   <Namespace>System.Text.Json</Namespace>
+  <Namespace>System.Text.Json.Serialization</Namespace>
   <Namespace>System.Threading.Tasks</Namespace>
   <Namespace>Tomlyn</Namespace>
-  <Namespace>Markdig</Namespace>
+  <Namespace>Tomlyn.Model</Namespace>
 </Query>
 
 async Task Main() {
@@ -19,16 +17,20 @@ async Task Main() {
 	var modPaths = Directory.EnumerateFiles(modsPath, "*.pw.toml");
 
 	var mods = new List<ModInfo>();
+	var modSlugs = new List<string>();
 	
 	foreach (var modPath in modPaths) {
 		var mod = await PackwizMod.ReadFromFile(modPath);
 		var relativeModPath = Path.GetRelativePath(modpackRootPath, modPath);
 		var slug = Path.GetFileNameWithoutExtension(Path.GetFileNameWithoutExtension(modPath));
+		modSlugs.Add(slug);
 		mods.Add(ModInfo.FromPackwizMod(relativeModPath, slug, mod));
 	}
 
 	var groupsFilePath = Path.Combine(modpackRootPath, "groups.toml");
-	var groups = await ModGroups.ReadFromFile(groupsFilePath);
+	var groups = await ModGroupsFile.ReadFromFile(groupsFilePath, sortMods: true);
+	groups.Sync(modSlugs);
+	//await groups.Save();
 
 	var markdown = ModListMarkdownGenerator.GroupedByModGroupsAndRequired(groups, mods);
 	//var markdown = ModListMarkdownGenerator.GroupedByCategoryAndRequired(mods);
@@ -60,14 +62,6 @@ private string GetModpackRootPath() {
 	return modpackRootDirectoryPath.FullName;
 }
 
-private void GenerateSchema() {
-	var generator = new JSchemaGenerator();
-	generator.GenerationProviders.Add(new StringEnumGenerationProvider());
-
-	var schema = generator.Generate(typeof(PackwizMod));
-	schema.ToString().Dump();
-}
-
 public static class ModListMarkdownGenerator {
 	public static string GroupedByCategoryAndRequired(IEnumerable<ModInfo> mods) {
 		var modList = new ModListMarkdownBuilder();
@@ -85,7 +79,7 @@ public static class ModListMarkdownGenerator {
 		return modList.Build();
 	}
 
-	internal static string GroupedByModGroupsAndRequired(ModGroups groups, List<ModInfo> mods) {
+	internal static string GroupedByModGroupsAndRequired(ModGroupsFile groups, List<ModInfo> mods) {
 		var modList = new ModListMarkdownBuilder();
 		modList.AppendLine($"# CraftersMC Modpack Mods");
 
@@ -208,17 +202,63 @@ public class ModInfo {
 	}
 }
 
-public class ModGroups {
-	[DataMember(Name = "groups")]
+public class ModGroupsFile : ITomlMetadataProvider {
+	private static TomlModelOptions tomlOptions = new() {
+		IncludeFields = true,
+		IgnoreMissingProperties = false,
+		ConvertPropertyName = name => name
+	};
+
+	[JsonIgnore]
+	public string FilePath { get; private set; } = default!;
+	
+	[JsonPropertyName("groups")]
 	public List<ModGroup> Groups { get; set; } = new();
 	
-	public static async Task<ModGroups> ReadFromFile(string path) {
+	public static async Task<ModGroupsFile> ReadFromFile(string path, bool sortMods) {
 		var toml = await File.ReadAllTextAsync(path);
-		return Toml.ToModel<ModGroups>(toml);
+		var groups = Toml.ToModel<ModGroupsFile>(toml, path, tomlOptions);
+		groups.FilePath = path;
+		
+		if (sortMods) {
+			foreach (var group in groups.Groups) {
+				group.ModSlugs.Sort();
+			}
+		}
+		return groups;
+	}
+
+	public async Task Save() {
+		var toml = Toml.FromModel(this, tomlOptions);
+		toml.Dump();
+		await Task.Delay(0);
+		await File.WriteAllTextAsync(this.FilePath, toml);
+	}
+	
+	/// <summary>
+	/// Removes mods that are not passed in and adds new mods to the "Unknown" group
+	/// </summary>
+	public void Sync(IEnumerable<string> modSlugs) {
+		foreach (var group in this.Groups) {
+			group.ModSlugs.RemoveAll(x => !modSlugs.Contains(x, StringComparer.OrdinalIgnoreCase));
+		}
+		
+		var currentModIds = this.Groups.SelectMany(x => x.ModSlugs);
+		var addedModIds = modSlugs.Except(currentModIds, StringComparer.OrdinalIgnoreCase);
+		
+		var unknownGroup = this.GetByName("Unknown");
+		if (unknownGroup is null) {
+			unknownGroup = new() {
+				Name = "Unknown"
+			};
+			this.Groups.Add(unknownGroup);
+		}
+		
+		unknownGroup.ModSlugs.AddRange(addedModIds);
 	}
 	
 	public ModGroup? GetByModSlug(string slug) {
-		var groups = this.Groups.Where(x => x.Mods.Any(m => m == slug)).ToArray();
+		var groups = this.Groups.Where(x => x.ModSlugs.Any(m => m == slug)).ToArray();
 		if (groups.Length <= 0) {
 			return null;
 		}
@@ -230,16 +270,21 @@ public class ModGroups {
 		return groups.Single();
 	}
 
-	internal string? GetByModSlug(object slug) {
-		throw new NotImplementedException();
+	public ModGroup? GetByName(string groupName) {
+		return this.Groups.SingleOrDefault(x => string.Equals(x.Name, groupName, StringComparison.OrdinalIgnoreCase));
 	}
+
+	// storage for comments and whitespace
+	TomlPropertiesMetadata? ITomlMetadataProvider.PropertiesMetadata { get; set; }
 }
 
-public class ModGroup {
+public class ModGroup : ITomlMetadataProvider {
 	[DataMember(Name = "name")]
 	public string Name { get; set; } = default!;
 	[DataMember(Name = "mods")]
-	public List<string> Mods { get; set; } = new();
+	public List<string> ModSlugs { get; set; } = new();
+	// storage for comments and whitespace
+	TomlPropertiesMetadata? ITomlMetadataProvider.PropertiesMetadata { get; set; }
 }
 
 // https://packwiz.infra.link/reference/pack-format/mod-toml/
