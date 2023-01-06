@@ -30,13 +30,13 @@ async Task Main() {
 	var groupsFilePath = Path.Combine(modpackRootPath, "groups.toml");
 	var groups = await ModGroupsFile.ReadFromFile(groupsFilePath, sortMods: true);
 	groups.Sync(modSlugs);
-	//await groups.Save();
+	await groups.Save();
 
 	var markdown = ModListMarkdownGenerator.GroupedByModGroupsAndRequired(groups, mods);
 	//var markdown = ModListMarkdownGenerator.GroupedByCategoryAndRequired(mods);
 
-	//var modsFilePath = Path.Combine(modpackRootPath, "MODS.md");
-	//await File.WriteAllTextAsync(modsFilePath, markdown);
+	var modsFilePath = Path.Combine(modpackRootPath, "MODS.md");
+	await File.WriteAllTextAsync(modsFilePath, markdown);
 	
 	var pipeline = new MarkdownPipelineBuilder().UseAdvancedExtensions().Build();
 	var html = Markdown.ToHtml(markdown, pipeline);
@@ -97,8 +97,7 @@ public static class ModListMarkdownGenerator {
 			modList.AppendLine($"## {modsByCategory.Key}");
 
 			foreach (var modsByRequired in modsByCategory.GroupBy(x => x.IsRequired).OrderByDescending(x => x.Key)) {
-				modList.AppendLine($"### {(modsByRequired.Key ? "Required" : "Optional")}");
-				modList.AppendMods(modsByRequired);
+				modList.AppendMods($"### {(modsByRequired.Key ? "Required" : "Optional")}", modsByRequired);
 			}
 		}
 
@@ -118,6 +117,15 @@ public class MarkdownBuilder {
 	}
 
 	public void AppendLink(string? text, string url) {
+		if (text is null) {
+			text = url;
+		}
+		
+		if (text.StartsWith(' ')) {
+			text = text.TrimStart(' ');
+			this.Append(" ");
+		}
+		
 		this.Append($"[{text}]({url})");
 	}
 	
@@ -130,7 +138,6 @@ public class ModListMarkdownBuilder : MarkdownBuilder {
 	public void AppendMods(string title, IEnumerable<ModInfo> mods) {
 		this.AppendLine(title);
 		this.AppendMods(mods);
-		this.AppendLine();
 		this.AppendLine();
 	}
 
@@ -148,7 +155,7 @@ public class ModListMarkdownBuilder : MarkdownBuilder {
 		}
 
 		if (mod.Path is not null) {
-			this.AppendLink(" [packwiz]", mod.Path);
+			this.AppendLink(" [packwiz]", "./" + mod.Path.Replace('\\', '/').TrimStart('/'));
 		}
 
 		if (mod.ModrinthUrl is not null) {
@@ -188,8 +195,8 @@ public class ModInfo {
 
 		if (mod.Update?.CurseForge is not null) {
 			var cf = mod.Update.CurseForge;
-			info.CurseForgeUrl = @$"https://www.curseforge.com/minecraft/mc-mods/{cf.ProjectId}";
-			info.CurseForgeFileUrl = @$"https://www.curseforge.com/minecraft/mc-mods/{cf.ProjectId}/files/{cf.FileId}";
+			info.CurseForgeUrl = @$"https://www.curseforge.com/minecraft/mc-mods/{slug}";
+			info.CurseForgeFileUrl = @$"https://www.curseforge.com/minecraft/mc-mods/{slug}/files/{cf.FileId}";
 		}
 
 		if (mod.Update?.Modrinth is not null) {
@@ -230,8 +237,6 @@ public class ModGroupsFile : ITomlMetadataProvider {
 
 	public async Task Save() {
 		var toml = Toml.FromModel(this, tomlOptions);
-		toml.Dump();
-		await Task.Delay(0);
 		await File.WriteAllTextAsync(this.FilePath, toml);
 	}
 	
@@ -258,13 +263,13 @@ public class ModGroupsFile : ITomlMetadataProvider {
 	}
 	
 	public ModGroup? GetByModSlug(string slug) {
-		var groups = this.Groups.Where(x => x.ModSlugs.Any(m => m == slug)).ToArray();
+		var groups = this.Groups.Where(x => x.ModSlugs.Any(m => string.Equals(m, slug, StringComparison.OrdinalIgnoreCase))).ToArray();
 		if (groups.Length <= 0) {
 			return null;
 		}
 		
 		if (groups.Length > 1) {
-			throw new("Found multiple groups");
+			throw new("Found multiple groups with slug: " + slug);
 		}
 		
 		return groups.Single();

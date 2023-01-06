@@ -10,3 +10,5 @@
 1. Click *Import from zip*
 1. Set the URL to `https://modpack.craftersmc.com/instance/craftersmc.zip`
 1. Click *OK*
+
+For a full list of mods, see [MODS.md](./MODS.md)

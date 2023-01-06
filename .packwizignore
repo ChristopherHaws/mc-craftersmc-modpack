@@ -13,6 +13,7 @@
 .nojekyll
 CNAME
 README.md
+groups.toml
 MODS.md
 docker-compose.yml
 
