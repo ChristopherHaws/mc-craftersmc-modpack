@@ -35,7 +35,54 @@ async Task Main() {
 		md.AppendLine($"## {modsByCategory.Key}");
 
 		foreach (var modsByRequired in modsByCategory.GroupBy(x => x.IsRequired).OrderByDescending(x => x.Key)) {
-			md.AppendMods($"**{(modsByRequired.Key ? "Required" : "Optional")}**", modsByRequired);
+			md.AppendLine($"**{(modsByRequired.Key ? "Required" : "Optional")}**");
+			md.AppendLine();
+
+			md.AppendPipeTable<PackwizMod>(
+				rows: modsByRequired.ToArray(),
+				columns: new() {
+					["Name"] = x => x.Name,
+					["Side"] = x => x.Side == "both" ? "client/server" : x.Side,
+					["Required"] = x => x.IsRequired ? "Yes" : "No",
+					["Shields"] = mod => {
+						var shields = new MarkdownBuilder();
+						
+						if (mod.FullFilePath is not null) {
+							shields.AppendShield(
+								label: string.Empty,
+								message: ".pw.toml",
+								color: "blueviolet",
+								linkUrl: mod.ModpackGitHubUrl("ChristopherHaws", "mc-craftersmc-modpack", "1.19/dev"),
+								altText: "packwiz file"
+							);
+						}
+
+						if (mod.Modrinth is not null) {
+							shields.AppendModrinthModShield(
+								modSlug: mod.Slug,
+								modId: mod.Modrinth.Value.Id,
+								modUrl: mod.Modrinth.Value.Url,
+								label: "",
+								hoverText: "modrinth",
+								logo: true,
+								style: "flat",
+								color: "26292f"
+							);
+						}
+
+						if (mod.CurseForge is not null) {
+							shields.AppendCurseForgeProjectShield(
+								projectSlug: mod.Slug,
+								projectId: mod.CurseForge.Value.Id,
+								projectUrl: mod.CurseForge.Value.Url,
+								style: "short"
+							);
+						}
+						
+						return shields.AsMarkdown();
+					}
+				}
+			);
 		}
 	}
 
@@ -82,55 +129,5 @@ public static class ModMarkdownBuilder {
 
 	private static string GitHubDirectUrl(string userOrOrganizationName, string projectName, string branchName, string relativePath) {
 		return "https://github.com/" + userOrOrganizationName + "/" + projectName + "/blob/" + branchName + "/" + relativePath.TrimStart('/');
-	}
-
-	public static void AppendMods(this MarkdownBuilder md, string title, IEnumerable<PackwizMod> mods) {
-		md.AppendLine(title);
-		md.AppendMods(mods);
-		md.AppendLine();
-	}
-
-	public static void AppendMods(this MarkdownBuilder md, IEnumerable<PackwizMod> mods) {
-		foreach (var mod in mods) {
-			md.AppendMod(mod);
-		}
-	}
-
-	public static void AppendMod(this MarkdownBuilder md, PackwizMod mod) {
-		md.Append($"* {mod.Name}");
-
-		if (mod.FullFilePath is not null) {
-			md.AppendShield(
-				label: mod.Slug,
-				message: ".pw.toml",
-				color: "blueviolet",
-				linkUrl: mod.ModpackGitHubUrl("ChristopherHaws", "mc-craftersmc-modpack", "1.19/dev"),
-				altText: "packwiz"
-			);
-		}
-
-		if (mod.Modrinth is not null) {
-			md.AppendModrinthModShield(
-				modSlug: mod.Slug,
-				modId: mod.Modrinth.Value.Id,
-				modUrl: mod.Modrinth.Value.Url,
-				label: "",
-				hoverText: "modrinth",
-				logo: true,
-				style: "flat",
-				color: "26292f"
-			);
-		}
-
-		if (mod.CurseForge is not null) {
-			md.AppendCurseForgeProjectShield(
-				projectSlug: mod.Slug,
-				projectId: mod.CurseForge.Value.Id,
-				projectUrl: mod.CurseForge.Value.Url,
-				style: "short"
-			);
-		}
-
-		md.AppendLine();
 	}
 }

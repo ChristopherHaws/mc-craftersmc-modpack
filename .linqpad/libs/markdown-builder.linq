@@ -31,7 +31,7 @@ public class MarkdownBuilder {
 	}
 
 	public MarkdownBuilder AppendLink(
-		string url,
+		string linkUrl,
 		string? title = null,
 		bool skipPrefixSpace = false,
 		bool skipSuffixSpace = false
@@ -43,8 +43,8 @@ public class MarkdownBuilder {
 		}
 		
 		this.AppendLink(
-			url: url,
-			titleBuilder: x => x.Append(title ?? url),
+			url: linkUrl,
+			titleBuilder: x => x.Append(title ?? linkUrl),
 			skipPrefixSpace: skipPrefixSpace,
 			skipSuffixSpace: skipSuffixSpace
 		);
@@ -88,7 +88,7 @@ public class MarkdownBuilder {
 
 		this.Append("!");
 		this.AppendLink(
-			url: imageUrl,
+			linkUrl: imageUrl,
 			title: altText?.TrimStart(' '),
 			skipPrefixSpace: true,
 			skipSuffixSpace: skipSuffixSpace
@@ -157,15 +157,15 @@ public class MarkdownBuilder {
 	) {
 		var shieldUrl = $"https://img.shields.io/static/v1?label={label}&message={message}&color={color}";
 		if (linkUrl is null) {
-			this.AppendImage(
-				imageUrl: shieldUrl,
+			this.AppendShield(
+				shieldUrl: shieldUrl,
 				altText: altText,
 				skipPrefixSpace: skipPrefixSpace,
 				skipSuffixSpace: skipSuffixSpace
 			);
 		} else {
-			this.AppendImageLink(
-				imageUrl: shieldUrl,
+			this.AppendShield(
+				shieldUrl: shieldUrl,
 				linkUrl: linkUrl,
 				altText: linkUrl,
 				skipPrefixSpace: skipPrefixSpace,
@@ -190,6 +190,147 @@ public class MarkdownBuilder {
 		var html = this.AsHtml();
 		Util.RawHtml(html).Dump();
 		return this;
+	}
+}
+
+public static class PipeTableBuilder {
+	public static MarkdownBuilder AppendPipeTable<T>(
+		this MarkdownBuilder md,
+		ICollection<T> rows,
+		Dictionary<string, Func<T, string>> columns
+	) {
+		var columnHeaders = new string[columns.Count];
+		var columnWidths = new int[columns.Count];
+
+		foreach (var column in columns.WithIndex()) {
+			// Column Headers
+			var header = column.Value.Key;
+			columnHeaders[column.Index] = header;
+			
+			// Column Widths
+			var maxItemLength = rows.Select(column.Value.Value).Max(x => x.Length);
+			maxItemLength = Math.Max(maxItemLength, header.Length);
+			columnWidths[column.Index] = maxItemLength;
+		}
+		
+		md.AppendPipeTableHeader(
+			columnHeaders: columnHeaders,
+			columnWidths: columnWidths
+		);
+
+		foreach (var row in rows.WithIndex()) {
+			md.AppendPipeTableRow(
+				row: row.Value,
+				columns: columns.Values,
+				columnWidths: columnWidths
+			);
+		}
+		
+		md.AppendLine();
+
+		return md;
+	}
+
+	private static MarkdownBuilder AppendPipeTableHeader(
+		this MarkdownBuilder md,
+		string[] columnHeaders,
+		int[] columnWidths
+	) {
+		foreach (var columnHeader in columnHeaders.WithIndex()) {
+			var isLastColumn = columnHeader.Index == columnHeaders.Length - 1;
+
+			md.AppendPipeTableCell(
+				value: columnHeader.Value,
+				width: columnWidths[columnHeader.Index],
+				appendPipeSuffix: isLastColumn
+			);
+		}
+
+		md.AppendLine();
+
+		foreach (var columnHeader in columnHeaders.WithIndex()) {
+			var isLastColumn = columnHeader.Index == columnHeaders.Length - 1;
+			var columnWidth = columnWidths[columnHeader.Index];
+
+			md.AppendPipeTableCell(
+				value: string.Empty.PadLeft(columnWidth, '-'),
+				width: columnWidth,
+				appendPipeSuffix: isLastColumn
+			);
+		}
+
+		md.AppendLine();
+		return md;
+	}
+
+	private static MarkdownBuilder AppendPipeTableRow<TRow>(
+		this MarkdownBuilder md,
+		TRow row,
+		ICollection<Func<TRow, string>> columns,
+		int[] columnWidths
+	) {
+		foreach (var column in columns.WithIndex()) {
+			var columnValue = column.Value.Invoke(row);
+			var columnWidth = columnWidths[column.Index];
+			var isLastColumn = column.Index == columns.Count - 1;
+
+			md.AppendPipeTableCell(
+				value: columnValue,
+				width: columnWidth,
+				appendPipeSuffix: isLastColumn
+			);
+		}
+
+		md.AppendLine();
+		return md;
+	}
+
+	private static MarkdownBuilder AppendPipeTableRow<TRow>(
+		this MarkdownBuilder md,
+		string[] columns,
+		int[] columnWidths
+	) {
+		foreach (var column in columns.WithIndex()) {
+			var columnWidth = columnWidths[column.Index];
+			var isLastColumn = column.Index == columns.Length - 1;
+
+			md.AppendPipeTableCell(
+				value: column.Value,
+				width: columnWidth,
+				appendPipeSuffix: isLastColumn
+			);
+		}
+
+		md.AppendLine();
+		return md;
+	}
+
+	private static MarkdownBuilder AppendPipeTableCell(
+		this MarkdownBuilder md,
+		string value,
+		int width,
+		bool appendPipeSuffix = false
+	) {
+		md.Append("| ");
+		md.Append(value.PadRight(width));
+
+		if (appendPipeSuffix) {
+			md.Append(" |");
+		} else {
+			md.Append(" ");
+		}
+		
+		return md;
+	}
+}
+
+public static class Extensions {
+	public static IEnumerable<(int Index, T Value)> WithIndex<T>(this IEnumerable<T> values) {
+		var index = 0;
+		foreach (var value in values) {
+			yield return (index, value);
+			index++;
+		}
 	}
 }
 
@@ -322,7 +463,7 @@ public static class ModrinthShields {
 
 [Fact]
 void Link() => Test(md => md.AppendLink(
-	url: "https://google.com",
+	linkUrl: "https://google.com",
 	title: "Google"
 ));
 
@@ -332,14 +473,63 @@ void Image() => Test(md => md.AppendImage(
 	altText: "Google"
 ));
 
+[Fact]
+void ImageLink() => Test(md => md.AppendImageLink(
+	imageUrl: "https://www.google.com/images/branding/googlelogo/1x/googlelogo_light_color_272x92dp.png",
+	linkUrl: "https://google.com",
+	altText: "Google"
+));
+
+[Fact]
+void Shield() => Test(md => md.AppendShield(
+	label: "label",
+	message: "message",
+	color: "purple",
+	linkUrl: "https://google.com",
+	altText: "Google"
+));
+
+[Fact]
+void PipeTable() {
+	var testData = new Character[] {
+		new("Harry", "Potter", new[] { 1, 2, 3, 4, 5, 6, 7 }),
+		new("Albus", "Percival Wulfric Brian Dumbledore", new[] { 1, 2, 3, 4, 5, 6, 7 }),
+		new("Sirus", "Black", new[] { 3, 4, 5 }),
+		new("Horace", "Slughorn", new[] { 6, 7 }),
+	};
+	
+	Test(md => md.AppendPipeTable<Character>(
+		rows: testData,
+		columns: new() {
+			["First Name"] = x => x.FirstName,
+			["Last Name"] = x => x.LastName,
+			["Books"] = x => string.Join(", ", x.Books)
+		}
+	));
+}
+
+public record Character(
+	string FirstName,
+	string LastName,
+	int[] Books
+);
+
 void Test(Action<MarkdownBuilder> md, [CallerMemberName] string callerName = "") {
+	const bool showDebugInfo = true;
 	var builder = new MarkdownBuilder();
 	md(builder);
+	
+	var html = Util.RawHtml(builder.AsHtml());
+	
+	if (!showDebugInfo) {
+		html.Dump(callerName);
+		return;
+	}
 
 	new {
 		markdown = builder.AsMarkdown(),
 		html = builder.AsHtml(),
-		render = Util.RawHtml(builder.AsHtml())
+		render = html
 	}.Dump(callerName);
 }
 

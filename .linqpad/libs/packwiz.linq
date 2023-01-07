@@ -26,10 +26,23 @@ public class Modpack {
 		this.directoryPath = Path.GetDirectoryName(packfilePath)
 			?? throw new("Packfile path is not valid");
 	}
-	
+
 	public string PackfilePath => this.packfilePath;
 	public string DirectoryPath => this.directoryPath;
-	
+
+	public string GetModsDirectory() {
+		return Path.Combine(this.directoryPath, "mods");
+	}
+
+	public IEnumerable<string> GetModFiles() {
+		var modsDirectory = this.GetModsDirectory();
+		return Directory.EnumerateFiles(modsDirectory, "*.pw.toml");
+	}
+
+	public Task<PackwizMod[]> GetMods() {
+		return PackwizMod.ReadFromFiles(GetModFiles());
+	}
+
 	public static Modpack Open() {
 		return Open(DetectPackFilePath());
 	}
@@ -55,19 +68,6 @@ public class Modpack {
 
 	public static string DetectPackFilePath() {
 		return Path.Combine(DetectRootDirectoryPath(), "pack.toml");
-	}
-
-	public string GetModsDirectory() {
-		return Path.Combine(this.directoryPath, "mods");
-	}
-
-	public IEnumerable<string> GetModFiles() {
-		var modsDirectory = this.GetModsDirectory();
-		return Directory.EnumerateFiles(modsDirectory, "*.pw.toml");
-	}
-
-	public Task<PackwizMod[]> GetMods() {
-		return PackwizMod.ReadFromFiles(GetModFiles());
 	}
 }
 
