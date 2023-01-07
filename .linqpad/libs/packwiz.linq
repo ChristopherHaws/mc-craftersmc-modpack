@@ -37,6 +37,9 @@ public static class Modpack {
 
 // https://packwiz.infra.link/reference/pack-format/mod-toml/
 public class PackwizMod {
+	[IgnoreDataMember]
+	public string FullFilePath { get; set; } = default!;
+
 	[DataMember(Name = "name")]
 	public string Name { get; set; } = default!;
 	[DataMember(Name = "filename")]
@@ -51,12 +54,46 @@ public class PackwizMod {
 	[DataMember(Name = "option")]
 	public Option? Option { get; set; }
 
+	public string ModpackRelativeFilePath => Path.GetRelativePath(Modpack.GetRootPath(), this.FullFilePath);
+	public string Slug => Path.GetFileNameWithoutExtension(Path.GetFileNameWithoutExtension(this.FullFilePath));
 	public bool IsRequired => this.Option is null ? true : !this.Option.Optional;
+
+	public (
+		int Id,
+		string Url,
+		string FileUrl
+	)? CurseForge => this.Update?.CurseForge is null ? null : (
+		Id: this.Update.CurseForge.ProjectId,
+		Url: @$"https://www.curseforge.com/minecraft/mc-mods/{this.Slug}",
+		FileUrl: @$"https://www.curseforge.com/minecraft/mc-mods/{this.Slug}/files/{this.Update.CurseForge.FileId}"
+	);
+
+	public (
+		string Id,
+		string Url,
+		string FileUrl
+	)? Modrinth => this.Update?.Modrinth is null ? null : (
+		Id: this.Update.Modrinth.ModId,
+		Url: @$"https://modrinth.com/mod/{this.Update.Modrinth.ModId}",
+		FileUrl: @$"https://modrinth.com/mod/{this.Update.Modrinth.ModId}/version/{this.Update.Modrinth.Version}"
+	);
 
 	public static async Task<PackwizMod> ReadFromFile(string path) {
 		var file = await File.ReadAllTextAsync(path);
 		var mod = Toml.ToModel<PackwizMod>(file);
+		mod.FullFilePath = path;
 		return mod;
+	}
+
+	public static async Task<List<PackwizMod>> ReadFromFiles(IEnumerable<string> paths) {
+		var mods = new List<PackwizMod>();
+
+		foreach (var path in paths) {
+			var mod = await PackwizMod.ReadFromFile(path);
+			mods.Add(mod);
+		}
+
+		return mods;
 	}
 }
 
@@ -85,9 +122,6 @@ public class CurseForgeUpdate {
 	public int ProjectId { get; set; } = default!;
 	[DataMember(Name = "release-channel")]
 	public string? ReleaseChannel { get; set; }
-
-	public string CurseForgeUrl(string slug) => @$"https://www.curseforge.com/minecraft/mc-mods/{slug}";
-	public string CurseForgeFileUrl(string slug) => @$"{this.CurseForgeUrl(slug)}/files/{this.FileId}";
 }
 
 public class ModrinthUpdate {
@@ -95,9 +129,6 @@ public class ModrinthUpdate {
 	public string ModId { get; set; } = default!;
 	[DataMember(Name = "version")]
 	public string Version { get; set; } = default!;
-	
-	public string ModrinthUrl => @$"https://modrinth.com/mod/{this.ModId}";
-	public string ModrinthFileUrl => @$"https://modrinth.com/mod/{this.ModId}/version/{this.Version}";
 }
 
 public class Option {
