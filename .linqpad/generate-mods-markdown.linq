@@ -21,23 +21,16 @@ async Task Main() {
 	var modSlugs = mods.Select(x => x.Slug).ToArray();
 
 	var groupsFilePath = Path.Combine(modpack.DirectoryPath, "groups.yml");
-	var groups = await ModGroupsFile.ReadFromFile(groupsFilePath, sortMods: true);
-	groups.Sync(modSlugs);
-	await groups.Save();
+	var groupsFile = await ModGroupsFile.ReadFromFile(groupsFilePath, sortMods: true);
+	groupsFile.Sync(modSlugs);
+	await groupsFile.Save();
 
 	var md = new MarkdownBuilder();
 	md.AppendLine($"# CraftersMC Modpack Mods");
 
 	foreach (var modsByCategory in mods
-		.GroupBy(x => groups.GetByModSlug(x.Slug)?.Name ?? "Unknown")
-		.OrderBy(x => {
-			var group = groups.Groups.SingleOrDefault(g => g.Name == x.Key);
-			if (group is null) {
-				return int.MaxValue;
-			}
-
-			return groups.Groups.IndexOf(group);
-		})
+		.GroupByModGroupName(groupsFile)
+		.OrderByModGroupsFileOrder(groupsFile)
 	) {
 		md.AppendLine($"## {modsByCategory.Key}");
 
@@ -52,6 +45,30 @@ async Task Main() {
 	await File.WriteAllTextAsync(modsFilePath, markdown);
 	
 	md.DumpAsHtml();
+}
+
+public static class ModSortOrder {
+	public static IEnumerable<IGrouping<string, PackwizMod>> GroupByModGroupName(
+		this IEnumerable<PackwizMod> mods,
+		ModGroupsFile groupsFile
+	) {
+		return mods.GroupBy(x => groupsFile.GetByModSlug(x.Slug)?.Name ?? "Unknown");
+	}
+	
+	public static IOrderedEnumerable<T> OrderByModGroupsFileOrder<T>(
+		this IEnumerable<T> grouping,
+		ModGroupsFile groupsFile
+	) where T : IGrouping<string, PackwizMod> {
+		return grouping.OrderBy(x => {
+			var groupName = x.Key;
+			var group = groupsFile.Groups.SingleOrDefault(g => g.Name == groupName);
+			if (group is null) {
+				return int.MaxValue;
+			}
+
+			return groupsFile.Groups.IndexOf(group);
+		});
+	}
 }
 
 public static class ModMarkdownBuilder {
