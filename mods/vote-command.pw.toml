@@ -1,13 +1,13 @@
 name = "Vote Command"
-filename = "votecommand-fabric_1.19.2-2.3.jar"
+filename = "votecommand-1.19.2-3.0.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/k1ztTaVt/versions/P5zRDZdo/votecommand-fabric_1.19.2-2.3.jar"
+url = "https://cdn.modrinth.com/data/k1ztTaVt/versions/N75KpU5f/votecommand-1.19.2-3.0.jar"
 hash-format = "sha1"
-hash = "d3314800ecb8cbc5a662761ce60496f02540229d"
+hash = "0dd95d5fe05e14791beb3c0c26193d470f127e9b"
 
 [update]
 [update.modrinth]
 mod-id = "k1ztTaVt"
-version = "P5zRDZdo"
+version = "N75KpU5f"

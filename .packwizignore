@@ -14,7 +14,7 @@ _config.yml
 .nojekyll
 CNAME
 README.md
-groups.toml
+groups.yml
 MODS.md
 docker-compose.yml
 
