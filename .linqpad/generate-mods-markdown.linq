@@ -63,7 +63,7 @@ public static class ModListMarkdownGenerator {
 			}
 		}
 
-		return md.Build();
+		return md.AsMarkdown();
 	}
 
 	internal static string GroupedByModGroupsAndRequired(ModGroupsFile groups, List<ModInfo> mods) {
@@ -88,7 +88,7 @@ public static class ModListMarkdownGenerator {
 			}
 		}
 
-		return md.Build();
+		return md.AsMarkdown();
 	}
 }
 
@@ -116,7 +116,7 @@ public static class ModMarkdownBuilder {
 			md.AppendShield(
 				shieldUrl: "https://img.shields.io/badge/packwiz-.pw.toml-blueviolet",
 				linkUrl: mod.GitHubRelativePath,
-				hoverText: "packwiz"
+				altText: "packwiz"
 			);
 		}
 

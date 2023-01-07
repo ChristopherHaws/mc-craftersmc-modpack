@@ -2,112 +2,201 @@
   <NuGetReference>Markdig</NuGetReference>
   <Namespace>System.Security.Cryptography</Namespace>
   <Namespace>Markdig</Namespace>
+  <Namespace>Xunit</Namespace>
+  <Namespace>System.Runtime.CompilerServices</Namespace>
 </Query>
 
+#load "xunit"
+
 void Main() {
-	
+	RunTests();  // Call RunTests() or press Alt+Shift+T to initiate testing.
 }
 
 public class MarkdownBuilder {
 	private readonly StringBuilder sb = new();
 
-	public void Append(string? markdown) {
+	public MarkdownBuilder Append(char markdown) {
 		this.sb.Append(markdown);
+		return this;
 	}
 
-	public void AppendLine(string? markdown = null) {
+	public MarkdownBuilder Append(string? markdown) {
+		this.sb.Append(markdown);
+		return this;
+	}
+
+	public MarkdownBuilder AppendLine(string? markdown = null) {
 		this.sb.AppendLine(markdown);
+		return this;
 	}
 
-	public void AppendLink(
+	public MarkdownBuilder AppendLink(
 		string url,
-		string? text = null
+		string? title = null,
+		bool skipPrefixSpace = false,
+		bool skipSuffixSpace = false
 	) {
 		// If the text starts with a space, put it before the link, not within it
-		if (text?.StartsWith(' ') ?? false) {
-			text = text.TrimStart(' ');
-			this.Append(" ");
+		if (title?.StartsWith(' ') ?? false) {
+			title = title.TrimStart(' ');
+			this.Append(' ');
 		}
 		
-		this.AppendLink(url, textBuilder => {
-			textBuilder.Append(text ?? url);
-		});
+		this.AppendLink(
+			url: url,
+			titleBuilder: x => x.Append(title ?? url),
+			skipPrefixSpace: skipPrefixSpace,
+			skipSuffixSpace: skipSuffixSpace
+		);
+
+		return this;
 	}
 
-	public void AppendLink(
+	public MarkdownBuilder AppendLink(
 		string url,
-		Action<MarkdownBuilder> textBuilder
+		Action<MarkdownBuilder> titleBuilder,
+		bool skipPrefixSpace = false,
+		bool skipSuffixSpace = false
 	) {
-		this.Append($"[");
-		textBuilder(this);
-		this.Append($"]");
-		this.Append($"(");
+		if (!skipPrefixSpace) {
+			this.Append(' ');
+		}
+		
+		this.Append('[');
+		titleBuilder(this);
+		this.Append(']');
+		this.Append('(');
 		this.Append(url);
-		this.Append($")");
+		this.Append(')');
+		
+		if (!skipSuffixSpace) {
+			this.Append(' ');
+		}
+
+		return this;
 	}
 
-	public void AppendImage(
+	public MarkdownBuilder AppendImage(
 		string imageUrl,
-		string? hoverText = null
+		string? altText = null,
+		bool skipPrefixSpace = false,
+		bool skipSuffixSpace = false
 	) {
+		if (!skipPrefixSpace) {
+			this.Append(' ');
+		}
+
 		this.Append("!");
 		this.AppendLink(
 			url: imageUrl,
-			text: hoverText?.TrimStart(' ')
+			title: altText?.TrimStart(' '),
+			skipPrefixSpace: true,
+			skipSuffixSpace: skipSuffixSpace
 		);
+
+		return this;
 	}
 
-	public void AppendImageLink(
+	public MarkdownBuilder AppendImageLink(
 		string imageUrl,
 		string linkUrl,
-		string? hoverText = null
+		string? altText = null,
+		bool skipPrefixSpace = false,
+		bool skipSuffixSpace = false
 	) {
 		this.AppendLink(
 			url: linkUrl,
-			textBuilder: builder => {
+			titleBuilder: builder => {
 				builder.AppendImage(
 					imageUrl: imageUrl,
-					hoverText: hoverText?.TrimStart(' ')
+					altText: altText?.TrimStart(' ')
 				);
-			}
+			},
+			skipPrefixSpace: skipPrefixSpace,
+			skipSuffixSpace: skipSuffixSpace
 		);
+
+		return this;
 	}
 	
-	public void AppendShield(
+	public MarkdownBuilder AppendShield(
 		string shieldUrl,
 		string? linkUrl = null,
-		string? hoverText = null
+		string? altText = null,
+		bool skipPrefixSpace = false,
+		bool skipSuffixSpace = false
 	) {
 		if (linkUrl is null) {
 			this.AppendImage(
 				imageUrl: shieldUrl,
-				hoverText: hoverText
+				altText: altText,
+				skipPrefixSpace: skipPrefixSpace,
+				skipSuffixSpace: skipSuffixSpace
 			);
 		} else {
 			this.AppendImageLink(
 				imageUrl: shieldUrl,
 				linkUrl: linkUrl,
-				hoverText: linkUrl
+				altText: linkUrl,
+				skipPrefixSpace: skipPrefixSpace,
+				skipSuffixSpace: skipSuffixSpace
 			);
 		}
+
+		return this;
 	}
 
-	public string Build() {
+	public MarkdownBuilder AppendShield(
+		string label,
+		string message,
+		string color,
+		string? linkUrl = null,
+		string? altText = null,
+		bool skipPrefixSpace = false,
+		bool skipSuffixSpace = false
+	) {
+		var shieldUrl = $"https://img.shields.io/static/v1?label={label}&message={message}&color={color}";
+		if (linkUrl is null) {
+			this.AppendImage(
+				imageUrl: shieldUrl,
+				altText: altText,
+				skipPrefixSpace: skipPrefixSpace,
+				skipSuffixSpace: skipSuffixSpace
+			);
+		} else {
+			this.AppendImageLink(
+				imageUrl: shieldUrl,
+				linkUrl: linkUrl,
+				altText: linkUrl,
+				skipPrefixSpace: skipPrefixSpace,
+				skipSuffixSpace: skipSuffixSpace
+			);
+		}
+
+		return this;
+	}
+
+	public string AsMarkdown() {
 		return sb.ToString();
 	}
 
-	public void DumpAsHtml() {
-		var markdown = this.Build();
+	public string AsHtml() {
+		var markdown = this.AsMarkdown();
 		var pipeline = new MarkdownPipelineBuilder().UseAdvancedExtensions().Build();
-		var html = Markdown.ToHtml(markdown, pipeline);
+		return Markdown.ToHtml(markdown, pipeline);
+	}
+
+	public MarkdownBuilder DumpAsHtml() {
+		var html = this.AsHtml();
 		Util.RawHtml(html).Dump();
+		return this;
 	}
 }
 
 public static class CurseForgeShields {
 	private static readonly string baseUrl = @"https://cf.way2muchnoise.eu/";
 
-	public static void AppendCurseForgeProjectShield(
+	public static MarkdownBuilder AppendCurseForgeProjectShield(
 		this MarkdownBuilder md,
 		string projectSlug,
 		int? projectId,
@@ -138,18 +227,20 @@ public static class CurseForgeShields {
 		if (projectUrl is null) {
 			md.AppendImage(
 				imageUrl: imageUrl,
-				hoverText: title ?? projectSlug
+				altText: title ?? projectSlug
 			);
 		} else {
 			md.AppendImageLink(
 				imageUrl: imageUrl,
 				linkUrl: projectUrl,
-				hoverText: title ?? projectSlug
+				altText: title ?? projectSlug
 			);
 		}
+
+		return md;
 	}
 
-	public static void AppendCurseForgeVersionsShield(
+	public static MarkdownBuilder AppendCurseForgeVersionsShield(
 		this MarkdownBuilder md,
 		string projectSlug,
 		int? projectId,
@@ -177,13 +268,15 @@ public static class CurseForgeShields {
 		}
 
 		md.AppendImage(title ?? projectSlug, imageUrl);
+
+		return md;
 	}
 }
 
 public static class ModrinthShields {
 	private static readonly string baseUrl = @"https://img.shields.io/modrinth/dt/";
 
-	public static void AppendModrinthModShield(
+	public static MarkdownBuilder AppendModrinthModShield(
 		this MarkdownBuilder md,
 		string modSlug,
 		string? modId,
@@ -218,7 +311,36 @@ public static class ModrinthShields {
 		md.AppendImageLink(
 			imageUrl: imageUrl,
 			linkUrl: modUrl,
-			hoverText: hoverText ?? label ?? modSlug
+			altText: hoverText ?? label ?? modSlug
 		);
+		
+		return md;
 	}
 }
+
+#region private::Tests
+
+[Fact]
+void Link() => Test(md => md.AppendLink(
+	url: "https://google.com",
+	title: "Google"
+));
+
+[Fact]
+void Image() => Test(md => md.AppendImage(
+	imageUrl: "https://www.google.com/images/branding/googlelogo/1x/googlelogo_light_color_272x92dp.png",
+	altText: "Google"
+));
+
+void Test(Action<MarkdownBuilder> md, [CallerMemberName] string callerName = "") {
+	var builder = new MarkdownBuilder();
+	md(builder);
+
+	new {
+		markdown = builder.AsMarkdown(),
+		html = builder.AsHtml(),
+		render = Util.RawHtml(builder.AsHtml())
+	}.Dump(callerName);
+}
+
+#endregion
