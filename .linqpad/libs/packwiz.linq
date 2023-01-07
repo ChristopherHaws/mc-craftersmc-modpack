@@ -12,12 +12,37 @@
 </Query>
 
 void Main() {
-	Modpack.GetRootPath().Dump("Modpack.GetRootPath()");
-	Modpack.GetModsDirectoryPath().Dump("Modpack.GetModsDirectoryPath()");
+	Modpack.DetectPackFilePath().Dump("Modpack.DetectPackFilePath()");
+	Modpack.DetectRootDirectoryPath().Dump("Modpack.DetectRootDirectoryPath()");
+	Modpack.Open().GetModsDirectory().Dump("Modpack.GetModsDirectory()");
 }
 
-public static class Modpack {
-	public static string GetRootPath() {
+public class Modpack {
+	private string packfilePath;
+	private string directoryPath;
+	
+	private Modpack(string packfilePath) {
+		this.packfilePath = packfilePath;
+		this.directoryPath = Path.GetDirectoryName(packfilePath)
+			?? throw new("Packfile path is not valid");
+	}
+	
+	public string PackfilePath => this.packfilePath;
+	public string DirectoryPath => this.directoryPath;
+	
+	public static Modpack Open() {
+		return Open(DetectPackFilePath());
+	}
+	
+	public static Modpack Open(string packfilePath) {
+		if (!File.Exists(packfilePath)) {
+			throw new("Invalid packfile path: " + packfilePath);
+		}
+		
+		return new(packfilePath);
+	}
+
+	public static string DetectRootDirectoryPath() {
 		var currentQueryPath = Util.CurrentQueryPath ?? throw new("Current query has not been saved yet");
 		var currentDirectory = Directory.GetParent(currentQueryPath) ?? throw new("Could not determine the directory of the current query");
 
@@ -28,10 +53,21 @@ public static class Modpack {
 		return currentDirectory.FullName;
 	}
 
-	public static string GetModsDirectoryPath() {
-		var modpackRootPath = GetRootPath();
-		var modsPath = Path.Combine(modpackRootPath, "mods");
-		return modsPath;
+	public static string DetectPackFilePath() {
+		return Path.Combine(DetectRootDirectoryPath(), "pack.toml");
+	}
+
+	public string GetModsDirectory() {
+		return Path.Combine(this.directoryPath, "mods");
+	}
+
+	public IEnumerable<string> GetModFiles() {
+		var modsDirectory = this.GetModsDirectory();
+		return Directory.EnumerateFiles(modsDirectory, "*.pw.toml");
+	}
+
+	public Task<PackwizMod[]> GetMods() {
+		return PackwizMod.ReadFromFiles(GetModFiles());
 	}
 }
 
@@ -54,7 +90,7 @@ public class PackwizMod {
 	[DataMember(Name = "option")]
 	public Option? Option { get; set; }
 
-	public string ModpackRelativeFilePath => Path.GetRelativePath(Modpack.GetRootPath(), this.FullFilePath);
+	public string ModpackRelativeFilePath => Path.GetRelativePath(Modpack.DetectRootDirectoryPath(), this.FullFilePath);
 	public string Slug => Path.GetFileNameWithoutExtension(Path.GetFileNameWithoutExtension(this.FullFilePath));
 	public bool IsRequired => this.Option is null ? true : !this.Option.Optional;
 
@@ -85,7 +121,7 @@ public class PackwizMod {
 		return mod;
 	}
 
-	public static async Task<List<PackwizMod>> ReadFromFiles(IEnumerable<string> paths) {
+	public static async Task<PackwizMod[]> ReadFromFiles(IEnumerable<string> paths) {
 		var mods = new List<PackwizMod>();
 
 		foreach (var path in paths) {
@@ -93,7 +129,7 @@ public class PackwizMod {
 			mods.Add(mod);
 		}
 
-		return mods;
+		return mods.ToArray();
 	}
 }
 

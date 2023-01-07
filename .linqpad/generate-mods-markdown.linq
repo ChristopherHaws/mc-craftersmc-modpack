@@ -16,115 +16,87 @@
 #load "libs/markdown-builder.linq"
 
 async Task Main() {
-	var modpackRootPath = Modpack.GetRootPath();
-	var modsPath = Modpack.GetModsDirectoryPath();
-	var modPaths = Directory.EnumerateFiles(modsPath, "*.pw.toml");
+	var modpack = Modpack.Open();
+	var mods = await modpack.GetMods();
+	var modSlugs = mods.Select(x => x.Slug).ToArray();
 
-	var mods = new List<ModInfo>();
-	var modSlugs = new List<string>();
-	
-	foreach (var modPath in modPaths) {
-		var mod = await PackwizMod.ReadFromFile(modPath);
-		var relativeModPath = Path.GetRelativePath(modpackRootPath, modPath);
-		var slug = Path.GetFileNameWithoutExtension(Path.GetFileNameWithoutExtension(modPath));
-		modSlugs.Add(slug);
-		mods.Add(ModInfo.FromPackwizMod(relativeModPath, slug, mod));
-	}
-
-	var groupsFilePath = Path.Combine(modpackRootPath, "groups.yml");
+	var groupsFilePath = Path.Combine(modpack.DirectoryPath, "groups.yml");
 	var groups = await ModGroupsFile.ReadFromFile(groupsFilePath, sortMods: true);
 	groups.Sync(modSlugs);
 	await groups.Save();
 
-	var markdown = ModListMarkdownGenerator.GroupedByModGroupsAndRequired(groups, mods);
-	//var markdown = ModListMarkdownGenerator.GroupedByCategoryAndRequired(mods);
+	var md = new MarkdownBuilder();
+	md.AppendLine($"# CraftersMC Modpack Mods");
 
-	var modsFilePath = Path.Combine(modpackRootPath, "MODS.md");
+	foreach (var modsByCategory in mods
+		.GroupBy(x => groups.GetByModSlug(x.Slug)?.Name ?? "Unknown")
+		.OrderBy(x => {
+			var group = groups.Groups.SingleOrDefault(g => g.Name == x.Key);
+			if (group is null) {
+				return int.MaxValue;
+			}
+
+			return groups.Groups.IndexOf(group);
+		})
+	) {
+		md.AppendLine($"## {modsByCategory.Key}");
+
+		foreach (var modsByRequired in modsByCategory.GroupBy(x => x.IsRequired).OrderByDescending(x => x.Key)) {
+			md.AppendMods($"**{(modsByRequired.Key ? "Required" : "Optional")}**", modsByRequired);
+		}
+	}
+
+	var markdown = md.AsMarkdown();
+
+	var modsFilePath = Path.Combine(modpack.DirectoryPath, "MODS.md");
 	await File.WriteAllTextAsync(modsFilePath, markdown);
 	
-	var pipeline = new MarkdownPipelineBuilder().UseAdvancedExtensions().Build();
-	var html = Markdown.ToHtml(markdown, pipeline);
-	Util.RawHtml(html).Dump();
-}
-
-#region Markdown
-
-public static class ModListMarkdownGenerator {
-	public static string GroupedByCategoryAndRequired(IEnumerable<ModInfo> mods) {
-		var md = new MarkdownBuilder();
-		md.AppendLine($"# CraftersMC Modpack Mods");
-
-		foreach (var modsByCategory in mods.GroupBy(x => x.Category).OrderBy(x => x.Key)) {
-			md.AppendLine($"## {modsByCategory.Key}");
-
-			foreach (var modsByRequired in modsByCategory.GroupBy(x => x.IsRequired).OrderByDescending(x => x.Key)) {
-				md.AppendLine($"### {(modsByRequired.Key ? "Required" : "Optional")}");
-				md.AppendMods(modsByRequired);
-			}
-		}
-
-		return md.AsMarkdown();
-	}
-
-	internal static string GroupedByModGroupsAndRequired(ModGroupsFile groups, List<ModInfo> mods) {
-		var md = new MarkdownBuilder();
-		md.AppendLine($"# CraftersMC Modpack Mods");
-
-		foreach (var modsByCategory in mods
-			.GroupBy(x => groups.GetByModSlug(x.Slug)?.Name ?? x.Category)
-			.OrderBy(x => {
-				var group = groups.Groups.SingleOrDefault(g => g.Name == x.Key);
-				if (group is null) {
-					return int.MaxValue;
-				}
-				
-				return groups.Groups.IndexOf(group);
-			})
-		) {
-			md.AppendLine($"## {modsByCategory.Key}");
-
-			foreach (var modsByRequired in modsByCategory.GroupBy(x => x.IsRequired).OrderByDescending(x => x.Key)) {
-				md.AppendMods($"**{(modsByRequired.Key ? "Required" : "Optional")}**", modsByRequired);
-			}
-		}
-
-		return md.AsMarkdown();
-	}
+	md.DumpAsHtml();
 }
 
 public static class ModMarkdownBuilder {
-	public static void AppendMods(this MarkdownBuilder md, string title, IEnumerable<ModInfo> mods) {
+	public static string ModpackRelativeUrl(this PackwizMod mod) {
+		return mod.ModpackRelativeFilePath.Replace('\\', '/').TrimStart('/');
+	}
+	
+	public static string ModpackGitHubUrl(this PackwizMod mod, string userOrOrganizationName, string projectName, string branchName) {
+		return GitHubDirectUrl(userOrOrganizationName, projectName, branchName, mod.ModpackRelativeUrl());
+	}
+
+	private static string GitHubDirectUrl(string userOrOrganizationName, string projectName, string branchName, string relativePath) {
+		return "https://github.com/" + userOrOrganizationName + "/" + projectName + "/blob/" + branchName + "/" + relativePath.TrimStart('/');
+	}
+
+	public static void AppendMods(this MarkdownBuilder md, string title, IEnumerable<PackwizMod> mods) {
 		md.AppendLine(title);
 		md.AppendMods(mods);
 		md.AppendLine();
 	}
 
-	public static void AppendMods(this MarkdownBuilder md, IEnumerable<ModInfo> mods) {
+	public static void AppendMods(this MarkdownBuilder md, IEnumerable<PackwizMod> mods) {
 		foreach (var mod in mods) {
 			md.AppendMod(mod);
 		}
 	}
 
-	public static void AppendMod(this MarkdownBuilder md, ModInfo mod) {
+	public static void AppendMod(this MarkdownBuilder md, PackwizMod mod) {
 		md.Append($"* {mod.Name}");
 
-		//if (mod.IsRequired) {
-		//	this.Append($" *(required)*");
-		//}
-
-		if (mod.Path is not null) {
+		if (mod.FullFilePath is not null) {
 			md.AppendShield(
-				shieldUrl: "https://img.shields.io/badge/packwiz-.pw.toml-blueviolet",
-				linkUrl: mod.GitHubRelativePath,
+				label: mod.Slug,
+				message: ".pw.toml",
+				color: "blueviolet",
+				linkUrl: mod.ModpackGitHubUrl("ChristopherHaws", "mc-craftersmc-modpack", "1.19/dev"),
 				altText: "packwiz"
 			);
 		}
 
-		if (mod.ModrinthUrl is not null) {
+		if (mod.Modrinth is not null) {
 			md.AppendModrinthModShield(
 				modSlug: mod.Slug,
-				modId: mod.ModrinthId!,
-				modUrl: mod.ModrinthUrl,
+				modId: mod.Modrinth.Value.Id,
+				modUrl: mod.Modrinth.Value.Url,
 				label: "",
 				hoverText: "modrinth",
 				logo: true,
@@ -133,63 +105,15 @@ public static class ModMarkdownBuilder {
 			);
 		}
 
-		if (mod.CurseForgeUrl is not null) {
-			//this.AppendLink(" [curseforge]", mod.CurseForgeUrl);
+		if (mod.CurseForge is not null) {
 			md.AppendCurseForgeProjectShield(
 				projectSlug: mod.Slug,
-				projectId: mod.CurseForgeId,
-				projectUrl: mod.CurseForgeUrl,
+				projectId: mod.CurseForge.Value.Id,
+				projectUrl: mod.CurseForge.Value.Url,
 				style: "short"
 			);
 		}
 
 		md.AppendLine();
-	}
-}
-
-#endregion
-
-public class ModInfo {
-	required public string Path { get; init; }
-	required public string GitHubRelativePath { get; init; }
-	required public string Slug { get; init; }
-	required public string Side { get; init; }
-	required public string Name { get; init; }
-	required public bool IsRequired { get; init; }
-	required public string Category { get; init; }
-	public int? CurseForgeId { get; private set; }
-	public string? CurseForgeUrl { get; private set; }
-	public string? CurseForgeFileUrl { get; private set; }
-	public string? ModrinthId { get; private set; }
-	public string? ModrinthUrl { get; private set; }
-	public string? ModrinthFileUrl { get; private set; }
-	public string? License { get; private set; }
-
-	public static ModInfo FromPackwizMod(string path, string slug, PackwizMod mod) {
-		var info = new ModInfo() {
-			Path = path,
-			GitHubRelativePath = "./" + path.Replace('\\', '/').TrimStart('/'),
-			Slug = slug,
-			Side = mod.Side,
-			Name = mod.Name,
-			IsRequired = mod.IsRequired,
-			Category = "Unknown"
-		};
-
-		if (mod.Update?.CurseForge is not null) {
-			var cf = mod.Update.CurseForge;
-			info.CurseForgeId = cf.ProjectId;
-			info.CurseForgeUrl = @$"https://www.curseforge.com/minecraft/mc-mods/{slug}";
-			info.CurseForgeFileUrl = @$"https://www.curseforge.com/minecraft/mc-mods/{slug}/files/{cf.FileId}";
-		}
-
-		if (mod.Update?.Modrinth is not null) {
-			var mr = mod.Update.Modrinth;
-			info.ModrinthId = mr.ModId;
-			info.ModrinthUrl = @$"https://modrinth.com/mod/{mr.ModId}";
-			info.ModrinthFileUrl = @$"https://modrinth.com/mod/{mr.ModId}/version/{mr.Version}";
-		}
-
-		return info;
 	}
 }
