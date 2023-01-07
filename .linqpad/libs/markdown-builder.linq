@@ -43,8 +43,8 @@ public class MarkdownBuilder {
 		}
 		
 		this.AppendLink(
-			url: linkUrl,
-			titleBuilder: x => x.Append(title ?? linkUrl),
+			linkUrl: linkUrl,
+			titleBuilder: x => x.Append(title),
 			skipPrefixSpace: skipPrefixSpace,
 			skipSuffixSpace: skipSuffixSpace
 		);
@@ -53,7 +53,7 @@ public class MarkdownBuilder {
 	}
 
 	public MarkdownBuilder AppendLink(
-		string url,
+		string linkUrl,
 		Action<MarkdownBuilder> titleBuilder,
 		bool skipPrefixSpace = false,
 		bool skipSuffixSpace = false
@@ -62,13 +62,21 @@ public class MarkdownBuilder {
 			this.Append(' ');
 		}
 		
-		this.Append('[');
-		titleBuilder(this);
-		this.Append(']');
-		this.Append('(');
-		this.Append(url);
-		this.Append(')');
+		var md = new MarkdownBuilder();
+		titleBuilder(md);
+		var title = md.AsMarkdown();
 		
+		if (string.IsNullOrEmpty(title)) {
+			this.Append(linkUrl);
+		} else {
+			this.Append('[');
+			titleBuilder(this);
+			this.Append(']');
+			this.Append('(');
+			this.Append(linkUrl);
+			this.Append(')');
+		}
+
 		if (!skipSuffixSpace) {
 			this.Append(' ');
 		}
@@ -105,7 +113,7 @@ public class MarkdownBuilder {
 		bool skipSuffixSpace = false
 	) {
 		this.AppendLink(
-			url: linkUrl,
+			linkUrl: linkUrl,
 			titleBuilder: builder => {
 				builder.AppendImage(
 					imageUrl: imageUrl,

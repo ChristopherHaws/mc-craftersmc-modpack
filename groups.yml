@@ -3,6 +3,27 @@ groups:
     mods:
       - create-fabric
       - oh-the-biomes-youll-go-fabric
+  - name: Decoration Mods
+    mods:
+      - armor-statues
+      - bedspreads-fabric
+      - consistencyplus
+      - dark-paintings
+      - decorative-blocks
+      - dramatic-doors
+      - enchanted-vertical-slabs
+      - lanterns-bow
+      - macaws-bridges
+      - macaws-doors
+      - macaws-fences-and-walls
+      - macaws-paths-and-pavings
+      - mo-glass
+      - modern-glass-doors
+      - more-music-discs
+      - naturalist
+      - refabricated-slabs
+      - shards
+      - supplementaries
   - name: Optimization - Misc
     mods:
       - c2me-fabric
@@ -63,27 +84,6 @@ groups:
       - tipthescales
       - too-many-binds
       - vtdownloader
-  - name: Decoration Mods
-    mods:
-      - armor-statues
-      - bedspreads-fabric
-      - consistencyplus
-      - dark-paintings
-      - decorative-blocks
-      - dramatic-doors
-      - enchanted-vertical-slabs
-      - lanterns-bow
-      - macaws-bridges
-      - macaws-doors
-      - macaws-fences-and-walls
-      - macaws-paths-and-pavings
-      - mo-glass
-      - modern-glass-doors
-      - more-music-discs
-      - naturalist
-      - refabricated-slabs
-      - shards
-      - supplementaries
   - name: Utilities
     mods:
       - accurate-block-placement
@@ -136,24 +136,6 @@ groups:
       - pick-block-pro
       - roughly-enough-items
       - the-one-probe-fabric
-  - name: Chat and Discord
-    mods:
-      - chat-heads
-      - chat-signing-hider
-      - chat-up
-      - chattix
-      - death-knell
-      - morechathistory
-      - simple-discord-link-bot-forge-fabric-spigot
-      - simple-voice-chat
-  - name: Player List
-    mods:
-      - afkdisplay
-      - better-ping-display-fabric
-      - orderedplayerlist
-      - player-pronouns
-      - styled-nicknames
-      - styledplayerlist
   - name: Maps and Minimaps
     mods:
       - dynmapforge
@@ -172,6 +154,24 @@ groups:
       - gravestones
       - invview
       - shulkerboxtooltip
+  - name: Chat and Discord
+    mods:
+      - chat-heads
+      - chat-signing-hider
+      - chat-up
+      - chattix
+      - death-knell
+      - morechathistory
+      - simple-discord-link-bot-forge-fabric-spigot
+      - simple-voice-chat
+  - name: Player List
+    mods:
+      - afkdisplay
+      - better-ping-display-fabric
+      - orderedplayerlist
+      - player-pronouns
+      - styled-nicknames
+      - styledplayerlist
   - name: Server QoL
     mods:
       - armored-elytra
