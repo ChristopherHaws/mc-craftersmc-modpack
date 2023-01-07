@@ -72,6 +72,25 @@ public class MarkdownBuilder {
 			}
 		);
 	}
+	
+	public void AppendShield(
+		string shieldUrl,
+		string? linkUrl = null,
+		string? hoverText = null
+	) {
+		if (linkUrl is null) {
+			this.AppendImage(
+				imageUrl: shieldUrl,
+				hoverText: hoverText
+			);
+		} else {
+			this.AppendImageLink(
+				imageUrl: shieldUrl,
+				linkUrl: linkUrl,
+				hoverText: linkUrl
+			);
+		}
+	}
 
 	public string Build() {
 		return sb.ToString();

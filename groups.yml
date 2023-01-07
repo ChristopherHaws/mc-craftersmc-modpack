@@ -81,6 +81,7 @@ groups:
       - modern-glass-doors
       - more-music-discs
       - naturalist
+      - refabricated-slabs
       - shards
       - supplementaries
   - name: Utilities
@@ -96,6 +97,7 @@ groups:
       - easiervillagertrading
       - emotecraft
       - enchantment-lore
+      - kleeslabs-fabric
       - screenshot-to-clipboard
       - shift-scroll-fix
       - skinswapper
@@ -251,8 +253,6 @@ groups:
   - name: Compatibility Mods
     mods:
       - every-compat
-      - kleeslabs-fabric
-      - refabricated-slabs
       - vertical-slabs-compat
   - name: Debugging
     mods:

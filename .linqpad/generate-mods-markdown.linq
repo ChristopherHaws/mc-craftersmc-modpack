@@ -113,9 +113,10 @@ public static class ModMarkdownBuilder {
 		//}
 
 		if (mod.Path is not null) {
-			md.AppendLink(
-				url: "./" + mod.Path.Replace('\\', '/').TrimStart('/'),
-				text: " [packwiz]"
+			md.AppendShield(
+				shieldUrl: "https://img.shields.io/badge/packwiz-.pw.toml-blueviolet",
+				linkUrl: mod.GitHubRelativePath,
+				hoverText: "packwiz"
 			);
 		}
 
@@ -137,7 +138,8 @@ public static class ModMarkdownBuilder {
 			md.AppendCurseForgeProjectShield(
 				projectSlug: mod.Slug,
 				projectId: mod.CurseForgeId,
-				projectUrl: mod.CurseForgeUrl
+				projectUrl: mod.CurseForgeUrl,
+				style: "short"
 			);
 		}
 
@@ -149,6 +151,7 @@ public static class ModMarkdownBuilder {
 
 public class ModInfo {
 	required public string Path { get; init; }
+	required public string GitHubRelativePath { get; init; }
 	required public string Slug { get; init; }
 	required public string Side { get; init; }
 	required public string Name { get; init; }
@@ -165,6 +168,7 @@ public class ModInfo {
 	public static ModInfo FromPackwizMod(string path, string slug, PackwizMod mod) {
 		var info = new ModInfo() {
 			Path = path,
+			GitHubRelativePath = "./" + path.Replace('\\', '/').TrimStart('/'),
 			Slug = slug,
 			Side = mod.Side,
 			Name = mod.Name,
