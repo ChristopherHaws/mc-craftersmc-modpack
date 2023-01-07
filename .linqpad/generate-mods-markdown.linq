@@ -28,62 +28,60 @@ async Task Main() {
 	var md = new MarkdownBuilder();
 	md.AppendLine($"# CraftersMC Modpack Mods");
 
-	foreach (var modsByCategory in mods
+	foreach (var modGroups in mods
 		.GroupByModGroupName(groupsFile)
 		.OrderByModGroupsFileOrder(groupsFile)
 	) {
-		md.AppendLine($"## {modsByCategory.Key}");
+		md.AppendLine($"## {modGroups.Key}");
+		md.AppendLine();
 
-		foreach (var modsByRequired in modsByCategory.GroupBy(x => x.IsRequired).OrderByDescending(x => x.Key)) {
-			md.AppendLine($"**{(modsByRequired.Key ? "Required" : "Optional")}**");
-			md.AppendLine();
+		md.AppendPipeTable<PackwizMod>(
+			rows: modGroups.OrderByDescending(x => x.IsRequired).ToArray(),
+			columns: new() {
+				["Name"] = x => x.Name,
+				["Side"] = x => x.Side == "both" ? "client/server" : x.Side,
+				["Requirement"] = x => x.IsRequired ? "Required" : "Optional",
+				[""] = mod => {
+					var shields = new MarkdownBuilder();
 
-			md.AppendPipeTable<PackwizMod>(
-				rows: modsByRequired.ToArray(),
-				columns: new() {
-					["Name"] = x => x.Name,
-					["Side"] = x => x.Side == "both" ? "client/server" : x.Side,
-					["Required"] = x => x.IsRequired ? "Yes" : "No",
-					["Shields"] = mod => {
-						var shields = new MarkdownBuilder();
-						
-						if (mod.FullFilePath is not null) {
-							shields.AppendShield(
-								label: string.Empty,
-								message: ".pw.toml",
-								color: "blueviolet",
-								linkUrl: mod.ModpackGitHubUrl("ChristopherHaws", "mc-craftersmc-modpack", "1.19/dev"),
-								altText: "packwiz file"
-							);
-						}
-
-						if (mod.Modrinth is not null) {
-							shields.AppendModrinthModShield(
-								modSlug: mod.Slug,
-								modId: mod.Modrinth.Value.Id,
-								modUrl: mod.Modrinth.Value.Url,
-								label: "",
-								hoverText: "modrinth",
-								logo: true,
-								style: "flat",
-								color: "26292f"
-							);
-						}
-
-						if (mod.CurseForge is not null) {
-							shields.AppendCurseForgeProjectShield(
-								projectSlug: mod.Slug,
-								projectId: mod.CurseForge.Value.Id,
-								projectUrl: mod.CurseForge.Value.Url,
-								style: "short"
-							);
-						}
-						
-						return shields.AsMarkdown();
+					if (mod.FullFilePath is not null) {
+						shields.AppendShield(
+							label: string.Empty,
+							message: ".pw.toml",
+							color: "blueviolet",
+							linkUrl: mod.ModpackGitHubUrl("ChristopherHaws", "mc-craftersmc-modpack", "1.19/dev"),
+							altText: "packwiz file"
+						);
 					}
+
+					if (mod.Modrinth is not null) {
+						shields.AppendModrinthModShield(
+							modSlug: mod.Slug,
+							modId: mod.Modrinth.Value.Id,
+							modUrl: mod.Modrinth.Value.Url,
+							label: "",
+							hoverText: "modrinth",
+							logo: true,
+							style: "flat",
+							color: "26292f"
+						);
+					}
+
+					if (mod.CurseForge is not null) {
+						shields.AppendCurseForgeProjectShield(
+							projectSlug: mod.Slug,
+							projectId: mod.CurseForge.Value.Id,
+							projectUrl: mod.CurseForge.Value.Url,
+							style: "short"
+						);
+					}
+
+					return shields.AsMarkdown();
 				}
-			);
-		}
+			}
+		);
+
+		md.AppendLine();
 	}
 
 	var markdown = md.AsMarkdown();
