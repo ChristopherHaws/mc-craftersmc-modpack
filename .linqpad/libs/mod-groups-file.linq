@@ -12,7 +12,7 @@
 #load "packwiz.linq"
 
 async Task Main() {
-	var modpackPath = Modpack.GetRootPath();
+	var modpackPath = Modpack.DetectRootDirectoryPath();
 	var groupsFilePath = Path.Combine(modpackPath, "groups.yml");
 	var groups = await ModGroupsFile.ReadFromFile(groupsFilePath, sortMods: true);
 	groups.Dump();

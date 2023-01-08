@@ -190,7 +190,11 @@ public class MarkdownBuilder {
 
 	public string AsHtml() {
 		var markdown = this.AsMarkdown();
-		var pipeline = new MarkdownPipelineBuilder().UseAdvancedExtensions().Build();
+		var pipeline = new MarkdownPipelineBuilder()
+			.UseAdvancedExtensions()
+			.UseEmojiAndSmiley()
+			.UseAutoLinks()
+			.Build();
 		return Markdown.ToHtml(markdown, pipeline);
 	}
 

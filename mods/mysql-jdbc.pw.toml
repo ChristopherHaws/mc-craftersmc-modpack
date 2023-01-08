@@ -1,4 +1,4 @@
-name = "MySQL JDBC (Fabric/Forge)"
+name = "MySQL JDBC"
 filename = "mysql-jdbc-8.0.28+20220312-all.jar"
 side = "both"
 
