@@ -1,6 +1,5 @@
-
 title: [CraftersMC Modpack]
 description: [Lets play!]
-remote_theme: pages-themes/hacker@v0.2.0
+remote_theme: streetturtle/jekyll-clean-dark
 plugins:
 - jekyll-remote-theme

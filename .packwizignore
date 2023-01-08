@@ -1,22 +1,27 @@
 # .packwizignore follows the same format as .gitignore, and can be used to exclude unwanted files from pack exports
 # See https://git-scm.com/docs/gitignore
 
+# Development
 /.github
 /.idea
 /.linqpad
 /.schemas
 /.vscode
-/instance
-/mods/*.jar
-_config.yml
 .gitattributes
 .gitignore
+docker-compose.yml
+
+# Jekyll
+/assets
+_config.yml
 .nojekyll
 CNAME
 README.md
+
+# Minecraft
+/instance
+/mods/*.jar
 groups.yml
-MODS.md
-docker-compose.yml
 
 # Exclude config files that shouldn't be in source control
 config/.puzzle_cache/**
