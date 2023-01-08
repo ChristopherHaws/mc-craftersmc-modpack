@@ -34,7 +34,6 @@ async Task Main() {
 		.OrderByModGroupsFileOrder(groupsFile)
 	) {
 		md.Root.Add(new MdHeading(level: 2, modGroups.Key));
-		//md.AppendLine();
 		
 		var table = new MdTable(new(new[] {
 			"Name",
@@ -79,19 +78,17 @@ async Task Main() {
 			}
 
 			table.Add(new(new MdSpan[] {
-				new MdTextSpan(mod.Name),
-				new MdTextSpan(mod.Side == "both" ? "client/server" : mod.Side),
-				new MdTextSpan(mod.IsRequired ? "Required" : "Optional"),
+				new MdRawMarkdownSpan(mod.Name),
+				new MdRawMarkdownSpan(mod.Side == "both" ? "client/server" : mod.Side),
+				new MdRawMarkdownSpan(mod.IsRequired ? "Required" : "Optional"),
 				shields
 			}));
 		}
 	}
 
 	var markdown = md.AsMarkdown();
-
 	var modsFilePath = Path.Combine(modpack.DirectoryPath, "MODS.md");
-	await File.WriteAllTextAsync(modsFilePath, markdown);
-	
+	md.Save(modsFilePath);
 	md.DumpAsHtml();
 }
 
