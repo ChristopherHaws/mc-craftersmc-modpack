@@ -1,0 +1,22 @@
+name = "WTHIT"
+filename = "wthit-fabric-5.13.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/6AQIaxuO/versions/VbTnrP6u/wthit-fabric-5.13.4.jar"
+hash-format = "sha1"
+hash = "7c5914680e67769b9cc3d1b303de14a6acdc4a6e"
+
+[update]
+[update.modrinth]
+mod-id = "6AQIaxuO"
+version = "VbTnrP6u"
+
+[option]
+optional = true
+default = false
+description = """
+Adds a tooltip describing what you're looking at.
+
+Disable this mod if you want to use the-one-probe instead.
+"""

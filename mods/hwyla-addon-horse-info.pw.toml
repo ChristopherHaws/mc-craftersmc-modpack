@@ -1,0 +1,24 @@
+name = "Hwyla Addon Horse Info"
+filename = "hwyla-addon-horseinfo-0.4.2-1.19.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "162e22ea659472154ff1b81ef43831ba2746a6b5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3836677
+project-id = 390027
+
+[option]
+optional = true
+default = false
+description = """
+wthit plugin that adds horse stats to the tooltip.
+
+Only enable this mod if wthit is also enabled.
+Disable this mod if you want to use the-one-probe instead.
+"""
+

@@ -741,6 +741,21 @@ file = "config/votecommand-fabric.json5"
 file = "config/waig.config"
 
 [[files]]
+file = "config/waila/blacklist.json"
+
+[[files]]
+file = "config/waila/megane.json"
+
+[[files]]
+file = "config/waila/megane_modules.json"
+
+[[files]]
+file = "config/waila/waila.json"
+
+[[files]]
+file = "config/waila/waila_plugins.json"
+
+[[files]]
 file = "config/whereisit.json"
 
 [[files]]
@@ -1381,6 +1396,10 @@ file = "mods/hotbarcycle.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/hwyla-addon-horse-info.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/image2map.pw.toml"
 metafile = true
 
@@ -1518,6 +1537,10 @@ metafile = true
 
 [[files]]
 file = "mods/malilib.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/megane.pw.toml"
 metafile = true
 
 [[files]]
@@ -1837,6 +1860,14 @@ file = "mods/worldeditcui-fabric.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/wthit-plugins.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/wthit.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/xaeros-minimap.pw.toml"
 metafile = true
 
@@ -1850,6 +1881,10 @@ metafile = true
 
 [[files]]
 file = "mods/yacl.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/your-reputation.pw.toml"
 metafile = true
 
 [[files]]

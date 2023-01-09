@@ -15,4 +15,8 @@ project-id = 581847
 [option]
 optional = true
 default = true
-description = "Adds a tooltop describing what your are looking at (supports create mod)"
+description = """
+Adds a tooltip describing what you're looking at.
+
+Disable this mod if you want to use wthit instead.
+"""

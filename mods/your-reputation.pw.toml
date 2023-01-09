@@ -1,0 +1,23 @@
+name = "Your Reputation"
+filename = "your-reputation-0.2.0+wthit.1.19.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9df210955866b6a252d59752b62bf846b653dbd0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4275984
+project-id = 579757
+
+[option]
+optional = true
+default = false
+description = """
+wthit plugin that lets you see your reputation with villagers.
+
+Only enable this mod if wthit is also enabled.
+Disable this mod if you want to use the-one-probe instead.
+"""
