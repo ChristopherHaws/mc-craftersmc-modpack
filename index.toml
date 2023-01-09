@@ -1567,6 +1567,10 @@ file = "mods/mo-glass.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/modelfix.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/modern-glass-doors.pw.toml"
 metafile = true
 
