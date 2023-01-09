@@ -419,6 +419,9 @@ file = "config/everycomp-common.json"
 file = "config/everycomp-wood_types.json"
 
 [[files]]
+file = "config/exordium.json"
+
+[[files]]
 file = "config/expanded_axe_enchanting.json"
 
 [[files]]
@@ -1313,6 +1316,10 @@ metafile = true
 
 [[files]]
 file = "mods/every-compat.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/exordium.pw.toml"
 metafile = true
 
 [[files]]
