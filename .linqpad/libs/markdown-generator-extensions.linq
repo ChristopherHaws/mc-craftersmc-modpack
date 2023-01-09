@@ -13,6 +13,7 @@
 
 // https://github.com/ap0llo/markdown-generator
 void Main() {
+	//TODO: Look into https://github.com/xoofx/markdig/blob/master/doc/parsing-ast.md
 	var md = new MdDocument();
 	md.Root.Add(new MdTable(
 		headerRow: new(
