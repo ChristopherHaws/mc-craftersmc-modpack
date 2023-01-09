@@ -5,4 +5,7 @@ anvilFormattingEnabled = true
 signEditingEnabled = true
 signClickThroughEnabled = true
 itemFrameClickThroughEnabled = true
-additionalClickThroughIdentifiers = []
+additionalClickThroughIdentifiers = [
+	"create:andesite_funnel",
+	"create:brass_funnel"
+]
