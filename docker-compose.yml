@@ -145,10 +145,10 @@ x-minecraft-options: &minecraft-options
   NETWORK_COMPRESSION_THRESHOLD: -1
 
   # Garbage Collection
-  # <<: *minecraft-gc-aikars
+  <<: *minecraft-gc-aikars
   # <<: *minecraft-gc-g1gc
   # <<: *minecraft-gc-shenandoah
-  <<: *minecraft-gc-zgc
+  # <<: *minecraft-gc-zgc
 
   # LuckPerms
   LUCKPERMS_STORAGE_METHOD: mysql
@@ -205,6 +205,8 @@ services:
     image: itzg/minecraft-server:latest
     container_name: craftersmc-survival
     restart: on-failure:3 # 3 retries
+    # fastback mod is setup to do a full backup + gc on shutdown
+    stop_grace_period: 2m
     depends_on:
       - db
     ports:
@@ -228,6 +230,8 @@ services:
     image: itzg/minecraft-server:latest
     container_name: craftersmc-creative
     restart: on-failure:3 # 3 retries
+    # fastback mod is setup to do a full backup + gc on shutdown
+    stop_grace_period: 2m
     depends_on:
       - db
     ports:
