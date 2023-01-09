@@ -14,15 +14,15 @@
 	# (Default = 5) The amount of minutes in between auto-save intervals when /save-on is active.
 	auto_save_interval = 1
 	# (Default = 0.5) Decides the radius in blocks that items / xp will merge at.
-	item_merge_radius = 0.5
-	xp_merge_radius = 3.0
+	item_merge_radius = 0.75
+	xp_merge_radius = 1.5
 
 # Modifies mobcaps, no-chunk-tick, simulation and view-distance depending on the MSPT.
 [dynamic]
 	# (Default = false) Enables this feature.
 	enabled = true
 	# (Default = 35) The average MSPT to target.
-	target_mspt = 25
+	target_mspt = 35
 	# (Default = 15) The amount of seconds between dynamic performance updates.
 	update_rate = 15
 	# (Default = 150) The amount of seconds between dynamic viewdistance updates.
@@ -38,7 +38,7 @@
 	simulation_distance_increment = 1
 	# (Default = [Max: 10, Min: 2, Increment: 1]) Distance in which the world will render.
 	max_view_distance = 8
-	min_view_distance = 6
+	min_view_distance = 3
 	view_distance_increment = 1
 	# (Default = [Max: 1.0, Min: 0.3, Increment: 0.1]) Global multiplier that decides the percentage of the mobcap to be used.
 	max_mobcap = 1.0
